@@ -12,7 +12,32 @@ The AMLEngine2.1 is published as  the named package **Aml.Engine** on nuget at h
 
 ### Getting started
 
-Download the zipped documenta	tion and go to the provided examples. There are various basic examples and advanced examples. 
+Download the zipped documentation and go to the provided examples. There are various basic examples and advanced examples. 
 A special adaption section describes the steps to be executed, if old code, using the former AMLEngine v3.x.x, can be adapted to
 the new engine.
 
+### A short introduction to the application of the engine
+
+1. Create a new empty Document, add content and save it.
+
+```csharp
+// create a new empty document
+var caexDocument = CAEXDocument.New_CAEXDocument();
+
+// add content to the ROOT CAEXFile element
+var myIH = caexDocument.CAEXFile.New_InstanceHierarchy("myIH");
+
+caexDocument.SaveToFile ("myfile.aml", true);
+```
+
+2. Load the created Document
+```csharp
+// load a document
+var caexDocument = CAEXDocument.LoadFromFile("myfile.aml");
+
+// get the InstanceHierarchy
+var myIH = caexDocument.CAEXFile.InstanceHierarchy[0];
+
+// add more content
+myIH.InternalElement.Append ("Ie1")
+```
