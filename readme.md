@@ -19,8 +19,9 @@ the new engine.
 ### A short introduction to the application of the engine
 
 1. Create a new empty Document, add content and save it.
+using Aml.Engine.CAEX;
 
-```csharp
+```c#
 // create a new empty document
 var caexDocument = CAEXDocument.New_CAEXDocument();
 
@@ -31,7 +32,10 @@ caexDocument.SaveToFile ("myfile.aml", true);
 ```
 
 2. Load the created Document
-```csharp
+```c#
+using Aml.Engine.CAEX;
+
+
 // load a document
 var caexDocument = CAEXDocument.LoadFromFile("myfile.aml");
 
@@ -39,5 +43,28 @@ var caexDocument = CAEXDocument.LoadFromFile("myfile.aml");
 var myIH = caexDocument.CAEXFile.InstanceHierarchy[0];
 
 // add more content
-myIH.InternalElement.Append ("Ie1")
+myIH.InternalElement.Append ("Ie1");
 ```
+
+3. Use of  AutomationML standard classes
+```c#
+using Aml.Engine.AmlObjects;
+using Aml.Engine.CAEX;
+
+var caexDocument = CAEXDocument.New_CAEXDocument();
+
+// adds the base libraries to the document
+AutomationMLInterfaceClassLibType.InterfaceClassLib(caexDocument);
+AutomationMLBaseRoleClassLibType.RoleClassLib(caexDocument);
+
+// add an InstanceHierarchy to the ROOT CAEXFile element
+var myIH = caexDocument.CAEXFile.New_InstanceHierarchy("myIH");
+
+// add an InternalElement
+var ie = myIH.InternalElement.Append ("ie");
+
+// assign the AutomationMLBaseRole
+ie.AddRoleClassReference(AutomationMLBaseRoleClassLib.AutomationMLBaseRole);
+
+```
+
