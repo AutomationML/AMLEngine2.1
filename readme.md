@@ -13,15 +13,16 @@ The AMLEngine2.1 is published as  the named package **Aml.Engine** on nuget at h
 ### Getting started
 
 Download the zipped documentation and go to the provided examples. There are various basic examples and advanced examples. 
-A special adaption section describes the steps to be executed, if old code, using the former AMLEngine v3.x.x, can be adapted to
+A special adaption section describes the steps to be executed, how old code, using the former AMLEngine v3.x.x, can be adapted to
 the new engine.
 
 ### A short introduction to the application of the engine
 
 1. Create a new empty Document, add content and save it.
-using Aml.Engine.CAEX;
 
 ```c#
+using Aml.Engine.CAEX;
+
 // create a new empty document
 var caexDocument = CAEXDocument.New_CAEXDocument();
 
