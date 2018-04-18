@@ -1,0 +1,137 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Query Examples</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="queries" /><meta name="Description" content="Queries are often applied to get specific information from an AML document which cannot be supplied by a class member or a property. The Aml.Engine supports queries with the provision of a query service interface. The Aml." /><meta name="Microsoft.Help.ContentType" content="Samples" /><meta name="BrandingAware" content="true" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">The AutomationML API Reference Guide<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html\welcome.htm" title="The AutomationML API Reference Guide" tocid="roottoc">The AutomationML API Reference Guide</a></div><div class="toclevel1" data-toclevel="1"><a data-tochassubtree="false" href="../html/welcome.htm" title="AutomationML API Reference Guide" tocid="welcome">AutomationML API Reference Guide</a></div><div class="toclevel1" data-toclevel="1"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/Version history.htm" title="Version History" tocid="Version history">Version History</a></div><div class="toclevel1" data-toclevel="1"><a data-tochassubtree="false" href="../html/adaption.htm" title="Adaption of legacy code." tocid="adaption">Adaption of legacy code.</a></div><div class="toclevel1" data-toclevel="1"><a data-tochassubtree="false" href="../html/basic.htm" title="Basic code examples" tocid="basic">Basic code examples</a></div><div class="toclevel1" data-toclevel="1"><a data-tochassubtree="false" href="../html/service.htm" title="Advanced document processing using services" tocid="service">Advanced document processing using services</a></div><div class="toclevel1 current" data-toclevel="1"><a data-tochassubtree="false" href="../html/queries.htm" title="Query Examples" tocid="queries">Query Examples</a></div><div class="toclevel1" data-toclevel="1"><a data-tochassubtree="false" href="../html/validation.htm" title="Document Validation" tocid="validation">Document Validation</a></div><div class="toclevel1" data-toclevel="1"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/R_Project_AMLEngineDocumentation.htm" title="AutomationML API" tocid="R_Project_AMLEngineDocumentation">AutomationML API</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/logoShade.png" /></td><td class="titleColumn"><h1>Query Examples</h1></td></tr></table><span class="introStyle">AutomationML 2.1 API</span> <div class="introduction" id="Intro"><p>This topic contains the following sections:</p><ul class="autoOutline"><li class="outlineSectionEntry"><a href="#Basic">Basic queries</a></li><li class="outlineSectionEntry"><a href="#ClassClass">Query class to class relations</a></li><li class="outlineSectionEntry"><a href="#ClassInstance">Query class to instance relations</a></li><li class="outlineSectionEntry"><a href="#InstanceInstance">Query instance to instance relations</a></li><li class="outlineSectionEntry"><a href="#seeAlsoSection">See Also</a></li></ul><p>
+        Queries are often applied to get specific information from an AML document which cannot be
+        supplied by a class member or a property. The Aml.Engine supports queries with the
+        provision of a query service interface. The Aml.Engine contains two implementation of
+        the query service interface <a href="T_Aml_Engine_Services_Interfaces_IQuery.htm">IQuery</a>.
+        The main purpose of the Query service is it, to find related objects (Class to Class, 
+        Instance to Class and Instance to Instance relations).      
+      </p><p>
+        The implementation <a href="T_Aml_Engine_Services_QueryService.htm">QueryService</a>
+        is the registered default query service. The implementation is based on System.Xml.Linq integrated Query language.
+        The second implementation <a href="T_Aml_Engine_Services_LookupService.htm">LookupService</a>
+        uses lookup tables and indexed based access to query objects. This service performs faster in most queries but needs additional
+        memory space and an initialization phase to build the lookup tables. The tables are automatically updated when the AML document
+        is modified.
+      </p><p>
+          To use the default System.Xml.Linq based Query service no programing is required. To access this service,
+          the property <a href="P_Aml_Engine_Services_ServiceLocator_QueryService.htm">QueryService</a>
+          can be used.
+
+          To use the table based LookupService, the registration method of the LookupService shall be called.
+          <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EADAKAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EADAKAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EADAKAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EADAKAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">var</span> service = LookupService.Register();
+
+<span class="highlight-comment">// after registration, the service locator has changed the query service property</span>
+Assert.AreEqual (service, Aml.Engine.Services.ServiceLocator.QueryService);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EADAKAAA");</script>
+
+          After registration, all queries including those which are called by the Aml.Engine will be performed
+          by the LookupService.
+
+          To switch back to the default System.Xml.Linq based Query service, the LookupService shall be unregistered.
+          
+          <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EABAKAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EABAKAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EABAKAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EABAKAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">LookupService.UnRegister();
+
+<span class="highlight-comment">// after unregistration, the service locator has changed the query service property again</span>
+Assert.IsTrue (Aml.Engine.Services.ServiceLocator.QueryService <span class="highlight-keyword">is</span> Aml.Engine.Services.QueryService);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EABAKAAA");</script>
+
+          After unregistration, all queries including those which are called by the Aml.Engine will be performed
+          by the default System.Xml.Linq base Query service again.
+
+          Please note, that the Service locator will always allow only a single service registered for a service interface type.
+          If the LookupService should be your preferred  query service, leave it registered as long as it is used. This service needs
+          to create tables to locate objects. If the service is unregistered the service and its tables are disposed. If it is
+          registered again, all tables have to be rebuild.
+
+        </p></div><div class="collapsibleAreaRegion" id="Basic"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Basic queries</span></div><div id="ID2RBSection" class="collapsibleSection"><p>The most common queries are querying a CAEX object by an ID or a Path. </p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Example</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAACAEAAA_tab1" class="codeSnippetContainerTabSingle">FindByID example</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAACAEAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAACAEAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAACAEAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Aml.Engine.Services;
+<span class="highlight-keyword">using</span> Aml.Engine.CAEX.Extensions;
+
+CAEXObject FindByID (CAEXDocument document, InternalElementType internalElement)
+{
+    <span class="highlight-comment">// this is a document extension method</span>
+    <span class="highlight-keyword">var</span> caexObj_1 = document.FindByID (internalElement.ID);
+    <span class="highlight-comment">// this is the equivalent method</span>
+    <span class="highlight-keyword">var</span> caexObj_2 = ServiceLocator.QueryService.FindByID (document, internalElement.ID);
+
+    Assert.AreEqual (caexObj_1, caexObj_2);
+    Assert.AreEqual (caexObj_1, internalElement);
+    <span class="highlight-keyword">return</span> caexObj_1;
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAACAEAAA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABAEAAA_tab1" class="codeSnippetContainerTabSingle">FindByPath example</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABAEAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABAEAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABAEAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Aml.Engine.Services;
+<span class="highlight-keyword">using</span> Aml.Engine.CAEX.Extensions;
+
+
+<span class="highlight-comment">// Try to find the referenced SystemUnitClass of an InternalElement.             </span>
+CAEXObject FindByPath (CAEXDocument document, InternalElementType internalElement)
+{
+    <span class="highlight-comment">// this is a document extension method</span>
+    <span class="highlight-keyword">var</span> caexObj_1 = document.FindByPath (internalElement.RefBaseSystemUnitPath);
+    <span class="highlight-comment">// this is the equivalent method</span>
+    <span class="highlight-keyword">var</span> caexObj_2 = ServiceLocator.QueryService.FindByPath (document, internalElement.RefBaseSystemUnitPath);
+
+    Assert.AreEqual (caexObj_1, caexObj_2);
+
+    <span class="highlight-comment">// The InternalElementType contains a property which can be used to get and set the SystemUnitClass</span>
+    Assert.AreEqual (caexObj_1, internalElement.SystemUnitClass);
+    <span class="highlight-keyword">return</span> caexObj_1;
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABAEAAA");</script></div><p><a href="#Intro">Back to the Top</a></p></div><div class="collapsibleAreaRegion" id="ClassClass"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Query class to class relations</span></div><div id="ID4RBSection" class="collapsibleSection"><p>Class to Class relations are inheritance relations. </p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Example</span></div><div id="ID3RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAACADAAA_tab1" class="codeSnippetContainerTabSingle">First generation of derived classes</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAACADAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAACADAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAACADAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Aml.Engine.Services;
+
+<span class="highlight-comment">// get the first generation of derived role classes from the specified role class</span>
+<span class="highlight-keyword">void</span> GetDerivedFirstGeneration (RoleFamilyType roleClass)
+{
+    <span class="highlight-keyword">var</span> derivedClasses = ServiceLocator.QueryService.AllClassReferences (roleClass);
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAACADAAA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABADAAA_tab1" class="codeSnippetContainerTabSingle">All generations of derived classes</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABADAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABADAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABADAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Aml.Engine.Services;
+
+<span class="highlight-comment">// get the first and all following generations of derived role classes from the specified role class</span>
+<span class="highlight-keyword">void</span> GetDerivedFirstGeneration (RoleFamilyType roleClass)
+{
+    <span class="highlight-keyword">var</span> derivedClasses = ServiceLocator.QueryService.AllClassReferencesDeep (roleClass);
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABADAAA");</script></div><p><a href="#Intro">Back to the Top</a></p></div><div class="collapsibleAreaRegion" id="ClassInstance"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Query class to instance relations</span></div><div id="ID6RBSection" class="collapsibleSection"><p>A Class to Instance relations is always defined using a class path as a value in any Attribute of a CAEX object, 
+         which is not a class (InternalElement, ExternalInterface, Attribute, RoleRequirement, SupportedRoleClass). You have to 
+         either provide a full CAEX path or the CAEX class object itself as a parameter of a query. </p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Example</span></div><div id="ID5RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABACAAA_tab1" class="codeSnippetContainerTabSingle">ExternalInterface Instances of an InterfaceClass</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Aml.Engine.Services;
+<span class="highlight-keyword">using</span> Aml.Engine.AmlObjects;
+<span class="highlight-keyword">using</span> Aml.Engine.CAEX;
+
+<span class="highlight-comment">// Get all ExternalInterfaces, which are ExternalDataConnectors, including those ExternalInterfaces,</span>
+<span class="highlight-comment">// which reference a derived class from an ExternalDataConnector.</span>
+<span class="highlight-comment">// This method is appropriate, to get a collection of external sources.</span>
+<span class="highlight-keyword">void</span> GetAllExternalDataConnectorInstances (CAEXDocument document)
+{                  
+    <span class="highlight-keyword">var</span> externalInterfaces = ServiceLocator.QueryService.AllClassReferencesDeep(document, 
+                   AutomationMLInterfaceClassLib.ExternalDataConnector, CAEX_CLASSModel_TagNames.EXTERNAL_INTERFACE);
+
+    <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> externalInterface <span class="highlight-keyword">in</span> externalInterfaces)
+    {
+         <span class="highlight-keyword">var</span> refUriAttribute = ((ObjectWithAMLAttribute)externalInterface).RefURIAttribute;
+         <span class="highlight-keyword">if</span> (refUriAttribute != <span class="highlight-keyword">null</span>)
+         {
+             Console.WriteLine (refUriAttribute.Value);
+         }
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABACAAA");</script></div><p><a href="#Intro">Back to the Top</a></p></div><div class="collapsibleAreaRegion" id="InstanceInstance"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Query instance to instance relations</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
+          An Instance to Instance relation is always defined using an InternalLink. The Query Interface contains special queries to explore Instance to Instance Relations.
+        </p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Example</span></div><div id="ID7RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABABAAA_tab1" class="codeSnippetContainerTabSingle">InternalLinks connected to an ExternalInterface</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABABAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Aml.Engine.Services;
+<span class="highlight-keyword">using</span> Aml.Engine.AmlObjects;
+<span class="highlight-keyword">using</span> Aml.Engine.CAEX;
+
+<span class="highlight-comment">// Get all InternalLinks, which are attached to an ExternalInterface. </span>
+<span class="highlight-comment">// This method is appropriate, to get a collection of related ExternalInterfaces.</span>
+
+IEnumerable&lt;ExternalInterfaceType&gt; GetAllRelatedExternalInterfaces(ExternalInterfaceType externalInterface)
+{
+  <span class="highlight-keyword">var</span> internalLinks = ServiceLocator.QueryService.InternalLinksToInterface(externalInterface);
+
+  <span class="highlight-comment">// or use the equivalent extension method externalInterface.InternalLinksToInterface();</span>
+
+  <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> internalLink <span class="highlight-keyword">in</span> internalLinks)
+  {
+    <span class="highlight-keyword">if</span> (internalLink.AInterface.Equals(externalInterface)
+      <span class="highlight-keyword">yield</span> <span class="highlight-keyword">return</span> internalLink.BInterface;
+    <span class="highlight-keyword">else</span>
+      <span class="highlight-keyword">yield</span> <span class="highlight-keyword">return</span> internalLink.AInterface;
+  }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABABAAA");</script></div><p><a href="#Intro">Back to the Top</a></p></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="M_Aml_Engine_Services_Interfaces_IQuery_FindByID.htm">FindByID</a></div><div class="seeAlsoStyle"><a href="M_Aml_Engine_CAEX_Extensions_CAEXDocumentExtensions_FindByID.htm">FindByID</a></div><div class="seeAlsoStyle"><a href="M_Aml_Engine_CAEX_Extensions_CAEXDocumentExtensions_FindByPath.htm">FindByPath</a></div><div class="seeAlsoStyle"><a href="M_Aml_Engine_Services_Interfaces_IQuery_FindByPath.htm">FindByPath</a></div><div class="seeAlsoStyle"><a href="Overload_Aml_Engine_Services_Interfaces_IQuery_AllClassReferences.htm">AllClassReferences</a></div><div class="seeAlsoStyle"><a href="Overload_Aml_Engine_Services_Interfaces_IQuery_AllClassReferencesDeep.htm">AllClassReferencesDeep</a></div><div class="seeAlsoStyle"><a href="F_Aml_Engine_AmlObjects_AutomationMLInterfaceClassLib_ExternalDataConnector.htm">ExternalDataConnector</a></div><div class="seeAlsoStyle"><a href="M_Aml_Engine_Services_QueryResult_InternalLinksToInterface.htm">InternalLinksToInterface</a></div><div class="seeAlsoStyle"><a href="M_Aml_Engine_Services_Interfaces_IQuery_InternalLinksToInterface.htm">InternalLinksToInterface</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p><a href="https://www.automationml.org" target="_blank">Copyright © AutomationML e.V. 2017</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:office%40AutomationML.org?Subject=The AutomationML API Reference Guide">AutomationML office</a></div>
+        <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script></div></body></html>
