@@ -6,7 +6,7 @@
   <members>
     <member name="T:Aml.Engine.Services.CAEXFileStatisticService">
       <summary>
-            This service calculates statistics for a CAEX document.
+                This service calculates statistics for a CAEX document.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.CAEXFileStatisticService.#ctor">
@@ -20,118 +20,143 @@
     </member>
     <member name="M:Aml.Engine.Services.CAEXFileStatisticService.NumberOfAllObjects(Aml.Engine.CAEX.CAEXFileType)">
       <summary>
-            Counts all objects (sum of all others with specific counts) and returns the result.
+                Counts all objects (sum of all others with specific counts) and returns the result.
             </summary>
       <param name="caexFile">The CAEX file.</param>
       <returns>Total number of all countable objects.</returns>
     </member>
     <member name="M:Aml.Engine.Services.CAEXFileStatisticService.NumberOfAttributes(Aml.Engine.CAEX.CAEXFileType)">
       <summary>
-            Counts all Attribute objects and returns the result.
+                Counts all Attribute objects and returns the result.
             </summary>
       <param name="caexFile">The CAEX file.</param>
       <returns>Total number of all attributes.</returns>
     </member>
+    <member name="M:Aml.Engine.Services.CAEXFileStatisticService.NumberOfAttributeTypeReferences(Aml.Engine.CAEX.CAEXFileType)">
+      <summary>
+                Counts all Attribute type reference objects and returns the result.
+            </summary>
+      <param name="caexFile">The CAEX file.</param>
+      <returns>Total number of all attribute type references.</returns>
+    </member>
     <member name="M:Aml.Engine.Services.CAEXFileStatisticService.NumberOfAttributeTypes(Aml.Engine.CAEX.CAEXFileType)">
       <summary>
-            Counts all AttributeType objects and returns the result.
+                Counts all AttributeType objects and returns the result.
             </summary>
       <param name="caexFile">The CAEX file.</param>
       <returns>
-            Total number of all AttributeTypes
+                Total number of all AttributeTypes
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.CAEXFileStatisticService.NumberOfInterfaceClasses(Aml.Engine.CAEX.CAEXFileType)">
       <summary>
-            Counts all InterfaceClass objects and returns the result.
+                Counts all InterfaceClass objects and returns the result.
             </summary>
       <param name="caexFile">The CAEX file.</param>
       <returns>
-            Total number of all InterfaceClasses
+                Total number of all InterfaceClasses
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.CAEXFileStatisticService.NumberOfInterfaceInstances(Aml.Engine.CAEX.CAEXFileType)">
       <summary>
-            Counts all ExternalInterface objects and returns the result.
+                Counts all ExternalInterface objects and returns the result.
             </summary>
       <param name="caexFile">The CAEX file.</param>
       <returns>
-            Total number of all ExternalInterfaces
+                Total number of all ExternalInterfaces
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.CAEXFileStatisticService.NumberOfInternalElements(Aml.Engine.CAEX.CAEXFileType)">
       <summary>
-            Counts all InternalElement objects and returns the result.
+                Counts all InternalElement objects and returns the result.
             </summary>
       <param name="caexFile">The CAEX file.</param>
       <returns>
-            Total number of all InternalElements
+                Total number of all InternalElements
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.CAEXFileStatisticService.NumberOfLinks(Aml.Engine.CAEX.CAEXFileType)">
       <summary>
-            Counts all InternalLink objects and returns the result.
+                Counts all InternalLink objects and returns the result.
             </summary>
       <param name="caexFile">The CAEX file.</param>
       <returns>
-            Total number of all InternalLinks
+                Total number of all InternalLinks
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.CAEXFileStatisticService.NumberOfRoleClasses(Aml.Engine.CAEX.CAEXFileType)">
       <summary>
-            Counts all RoleClass objects and returns the result.
+                Counts all RoleClass objects and returns the result.
             </summary>
       <param name="caexFile">The CAEX file.</param>
       <returns>
-            Total number of all RoleClasses
+                Total number of all RoleClasses
+            </returns>
+    </member>
+    <member name="M:Aml.Engine.Services.CAEXFileStatisticService.NumberOfRoleClassReferences(Aml.Engine.CAEX.CAEXFileType)">
+      <summary>
+                Counts all RoleClass reference (RoleRequirements and SupportedRoleClass) objects and returns the result.
+            </summary>
+      <param name="caexFile">The CAEX file.</param>
+      <returns>
+                Total number of all RoleClasses references
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.CAEXFileStatisticService.NumberOfSystemUnitClasses(Aml.Engine.CAEX.CAEXFileType)">
       <summary>
-            Counts all SystemUnitClass objects and returns the result.
+                Counts all SystemUnitClass objects and returns the result.
             </summary>
       <param name="caexFile">The CAEX file.</param>
       <returns>
-            Total number of all SystemUnitClasses
+                Total number of all SystemUnitClasses
+            </returns>
+    </member>
+    <member name="M:Aml.Engine.Services.CAEXFileStatisticService.NumberOfSystemUnitClassReferences(Aml.Engine.CAEX.CAEXFileType)">
+      <summary>
+                Counts all SystemUnitClass reference objects and returns the result.
+            </summary>
+      <param name="caexFile">The CAEX file.</param>
+      <returns>
+                Total number of all SystemUnitClasses
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.CAEXFileStatisticService.Register">
       <summary>
-            Registers a new instance of a CAEXFileStatisticService with the <see cref="T:Aml.Engine.Services.ServiceLocator" /> of the AMLEngine.
+                Registers a new instance of a CAEXFileStatisticService with the <see cref="T:Aml.Engine.Services.ServiceLocator" /> of the AMLEngine.
             </summary>
       <returns>The service instance</returns>
     </member>
     <member name="M:Aml.Engine.Services.CAEXFileStatisticService.UnRegister">
       <summary>
-            Unregister this service
+                Unregisters this service
             </summary>
     </member>
     <member name="T:Aml.Engine.Services.CAEXSchemaTransformer">
       <summary>
-             This class defines a service for a schema transformation. The service supports transformation
-             of CAEX documents from CAEX Version 2.15 to version 3.0 and back. Backwards transformation
-             can result in a loss of information.
+                This class defines a service for a schema transformation. The service supports transformation
+                of CAEX documents from CAEX Version 2.15 to version 3.0 and back. Backwards transformation
+                can result in a loss of information.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.CAEXSchemaTransformer.Register">
       <summary>
-            Registration of a new <see cref="T:Aml.Engine.Services.Interfaces.ISchemaTransform" /></summary>
+                Registration of a new <see cref="T:Aml.Engine.Services.Interfaces.ISchemaTransform" /></summary>
       <returns>The registered CAEX Schema Transformer.</returns>
     </member>
     <member name="E:Aml.Engine.Services.CAEXSchemaTransformer.TransformationEnded">
       <summary>
-            Raised from the ShemaTransform service when a transformation has ended.
+                Raised from the ShemaTransform service when a transformation has ended.
             </summary>
     </member>
     <member name="E:Aml.Engine.Services.CAEXSchemaTransformer.TransformationStarted">
       <summary>
-            Raised from the ShemaTransform service when a transformation has started.
+                Raised from the ShemaTransform service when a transformation has started.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.CAEXSchemaTransformer.TransformTo(Aml.Engine.CAEX.CAEXDocument,Aml.Engine.CAEX.CAEXDocument.CAEXSchema)">
       <summary>
-            Method to do a schema transformation for the provided document to the defined schema.
-            This method can be used for upward and downward transformations.
+                Method to do a schema transformation for the provided document to the defined schema.
+                This method can be used for upward and downward transformations.
             </summary>
       <param name="document">the document to be transformed</param>
       <param name="targetSchema">the target schema</param>
@@ -139,109 +164,122 @@
     </member>
     <member name="M:Aml.Engine.Services.CAEXSchemaTransformer.UnRegister">
       <summary>
-            Unregister this service
+                Unregisters this service
             </summary>
     </member>
     <member name="T:Aml.Engine.Services.ExternalReferenceResolver">
       <summary>
-            This class implements the <see cref="T:Aml.Engine.Services.Interfaces.IExternalReferenceResolver" /> service interface. With this service it is
-            possible to access CAEX objects which are outsourced into external documents and referenced using alias names.
-            Normally the service is located by other services like query services. They can call this service to resolve an
-            external reference if an alias is part of a CAEX path in any query.
+                This class implements the <see cref="T:Aml.Engine.Services.Interfaces.IExternalReferenceResolver" /> service interface. With this service it is
+                possible to access CAEX objects which are outsourced into external documents and referenced using alias names.
+                Normally the service is located by other services like query services. They can call this service to resolve an
+                external reference if an alias is part of a CAEX path in any query.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.ExternalReferenceResolver.LoadOrGetReferencedDocument(Aml.Engine.CAEX.CAEXDocument,System.String)">
       <summary>
-            Determines, if the provided path contains an alias and gets the resolved document
-            for that alias.
+                Determines, if the provided path contains an alias and gets the resolved document
+                for that alias.
             </summary>
       <param name="document">The CAEX document, which provides the ExternalReference to resolve the 'Alias'.</param>
       <param name="path">The CAEX path which contains an 'Alias'.</param>
       <returns>
-            The resolved document for the alias, extracted from the path.
+                The resolved document for the alias, extracted from the path.
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.ExternalReferenceResolver.LoadOrGetReferencedDocument(Aml.Engine.CAEX.ExternalReferenceType)">
       <summary>
-            This method is used to load an outsourced CAEX document. The external representation for that document is defined in the provided
-            ExternalReference object. The CAEXDocument is loaded as a new 'stand alone' document, which means that no libraries of the
-            loaded document are merged to the original referencing document. The ExternalReference is not changed and all external references
-            in the original document which use the alias name in a path- or id-reference will not change too. A merge of documents can only
-            be requested by a <see cref="T:Aml.Engine.Services.Interfaces.IMerge" /> service.
+                This method is used to load an outsourced CAEX document. The external representation for that document is defined
+                in the provided
+                ExternalReference object. The CAEXDocument is loaded as a new 'stand alone' document, which means that no libraries
+                of the
+                loaded document are merged to the original referencing document. The ExternalReference is not changed and all
+                external references
+                in the original document which use the alias name in a path- or id-reference will not change too. A merge of
+                documents can only
+                be requested by a <see cref="T:Aml.Engine.Services.Interfaces.IMerge" /> service.
             </summary>
       <param name="externalReference">the ExternalReference object</param>
       <returns>
-            If the ExternalReference doesn't have an alias, the document is not loaded. If a referenced document for the alias already exists,
-            the existing document is returned.
+                If the ExternalReference doesn't have an alias, the document is not loaded. If a referenced document for the alias
+                already exists,
+                the existing document is returned.
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.ExternalReferenceResolver.Register">
       <summary>
-            Registers a service to resolve external references.
+                Registers a service to resolve external references.
             </summary>
       <returns>The registered service.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ExternalReferenceResolver.ResolvedDocuments(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
-            Gets all already resolved externals for the provided CAEXDocument containing ExternalReference objects
+                Gets all already resolved externals for the provided CAEXDocument containing ExternalReference objects
             </summary>
       <param name="documentWithExternals">The CAEX document, containing ExternalReference objects.</param>
       <returns>
-            An enumeration of all CAEX documents, which have been loaded from the ExternalReferences.
+                An enumeration of all CAEX documents, which have been loaded from the ExternalReferences.
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.ExternalReferenceResolver.UnRegister">
       <summary>
-            Unregister this service
+                Unregister this service
             </summary>
     </member>
     <member name="T:Aml.Engine.Services.LookupService">
       <summary>
-            This class is a query service based on dictionaries.
+                This class is a query service based on dictionaries.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AddDocument(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
-            Adds the document to the query service. All tables for the document will be created.
+                Adds the document to the query service. All tables for the document will be created.
             </summary>
       <param name="doc">The document.</param>
       <exception cref="T:System.ArgumentNullException">doc</exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AllClassReferences(Aml.Engine.CAEX.CAEXDocument,System.String,System.String)">
       <summary>
-            Gets all classes which have references to the provided class path. Use this method to get all classes which have
-            a class to class relation to the class, identified by the provided classPath. If the <paramref name="elementName" /> is
-            set, only classes with the defined element name are considered.
+                Gets all classes which have references to the provided class path. Use this method to get all classes which have
+                a class to class relation to the class, identified by the provided classPath. If the
+                <paramref name="elementName" /> is
+                set, only classes with the defined element name are considered.
             </summary>
       <param name="document">The CAEX document which is searched through.</param>
       <param name="classPath">The class path.</param>
-      <param name="elementName">Name of the element. Valid values are 'RoleClass', 'SystemUnitClass', 'InterfaceClass' and
-            'AttributeType'.</param>
+      <param name="elementName">
+                Name of the element. Valid values are 'RoleClass', 'SystemUnitClass', 'InterfaceClass' and
+                'AttributeType'.
+            </param>
       <returns>
-            An enumeration of all classes which use the identified class as a base class.
+                An enumeration of all classes which use the identified class as a base class.
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AllClassReferences(Aml.Engine.CAEX.CAEXObject)">
       <summary>
-            Gets all classes which have references to the provided CAEX object. Use this method to get all classes which have
-            a class to class relation to the provided CAEX object.
+                Gets all classes which have references to the provided CAEX object. Use this method to get all classes which have
+                a class to class relation to the provided CAEX object.
             </summary>
       <param name="caexObject">The CAEX object.</param>
       <returns>
-            An enumeration of all classes which use the provided CAEX object as a base class.
+                An enumeration of all classes which use the provided CAEX object as a base class.
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AllClassReferencesDeep(Aml.Engine.CAEX.CAEXDocument,System.String,System.String)">
       <summary>
-            Gets all classes which have references to the provided CAEX object and their referencing classes (recursive).
-            This method extends the <see cref="M:Aml.Engine.Services.Interfaces.IQuery.AllClassReferences(Aml.Engine.CAEX.CAEXDocument,System.String,System.String)" /> and gets not only the directly
-            derived classes of a base class but also the derived classes of these classes and further on. If the <paramref name="elementName" /> is
-            set, only classes with the defined element name are considered.
+                Gets all classes which have references to the provided CAEX object and their referencing classes (recursive).
+                This method extends the
+                <see cref="M:Aml.Engine.Services.Interfaces.IQuery.AllClassReferences(Aml.Engine.CAEX.CAEXDocument,System.String,System.String)" />
+                and gets not only the directly
+                derived classes of a base class but also the derived classes of these classes and further on. If the
+                <paramref name="elementName" /> is
+                set, only classes with the defined element name are considered.
             </summary>
       <param name="document">The CAEX document which is searched through.</param>
       <param name="classPath">The class path.</param>
-      <param name="elementName">Name of the element. Valid values are 'RoleClass', 'SystemUnitClass', 'InterfaceClass' and
-            'AttributeType'.</param>
+      <param name="elementName">
+                Name of the element. Valid values are 'RoleClass', 'SystemUnitClass', 'InterfaceClass' and
+                'AttributeType'.
+            </param>
       <returns>
         <markup>
           <include item="SMCMissingTag">
@@ -253,98 +291,100 @@
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AllClassReferencesDeep(Aml.Engine.CAEX.CAEXObject)">
       <summary>
-            Gets all classes which have references to the provided CAEX object and their referencing classes (recursive).
-            This method extends the <see cref="M:Aml.Engine.Services.Interfaces.IQuery.AllClassReferences(Aml.Engine.CAEX.CAEXObject)" /> and gets not only the directly
-            derived classes of a base class but also the derived classes of these classes and further on.
+                Gets all classes which have references to the provided CAEX object and their referencing classes (recursive).
+                This method extends the
+                <see cref="M:Aml.Engine.Services.Interfaces.IQuery.AllClassReferences(Aml.Engine.CAEX.CAEXObject)" /> and gets not
+                only the directly
+                derived classes of a base class but also the derived classes of these classes and further on.
             </summary>
       <param name="caexObject">The CAEX object.</param>
       <returns>
-            The derived classes tree for th specified base class.
+                The derived classes tree for the specified base class.
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AllElementsIdentifiedByCAEXPath(Aml.Engine.CAEX.CAEXBasicObject)">
       <summary>
-            Gets all the elements which are descendants of the provided CAEX object and are identifiable by a CAEX path.
-            Elements having the same path are grouped together.
-            Use this method to validate the existence of ambiguous CAEXPaths.
+                Gets all the elements which are descendants of the provided CAEX object and are identifiable by a CAEX path.
+                Elements having the same path are grouped together.
+                Use this method to validate the existence of ambiguous CAEXPaths.
             </summary>
       <param name="caexObject">The CAEX object.</param>
       <returns>
-            Lookup table of elements which are identifiable by a CAEX path.
+                Lookup table of elements which are identifiable by a CAEX path.
             </returns>
       <exception cref="T:System.ArgumentNullException">caexObject</exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AllElementsWithAliasReference(Aml.Engine.CAEX.CAEXBasicObject,System.String)">
       <summary>
-            Gets all the elements which are descendants of the provided CAEX object and use an alias reference.
-            Elements referencing the same Alias are grouped together.
-            Use this method to validate the existence of referenced externals. If the <paramref name="elementName" /> is
-            set, only elements with the defined element name are considered.
+                Gets all the elements which are descendants of the provided CAEX object and use an alias reference.
+                Elements referencing the same Alias are grouped together.
+                Use this method to validate the existence of referenced externals. If the <paramref name="elementName" /> is
+                set, only elements with the defined element name are considered.
             </summary>
       <param name="caexObject">The CAEX object.</param>
       <param name="elementName">If parameter is set, only elements with the given element Name are considered.</param>
       <returns>
-            Lookup table of elements with Alias references.  The Alias part of the CAEXPath is used as a dictionary key.
+                Lookup table of elements with Alias references.  The Alias part of the CAEXPath is used as a dictionary key.
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AllElementsWithCAEXPathReference(Aml.Engine.CAEX.CAEXBasicObject,System.String)">
       <summary>
-            Gets all the elements which are descendants of the provided CAEX object and use a path reference.
-            Elements referencing the same path are grouped together.
-            Use this method to validate the existence of referenced classes. If the <paramref name="elementName" /> is
-            set, only elements with the defined element name are considered.
+                Gets all the elements which are descendants of the provided CAEX object and use a path reference.
+                Elements referencing the same path are grouped together.
+                Use this method to validate the existence of referenced classes. If the <paramref name="elementName" /> is
+                set, only elements with the defined element name are considered.
             </summary>
       <param name="caexObject">The CAEX object.</param>
       <param name="elementName">If parameter is set, only elements with the given element Name are considered.</param>
       <returns>
-            Lookup table of elements with path references. The CAEXPath is used as a grouping key.
+                Lookup table of elements with path references. The CAEXPath is used as a grouping key.
             </returns>
       <exception cref="T:System.ArgumentNullException">caexObject</exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AllElementsWithIDReference(Aml.Engine.CAEX.CAEXBasicObject,System.String)">
       <summary>
-            Gets all the elements which are descendants of the provided CAEX object which use identifier references.
-            Elements referencing the same ID are grouped together.
-            Use this method to validate the existence of referenced IDs. If the <paramref name="elementName" /> is
-            set, only elements with the defined element name are considered.
+                Gets all the elements which are descendants of the provided CAEX object and which use identifier references.
+                Elements referencing the same ID are grouped together.
+                Use this method to validate the existence of referenced IDs. If the <paramref name="elementName" /> is
+                set, only elements with the defined element name are considered.
             </summary>
       <param name="caexObject">The CAEX object.</param>
       <param name="elementName">If parameter is set, only elements with the given element Name are considered.</param>
       <returns>
-            Lookup table of elements with ID references.  The ID is used as a dictionary key.
+                Lookup table of elements with ID references.  The ID is used as a dictionary key.
             </returns>
       <exception cref="T:System.ArgumentNullException">caexObject</exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AllElementsWithIDs(Aml.Engine.CAEX.CAEXBasicObject,System.String)">
       <summary>
-            Gets all the elements which are descendants of the provided CAEX object with IDs.
-            Elements using the same ID are grouped together.
-            Use this method to validate the uniqueness of IDs.
+                Gets all the elements which are descendants of the provided CAEX object with IDs.
+                Elements using the same ID are grouped together.
+                Use this method to validate the uniqueness of IDs.
             </summary>
       <param name="caexObject">The CAEX object.</param>
       <param name="ID">If an ID is specified, only elements with the defined ID are searched.</param>
       <returns>
-            Lookup table of elements with IDs.  The ID is used as a dictionary key.
+                Lookup table of elements with IDs.  The ID is used as a dictionary key.
             </returns>
       <exception cref="T:System.ArgumentNullException">caexObject</exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AllElementsWithInternalLinks(Aml.Engine.CAEX.CAEXBasicObject)">
       <summary>
-            Returns all Elements which are descendants of the provided CAEX object with InternalLinks.
-            These elements are the owners of the InternalLink objects.
-            The returned collection may contain InternalElements and SystemUnitClasses as well.
+                Returns all Elements which are descendants of the provided CAEX object with InternalLinks.
+                These elements are the owners of the InternalLink objects.
+                The returned collection may contain InternalElements and SystemUnitClasses as well.
             </summary>
       <param name="caexObject">The CAEX object</param>
       <returns>
-            A collection of all objects with associated InternalLinks.
+                A collection of all objects with associated InternalLinks.
             </returns>
       <exception cref="T:System.ArgumentNullException">caexObject</exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AllElementsWithNameReference(Aml.Engine.CAEX.CAEXBasicObject,System.String)">
       <summary>
-            Gets all the elements which are descendants of the provided CAEX object and use a name reference.
-            Elements referencing the same name are grouped together.
-            Use this method to validate the existence of referenced elements.
+                Gets all the elements which are descendants of the provided CAEX object and use a name reference.
+                Elements referencing the same name are grouped together.
+                Use this method to validate the existence of referenced elements.
             </summary>
       <param name="caexObject">The CAEX object.</param>
       <param name="elementName">
@@ -357,183 +397,193 @@
         </markup>
       </param>
       <returns>
-            Lookup table of elements with name references. The name is used as a grouping key.
+                Lookup table of elements with name references. The name is used as a grouping key.
             </returns>
       <exception cref="T:System.ArgumentNullException">caexObject</exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AllExternalDataReferences(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
-            Returns all ExternalInterfaces which are
-            instances of the standard Interface class <see cref="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.ExternalDataConnector" />.
+                Returns all ExternalInterfaces which are
+                instances of the standard Interface class <see cref="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.ExternalDataConnector" />.
             </summary>
       <param name="document">The document.</param>
       <returns>
-            A collection of all ExternalInterface which are instances of the
-            standard Interface class <see cref="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.ExternalDataConnector" />.
+                A collection of all ExternalInterface which are instances of the
+                standard Interface class <see cref="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.ExternalDataConnector" />.
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AllInternalElementsWithInternalLinks(Aml.Engine.CAEX.CAEXBasicObject)">
       <summary>
-            Returns all InternalElements which are descendants of the provided CAEX object with InternalLinks.
-            These elements are the owners of the InternalLink objects.
+                Returns all InternalElements which are descendants of the provided CAEX object with InternalLinks.
+                These elements are the owners of the InternalLink objects.
             </summary>
       <param name="caexObject">The CAEX object</param>
       <returns>
-            A collection of all objects with associated InternalLinks.
+                A collection of all objects with associated InternalLinks.
             </returns>
       <exception cref="T:System.ArgumentNullException">caexObject</exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AttributeMirrors(Aml.Engine.CAEX.AttributeType)">
       <summary>
-            Returns all Mirrors of the specified Attribute
+                Returns all Mirrors of the specified Attribute
             </summary>
       <param name="master">The master.</param>
       <returns>
-            An enumeration of mirror Attribute objects
+                An enumeration of mirror Attribute objects
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.ElementsWithAliasReference(Aml.Engine.CAEX.CAEXBasicObject,System.String,System.String)">
       <summary>
-            Gets alls the elements which are descendants of the provided CAEX object
-            which use the provided Alias in a reference. The elements in the result collection are
-            references, which define the CAEX object and the attribute, containing the reference <seealso cref="T:Aml.Engine.Services.Interfaces.ICAEXReference" />.
-            If the <paramref name="elementName" /> is
-            set, only elements with the defined element name are considered.
+                Gets alls the elements which are descendants of the provided CAEX object
+                which use the provided Alias in a reference. The elements in the result collection are
+                references, which define the CAEX object and the attribute, containing the reference
+                <seealso cref="T:Aml.Engine.Services.Interfaces.ICAEXReference" />.
+                If the <paramref name="elementName" /> is
+                set, only elements with the defined element name are considered.
             </summary>
       <param name="caexObject">The CAEX object.</param>
       <param name="alias">The Alias.</param>
       <param name="elementName">If parameter is set, only elements with the given element Name are considered.</param>
       <returns>
-            a collection of element references which use the provided Alias in a reference
+                a collection of element references which use the provided Alias in a reference
             </returns>
       <exception cref="T:System.ArgumentNullException">caexObject</exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.ElementsWithCAEXPathReference(Aml.Engine.CAEX.CAEXBasicObject,System.String,System.String)">
       <summary>
-            Gets alls the elements which are descendants of the provided CAEX object
-            which have a reference to the provided CAEXPath. The elements in the result collection are
-            references, which define the CAEX object and the attribute, containing the reference <seealso cref="T:Aml.Engine.Services.Interfaces.ICAEXReference" />.
-            If the <paramref name="elementName" /> is set, only elements with the defined element name are considered.
+                Gets alls the elements which are descendants of the provided CAEX object
+                which have a reference to the provided CAEXPath. The elements in the result collection are
+                references, which define the CAEX object and the attribute, containing the reference
+                <seealso cref="T:Aml.Engine.Services.Interfaces.ICAEXReference" />.
+                If the <paramref name="elementName" /> is set, only elements with the defined element name are considered.
             </summary>
       <param name="caexObject">The CAEX object.</param>
       <param name="caexPath">The path.</param>
       <param name="elementName">If parameter is set, only elements with the given element Name are considered.</param>
       <returns>
-            a collection of element references which have a reference to the provided Path^.
+                a collection of element references which have a reference to the provided Path^.
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.ElementsWithIDReference(Aml.Engine.CAEX.CAEXBasicObject,System.String,System.String)">
       <summary>
-            Gets alls the elements from the document which have a reference to the provided ID. The elements in the result collection are
-            references, which define the CAEX object and the attribute, containing the reference <seealso cref="T:Aml.Engine.Services.Interfaces.ICAEXReference" />.
-            If the <paramref name="elementName" /> is
-            set, only elements with the defined element name are considered.
+                Gets alls the elements from the document which have a reference to the provided ID. The elements in the result
+                collection are
+                references, which define the CAEX object and the attribute, containing the reference
+                <seealso cref="T:Aml.Engine.Services.Interfaces.ICAEXReference" />.
+                If the <paramref name="elementName" /> is
+                set, only elements with the defined element name are considered.
             </summary>
       <param name="caexObject">The CAEX object.</param>
       <param name="ID">The identifier.</param>
       <param name="elementName">If parameter is set, only elements with the given element Name are considered.</param>
       <returns>
-            a collection of element references which have a reference to the provided ID
+                a collection of element references which have a reference to the provided ID
             </returns>
       <exception cref="T:System.ArgumentNullException">caexObject</exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.ElementsWithInternalLinkRelations(Aml.Engine.CAEX.CAEXBasicObject)">
       <summary>
-            Returns all InternalElements and SystemUnitClasses which are descendants of the provided CAEX object,
-            which are related to others via InternalLinks.
+                Returns all InternalElements and SystemUnitClasses which are descendants of the provided CAEX object,
+                which are related to others via InternalLinks.
             </summary>
       <param name="caexObject">The CAEX object.</param>
       <returns>
-            A collection of related SystemUnitClass objects
+                A collection of related SystemUnitClass objects
             </returns>
       <exception cref="T:System.ArgumentNullException">caexObject</exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.ExternalInterfaceMirrors(Aml.Engine.CAEX.ExternalInterfaceType)">
       <summary>
-            Returns all Mirrors of the specified ExternalInterface
+                Returns all Mirrors of the specified ExternalInterface
             </summary>
       <param name="master">The master.</param>
       <returns>
-            An enumeration of mirror ExternalInterface objects
+                An enumeration of mirror ExternalInterface objects
             </returns>
       <exception cref="T:System.NotImplementedException"></exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.FindByID(Aml.Engine.CAEX.CAEXDocument,System.String,System.Boolean)">
       <summary>
-            Locates a Caex object in the provided document using the specified ID - Attribute for identification.
+                Locates a CAEX object in the provided document using the specified ID - Attribute for identification.
             </summary>
       <param name="doc">The document.</param>
       <param name="id">The identifier.</param>
-      <param name="resolveAlias">if set to <c>true</c> tries to resolve an alias reference with an ExternalReferenceResolver service.</param>
+      <param name="resolveAlias">
+                if set to <c>true</c> tries to resolve an alias reference with an ExternalReferenceResolver
+                service.
+            </param>
       <returns>
-            The located object with the specified ID or <c>null</c>.
+                The located object with the specified ID or <c>null</c>.
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.FindByPath(Aml.Engine.CAEX.CAEXDocument,System.String,System.Boolean)">
       <summary>
-            Locates a CAEX object in the provided document using the specified CAEX - Path for identification.
-            If the path uses an alias reference and an <see cref="T:Aml.Engine.Services.Interfaces.IExternalReferenceResolver" /> can be located,
-            it is tried to resolve the external reference and to get the object from the external source.
+                Locates a CAEX object in the provided document using the specified CAEX - Path for identification.
+                If the path uses an alias reference and an <see cref="T:Aml.Engine.Services.Interfaces.IExternalReferenceResolver" /> can be located,
+                it is tried to resolve the external reference and to get the object from the external source.
             </summary>
       <param name="doc">The document.</param>
       <param name="caexPath">The path.</param>
-      <param name="resolveAlias">if set to <c>true</c> tries to resolve an alias reference with an ExternalReferenceResolver service.</param>
+      <param name="resolveAlias">
+                if set to <c>true</c> tries to resolve an alias reference with an ExternalReferenceResolver
+                service.
+            </param>
       <returns>
-            The first object which is found (if the path is not a unique identifier, than more than this object may exist).
+                The first object which is found (if the path is not a unique identifier, than more than this object may exist).
             </returns>
       <exception cref="T:System.ArgumentNullException">doc</exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.InterfacesWithInternalLinkRelations(Aml.Engine.CAEX.CAEXBasicObject)">
       <summary>
-            Returns all ExternalInterface objects which are descendants of the provided CAEX object
-            and are used in relations (InternalLinks).
+                Returns all ExternalInterface objects which are descendants of the provided CAEX object
+                and are used in relations (InternalLinks).
             </summary>
       <param name="caexObject">The CAEX object.</param>
       <returns>
-            A collection of related ExternalInterface objects
+                A collection of related ExternalInterface objects
             </returns>
       <exception cref="T:System.ArgumentNullException">caexObject</exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.InternalElementMirrors(Aml.Engine.CAEX.InternalElementType)">
       <summary>
-            Returns all Mirrors of the specified InternalElement
+                Returns all Mirrors of the specified InternalElement
             </summary>
       <param name="master">The master.</param>
       <returns>
-            a collection of mirror InternalElements
+                a collection of mirror InternalElements
             </returns>
       <exception cref="T:System.ArgumentNullException">master</exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.InternalLinksToElement(Aml.Engine.CAEX.SystemUnitClassType)">
       <summary>
-            Gets all InternalLinks that reference the specified InternalElement or SystemUnitClass.
+                Gets all InternalLinks that reference the specified InternalElement or SystemUnitClass.
             </summary>
       <param name="systemUnitClass">The InternalElement or SystemUnitClass.</param>
       <returns>
-            a collection of InternalLinks.
+                a collection of InternalLinks.
             </returns>
       <exception cref="T:System.ArgumentNullException">systemUnitClass</exception>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.InternalLinksToInterface(Aml.Engine.CAEX.ExternalInterfaceType)">
       <summary>
-            Gets all InternalLinks that reference the specified ExternalInterface.
+                Gets all InternalLinks that reference the specified ExternalInterface.
             </summary>
       <param name="externalInterface">The ExternalInterface.</param>
       <returns>
-            a collection of InternalLinks.
+                a collection of InternalLinks.
             </returns>
       <exception cref="T:System.ArgumentNullException">externalInterface</exception>
     </member>
     <member name="P:Aml.Engine.Services.LookupService.IsAutoUpdateEnabled">
       <summary>
-            Gets or sets a value indicating whether this instance will automatically update
-            cross references between AutomationML objects.
+                Gets or sets a value indicating whether this instance will automatically update
+                cross references between AutomationML objects.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.IsMaster(Aml.Engine.CAEX.AttributeType)">
       <summary>
-            Determines whether the specified AttributeType is referenced by other AttributeType
-            objects called 'Mirrors'.
+                Determines whether the specified AttributeType is referenced by other AttributeType
+                objects called 'Mirrors'.
             </summary>
       <param name="element">The element.</param>
       <returns>
@@ -542,8 +592,8 @@
     </member>
     <member name="M:Aml.Engine.Services.LookupService.IsMaster(Aml.Engine.CAEX.ExternalInterfaceType)">
       <summary>
-            Determines whether the specified ExternalInterface is referenced by other ExternalInterface
-            objects called 'Mirrors'.
+                Determines whether the specified ExternalInterface is referenced by other ExternalInterface
+                objects called 'Mirrors'.
             </summary>
       <param name="externalInterface">The ExternalInterface element.</param>
       <returns>
@@ -553,8 +603,8 @@
     </member>
     <member name="M:Aml.Engine.Services.LookupService.IsMaster(Aml.Engine.CAEX.InternalElementType)">
       <summary>
-            Determines whether the specified InternalElement is referenced by other InternalElement
-            objects called 'Mirrors'.
+                Determines whether the specified InternalElement is referenced by other InternalElement
+                objects called 'Mirrors'.
             </summary>
       <param name="internalElement">The InternalElement object.</param>
       <returns>
@@ -564,7 +614,7 @@
     </member>
     <member name="M:Aml.Engine.Services.LookupService.IsReferenced(Aml.Engine.CAEX.CAEXObject)">
       <summary>
-            Determines whether the specified CAEX object is referenced.
+                Determines whether the specified CAEX object is referenced.
             </summary>
       <param name="caexObject">The CAEX object.</param>
       <returns>
@@ -573,29 +623,36 @@
     </member>
     <member name="E:Aml.Engine.Services.LookupService.ReferenceUpdated">
       <summary>
-            Occurs when any reference has been updated.
+                Occurs when any reference has been updated.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.Register">
       <summary>
-            Registers a new instance of a LookupService with the <see cref="T:Aml.Engine.Services.ServiceLocator" /> of the AMLEngine.
+                Registers a new instance of a LookupService with the <see cref="T:Aml.Engine.Services.ServiceLocator" /> of the AMLEngine.
             </summary>
       <returns>The service instance</returns>
     </member>
+    <member name="M:Aml.Engine.Services.LookupService.RemoveDocument(Aml.Engine.XML.XDocumentWrapper)">
+      <summary>
+                Removes the document from the query service. All tables for the document will be unloaded.
+            </summary>
+      <param name="doc">The document.</param>
+      <exception cref="T:System.ArgumentNullException">doc</exception>
+    </member>
     <member name="M:Aml.Engine.Services.LookupService.UnRegister">
       <summary>
-            Unregister this service
+                Unregisters this service
             </summary>
     </member>
     <member name="T:Aml.Engine.Services.MergeService">
       <summary>
-            This class implements a merge service which is able to merge CAEX documents from different sources into one
-            common document. The merge service adds the libraries from the external referenced file into the target document
-            and updates all references, which use an alias and can be resolved after the merge. If a library, which is used
-            in the external source, also exists in the target document, this library is replaced, if the library version in the
-            external source is newer. If not the existing library is kept. If an InstanceHierarchy in the external source can
-            be identified as an outsourced Master InternalElement, it is tried to add the Master InternalElement back to its
-            original position.
+                This class implements a merge service which is able to merge CAEX documents from different sources into one
+                common document. The merge service adds the libraries from the external referenced file into the target document
+                and updates all references, which use an alias and can be resolved after the merge. If a library, which is used
+                in the external source, also exists in the target document, this library is replaced, if the library version in the
+                external source is newer. If not the existing library is kept. If an InstanceHierarchy in the external source can
+                be identified as an outsourced Master InternalElement, it is tried to add the Master InternalElement back to its
+                original position.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.MergeService.#ctor">
@@ -609,7 +666,8 @@
     </member>
     <member name="M:Aml.Engine.Services.MergeService.Merge(Aml.Engine.CAEX.CAEXDocument,Aml.Engine.CAEX.ExternalReferenceType,System.IO.Stream,System.String[]@,System.Boolean)">
       <summary>
-            Merges the defined ExternalReference into the provided CAEXDocument. The source is loaded from the provided external source stream.
+                Merges the defined ExternalReference into the provided CAEXDocument. The source is loaded from the provided
+                external source stream.
             </summary>
       <param name="document">The document.</param>
       <param name="externalReference">The external reference.</param>
@@ -622,7 +680,7 @@
     </member>
     <member name="M:Aml.Engine.Services.MergeService.Merge(Aml.Engine.CAEX.CAEXDocument,Aml.Engine.CAEX.ExternalReferenceType,System.String[]@,System.Boolean)">
       <summary>
-            Merges the defined ExternalReference into the provided CAEXDocument.
+                Merges the defined ExternalReference into the provided CAEXDocument.
             </summary>
       <param name="document">The document.</param>
       <param name="externalReference">The external reference.</param>
@@ -634,35 +692,35 @@
     </member>
     <member name="M:Aml.Engine.Services.MergeService.Register">
       <summary>
-            Registers a new instance of a MergeService with the <see cref="T:Aml.Engine.Services.ServiceLocator" /> of the AMLEngine.
+                Registers a new instance of a MergeService with the <see cref="T:Aml.Engine.Services.ServiceLocator" /> of the AMLEngine.
             </summary>
       <returns>The service instance</returns>
     </member>
     <member name="M:Aml.Engine.Services.MergeService.UnRegister">
       <summary>
-            Unregister this service
+                Unregisters this service
             </summary>
     </member>
     <member name="T:Aml.Engine.Services.ReferenceElement">
       <summary>
-            ReferenceElement is a Tuple of an XElement and the Name of
-            an Attributes, which is used to reference another Element. The reference
-            may be used as a key to find the referenced Element.
+                ReferenceElement is a Tuple of an XElement and the Name of
+                an Attributes, which is used to reference another Element. The reference
+                may be used as a key to find the referenced Element.
             </summary>
     </member>
     <member name="P:Aml.Engine.Services.ReferenceElement.CaexObject">
       <summary>
-            Gets the CAEX object which owns the reference.
+                Gets the CAEX object which owns the reference.
             </summary>
     </member>
     <member name="P:Aml.Engine.Services.ReferenceElement.Element">
       <summary>
-            Gets the XML node.
+                Gets the XML node.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.ReferenceElement.Equals(System.Object)">
       <summary>
-            Determines whether the specified <see cref="T:System.Object" /> is equal to this instance.
+                Determines whether the specified <see cref="T:System.Object" /> is equal to this instance.
             </summary>
       <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param>
       <returns>
@@ -670,210 +728,191 @@
     </member>
     <member name="M:Aml.Engine.Services.ReferenceElement.GetHashCode">
       <summary>
-            Returns a hash code for this instance.
+                Returns a hash code for this instance.
             </summary>
       <returns>A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table.</returns>
     </member>
     <member name="P:Aml.Engine.Services.ReferenceElement.ReferenceAttributeName">
       <summary>
-            Gets the name of the reference attribute of the <see cref="P:Aml.Engine.Services.ReferenceElement.Element" /></summary>
+                Gets the name of the reference attribute of the <see cref="P:Aml.Engine.Services.ReferenceElement.Element" /></summary>
     </member>
     <member name="P:Aml.Engine.Services.ReferenceElement.ReferenceAttributeValue">
       <summary>
-            gets the value of the Reference Attribute
+                gets the value of the Reference Attribute
             </summary>
     </member>
     <member name="T:Aml.Engine.Services.RepairTypeEnum">
       <summary>
-            Enum RepairTypeEnum
+                Enumeration RepairTypeEnum
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.IDDefitionOption">
       <summary>
-            The options which are related to ID validation issues
+                The options which are related to ID validation issues
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.NameDefintionOption">
       <summary>
-            The  options which are related to Name validation issues
+                The  options which are related to Name validation issues
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.IDReferenceOption">
       <summary>
-            The options which are related to ID reference validation issues
+                The options which are related to ID reference validation issues
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.PathReferenceOption">
       <summary>
-            The options which are related to Path reference validation issues
+                The options which are related to Path reference validation issues
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.GenerateUniqueIDWhenEmpty">
       <summary>
-            This Flag cause the generation of a unique ID for all Empty IDs
+                This Flag cause the generation of a unique ID for all Empty IDs
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.GenerateUniqueIDForDoubles">
       <summary>
-            This Flag cause the generation of a unique ID for all Double IDs
+                This Flag cause the generation of a unique ID for all Double IDs
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.GenerateNameWhenEmpty">
       <summary>
-            This Flag cause the renaming of all empty Names with an automatic name generation algorithm.
-            To apply this method, a <see cref="T:Aml.Engine.Services.UniqueNameService" /> has to be registered,
+                This Flag cause the renaming of all empty Names with an automatic name generation algorithm.
+                To apply this method, a <see cref="T:Aml.Engine.Services.UniqueNameService" /> has to be registered,
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.RemoveEmptyReference">
       <summary>
-            This Flag cause the removal of all references where the Reference Value is empty
+                This Flag cause the removal of all references where the Reference Value is empty
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.RemoveUnresolvedIDReference">
       <summary>
-            This Flag cause the removal of all ID References where the ID Value has not been resolved
+                This Flag cause the removal of all ID References where the ID Value has not been resolved
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.RemoveUnresolvedPathReference">
       <summary>
-            This Flag cause the removal of all Path References where the Path reference Value has
-            not been resolved
+                This Flag cause the removal of all Path References where the Path reference Value has
+                not been resolved
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.RenameClassPathForDoubles">
       <summary>
-            This Flag cause the generation of a new name for an element, when it's CAEX-Path is
-            double so that the Path is unique. 
-            To apply this method, a <see cref="T:Aml.Engine.Services.UniqueNameService" /> has to be registered.
+                This Flag cause the generation of a new name for an element, when it's CAEX-Path is
+                double so that the Path is unique.
+                To apply this method, a <see cref="T:Aml.Engine.Services.UniqueNameService" /> has to be registered.
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.CreateWriterHeader">
       <summary>
-            This Flag cause the generation of a writer header
+                This Flag cause the generation of a writer header
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.CreateAutomationMLVersion">
       <summary>
-            This Flag cause the generation of  an AutomationML Version header
+                This Flag cause the generation of  an AutomationML Version header
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.SetSchemaVersion">
       <summary>
-            This Flag cause the correction of the Schema Version
+                This Flag cause the correction of the Schema Version
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.GenerateValidGUID">
       <summary>
-            This Flag cause the generation of a new GUID for Guid's with invalid formats
+                This Flag cause the generation of a new GUID for existing GUID's with invalid formats
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.RemoveAlias">
       <summary>
-            This Flag cause the generation of a new reference without the alias
+                This Flag cause the generation of a new reference without the alias
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.CreateSourceDocumentInformation">
       <summary>
-            This Flag cause the generation of source document information
+                This Flag cause the generation of source document information
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.RemoveElement">
       <summary>
-            This Flag cause the deletion of an element
+                This Flag cause the deletion of an element
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.RemoveElementNotInScope">
       <summary>
-            This Flag cause the deletion of an element which reference an element out of the allowed scope.
+                This Flag cause the deletion of an element which reference an element out of the allowed scope.
+            </summary>
+    </member>
+    <member name="F:Aml.Engine.Services.RepairTypeEnum.ChangeFileURL">
+      <summary>
+                This Flag cause the generation of a valid file URL in an ExternalDataConnector to a localized file.
+            </summary>
+    </member>
+    <member name="F:Aml.Engine.Services.RepairTypeEnum.RemoveUnresolvedNameReference">
+      <summary>
+                This Flag cause the removal of all Name References where the Name reference Value has
+                not been resolved
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.RepairTypeEnum.None">
       <summary>
-            The Option None indicates, that nothing should be done
+                The Option None indicates, that nothing should be done
             </summary>
     </member>
     <member name="T:Aml.Engine.Services.RepairTypeEnumConverter">
       <summary>
-            Extensions for <see cref="T:Aml.Engine.Services.RepairTypeEnum" /></summary>
+                Extensions for <see cref="T:Aml.Engine.Services.RepairTypeEnum" /></summary>
     </member>
     <member name="M:Aml.Engine.Services.RepairTypeEnumConverter.RepairTypeDescription(Aml.Engine.Services.RepairTypeEnum)">
       <summary>
-            Converts the specified repair option to a readable string
+                Converts the specified repair option to a readable string
             </summary>
       <param name="repairOption">Option for repairing an element.</param>
       <returns>a readable string describing the repair option</returns>
     </member>
     <member name="T:Aml.Engine.Services.SplitService">
       <summary>
-            This class is an implementation of a split service. This service
-            is able to split one <see cref="T:Aml.Engine.CAEX.CAEXDocument" /> into multiple files using split points.
+                This class is an implementation of a split service. This service
+                is able to split one <see cref="T:Aml.Engine.CAEX.CAEXDocument" /> into multiple files using split points.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.SplitService.Register">
       <summary>
-            Registers a new instance of a SplitService with the <see cref="T:Aml.Engine.Services.ServiceLocator" /> of the AMLEngine.
+                Registers a new instance of a SplitService with the <see cref="T:Aml.Engine.Services.ServiceLocator" /> of the AMLEngine.
             </summary>
       <returns>The service instance</returns>
     </member>
+    <member name="M:Aml.Engine.Services.SplitService.RemoveDocument(Aml.Engine.XML.XDocumentWrapper)">
+      <summary>
+                Removes the document from the internal registry of the split service. All registered split points for this document
+                will be removed.
+            </summary>
+      <param name="doc">The document.</param>
+    </member>
     <member name="M:Aml.Engine.Services.SplitService.RemoveSplitPoint(Aml.Engine.Services.Interfaces.ISplitPoint)">
       <summary>
-            Removes the split point for the provided CAEX object.
+                Removes the split point for the provided CAEX object.
             </summary>
       <param name="caexObject">The CAEX object.</param>
     </member>
     <member name="M:Aml.Engine.Services.SplitService.SetSplitPoint(Aml.Engine.Services.Interfaces.ISplitPoint)">
       <summary>
-            Sets the split point for the provided CAEX object. If the actual list of split points for
-            the same document already contains a split point which is a child of the provided CAEX object,
-            this existing split point is removed from the list.
+                Sets the split point for the provided CAEX object. If the actual list of split points for
+                the same document already contains a split point which is a child of the provided CAEX object,
+                this existing split point is removed from the list.
             </summary>
       <param name="caexObject">The CAEX object.</param>
     </member>
     <member name="M:Aml.Engine.Services.SplitService.Split(Aml.Engine.CAEX.CAEXDocument,Aml.Engine.Services.Interfaces.ISplitPoint,System.String,System.String)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Aml.Engine.Services.SplitService.Split(Aml.Engine.CAEX.CAEXDocument,Aml.Engine.Services.Interfaces.ISplitPoint,System.String,System.String)</parameter>
-          </include>
-        </markup>
-      </summary>
-      <param name="sourceDocument">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>sourceDocument</parameter>
-            <parameter>M:Aml.Engine.Services.SplitService.Split(Aml.Engine.CAEX.CAEXDocument,Aml.Engine.Services.Interfaces.ISplitPoint,System.String,System.String)</parameter>
-          </include>
-        </markup>
-      </param>
-      <param name="splitPoint">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>splitPoint</parameter>
-            <parameter>M:Aml.Engine.Services.SplitService.Split(Aml.Engine.CAEX.CAEXDocument,Aml.Engine.Services.Interfaces.ISplitPoint,System.String,System.String)</parameter>
-          </include>
-        </markup>
-      </param>
-      <param name="alias">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>alias</parameter>
-            <parameter>M:Aml.Engine.Services.SplitService.Split(Aml.Engine.CAEX.CAEXDocument,Aml.Engine.Services.Interfaces.ISplitPoint,System.String,System.String)</parameter>
-          </include>
-        </markup>
-      </param>
-      <param name="filePath">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>filePath</parameter>
-            <parameter>M:Aml.Engine.Services.SplitService.Split(Aml.Engine.CAEX.CAEXDocument,Aml.Engine.Services.Interfaces.ISplitPoint,System.String,System.String)</parameter>
-          </include>
-        </markup>
-      </param>
+                Splits the specified source document.
+            </summary>
+      <param name="sourceDocument">The source document.</param>
+      <param name="splitPoint">The split point.</param>
+      <param name="alias">The alias.</param>
+      <param name="filePath">The file path.</param>
       <returns>
         <markup>
           <include item="SMCMissingTag">
@@ -882,14 +921,22 @@
           </include>
         </markup>
       </returns>
+      <exception cref="T:System.ArgumentNullException">
+                sourceDocument
+                or
+                alias
+                or
+                filePath
+            </exception>
+      <exception cref="T:System.ArgumentException">File path is equal to source document</exception>
     </member>
     <member name="M:Aml.Engine.Services.SplitService.Split(Aml.Engine.CAEX.CAEXDocument,System.String,System.String)">
       <summary>
-            Splits the specified document on all currently defined split points. The
-            created libraries are saved in an AutomationML document and an ExternalReference
-            is created, using the specified alias. All remaining references to the
-            external source are renamed using the provided alias. After splitting,
-            the document doesn't contain any SplitPoints any more.
+                Splits the specified document on all currently defined split points. The
+                created libraries are saved in an AutomationML document and an ExternalReference
+                is created, using the specified alias. All remaining references to the
+                external source are renamed using the provided alias. After splitting,
+                the document doesn't contain any SplitPoints any more.
             </summary>
       <param name="sourceDocument">The document.</param>
       <param name="alias">The alias.</param>
@@ -900,29 +947,32 @@
     </member>
     <member name="M:Aml.Engine.Services.SplitService.SplitPoints(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
-            Gets a collection of all split points for the provided document.
+                Gets a collection of all split points for the provided document.
             </summary>
       <param name="document">The document.</param>
       <returns>
-            all split points for this document.
+                all split points for this document.
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.SplitService.UnRegister">
       <summary>
-            Unregister this service
+                Unregisters this service
             </summary>
     </member>
     <member name="T:Aml.Engine.Services.UndoRedoService">
       <summary>
-            This class implements an Undo and Redo service. When this service is registered, changes in an AutomationML document
-            can be reversed. A sequence of actions can be grouped into transactions which than can be reversed
-            within a single undo operation. The AMLEngine will locate a registered UndoRedoService and will notify
-            the service of any changes, made to a document. The service manages individual stacks for each loaded CAEX document.
+                This class implements an Undo and Redo service. When this service is registered, changes in an AutomationML
+                document
+                can be reversed. A sequence of actions can be grouped into transactions which than can be reversed
+                within a single undo operation. The AMLEngine will locate a registered UndoRedoService and will notify
+                the service of any changes, made to a document. The service manages individual stacks for each loaded CAEX
+                document.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.UndoRedoService.BeginTransaction(Aml.Engine.CAEX.CAEXDocument,System.String)">
       <summary>
-            Begins a new transaction. All changes, made to a CAEXDocument inside a transaction are treated as a single operation.
+                Begins a new transaction. All changes, made to a CAEXDocument inside a transaction are treated as a single
+                operation.
             </summary>
       <param name="document">The CAEX document to which the transaction should be associated.</param>
       <param name="name">A friendly name for this transaction.</param>
@@ -930,7 +980,7 @@
     </member>
     <member name="M:Aml.Engine.Services.UndoRedoService.CanRedo(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
-            Determines, if the service can redo a command
+                Determines, if the service can redo a command
             </summary>
       <param name="document">The document.</param>
       <returns>
@@ -939,7 +989,7 @@
     </member>
     <member name="M:Aml.Engine.Services.UndoRedoService.CanUndo(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
-            Determines, if the service can undo a command.
+                Determines, if the service can undo a command.
             </summary>
       <param name="document">The document.</param>
       <returns>
@@ -948,13 +998,13 @@
     </member>
     <member name="M:Aml.Engine.Services.UndoRedoService.ClearStacks(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
-            Clears the stacks, managed for the specified document.
+                Clears the stacks, managed for the specified document.
             </summary>
       <param name="document">The document.</param>
     </member>
     <member name="M:Aml.Engine.Services.UndoRedoService.EndTransaction(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
-            Ends the current transaction from the specified document.
+                Ends the current transaction from the specified document.
             </summary>
       <param name="document">The document.</param>
       <returns>If the transaction ended</returns>
@@ -962,7 +1012,7 @@
     </member>
     <member name="M:Aml.Engine.Services.UndoRedoService.LastModificationDate(Aml.Engine.CAEX.CAEXDocument,System.Boolean)">
       <summary>
-            Gets the date of the most recently executed command for the specified document.
+                Gets the date of the most recently executed command for the specified document.
             </summary>
       <param name="document">The document.</param>
       <param name="undo">if set to <c>true</c> the last undo operation is considered; otherwise the last redo operation.</param>
@@ -977,82 +1027,89 @@
     </member>
     <member name="M:Aml.Engine.Services.UndoRedoService.Pause(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
-            Request to not record changes of the specified document.
+                Request to not record changes of the specified document.
             </summary>
       <param name="document">The document.</param>
     </member>
     <member name="E:Aml.Engine.Services.UndoRedoService.PropertyChanged">
       <summary>
-            Occurs when a property value changes.
+                Occurs when a property value changes.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.UndoRedoService.PushCommand(Aml.Engine.CAEX.Commands.ICAEXCommand)">
       <summary>
-            A command is pushed on the undo stack of this service.
+                A command is pushed on the undo stack of this service.
             </summary>
       <param name="cmd">the CAEX command.</param>
     </member>
     <member name="M:Aml.Engine.Services.UndoRedoService.Redo(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
-            Executes the last undone operation from the specified document again.
+                Executes the last undone operation from the specified document again.
             </summary>
       <param name="document">The document.</param>
     </member>
     <member name="M:Aml.Engine.Services.UndoRedoService.RedoActions(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
-            Gets the command names of all redo actions for the defined document.
+                Gets the command names of all redo actions for the defined document.
             </summary>
       <param name="document">The document.</param>
       <returns>
-            List of command names
+                List of command names
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.UndoRedoService.Register">
       <summary>
-            Registers a new instance of a UndoRedoService with the <see cref="T:Aml.Engine.Services.ServiceLocator" /> of the AMLEngine.
+                Registers a new instance of a UndoRedoService with the <see cref="T:Aml.Engine.Services.ServiceLocator" /> of the AMLEngine.
             </summary>
       <returns>The service instance</returns>
     </member>
+    <member name="M:Aml.Engine.Services.UndoRedoService.RemoveDocument(Aml.Engine.XML.XDocumentWrapper)">
+      <summary>
+                Removes the XML document from the internal registry of the service.
+                Undo- and Redo Stacks for this document will be deleted.
+            </summary>
+      <param name="doc">The document.</param>
+    </member>
     <member name="M:Aml.Engine.Services.UndoRedoService.Resume(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
-            Request to resume recording changes of the specified document.
+                Request to resume recording changes of the specified document.
             </summary>
       <param name="document">The document.</param>
     </member>
     <member name="M:Aml.Engine.Services.UndoRedoService.Undo(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
-            Reverses the last action of the defined document.
+                Reverses the last action of the defined document.
             </summary>
       <param name="document">The document.</param>
     </member>
     <member name="M:Aml.Engine.Services.UndoRedoService.UndoActions(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
-            Gets the command names of all undo actions of the defined document.
+                Gets the command names of all undo actions of the defined document.
             </summary>
       <param name="document">The document.</param>
       <returns>
-            List of command names.
+                List of command names.
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.UndoRedoService.UnRegister">
       <summary>
-            Unregister this service
+                Unregisters this service
             </summary>
     </member>
     <member name="T:Aml.Engine.Services.UniqueNameService">
       <summary>
-            This class defines methods for a unique name service. The names of CAEX-Objects in a Sequence of
-            Elements should all be unique. If a unique name service is registered, the AMLEngine will
-            automatically call this service for a unique name generation whenever a new element is added
-            to a sequence which requires a unique name for its members.
-            This services uses a generation pattern which consists of the specified default name followed by
-            a generated ordinal number of the elements in a sequence.
+                This class defines methods for a unique name service. The names of CAEX-Objects in a Sequence of
+                Elements should all be unique. If a unique name service is registered, the AMLEngine will
+                automatically call this service for a unique name generation whenever a new element is added
+                to a sequence which requires a unique name for its members.
+                This services uses a generation pattern which consists of the specified default name followed by
+                a generated ordinal number of the elements in a sequence.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.UniqueNameService.IsUniqueCAEXName(System.Xml.Linq.XElement)">
       <summary>
-            Determines whether the specified element has a unique caex name in the sequence of equal elements
-            of its parent.
+                Determines whether the specified element has a unique CAEX name in the sequence of equal elements
+                of its parent.
             </summary>
       <param name="element">The element.</param>
       <returns>
@@ -1061,98 +1118,124 @@
     </member>
     <member name="M:Aml.Engine.Services.UniqueNameService.Register">
       <summary>
-            Registers a new instance of a UniqueNameService with the <see cref="T:Aml.Engine.Services.ServiceLocator" /> of the AMLEngine.
+                Registers a new instance of a UniqueNameService with the <see cref="T:Aml.Engine.Services.ServiceLocator" /> of the AMLEngine.
             </summary>
       <returns>The service instance</returns>
     </member>
     <member name="M:Aml.Engine.Services.UniqueNameService.RegisterDefault(System.String,System.String)">
       <summary>
-            Registers the default name for all CAEX objects with the provided element name.
+                Registers the default name for all CAEX objects with the provided element name.
             </summary>
       <param name="elementName">Name of the element.</param>
       <param name="defaultName">The default name.</param>
     </member>
     <member name="M:Aml.Engine.Services.UniqueNameService.Resume">
       <summary>
-            Resumes activities of the unique name service.
+                Resumes activities of the unique name service.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.UniqueNameService.Suspend">
       <summary>
-            Suspends activities of the unique name service.
+                Suspends activities of the unique name service.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.UniqueNameService.UniqueCAEXName(System.Xml.Linq.XElement,System.String)">
       <summary>
-            Creates a unique CAEX Name for a child with the specified elementTagName in the specified sequence
+                Creates a unique CAEX Name for a child with the specified elementTagName in the specified sequence
             </summary>
       <param name="sequence">The sequence of elements.</param>
       <param name="elementTagName">Name of the element tag.</param>
       <returns>
-            a unique name using the registered default extended with an added number, representing the maximal number
+                a unique name using the registered default extended with an added number, representing the maximal number
             </returns>
       <exception cref="T:System.ArgumentNullException">elementTagName</exception>
     </member>
     <member name="M:Aml.Engine.Services.UniqueNameService.UniqueCAEXName(System.Xml.Linq.XElement,System.String,System.String)">
       <summary>
-            Creates a unique CAEX Name for a child with the specified elementTagName in the specified sequence using the specified
-            defaultName
+                Creates a unique CAEX Name for a child with the specified elementTagName in the specified sequence using the
+                specified
+                defaultName
             </summary>
       <param name="sequence">The sequence.</param>
       <param name="elementTagName">Name of the element tag.</param>
       <param name="defaultName">The default name.</param>
       <returns>
-            a unique name using the registered default extended with an added number, representing the maximal number
+                a unique name using the registered default extended with an added number, representing the maximal number
             </returns>
       <exception cref="T:System.ArgumentNullException">elementTagName</exception>
       <exception cref="T:System.ArgumentNullException">elementTagName</exception>
     </member>
     <member name="M:Aml.Engine.Services.UniqueNameService.UnRegister">
       <summary>
-            Unregisters the current instance of the UniqueNameService with the <see cref="T:Aml.Engine.Services.ServiceLocator" /> of the AMLEngine.
+                Unregisters the current instance of the UniqueNameService with the <see cref="T:Aml.Engine.Services.ServiceLocator" /> of the AMLEngine.
             </summary>
     </member>
     <member name="T:Aml.Engine.Services.ValidationElement">
       <summary>
-            Class ValidationElement is a Tuple of an XElement and associated detailed
-            Information about any inconsistencies, assigned with that Element.
+                Class ValidationElement is a Tuple of an XElement and associated detailed
+                Information about any inconsistencies, assigned with that Element.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.ValidationElement.#ctor(System.Xml.Linq.XElement,Aml.Engine.Services.ValidationKey)">
       <summary>
-            Initializes a new instance of the <see cref="T:Aml.Engine.Services.ValidationElement" /> class.
+                Initializes a new instance of the <see cref="T:Aml.Engine.Services.ValidationElement" /> class.
             </summary>
       <param name="element">The element.</param>
       <param name="validationKey">The validation key.</param>
     </member>
     <member name="P:Aml.Engine.Services.ValidationElement.AvailableRepairOptions">
       <summary>
-            Gets the available repair options.
+                Gets the available repair options.
             </summary>
     </member>
     <member name="P:Aml.Engine.Services.ValidationElement.CAEXElement">
       <summary>
-            Gets the CAEX element wrapper for the XElement.
+                Gets the CAEX element wrapper for the XElement.
             </summary>
     </member>
     <member name="P:Aml.Engine.Services.ValidationElement.Element">
       <summary>
-            Gets the element which has been validated.
+                Gets the element which has been validated.
+            </summary>
+    </member>
+    <member name="M:Aml.Engine.Services.ValidationElement.Equals(System.Object)">
+      <summary>
+                Determines whether the specified object is identical to the current object.
+            </summary>
+      <param name="obj">The object to be compared with the current object.</param>
+      <returns>
+        <see langword="true" />,if the specified object and the current object are the same, otherwise
+                <see langword="false" />.
+            </returns>
+    </member>
+    <member name="M:Aml.Engine.Services.ValidationElement.GetHashCode">
+      <summary>
+                Returns a hash code for this instance.
+            </summary>
+      <returns>
+                A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table.
+            </returns>
+    </member>
+    <member name="P:Aml.Engine.Services.ValidationElement.LongDescription">
+      <summary>
+                Gets a longer description containing more detailed information about a validation issue. To get this information,
+                the informative mode
+                shall be enabled when the validation is performed.
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationElement.NOT_REPAIRED">
       <summary>
-            constant string, defining validation elements which are yet not repaired.
+                constant string, defining validation elements which are yet not repaired.
             </summary>
     </member>
     <member name="P:Aml.Engine.Services.ValidationElement.RepairResult">
       <summary>
-            Gets information about the result of a repair operation for one element.
+                Gets information about the result of a repair operation for one element.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.ValidationElement.ReValidate">
       <summary>
-            Checks the validation of the element
+                Checks the validation of the element
             </summary>
       <returns>
         <markup>
@@ -1165,331 +1248,393 @@
     </member>
     <member name="P:Aml.Engine.Services.ValidationElement.ValidatedAttribute">
       <summary>
-            Gets or sets the validated attribute.
+                Gets or sets the validated attribute.
             </summary>
     </member>
     <member name="P:Aml.Engine.Services.ValidationElement.ValidationInformation">
       <summary>
-            Gets information about the validation of one element.
+                Gets a short information about the validation of one element.
             </summary>
     </member>
     <member name="P:Aml.Engine.Services.ValidationElement.ValidationType">
       <summary>
-            Gets the type of the validation.
+                Gets the type of the validation.
             </summary>
     </member>
     <member name="T:Aml.Engine.Services.ValidationKey">
       <summary>
-            Class ValidationKey.
+                Class ValidationKey.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.ValidationKey.#ctor(System.String,Aml.Engine.Services.ValidationTypeEnum)">
       <summary>
-            Initializes a new instance of the <see cref="T:Aml.Engine.Services.ValidationKey" /> class.
+                Initializes a new instance of the <see cref="T:Aml.Engine.Services.ValidationKey" /> class.
             </summary>
       <param name="key">The key.</param>
       <param name="validationType">Type of the validation.</param>
     </member>
     <member name="P:Aml.Engine.Services.ValidationKey.Key">
       <summary>
-            Gets the key.
+                Gets the key.
             </summary>
     </member>
     <member name="P:Aml.Engine.Services.ValidationKey.ValidationType">
       <summary>
-            Gets the type of the validation.
+                Gets the type of the validation.
             </summary>
     </member>
     <member name="T:Aml.Engine.Services.ValidationResults">
       <summary>
-            This class defines methods to assist the interpretation of validation results.
+                This class defines methods to assist the interpretation of validation results.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.AliasReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the Alias reference validation results from the validation result list.
+                Gets the Alias reference validation results from the validation result list.
             </summary>
       <param name="validationResult">The validation result.</param>
-      <returns>All validation results, which are related to CAEX objects which use an Alias to
-            reference CAEX objects in external sources.</returns>
+      <returns>
+                All validation results, which are related to CAEX objects which use an Alias to
+                reference CAEX objects in external sources.
+            </returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.ClassPathValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the CAEXPath validation results for CAEX classes from the validation result list.
+                Gets the CAEXPath validation results for CAEX classes from the validation result list.
             </summary>
       <param name="validationResult">The validation result.</param>
       <returns>All validation results, which are related to the CAEXPath of a CAEX class.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.EmptyIDRefs(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the validation results for all elements with ID references which are empty.
+                Gets the validation results for all elements with ID references which are empty.
             </summary>
-      <param name="validationResult">The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.IDReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
-            as a parameter for this method.</param>
+      <param name="validationResult">
+                The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.IDReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
+                as a parameter for this method.
+            </param>
       <returns>All validation results, which are related to ID references which are empty.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.EmptyPathRefs(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the validation results for all elements with CAEX path references which are not resolvable.
+                Gets the validation results for all elements with CAEX path references which are not resolvable.
             </summary>
-      <param name="validationResult">The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.PathReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
-            as a parameter for this method.</param>
+      <param name="validationResult">
+                The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.PathReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
+                as a parameter for this method.
+            </param>
       <returns>All validation results, which are related to path references which are not resolvable.</returns>
+    </member>
+    <member name="M:Aml.Engine.Services.ValidationResults.ExternalReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
+      <summary>
+                Gets the File reference validation results from the validation result list.
+            </summary>
+      <param name="validationResult">The validation result.</param>
+      <returns>All validation results, which are related to External References with a not Locatable external reference</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.IDReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the ID reference validation results from the validation result list.
+                Gets the ID reference validation results from the validation result list.
             </summary>
       <param name="validationResult">The validation result.</param>
-      <returns>All validation results, which are related to CAEX objects which use IDs to
-            reference other CAEX objects.</returns>
+      <returns>
+                All validation results, which are related to CAEX objects which use IDs to
+                reference other CAEX objects.
+            </returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.IDValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the ID validation results from the validation result list.
+                Gets the ID validation results from the validation result list.
             </summary>
       <param name="validationResult">The validation result.</param>
       <returns>All validation results, which are related to the CAEX object ID attribute.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.InvalidAutomationMLVersion(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the validation results for all MetaData which are related to the AutomationML Version
+                Gets the validation results for all MetaData which are related to the AutomationML Version
             </summary>
-      <param name="validationResult">The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.MetaDataValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
-            as a parameter for this method.</param>
+      <param name="validationResult">
+                The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.MetaDataValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
+                as a parameter for this method.
+            </param>
       <returns>All validation results, which are related to MetaData which are related to the AutomationML Version.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.InvalidIDs(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the validation results for all elements with wrong formatted IDs.
+                Gets the validation results for all elements with wrong formatted IDs.
             </summary>
-      <param name="validationResult">The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.IDValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
-            as a parameter for this method.</param>
+      <param name="validationResult">
+                The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.IDValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
+                as a parameter for this method.
+            </param>
       <returns>All validation results, which are related to wrong formatted CAEX object IDs.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.InvalidSchemaVersion(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the validation results for all MetaData which are related to the CAEX Schema Version
+                Gets the validation results for all MetaData which are related to the CAEX Schema Version
             </summary>
-      <param name="validationResult">The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.MetaDataValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
-            as a parameter for this method.</param>
+      <param name="validationResult">
+                The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.MetaDataValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
+                as a parameter for this method.
+            </param>
       <returns>All validation results, which are related to MetaData which are related to the CAEX Schema Version.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.MetaDataValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the MetaData validation results from the validation result list.
+                Gets the MetaData validation results from the validation result list.
             </summary>
       <param name="validationResult">The validation result.</param>
       <returns>All validation results, which are related to MetaData assigned to a CAEXFile.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.MissingDocumentSourceInformation(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the validation results for all MetaData which are related to missing source information in an AML file.
+                Gets the validation results for all MetaData which are related to missing source information in an AML file.
             </summary>
-      <param name="validationResult">The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.MetaDataValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
-            as a parameter for this method.</param>
+      <param name="validationResult">
+                The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.MetaDataValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
+                as a parameter for this method.
+            </param>
       <returns>All validation results, which are related to missing source information in an AML file.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.MissingIDs(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the validation results for all elements with missing IDs.
+                Gets the validation results for all elements with missing IDs.
             </summary>
-      <param name="validationResult">The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.IDValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
-            as a parameter for this method.</param>
+      <param name="validationResult">
+                The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.IDValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
+                as a parameter for this method.
+            </param>
       <returns>All validation results, which are related to missing CAEX object IDs.</returns>
+    </member>
+    <member name="M:Aml.Engine.Services.ValidationResults.NameReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
+      <summary>
+                Gets the Name reference validation results from the validation result list.
+            </summary>
+      <param name="validationResult">The validation result.</param>
+      <returns>
+                All validation results, which are related to CAEX objects which use a Name to
+                reference other CAEX objects.
+            </returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.NotRepairable(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the validation results for all elements which are not repairable
+                Gets the validation results for all elements which are not repairable
             </summary>
       <param name="validationResult">The validation result.</param>
       <returns>All validation results, which are not repairable.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.NotUniqueIDs(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the validation results for all elements with IDs which are not unique in the document.
+                Gets the validation results for all elements with IDs which are not unique in the document.
             </summary>
-      <param name="validationResult">The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.IDValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
-            as a parameter for this method.</param>
+      <param name="validationResult">
+                The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.IDValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
+                as a parameter for this method.
+            </param>
       <returns>All validation results, which are related to CAEX object IDs which are not unique.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.NotUniquePath(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the validation results for all elements which are not uniquely identifyable with a CAEX path
+                Gets the validation results for all elements which are not uniquely identifiable with a CAEX path
             </summary>
-      <param name="validationResult">The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.ClassPathValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
-            as a parameter for this method.</param>
-      <returns>All validation results, which are related to wrong named CAEX objects which are referencable.</returns>
+      <param name="validationResult">
+                The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.ClassPathValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
+                as a parameter for this method.
+            </param>
+      <returns>All validation results, which are related to wrong named CAEX objects which are referable.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.PathReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the Path reference validation results from the validation result list.
+                Gets the Path reference validation results from the validation result list.
             </summary>
       <param name="validationResult">The validation result.</param>
-      <returns>All validation results, which are related to CAEX objects which use CAEX path to
-            reference other CAEX objects.</returns>
+      <returns>
+                All validation results, which are related to CAEX objects which use CAEX path to
+                reference other CAEX objects.
+            </returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.Repairable(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the validation results for all elements which are repairable
+                Gets the validation results for all elements which are repairable
             </summary>
       <param name="validationResult">The validation result.</param>
       <returns>All validation results, which are repairable.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.UnidentifiedAlias(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the validation results for all elements with references to an Alias, but no ExternalReference with that Alias is defined.
+                Gets the validation results for all elements with references to an Alias, but no ExternalReference with that Alias
+                is defined.
             </summary>
-      <param name="validationResult">The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.AliasReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
-            as a parameter for this method.</param>
+      <param name="validationResult">
+                The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.AliasReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
+                as a parameter for this method.
+            </param>
       <returns>All validation results, which are related to CAEX objects which use an undefined ExternalReference alias.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.UnresolvedIDRefs(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the validation results for all elements with ID references which are not resolvable.
+                Gets the validation results for all elements with ID references which are not resolvable.
             </summary>
-      <param name="validationResult">The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.IDReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
-            as a parameter for this method.</param>
+      <param name="validationResult">
+                The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.IDReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
+                as a parameter for this method.
+            </param>
       <returns>All validation results, which are related to ID references which are not resolvable.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.UnresolvedPathRefs(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the validation results for all elements with CAEX path references which are not resolvable.
+                Gets the validation results for all elements with CAEX path references which are not resolvable.
             </summary>
-      <param name="validationResult">The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.PathReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
-            as a parameter for this method.</param>
+      <param name="validationResult">
+                The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.PathReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
+                as a parameter for this method.
+            </param>
       <returns>All validation results, which are related to path references which are not resolvable.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidationResults.UselessAlias(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})">
       <summary>
-            Gets the validation results for all elements with references to an Alias, where the ExternalReference has been merged into the
-            document already.
+                Gets the validation results for all elements with references to an Alias, where the ExternalReference has been
+                merged into the
+                document already.
             </summary>
-      <param name="validationResult">The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.AliasReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
-            as a parameter for this method.</param>
-      <returns>All validation results, which are related to CAEX objects which reference an external source which is already merged.</returns>
+      <param name="validationResult">
+                The validation result. Use the <see cref="M:Aml.Engine.Services.ValidationResults.AliasReferenceValidationResults(System.Collections.Generic.IEnumerable{Aml.Engine.Services.ValidationElement})" />
+                as a parameter for this method.
+            </param>
+      <returns>
+                All validation results, which are related to CAEX objects which reference an external source which is already
+                merged.
+            </returns>
     </member>
     <member name="T:Aml.Engine.Services.ValidationTypeEnum">
       <summary>
-            Enum ValidationTypeEnum
+                Enumeration ValidationTypeEnum
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.IDValidation">
       <summary>
-            The identifier validation indicates ID related issues. like a double or missing ID or a wrong formatted ID.
-            The issues are repairable, if the ID is not referenced.
+                The identifier validation indicates ID related issues. like a double or missing ID or a wrong formatted ID.
+                The issues are repairable, if the ID is not referenced.
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.ClassPathValidation">
       <summary>
-            The class path validation indicates a double ClassPath or missing Path
+                The class path validation indicates a double ClassPath or missing Path
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.AttributePathValidation">
       <summary>
-            The attribute path validation indicates a double AttributePath or missing Path
+                The attribute path validation indicates a double AttributePath or missing Path
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.PathReferenceValidation">
       <summary>
-            The path reference validation indicates a missing or unresolved reference to a class
+                The path reference validation indicates a missing or unresolved reference to a class
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.NameValidation">
       <summary>
-            The name validation indicates a missing or not allowed name
+                The name validation indicates a missing or not allowed name
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.IDReferenceValidation">
       <summary>
-            The ID reference validation indicates a missing or unresolved reference to an object
-            with an ID
+                The ID reference validation indicates a missing or unresolved reference to an object
+                with an ID
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.AliasValidation">
       <summary>
-            The alias validation
+                The alias validation
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.MergableAliasReferenceValidation">
       <summary>
-            The validation result has constituted an alias in an external reference which is not merged
+                The validation result has constituted an alias in an external reference which is not merged
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.MissingAliasReferenceValidation">
       <summary>
-            The validation result has constituted a missing alias in an external reference
+                The validation result has constituted a missing alias in an external reference
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.FileReferenceValidation">
       <summary>
-            The file reference validation indicates a wrong FilePath in an external reference, which couldn't be resolved to an existing file
+                The file reference validation indicates a wrong FilePath in an external reference, which couldn't be resolved to an
+                existing file
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.RoleAttributeReferenceValidation">
       <summary>
-            The role attribute reference validation indicates a wrong reference to a role Attribute in a Mapping
+                The role attribute reference validation indicates a wrong reference to a role Attribute in a Mapping
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.RoleInterfaceReferenceValidation">
       <summary>
-            The role Interface reference validation indicates a wrong reference to a role Interface in a Mapping
+                The role Interface reference validation indicates a wrong reference to a role Interface in a Mapping
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.SystemUnitClassAttributeReferenceValidation">
       <summary>
-            The SystemUnitClass attribute reference validation indicates a wrong reference to a SystemUnitClass Attribute in a Mapping
+                The SystemUnitClass attribute reference validation indicates a wrong reference to a SystemUnitClass Attribute in a
+                Mapping
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.SystemUnitClassInterfaceReferenceValidation">
       <summary>
-            The SystemUnitClass Interface reference validation indicates a wrong reference to a SystemUnitClass Interface in a Mapping
+                The SystemUnitClass Interface reference validation indicates a wrong reference to a SystemUnitClass Interface in a
+                Mapping
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.CyclicDependency">
       <summary>
-            This Flag indicates a cyclic dependency between classes
+                This Flag indicates a cyclic dependency between classes
             </summary>
     </member>
     <member name="F:Aml.Engine.Services.ValidationTypeEnum.AutomationMLMetaDataValidation">
       <summary>
-            The automationML meta data validation indicates a couple of validation issues with metaData, as a missing schema name or writerHeader
+                The automationML meta data validation indicates a couple of validation issues with metaData, as a missing schema
+                name or writerHeader
             </summary>
     </member>
     <member name="T:Aml.Engine.Services.ValidatorService">
       <summary>
-            This service is defined for the validation of an AML document. Additionally the
-            service can also be used to repair specific invalid properties in a document.
+                This service is defined for the validation of an AML document. Additionally the
+                service can also be used to repair specific invalid properties in a document.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.ValidatorService.IDValidation(Aml.Engine.CAEX.CAEXObject,System.String)">
       <summary>
-            Validates the ID of a CAEX object.  IDs of CAEX objects shall be unique.  
+                Validates the ID of a CAEX object.  IDs of CAEX objects shall be unique.
             </summary>
-      <param name="caexObject">The caex object.</param>
-      <param name="ID">The ID, which should be assigned to the object. If no ID is defined, the uniqueness of the already
-            assigned ID is evaluated.</param>
+      <param name="caexObject">The CAEX object.</param>
+      <param name="ID">
+                The ID, which should be assigned to the object. If no ID is defined, the uniqueness of the already
+                assigned ID is evaluated.
+            </param>
       <returns>A value tuple, returning the validation result and a message</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidatorService.NameValidation(Aml.Engine.CAEX.CAEXObject,System.String)">
       <summary>
-            Validates a name of a CAEX object.  Names of CAEX classes or types (RoleClasses, InterfaceClasses, SystemUnitClasses and AttributeTypes), Attributes, 
-            Libraries and CAEX InstanceHierarchies shall be unique across its siblings or across all child elements of the same CAEX parent element over its life time. 
-            This shall assure that referencing a library, a class, a type or an attribute by its path delivers a unique result. 
+                Validates a name of a CAEX object.  Names of CAEX classes or types (RoleClasses, InterfaceClasses,
+                SystemUnitClasses and AttributeTypes), Attributes,
+                Libraries and CAEX InstanceHierarchies shall be unique across its siblings or across all child elements of the same
+                CAEX parent element over its life time.
+                This shall assure that referencing a library, a class, a type or an attribute by its path delivers a unique result.
             </summary>
-      <param name="caexObject">The caex object.</param>
+      <param name="caexObject">The CAEX object.</param>
       <param name="name">The name, which should be assigned to the object.</param>
       <returns>A value tuple, returning the validation result and a message</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidatorService.Register">
       <summary>
-            Registers a new validator service.
+                Registers a new validator service.
             </summary>
       <returns>The registered validator service.</returns>
     </member>
     <member name="M:Aml.Engine.Services.ValidatorService.Repair(Aml.Engine.Services.ValidationElement)">
       <summary>
-            Repairs the specified validated element.
+                Repairs the specified validated element.
             </summary>
       <param name="validation">The validated element.</param>
       <returns>
@@ -1498,35 +1643,70 @@
     </member>
     <member name="M:Aml.Engine.Services.ValidatorService.UnRegister">
       <summary>
-            Unregisters the validator service.
+                Unregisters the validator service.
             </summary>
     </member>
-    <member name="M:Aml.Engine.Services.ValidatorService.ValidateAliasReferences(Aml.Engine.CAEX.CAEXDocument)">
+    <member name="M:Aml.Engine.Services.ValidatorService.ValidateAliasReferences(Aml.Engine.CAEX.CAEXDocument,System.Boolean)">
       <summary>
-            Validates the alias references and returns the validation result describing possible repair options.  The
-            <see cref="T:Aml.Engine.Services.ValidationElement" /> provides detailed information about available Repair
-            Options and an additional Information Text.
+                Validates the alias references and returns the validation result describing possible repair options.  The
+                <see cref="T:Aml.Engine.Services.ValidationElement" /> provides detailed information about available Repair
+                Options and an additional Information Text.
             </summary>
-      <param name="doc">The CAEX document.</param>
+      <param name="document">The CAEX document.</param>
+      <param name="generateLongDescription">if set to <c>true</c> [generate long description].</param>
       <returns>
         <markup>
           <include item="SMCMissingTag">
             <parameter>returns</parameter>
-            <parameter>M:Aml.Engine.Services.ValidatorService.ValidateAliasReferences(Aml.Engine.CAEX.CAEXDocument)</parameter>
+            <parameter>M:Aml.Engine.Services.ValidatorService.ValidateAliasReferences(Aml.Engine.CAEX.CAEXDocument,System.Boolean)</parameter>
           </include>
         </markup>
       </returns>
     </member>
-    <member name="M:Aml.Engine.Services.ValidatorService.ValidateAll(Aml.Engine.CAEX.CAEXDocument)">
+    <member name="M:Aml.Engine.Services.ValidatorService.ValidateAll(Aml.Engine.CAEX.CAEXDocument,Aml.Engine.AmlObjects.AutomationMLContainer,System.Boolean)">
       <summary>
-            Get Validation Information for all elements in the specified document, which have validation issues. The
-            <see cref="T:Aml.Engine.Services.ValidationElement" /> provides detailed information about available Repair
-            Options and an additional Information Text.
+                Get Validation Information for all elements in the specified document, which have validation issues. The
+                <see cref="T:Aml.Engine.Services.Interfaces.IValidationResult" /> provides detailed information about available Repair
+                Options and an additional Information Text. This method should be used, if the Document is loaded from an
+                AutomationML container. The Validation service will check validity of external references which are packed
+                parts of the container.
             </summary>
-      <param name="doc">The CAEX document.</param>
+      <param name="document">The CAEX document.</param>
+      <param name="container">The AutomationML container, containing the document source.</param>
+      <param name="generateLongDescription">if set to <c>true</c> generate long description for each validation issue.</param>
       <returns>
-            An enumeration of validation information for CAEX objects. One CAEX object may have multiple
-            occurrences with different validation issues in this collection.
+                A collection of validation information for CAEX objects. One CAEX object may have multiple
+                occurrences with different validation issues in this collection.
+            </returns>
+    </member>
+    <member name="M:Aml.Engine.Services.ValidatorService.ValidateAll(Aml.Engine.CAEX.CAEXDocument,System.Boolean)">
+      <summary>
+                Get Validation Information for all elements in the specified document, which have validation issues. The
+                <see cref="T:Aml.Engine.Services.ValidationElement" /> provides detailed information about available Repair
+                Options and an additional Information Text.
+            </summary>
+      <param name="document">The CAEX document.</param>
+      <param name="generateLongDescription">if set to <c>true</c> [generate long description].</param>
+      <returns>
+                An enumeration of validation information for CAEX objects. One CAEX object may have multiple
+                occurrences with different validation issues in this collection.
+            </returns>
+    </member>
+    <member name="M:Aml.Engine.Services.ValidatorService.ValidateAllWithoutStrictID(Aml.Engine.CAEX.CAEXDocument,Aml.Engine.AmlObjects.AutomationMLContainer,System.Boolean)">
+      <summary>
+                Get Validation Information for all elements in the specified document, which have validation issues. The
+                <see cref="T:Aml.Engine.Services.ValidationElement" /> provides detailed information about available Repair
+                Options and an additional Information Text.
+            </summary>
+      <param name="document">The CAEX document.</param>
+      <param name="container">
+                If set, the associated parts, defined in the AutomationML container are used to validate
+                external references.
+            </param>
+      <param name="generateLongDescription">if set to <c>true</c> [generate long description].</param>
+      <returns>
+                An enumeration of validation information for CAEX objects. One CAEX object may have multiple
+                occurrences with different validation issues in this collection.
             </returns>
     </member>
   </members>
