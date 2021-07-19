@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Y7l07QwRYuTRc+9b/oDqX+V+95iy4Vth1Lqftbo3NcBDtQHwceHkq2FNc/ecBnL+jXojT4Ba6UqP2BUlpzNkZA==",
+  "dgSpecHash": "kSENHWO4jZAo+GiGueQSOpfQu6WqWkVk+Uzy53bgv0ZSq9CFkHddOlM0YbhGbxEE/n1uWVIzDokhNioWoDZhvQ==",
   "success": true,
-  "projectFilePath": "D:\\Daten\\inpro\\GitHub\\AMLEngine2.1\\Samples\\Samples\\Samples.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Daten\\Git\\AMLEngine2.1\\Samples\\Samples\\Samples.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\josef\\.nuget\\packages\\aml.engine\\1.6.0\\aml.engine.1.6.0.nupkg.sha512",
+    "C:\\Users\\josef\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\josef\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\josef\\.nuget\\packages\\system.io.packaging\\5.0.0\\system.io.packaging.5.0.0.nupkg.sha512",
+    "C:\\Users\\josef\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\josef\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

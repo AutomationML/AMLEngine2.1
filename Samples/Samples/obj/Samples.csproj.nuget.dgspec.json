@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Daten\\inpro\\GitHub\\AMLEngine2.1\\Samples\\Samples\\Samples.csproj": {}
+    "D:\\Daten\\Git\\AMLEngine2.1\\Samples\\Samples\\Samples.csproj": {}
   },
   "projects": {
-    "D:\\Daten\\inpro\\GitHub\\AMLEngine2.1\\Samples\\Samples\\Samples.csproj": {
+    "D:\\Daten\\Git\\AMLEngine2.1\\Samples\\Samples\\Samples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Daten\\inpro\\GitHub\\AMLEngine2.1\\Samples\\Samples\\Samples.csproj",
+        "projectUniqueName": "D:\\Daten\\Git\\AMLEngine2.1\\Samples\\Samples\\Samples.csproj",
         "projectName": "Samples",
-        "projectPath": "D:\\Daten\\inpro\\GitHub\\AMLEngine2.1\\Samples\\Samples\\Samples.csproj",
+        "projectPath": "D:\\Daten\\Git\\AMLEngine2.1\\Samples\\Samples\\Samples.csproj",
         "packagesPath": "C:\\Users\\josef\\.nuget\\packages\\",
-        "outputPath": "D:\\Daten\\inpro\\GitHub\\AMLEngine2.1\\Samples\\Samples\\obj\\",
+        "outputPath": "D:\\Daten\\Git\\AMLEngine2.1\\Samples\\Samples\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Aml.Engine": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
