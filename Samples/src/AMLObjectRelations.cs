@@ -1,4 +1,7 @@
-﻿using Aml.Engine.CAEX;
+﻿// Copyright (c) 2021 Josef Prinz. All rights reserved.
+// Licensed under the MIT License, see License.txt in the project root for license information.
+
+using Aml.Engine.CAEX;
 using Aml.Engine.Services;
 using System;
 using System.Collections.Generic;
