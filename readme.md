@@ -22,6 +22,7 @@ the new engine.
 
 ```c#
 using Aml.Engine.CAEX;
+using Aml.Engine.CAEX.Extensions;
 
 // create a new empty document
 var caexDocument = CAEXDocument.New_CAEXDocument();
