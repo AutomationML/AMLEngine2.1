@@ -4,11 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Remove="ElementAttribute.cs~RF370f92c.TMP" />
-  </ItemGroup>
-
+  
   <ItemGroup>
     <PackageReference Include="Aml.Engine" Version="1.6.1" />
   </ItemGroup>

@@ -8,7 +8,10 @@ using System.Diagnostics;
 
 namespace Samples
 {
-    internal static class ElementAttribute
+    /// <summary>
+    /// This class provides sample methods to create and insert attributes to aml objects
+    /// </summary>
+    internal static class AMLObjectAttribute
     {
         /// <summary>
         /// Adds an attribute to the aml object with a double value.

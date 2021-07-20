@@ -8,7 +8,10 @@ namespace Samples
     using Aml.Engine.CAEX.Extensions;
     using System.Linq;
 
-    internal static class ElementInterface
+    /// <summary>
+    /// This class provides sample methods to add interfaces to aml objects
+    /// </summary>
+    internal static class AMLObjectInterface
     {
         /// <summary>
         /// Adds an external interface to the aml object, using a standard interface class.
@@ -37,7 +40,7 @@ namespace Samples
             extInterface.Name = "connector2";
             
             // 3. Insert the instance
-            amlObject.ExternalInterface.Insert(extInterface);
+            amlObject.ExternalInterface.Insert(extInterface, false);
         }
 
 
@@ -50,8 +53,8 @@ namespace Samples
             // alternative a
             amlObject.ExternalInterface.Append("interfaceWithoutClass1");
 
-            // alternative b
-            amlObject.New_ExternalInterface("interfaceWithoutClass2");
+            // alternative b, append as last
+            amlObject.New_ExternalInterface("interfaceWithoutClass2", false);
         }
 
 
@@ -64,8 +67,9 @@ namespace Samples
             // create a copy from the first interface, it is ensured, that the interface ids are unique
             var copy = amlObject.ExternalInterface.First().Copy() as ExternalInterfaceType;
 
+            copy.Name = $"copied from {((CAEXObject)amlObject).Name}";
             // insert the copy
-            amlObject.ExternalInterface.Insert(copy);
+            amlObject.ExternalInterface.Insert(copy, false);
         }
     }
 }
