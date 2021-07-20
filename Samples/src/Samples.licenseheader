@@ -1,0 +1,4 @@
+﻿extensions: designer.cs generated.cs
+extensions: .cs .cpp .h
+// Copyright (c) 2021 Josef Prinz. All rights reserved.
+// Licensed under the MIT License, see License.txt in the project root for license information.
