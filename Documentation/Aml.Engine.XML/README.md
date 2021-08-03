@@ -1,6 +1,6 @@
 Aml.Engine.XML Namespace
 ========================
- 
+The Aml.Engine.XML Namespace defines basic classes to wrap native System.Linq.XML classes
 
 
 Classes

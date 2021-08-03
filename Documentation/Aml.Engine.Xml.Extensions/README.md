@@ -1,6 +1,6 @@
 Aml.Engine.Xml.Extensions Namespace
 ===================================
- 
+The Aml.Engine.Xml.Extensions Namespace defines extensions methods for the underlying Xml Elements and Xml Attributes of the CAEX objects. These methods could be applicable in specific use cases but could result in the creation of invalid AutomationML documents, if not applied correctly.
 
 
 Classes

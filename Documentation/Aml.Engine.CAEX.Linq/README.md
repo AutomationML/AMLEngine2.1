@@ -1,6 +1,6 @@
 Aml.Engine.CAEX.Linq Namespace
 ==============================
- 
+The Aml.Engine.CAEX.Linq Namespace provides classes and methods which allow to use System.Linq extenstion methods together with [CAEXSequence&lt;T>][1].
 
 
 Classes
@@ -8,9 +8,10 @@ Classes
 
                 | Class                      | Description                                                                     
 --------------- | -------------------------- | ------------------------------------------------------------------------------- 
-![Public class] | [CAEXSequenceExtension][1] | Extensions defined for ExternalInterface Sequence and RoleRequirements sequence 
+![Public class] | [CAEXSequenceExtension][2] | Extensions defined for ExternalInterface Sequence and RoleRequirements sequence 
 
-[1]: CAEXSequenceExtension/README.md
-[2]: https://www.automationml.org
-[3]: ../icons/logoShade.png
+[1]: ../Aml.Engine.CAEX/CAEXSequence_1/README.md
+[2]: CAEXSequenceExtension/README.md
+[3]: https://www.automationml.org
+[4]: ../icons/logoShade.png
 [Public class]: ../icons/pubclass.gif "Public class"

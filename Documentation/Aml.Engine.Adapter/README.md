@@ -1,6 +1,6 @@
 Aml.Engine.Adapter Namespace
 ============================
- 
+The Aml.Engine.Adapter Namespace provides classes and methods which support the migration of applications, based on the old AMLEngine to the new Aml.Engine, supporting CAEX 3.0 as well as CAEX 2.15.
 
 
 Classes

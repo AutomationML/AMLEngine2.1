@@ -1,6 +1,6 @@
 Aml.Engine.Services.Interfaces Namespace
 ========================================
- 
+The Aml.Engine.Services.Interfaces Namespace defines interfaces implemented by services. A Service provides advanced processing methods for AutomationML documents.
 
 
 Classes
