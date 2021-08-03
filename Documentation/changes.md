@@ -11,7 +11,7 @@ This topic contains the following sections:
 <li><a href="#mandatory-attribute-refbaseroleclasspath">Mandatory Attribute RefBaseRoleClassPath</a></li>
 <li><a href="#native-support-of-multiple-role-references">Native Support of multiple role references</a></li>
 <li><a href="#attributelibrary-and-attributefamiliytype-with-reference">AttributeLibrary and AttributeFamiliyType with reference</a></li>
-<li><a href="#xs:anytype-removed-and-replaced">xs:anyType removed and replaced</a></li>
+<li><a href="#xs-anytype-removed-and-replaced">xs:anyType removed and replaced</a></li>
 <li><a href="#native-support-of-nested-interfaces">Native support of nested interfaces</a></li>
 <li><a href="#superiorstandardversion">SuperiorStandardVersion</a></li>
 <li><a href="#sourcedocumentinformation">SourceDocumentInformation</a></li>
@@ -53,7 +53,7 @@ The _AttributeTypeLib_ is a new library type in CAEX 3.0. It contains _Attribute
 
 
 
-## xs:anyType removed and replaced
+## xs-anyType removed and replaced
 
 The _xs:anyType_ has been replaced with _xs:string_ as value type.
 
