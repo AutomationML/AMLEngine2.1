@@ -7,12 +7,12 @@ This topic contains the following sections:
 <li><a href="#validation-of-names-and-ids">Validation of Names and IDs</a></li>
 <li><a href="#see-also">See Also</a></li>
 </ul>
-To validate a document, a service, which implements the <a href="T_Aml_Engine_Services_Interfaces_IValidator_1">IValidator(RESULTTYPE)</a> interface has to be used. The Aml.Engine currently contains one implementation of this interface, the <a href="T_Aml_Engine_Services_ValidatorService">ValidatorService</a>. If validation issues are detected, also possible repair options are included in the validation result. See the <a href="T_Aml_Engine_Services_ValidationElement">ValidationElement</a> class, which information is included in the validation result.
+To validate a document, a service, which implements the [IValidator](../Documentation/Aml.Engine.Services.Interfaces/IValidator_1/README.md) interface has to be used. The Aml.Engine currently contains one implementation of this interface, the [ValidatorService](../Documentation/Aml.Engine.Services/ValidatorService/README.md). If validation issues are detected, also possible repair options are included in the validation result. See the [ValidationElement](../Documentation/Aml.Engine.Services/ValidationElement/README.md) class, which information is included in the validation result.
 
 ## Validating a document
 
 This example show, how a document can be validated and how the obtained result can be read using extension methods, defined in
-[ValidationResults](../Documentation/Aml.Engine.Service/ValidationResults.md)
+[ValidationResults](../Documentation/Aml.Engine.Services/ValidationResults/README.md)
 
 **Validate document**<br />
 ``` C#
