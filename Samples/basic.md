@@ -129,7 +129,11 @@ var relation = InternalLinkType.New_InternalLink (myIEA.ExternalInterface["a"], 
 Creation of class to class relations using AutomationML Base Classes.
 
 
-see also: <a href="T_Aml_Engine_CAEX_IClassWithBaseClassReference">IClassWithBaseClassReference</a>, <a href="P_Aml_Engine_CAEX_InterfaceFamilyType_BaseClass">BaseClass</a>, <a href="M_Aml_Engine_AmlObjects_AutomationMLInterfaceClassLibType_InterfaceClassLib">InterfaceClassLib</a>, <a href="M_Aml_Engine_AmlObjects_AutomationMLInterfaceClassLib_MakeAutomationMLBaseInterface">MakeAutomationMLBaseInterface</a>
+see also: 
+- [IClassWithBaseClassReference](..\Documentation\Aml.Engine.CAEX\IClassWithBaseClassReference\Readme.md)
+- [BaseClass](..\Documentation\Aml.Engine.CAEX\InterfaceFamilyType), 
+- [InterfaceClassLib](..\Documentation\Aml.Engine.AmlObjects\AutomationMLInterfaceClassLibType\Readme.md) 
+- [MakeAutomationMLBaseInterface](..\Documentation\Aml.Engine.AmlObjects\AutomationMLInterfaceClassLib\Readme.md)
 
 
 **C#**<br />
