@@ -1,6 +1,6 @@
 IUndoRedo.Undo Method
 =====================
-AutomationML 2.1 APIUndo of the last operation
+Undo of the last operation
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 ICAEXSequence.Prepend Method (ValueTuple&lt;String, Object>[])
 ==============================================================
-AutomationML 2.1 APICreates a new CAEX object and prepends it to already existing elements. The content of the new element can be defined using an array of tuples defining attribute names and their values.
+Creates a new CAEX object and prepends it to already existing elements. The content of the new element can be defined using an array of tuples defining attribute names and their values.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

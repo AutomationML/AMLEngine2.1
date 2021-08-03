@@ -1,6 +1,6 @@
 ValidationResults.UselessAlias Method
 =====================================
-AutomationML 2.1 APIGets the validation results for all elements with references to an Alias, where the ExternalReference has been merged into the document already.
+Gets the validation results for all elements with references to an Alias, where the ExternalReference has been merged into the document already.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

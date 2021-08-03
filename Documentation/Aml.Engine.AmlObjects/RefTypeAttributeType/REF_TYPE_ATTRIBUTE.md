@@ -1,6 +1,6 @@
 RefTypeAttributeType.REF_TYPE_ATTRIBUTE Field
 =============================================
-AutomationML 2.1 APIThe ref type attribute
+The ref type attribute
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

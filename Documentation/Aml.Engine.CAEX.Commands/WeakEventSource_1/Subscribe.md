@@ -1,6 +1,6 @@
 WeakEventSource&lt;TEventArgs>.Subscribe Method
 ===============================================
-AutomationML 2.1 APISubscribes the specified handler with this event source.
+Subscribes the specified handler with this event source.
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

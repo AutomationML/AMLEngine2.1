@@ -1,6 +1,6 @@
 Aml.Engine.CAEX Namespace
 =========================
-AutomationML 2.1 APIThe Aml.Engine.CAEX Namespace contains classes that support the generation, retrieval and analysis of CAEX Documents according to the CAEX standard. The classes currently support the CAEX Versions - CAEX 2.15 and CAEX 3.0. Classes and methods are designed to create schema conform documents. The basic XDocument is wrapped with the [CAEXDocument][1]. Direct access to the XDocument and direct manipulations of XElements by an application are not monitored by the AMLEngine. Schema conformance is only guaranteed if the API methods are used.
+The Aml.Engine.CAEX Namespace contains classes that support the generation, retrieval and analysis of CAEX Documents according to the CAEX standard. The classes currently support the CAEX Versions - CAEX 2.15 and CAEX 3.0. Classes and methods are designed to create schema conform documents. The basic XDocument is wrapped with the [CAEXDocument][1]. Direct access to the XDocument and direct manipulations of XElements by an application are not monitored by the AMLEngine. Schema conformance is only guaranteed if the API methods are used.
 
 
 Classes

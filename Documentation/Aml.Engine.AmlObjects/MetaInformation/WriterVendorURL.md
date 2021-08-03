@@ -1,6 +1,6 @@
 MetaInformation.WriterVendorURL Property
 ========================================
-AutomationML 2.1 APIthe web URL of the vendor - helps to get in contact to the vendor
+the web URL of the vendor - helps to get in contact to the vendor
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

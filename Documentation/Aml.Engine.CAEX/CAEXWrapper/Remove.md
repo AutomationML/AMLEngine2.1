@@ -1,6 +1,6 @@
 CAEXWrapper.Remove Method
 =========================
-AutomationML 2.1 APIRemoves this element. After that it is no longer assigned to a document and has no owner anymore.
+Removes this element. After that it is no longer assigned to a document and has no owner anymore.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXElementChangeEventArgs.CAEXDocument Property
 ================================================
-AutomationML 2.1 APIGets the CAEX document.
+Gets the CAEX document.
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

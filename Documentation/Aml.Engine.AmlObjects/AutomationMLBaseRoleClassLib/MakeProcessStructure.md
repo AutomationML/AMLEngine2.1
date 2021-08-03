@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.MakeProcessStructure Method
 ========================================================
-AutomationML 2.1 APIMakes the process structure.
+Makes the process structure.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

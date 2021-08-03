@@ -1,6 +1,6 @@
 LookupService.IsMaster Method (InternalElementType)
 ===================================================
-AutomationML 2.1 APIDetermines whether the specified InternalElement is referenced by other InternalElement objects called 'Mirrors'.
+Determines whether the specified InternalElement is referenced by other InternalElement objects called 'Mirrors'.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

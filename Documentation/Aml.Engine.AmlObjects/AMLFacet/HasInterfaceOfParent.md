@@ -1,6 +1,6 @@
 AMLFacet.HasInterfaceOfParent Method
 ====================================
-AutomationML 2.1 APIDetermines whether the AMLFacet contains this interface of the parent AML object.
+Determines whether the AMLFacet contains this interface of the parent AML object.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

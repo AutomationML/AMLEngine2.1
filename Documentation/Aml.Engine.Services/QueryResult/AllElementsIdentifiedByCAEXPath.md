@@ -1,6 +1,6 @@
 QueryResult.AllElementsIdentifiedByCAEXPath Method
 ==================================================
-AutomationML 2.1 APIGets all the elements which are identifiable by a CAEX path. Elements having the same path are grouped together. Use this method to validate the existence of not unique CAEXPaths.
+Gets all the elements which are identifiable by a CAEX path. Elements having the same path are grouped together. Use this method to validate the existence of not unique CAEXPaths.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

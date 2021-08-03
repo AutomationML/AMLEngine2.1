@@ -1,6 +1,6 @@
 InheritanceExtensions.IsDerivedFromRoleClass Method
 ===================================================
-AutomationML 2.1 APIDetermines whether the specified role reference defines an inheritance relation from the role, uniquely identifiable by the given role class path. The role class path may contain an alias.
+Determines whether the specified role reference defines an inheritance relation from the role, uniquely identifiable by the given role class path. The role class path may contain an alias.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

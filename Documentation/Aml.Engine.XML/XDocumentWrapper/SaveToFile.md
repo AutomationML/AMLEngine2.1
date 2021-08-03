@@ -1,6 +1,6 @@
 XDocumentWrapper.SaveToFile Method
 ==================================
-AutomationML 2.1 APISaves the document to the specified file path.
+Saves the document to the specified file path.
 
   **Namespace:**  [Aml.Engine.XML][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 XmlSchemaManager.IsRequiredAttribute Method
 ===========================================
-AutomationML 2.1 APIDetermines, if the Attribute with the provided name is a required attribute when added to the parent child combination.
+Determines, if the Attribute with the provided name is a required attribute when added to the parent child combination.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

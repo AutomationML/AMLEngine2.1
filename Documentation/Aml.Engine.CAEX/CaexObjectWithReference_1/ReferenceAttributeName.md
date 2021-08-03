@@ -1,6 +1,6 @@
 CaexObjectWithReference&lt;T>.ReferenceAttributeName Property
 =============================================================
-AutomationML 2.1 APIGets the Name of the attribute of the wrapped Xml-Element, which is used to define the reference to the base class.
+Gets the Name of the attribute of the wrapped Xml-Element, which is used to define the reference to the base class.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

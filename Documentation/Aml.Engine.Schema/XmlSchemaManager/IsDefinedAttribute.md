@@ -1,6 +1,6 @@
 XmlSchemaManager.IsDefinedAttribute Method
 ==========================================
-AutomationML 2.1 APIDetermines, if the Attribute with the provided is defined for this element
+Determines, if the Attribute with the provided is defined for this element
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

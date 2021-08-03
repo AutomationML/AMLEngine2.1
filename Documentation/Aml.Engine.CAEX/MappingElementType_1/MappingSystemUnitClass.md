@@ -1,6 +1,6 @@
 MappingElementType&lt;T>.MappingSystemUnitClass Property
 ========================================================
-AutomationML 2.1 APIGets the SystemUnitClass, which provides the [SystemUnitClassMappingElements][1].
+Gets the SystemUnitClass, which provides the [SystemUnitClassMappingElements][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

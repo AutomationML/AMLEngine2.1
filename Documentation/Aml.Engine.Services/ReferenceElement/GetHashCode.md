@@ -1,6 +1,6 @@
 ReferenceElement.GetHashCode Method
 ===================================
-AutomationML 2.1 APIReturns a hash code for this instance.
+Returns a hash code for this instance.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

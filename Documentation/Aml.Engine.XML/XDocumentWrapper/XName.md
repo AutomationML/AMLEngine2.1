@@ -1,6 +1,6 @@
 XDocumentWrapper.XName Method
 =============================
-AutomationML 2.1 APIGets the correct XName for the provided element name (Tag name).The XName contains a namespace, if the assigned schema requires a namespace. If no namespace is defined for the assigned schema, no namespace is added to the XName. The XName has to be used for all Xml.Linq queries, used to access objects with the element name.
+Gets the correct XName for the provided element name (Tag name).The XName contains a namespace, if the assigned schema requires a namespace. If no namespace is defined for the assigned schema, no namespace is added to the XName. The XName has to be used for all Xml.Linq queries, used to access objects with the element name.
 
   **Namespace:**  [Aml.Engine.XML][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 ValidationElement.LongDescription Property
 ==========================================
-AutomationML 2.1 APIGets a longer description containing more detailed information about a validation issue. To get this information, the informative mode shall be enabled when the validation is performed.
+Gets a longer description containing more detailed information about a validation issue. To get this information, the informative mode shall be enabled when the validation is performed.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

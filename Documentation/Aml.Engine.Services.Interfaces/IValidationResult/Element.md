@@ -1,6 +1,6 @@
 IValidationResult.Element Property
 ==================================
-AutomationML 2.1 APIGets the element which has been validated.
+Gets the element which has been validated.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

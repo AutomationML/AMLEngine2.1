@@ -1,6 +1,6 @@
 CAEXPathBuilder.IsReferenceWithAlias Method
 ===========================================
-AutomationML 2.1 APIDetermines whether the specified reference is defined with an alias separator.
+Determines whether the specified reference is defined with an alias separator.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AMLPort Class
 =============
-AutomationML 2.1 APIAn AML Port is an AML object that groups a number of interfaces. An informative overview about the Port concept including examples is provided in A.2.2. [IEC 62714-1:2014 8.2 (p.42)
+An AML Port is an AML object that groups a number of interfaces. An informative overview about the Port concept including examples is provided in A.2.2. [IEC 62714-1:2014 8.2 (p.42)
 
 
 Inheritance Hierarchy

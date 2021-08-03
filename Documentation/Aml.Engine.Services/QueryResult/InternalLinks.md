@@ -1,6 +1,6 @@
 QueryResult.InternalLinks Method
 ================================
-AutomationML 2.1 APIGets the InternalLink objects from the query result.
+Gets the InternalLink objects from the query result.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

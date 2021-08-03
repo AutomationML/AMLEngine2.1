@@ -1,6 +1,6 @@
 IQuery.AllExternalInterfacesOfType Method
 =========================================
-AutomationML 2.1 APIReturns all ExternalInterfaces in the provided document or optionally in the caexObject and descendants, which are instances of the Interface class defined by the provided *interfaceClassPath*.
+Returns all ExternalInterfaces in the provided document or optionally in the caexObject and descendants, which are instances of the Interface class defined by the provided *interfaceClassPath*.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

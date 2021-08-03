@@ -1,6 +1,6 @@
 SystemUnitClassTypeExtensions.Insert_InternalLink Method
 ========================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Inserts the specified InternalLink as the first InternalLink if nothing else if explicit defined.

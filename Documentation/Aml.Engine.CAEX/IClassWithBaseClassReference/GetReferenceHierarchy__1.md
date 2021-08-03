@@ -1,6 +1,6 @@
 IClassWithBaseClassReference.GetReferenceHierarchy&lt;T> Method
 ===============================================================
-AutomationML 2.1 APIGets the reference (inheritance relations) hierarchy including the actual class as a queue.
+Gets the reference (inheritance relations) hierarchy including the actual class as a queue.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AMLFacet.AssignedParentInterfaces Method
 ========================================
-AutomationML 2.1 APIGet the original parent interfaces which are already assigned with the AMLFacet
+Get the original parent interfaces which are already assigned with the AMLFacet
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

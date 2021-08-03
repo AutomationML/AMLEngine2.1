@@ -1,6 +1,6 @@
 IUndoRedo.Redo Method
 =====================
-AutomationML 2.1 APIRedo the most recently operation, which was undone
+Redo the most recently operation, which was undone
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

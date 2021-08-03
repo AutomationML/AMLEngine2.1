@@ -1,6 +1,6 @@
 IObjectWithAttributes Interface
 ===============================
-AutomationML 2.1 APIInterface that defines methods and properties that apply to all classes that are able to contain attributes.
+Interface that defines methods and properties that apply to all classes that are able to contain attributes.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

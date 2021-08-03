@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.IndexOf Method
 ==========================================
-AutomationML 2.1 APIGets the Index of the specified element in the sequence of elements with the same name
+Gets the Index of the specified element in the sequence of elements with the same name
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

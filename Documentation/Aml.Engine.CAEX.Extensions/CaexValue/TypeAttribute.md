@@ -1,6 +1,6 @@
 CaexValue.TypeAttribute Property
 ================================
-AutomationML 2.1 APIGets the Attribute, which defines the AttributeDataType.
+Gets the Attribute, which defines the AttributeDataType.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

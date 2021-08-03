@@ -1,6 +1,6 @@
 IAMLService Interface
 =====================
-AutomationML 2.1 APIThis is the basic interface for an AML service. This interface has to be implemented by any AML service
+This is the basic interface for an AML service. This interface has to be implemented by any AML service
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

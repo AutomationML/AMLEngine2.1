@@ -1,6 +1,6 @@
 CAEXBasicObjectExtensions.CreateCaexWrapper&lt;T> Method
 ========================================================
-AutomationML 2.1 APICreates a CAEX object of the given type from the specified XML element.
+Creates a CAEX object of the given type from the specified XML element.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

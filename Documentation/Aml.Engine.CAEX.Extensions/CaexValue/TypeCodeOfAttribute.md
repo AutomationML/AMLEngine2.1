@@ -1,6 +1,6 @@
 CaexValue.TypeCodeOfAttribute Property
 ======================================
-AutomationML 2.1 APIGets the .NET Type code which is converted from the XSD Schema attribute defined in the [TypeAttribute][1].
+Gets the .NET Type code which is converted from the XSD Schema attribute defined in the [TypeAttribute][1].
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

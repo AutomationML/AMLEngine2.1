@@ -1,6 +1,6 @@
 IExternalReferenceResolver Interface
 ====================================
-AutomationML 2.1 APIThis service interface defines methods to resolve external references of an AutomationML document. If references are resolved, queries will be able to find referenced objects. Be aware, that the resolved documents will not be merged and the references, containing an alias will not be changed.
+This service interface defines methods to resolve external references of an AutomationML document. If references are resolved, queries will be able to find referenced objects. Be aware, that the resolved documents will not be merged and the references, containing an alias will not be changed.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

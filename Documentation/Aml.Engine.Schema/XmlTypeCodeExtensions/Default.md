@@ -1,6 +1,6 @@
 XmlTypeCodeExtensions.Default Method
 ====================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Returns the default value for XmlTypeCode

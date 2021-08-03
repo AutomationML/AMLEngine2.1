@@ -1,6 +1,6 @@
 ExternalInterfaceSequence.ExternalInterfaceDescandantsAndSelf Method
 ====================================================================
-AutomationML 2.1 APIGets all external interfaces and the external interface descendants (The external interface tree).
+Gets all external interfaces and the external interface descendants (The external interface tree).
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

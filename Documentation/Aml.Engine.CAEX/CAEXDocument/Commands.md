@@ -1,6 +1,6 @@
 CAEXDocument.Commands Property
 ==============================
-AutomationML 2.1 APIGets the command instance for this document, which enables registration of change events
+Gets the command instance for this document, which enables registration of change events
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

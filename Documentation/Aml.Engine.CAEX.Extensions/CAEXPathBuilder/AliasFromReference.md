@@ -1,6 +1,6 @@
 CAEXPathBuilder.AliasFromReference Method
 =========================================
-AutomationML 2.1 APIGets the alias name from a reference. If the reference is not a reference with an alias, the return value is string.Empty.
+Gets the alias name from a reference. If the reference is not a reference with an alias, the return value is string.Empty.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

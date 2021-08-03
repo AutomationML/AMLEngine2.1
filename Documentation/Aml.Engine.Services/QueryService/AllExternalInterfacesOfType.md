@@ -1,6 +1,6 @@
 QueryService.AllExternalInterfacesOfType Method
 ===============================================
-AutomationML 2.1 APIReturns all ExternalInterfaces which are instances of the Interface class defined by the provided *interfaceClassPath*.
+Returns all ExternalInterfaces which are instances of the Interface class defined by the provided *interfaceClassPath*.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

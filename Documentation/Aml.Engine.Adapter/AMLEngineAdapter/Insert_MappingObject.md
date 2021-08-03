@@ -1,6 +1,6 @@
 AMLEngineAdapter.Insert_MappingObject Method (InternalElementType, MappingType)
 ===============================================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Adding a MappingObject element to this InternalElement. It is only allowed to add one MappingObject node.

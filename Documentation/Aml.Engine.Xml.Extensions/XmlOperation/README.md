@@ -1,6 +1,6 @@
 XmlOperation Class
 ==================
-AutomationML 2.1 APIThis class defines extension methods for XElements. These methods are useful, if any XElement should be queried for some CAEX properties without using a CAEXWrapper for this element.
+This class defines extension methods for XElements. These methods are useful, if any XElement should be queried for some CAEX properties without using a CAEXWrapper for this element.
 
 
 Inheritance Hierarchy

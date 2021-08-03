@@ -1,6 +1,6 @@
 AMLEngineAdapter.getReferencedSystemUnitClass Method
 ====================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Gets the referenced SystemUnitClass using the [RefBaseSystemUnitPath][1].

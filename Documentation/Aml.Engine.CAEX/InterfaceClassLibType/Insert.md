@@ -1,6 +1,6 @@
 InterfaceClassLibType.Insert Method (CAEXWrapper, Boolean)
 ==========================================================
-AutomationML 2.1 APIInserts the specified CAEX object in it's associated sequence. The InterfaceClassLib defines the [InterfaceClass][1] sequence.
+Inserts the specified CAEX object in it's associated sequence. The InterfaceClassLib defines the [InterfaceClass][1] sequence.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

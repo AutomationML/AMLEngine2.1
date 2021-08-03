@@ -1,6 +1,6 @@
 AmlObjectsExtensions.AMLFile Method
 ===================================
-AutomationML 2.1 APIConverts a CAEX file to an AML file.
+Converts a CAEX file to an AML file.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

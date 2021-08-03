@@ -1,6 +1,6 @@
 ObjectWithBaseClass.GetInheritedInterfacesAndDescendants Method
 ===============================================================
-AutomationML 2.1 APIGets a list of ExternalInterface objects that are inherited from base classes. The List will also contain the elements own ExternalInterface objects, if the parameter is set (default). If an ExternalInterface is overridden, only the last defined is contained. The result also contains the nested interface descendants of an external interface.
+Gets a list of ExternalInterface objects that are inherited from base classes. The List will also contain the elements own ExternalInterface objects, if the parameter is set (default). If an ExternalInterface is overridden, only the last defined is contained. The result also contains the nested interface descendants of an external interface.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

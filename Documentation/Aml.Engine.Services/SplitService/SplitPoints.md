@@ -1,6 +1,6 @@
 SplitService.SplitPoints Method
 ===============================
-AutomationML 2.1 APIGets a collection of all split points for the provided document.
+Gets a collection of all split points for the provided document.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

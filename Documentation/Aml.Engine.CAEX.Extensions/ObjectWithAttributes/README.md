@@ -1,6 +1,6 @@
 ObjectWithAttributes Class
 ==========================
-AutomationML 2.1 APIExtension methods for all objects with Attribute collections.
+Extension methods for all objects with Attribute collections.
 
 
 Inheritance Hierarchy

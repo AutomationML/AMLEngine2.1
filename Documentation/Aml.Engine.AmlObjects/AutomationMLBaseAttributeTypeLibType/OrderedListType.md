@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLibType.OrderedListType Property
 =============================================================
-AutomationML 2.1 APIGets the OrderedListType attribute type.
+Gets the OrderedListType attribute type.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

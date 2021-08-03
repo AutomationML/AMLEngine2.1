@@ -1,6 +1,6 @@
 AutomationMLContainer.RelinkPart Method
 =======================================
-AutomationML 2.1 APIChanges the uri of a package part. The part is removed and readded with the provided *newPartUri*. All relationships of the part are updated.
+Changes the uri of a package part. The part is removed and readded with the provided *newPartUri*. All relationships of the part are updated.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 FrameValues Constructor (Double, Double, Double, Double, Double, Double)
 ========================================================================
-AutomationML 2.1 APICreating a new FrameValues object with the given frame values
+Creating a new FrameValues object with the given frame values
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

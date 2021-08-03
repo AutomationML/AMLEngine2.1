@@ -1,6 +1,6 @@
 IQuery.AttributeMirrors Method
 ==============================
-AutomationML 2.1 APIReturns all Mirrors of the specified Attribute
+Returns all Mirrors of the specified Attribute
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

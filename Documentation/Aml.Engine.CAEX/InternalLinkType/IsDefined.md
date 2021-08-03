@@ -1,6 +1,6 @@
 InternalLinkType.IsDefined Property
 ===================================
-AutomationML 2.1 APIDetermines, if this InternalLink Instance has defined Interfaces.
+Determines, if this InternalLink Instance has defined Interfaces.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

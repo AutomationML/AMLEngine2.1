@@ -1,6 +1,6 @@
 XmlSchemaManager.Insert Method
 ==============================
-AutomationML 2.1 APIInserts an existing child node into the collection of child nodes of the specified parent node.
+Inserts an existing child node into the collection of child nodes of the specified parent node.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

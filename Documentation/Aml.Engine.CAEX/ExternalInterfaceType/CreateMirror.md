@@ -1,6 +1,6 @@
 ExternalInterfaceType.CreateMirror Method
 =========================================
-AutomationML 2.1 APICreates a new Mirror of this ExternalInterface, using this instance as the new master of the created mirror.
+Creates a new Mirror of this ExternalInterface, using this instance as the new master of the created mirror.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 ObjectWithAMLAttributes Constructor
 ===================================
-AutomationML 2.1 APICreates a wrapper to access specific AML Attributes for the provides object with attributes
+Creates a wrapper to access specific AML Attributes for the provides object with attributes
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

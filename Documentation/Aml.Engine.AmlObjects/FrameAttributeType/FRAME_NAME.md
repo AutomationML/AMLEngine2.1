@@ -1,6 +1,6 @@
 FrameAttributeType.FRAME_NAME Field
 ===================================
-AutomationML 2.1 APIThe frame name
+The frame name
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

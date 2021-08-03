@@ -1,6 +1,6 @@
 SchemaTransformationEventArgs.SourceDocument Property
 =====================================================
-AutomationML 2.1 APIGets the source document.
+Gets the source document.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

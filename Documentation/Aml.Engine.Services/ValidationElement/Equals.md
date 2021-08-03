@@ -1,6 +1,6 @@
 ValidationElement.Equals Method
 ===============================
-AutomationML 2.1 APIDetermines whether the specified object is identical to the current object.
+Determines whether the specified object is identical to the current object.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

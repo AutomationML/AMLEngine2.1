@@ -1,6 +1,6 @@
 FrameAttributeType.XAttribute Property
 ======================================
-AutomationML 2.1 APIThe X-attribute
+The X-attribute
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 IUniqueName Interface
 =====================
-AutomationML 2.1 APIThis interface defines methods for a unique name service. The names of CAEX objects in a sequence of elements should all be unique. If a unique name service is registered, the AML Engine will automatically call this service for a unique name generation whenever a new element is added to the sequence which requires a unique name for its members.
+This interface defines methods for a unique name service. The names of CAEX objects in a sequence of elements should all be unique. If a unique name service is registered, the AML Engine will automatically call this service for a unique name generation whenever a new element is added to the sequence which requires a unique name for its members.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

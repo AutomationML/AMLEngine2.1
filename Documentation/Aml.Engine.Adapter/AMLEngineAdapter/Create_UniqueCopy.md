@@ -1,6 +1,6 @@
 AMLEngineAdapter.Create_UniqueCopy Method
 =========================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Creates a copy with a unique ID.

@@ -1,6 +1,6 @@
 AMLSystemUnitClass Class
 ========================
-AutomationML 2.1 APIAn AMLSystemUnitClass is a SystemUnitClass which can contain [AMLPort][1] AML objects.
+An AMLSystemUnitClass is a SystemUnitClass which can contain [AMLPort][1] AML objects.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 AMLEngineAdapter.New_RequiredValue Method (OrdinalScaledTypeType, String)
 =========================================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Adding a new RequiredValue to this ordinal scaled constraint

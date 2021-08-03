@@ -1,6 +1,6 @@
 SystemUnitClassType.IEnumerable.GetEnumerator Method
 ====================================================
-AutomationML 2.1 APIEnumeration of contained InternalElement objects
+Enumeration of contained InternalElement objects
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

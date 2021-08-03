@@ -1,6 +1,6 @@
 ExternalInterfaceType.Master Property
 =====================================
-AutomationML 2.1 APIGets and sets the Master. A Master is only defined, if this instance is a [IsMirror][1]. Setting a master will transform this instance into a mirror.
+Gets and sets the Master. A Master is only defined, if this instance is a [IsMirror][1]. Setting a master will transform this instance into a mirror.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 ObjectWithAMLAttributes.CAEXBase Property
 =========================================
-AutomationML 2.1 APIThe CAEXWrapper of the base CAEXObject which contains the here defined AML attributes
+The CAEXWrapper of the base CAEXObject which contains the here defined AML attributes
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

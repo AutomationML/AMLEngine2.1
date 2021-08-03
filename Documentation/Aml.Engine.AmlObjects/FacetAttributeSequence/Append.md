@@ -1,6 +1,6 @@
 FacetAttributeSequence.Append Method
 ====================================
-AutomationML 2.1 APIThis method is not applicable if the owner is an [AMLFacet][1].
+This method is not applicable if the owner is an [AMLFacet][1].
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

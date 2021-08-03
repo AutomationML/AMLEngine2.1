@@ -1,6 +1,6 @@
 CAEXDocument.CAEXSchema Enumeration
 ===================================
-AutomationML 2.1 APIEnumeration type defining existing and supported CAEX Versions
+Enumeration type defining existing and supported CAEX Versions
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

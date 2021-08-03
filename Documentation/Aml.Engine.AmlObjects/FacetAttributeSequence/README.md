@@ -1,6 +1,6 @@
 FacetAttributeSequence Class
 ============================
-AutomationML 2.1 APIThis class defines a sequence of Attributes which belong to an [AMLFacet][1]. A Facet attribute shall be related to an existing attribute of the parent AML object, the identifier is the same name. Facet attributes which are not part of the parent object are not permitted. [IEC 62714-1:2014 8.3 (p.43)]
+This class defines a sequence of Attributes which belong to an [AMLFacet][1]. A Facet attribute shall be related to an existing attribute of the parent AML object, the identifier is the same name. Facet attributes which are not part of the parent object are not permitted. [IEC 62714-1:2014 8.3 (p.43)]
 
 
 Inheritance Hierarchy

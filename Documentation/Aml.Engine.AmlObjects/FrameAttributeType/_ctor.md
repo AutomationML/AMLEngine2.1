@@ -1,6 +1,6 @@
 FrameAttributeType Constructor (XElement)
 =========================================
-AutomationML 2.1 APICreates a wrapper for the specified Frame Attribute. It is not checked, if the provided attribute Node represents a valid Frame attribute.
+Creates a wrapper for the specified Frame Attribute. It is not checked, if the provided attribute Node represents a valid Frame attribute.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 OrdinalScaledTypeType.Item Property
 ===================================
-AutomationML 2.1 APIGets the type-decoded value and sets the type-encoded value for the value attribute with the defined name. The allowed Names are [ATTRIBUTE_CONSTRAINT_ORDINAL_VALUE_STRING][1] and [ATTRIBUTE_CONSTRAINT_ORDINAL_MIN_STRING][2] and [ATTRIBUTE_CONSTRAINT_ORDINAL_MAX_STRING][3].
+Gets the type-decoded value and sets the type-encoded value for the value attribute with the defined name. The allowed Names are [ATTRIBUTE_CONSTRAINT_ORDINAL_VALUE_STRING][1] and [ATTRIBUTE_CONSTRAINT_ORDINAL_MIN_STRING][2] and [ATTRIBUTE_CONSTRAINT_ORDINAL_MAX_STRING][3].
 
   **Namespace:**  [Aml.Engine.CAEX][4]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

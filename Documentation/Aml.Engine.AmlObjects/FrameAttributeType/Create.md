@@ -1,6 +1,6 @@
 FrameAttributeType.Create Method
 ================================
-AutomationML 2.1 APICreates a new FrameAttribute using the specified document.
+Creates a new FrameAttribute using the specified document.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

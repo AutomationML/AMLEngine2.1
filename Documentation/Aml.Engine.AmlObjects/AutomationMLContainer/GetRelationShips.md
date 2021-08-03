@@ -1,6 +1,6 @@
 AutomationMLContainer.GetRelationShips Method
 =============================================
-AutomationML 2.1 APIReturns an enumeration of all contained relationships of this instance.
+Returns an enumeration of all contained relationships of this instance.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

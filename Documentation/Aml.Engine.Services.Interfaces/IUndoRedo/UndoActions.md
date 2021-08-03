@@ -1,6 +1,6 @@
 IUndoRedo.UndoActions Method
 ============================
-AutomationML 2.1 APIGets all command names of the actions in the undo stack for the provided CAEX document.
+Gets all command names of the actions in the undo stack for the provided CAEX document.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

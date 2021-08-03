@@ -1,6 +1,6 @@
 UndoRedoService.ClearStacks Method
 ==================================
-AutomationML 2.1 APIClears the stacks, managed for the specified document.
+Clears the stacks, managed for the specified document.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

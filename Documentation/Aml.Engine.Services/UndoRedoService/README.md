@@ -1,6 +1,6 @@
 UndoRedoService Class
 =====================
-AutomationML 2.1 APIThis class implements an Undo and Redo service. When this service is registered, changes in an AutomationML document can be reversed. A sequence of actions can be grouped into transactions which than can be reversed within a single undo operation. The AMLEngine will locate a registered UndoRedoService and will notify the service of any changes, made to a document. The service manages individual stacks for each loaded CAEX document.
+This class implements an Undo and Redo service. When this service is registered, changes in an AutomationML document can be reversed. A sequence of actions can be grouped into transactions which than can be reversed within a single undo operation. The AMLEngine will locate a registered UndoRedoService and will notify the service of any changes, made to a document. The service manages individual stacks for each loaded CAEX document.
 
 
 Inheritance Hierarchy

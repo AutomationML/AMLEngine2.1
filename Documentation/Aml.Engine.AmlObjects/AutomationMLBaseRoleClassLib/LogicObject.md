@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.LogicObject Field
 ==============================================
-AutomationML 2.1 APIThe 'LogicObject' RoleClass path
+The 'LogicObject' RoleClass path
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

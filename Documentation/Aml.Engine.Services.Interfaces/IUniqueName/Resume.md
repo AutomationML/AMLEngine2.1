@@ -1,6 +1,6 @@
 IUniqueName.Resume Method
 =========================
-AutomationML 2.1 APIResumes activities of the unique name service.
+Resumes activities of the unique name service.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

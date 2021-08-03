@@ -1,6 +1,6 @@
 FrameValues.Z Property
 ======================
-AutomationML 2.1 APIGets or sets the z.
+Gets or sets the z.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

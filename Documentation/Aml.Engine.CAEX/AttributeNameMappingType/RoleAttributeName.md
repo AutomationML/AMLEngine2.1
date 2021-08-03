@@ -1,6 +1,6 @@
 AttributeNameMappingType.RoleAttributeName Property
 ===================================================
-AutomationML 2.1 APIGets and Sets the 'RoleAttributeName' for this instance
+Gets and Sets the 'RoleAttributeName' for this instance
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AMLSchemaManager2_15.Instance Property
 ======================================
-AutomationML 2.1 APIGets the static default SchemaManager Instance for the CAEX-Schema Version 2.15 used in AutomationML
+Gets the static default SchemaManager Instance for the CAEX-Schema Version 2.15 used in AutomationML
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

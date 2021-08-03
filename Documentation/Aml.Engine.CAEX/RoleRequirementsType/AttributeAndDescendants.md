@@ -1,6 +1,6 @@
 RoleRequirementsType.AttributeAndDescendants Property
 =====================================================
-AutomationML 2.1 APIGets the attributes and all nested attributes.
+Gets the attributes and all nested attributes.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

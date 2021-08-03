@@ -1,6 +1,6 @@
 IValidator Interface
 ====================
-AutomationML 2.1 APIThis service interface is defined for the validation of an AML document. Additionally the service can also be used to repair specific invalid properties in a document and to automatically updated references to objects if the source changes.
+This service interface is defined for the validation of an AML document. Additionally the service can also be used to repair specific invalid properties in a document and to automatically updated references to objects if the source changes.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

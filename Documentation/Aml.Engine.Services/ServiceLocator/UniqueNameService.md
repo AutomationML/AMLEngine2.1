@@ -1,6 +1,6 @@
 ServiceLocator.UniqueNameService Property
 =========================================
-AutomationML 2.1 APIGets the registered UniqueName-Service.The actual registered UniqueName-Service is located by the engine to automatically assign unique names to CAEXObjects if they are inserted into a sequence. If no UniqueName-Service is registered no names are generated.
+Gets the registered UniqueName-Service.The actual registered UniqueName-Service is located by the engine to automatically assign unique names to CAEXObjects if they are inserted into a sequence. If no UniqueName-Service is registered no names are generated.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

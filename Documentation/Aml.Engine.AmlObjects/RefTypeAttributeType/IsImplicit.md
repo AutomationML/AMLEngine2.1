@@ -1,6 +1,6 @@
 RefTypeAttributeType.IsImplicit Method
 ======================================
-AutomationML 2.1 APIDetermines whether this is an 'implicit' RefType
+Determines whether this is an 'implicit' RefType
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

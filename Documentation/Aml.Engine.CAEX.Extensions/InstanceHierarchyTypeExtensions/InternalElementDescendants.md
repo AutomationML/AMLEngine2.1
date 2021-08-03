@@ -1,6 +1,6 @@
 InstanceHierarchyTypeExtensions.InternalElementDescendants Method
 =================================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Gets all descendant [InternalElementType][1] Objects in the InstanceHierarchy. InternalElements on all levels are returned.

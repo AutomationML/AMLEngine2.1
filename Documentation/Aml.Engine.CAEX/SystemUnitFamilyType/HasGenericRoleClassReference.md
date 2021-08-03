@@ -1,6 +1,6 @@
 SystemUnitFamilyType.HasGenericRoleClassReference Method (RoleFamilyType)
 =========================================================================
-AutomationML 2.1 APIDetermines whether the specified RoleClass is more specific than any already associated RoleClass of this SystemUnitClass. This method doesn't check inherited RoleClass references from ancestors. If an assigned RoleClass is identical to the specified RoleClass, the result is `false`.
+Determines whether the specified RoleClass is more specific than any already associated RoleClass of this SystemUnitClass. This method doesn't check inherited RoleClass references from ancestors. If an assigned RoleClass is identical to the specified RoleClass, the result is `false`.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

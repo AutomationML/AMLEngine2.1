@@ -1,6 +1,6 @@
 MappingTypeExtensions.New_InterfaceIDMapping Method (MappingType, String, String)
 =================================================================================
-AutomationML 2.1 APIAdding a new InterfaceIDMapping to the defined Mapping object. An InterfaceIDMapping allows the definition of the mapping between Interfaces of corresponding RoleClasses and SystemUnitClasses.
+Adding a new InterfaceIDMapping to the defined Mapping object. An InterfaceIDMapping allows the definition of the mapping between Interfaces of corresponding RoleClasses and SystemUnitClasses.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

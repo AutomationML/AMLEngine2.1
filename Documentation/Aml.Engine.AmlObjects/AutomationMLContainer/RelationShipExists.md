@@ -1,6 +1,6 @@
 AutomationMLContainer.RelationShipExists Method
 ===============================================
-AutomationML 2.1 APIDetermines, if the specified relationship type exists.
+Determines, if the specified relationship type exists.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

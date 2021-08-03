@@ -1,6 +1,6 @@
 ObjectWithBaseClass.ReferencedClassName Method (InternalElementType)
 ====================================================================
-AutomationML 2.1 APIName of the referenced SystemUnitClass without path information.
+Name of the referenced SystemUnitClass without path information.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

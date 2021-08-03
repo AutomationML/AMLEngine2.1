@@ -1,6 +1,6 @@
 RoleRequirementsType.New_MappingObject Method
 =============================================
-AutomationML 2.1 APIAdding a new MappingObject element to this RoleRequirements object.
+Adding a new MappingObject element to this RoleRequirements object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

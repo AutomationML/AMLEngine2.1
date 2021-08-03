@@ -1,6 +1,6 @@
 FrameValues Class
 =================
-AutomationML 2.1 APIA frame holds position information of an object. The object position is defined by values for x, y and z axis as well as rotation values rx,ry and rz in degree, for the x, y and z axis.
+A frame holds position information of an object. The object position is defined by values for x, y and z axis as well as rotation values rx,ry and rz in degree, for the x, y and z axis.
 
 
 Inheritance Hierarchy

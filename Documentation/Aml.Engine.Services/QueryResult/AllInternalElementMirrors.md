@@ -1,6 +1,6 @@
 QueryResult.AllInternalElementMirrors Method
 ============================================
-AutomationML 2.1 APIGets all InternalElement objects from the document which are mirrors.
+Gets all InternalElement objects from the document which are mirrors.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

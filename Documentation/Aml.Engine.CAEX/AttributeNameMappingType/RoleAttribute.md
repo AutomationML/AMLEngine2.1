@@ -1,6 +1,6 @@
 AttributeNameMappingType.RoleAttribute Property
 ===============================================
-AutomationML 2.1 APIGets the RoleClass element which can be identified with the [RoleAttributeName][1] or sets the [RoleAttributeName][1] retrieved from the provided value.
+Gets the RoleClass element which can be identified with the [RoleAttributeName][1] or sets the [RoleAttributeName][1] retrieved from the provided value.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

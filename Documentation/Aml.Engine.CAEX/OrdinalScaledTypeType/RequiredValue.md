@@ -1,6 +1,6 @@
 OrdinalScaledTypeType.RequiredValue Property
 ============================================
-AutomationML 2.1 APIGets and sets the required value for this ordinal scaled attribute constraint.
+Gets and sets the required value for this ordinal scaled attribute constraint.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

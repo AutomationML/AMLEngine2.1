@@ -1,6 +1,6 @@
 XmlSchemaElementInfo.WithoutChoice Property
 ===========================================
-AutomationML 2.1 APIGets the names of all elements in this instance which don't provide choices
+Gets the names of all elements in this instance which don't provide choices
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 InternalLinkType Class
 ======================
-AutomationML 2.1 APIThis Class is a wrapper for the CAEXElement 'InternalLink' that defines instance to instance relations using ExternalInterfaces to relate InternalElement- and SystemUnitClass-Objects.
+This Class is a wrapper for the CAEXElement 'InternalLink' that defines instance to instance relations using ExternalInterfaces to relate InternalElement- and SystemUnitClass-Objects.
 
 
 Inheritance Hierarchy

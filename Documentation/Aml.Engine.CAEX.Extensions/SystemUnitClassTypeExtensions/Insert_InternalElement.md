@@ -1,6 +1,6 @@
 SystemUnitClassTypeExtensions.Insert_InternalElement Method
 ===========================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Inserting an InternalElement to the InternalElement-Collection of the *objectWithInternalElements*.

@@ -1,6 +1,6 @@
 UndoRedoService.LastModificationDate Method
 ===========================================
-AutomationML 2.1 APIGets the date of the most recently executed command for the specified document.
+Gets the date of the most recently executed command for the specified document.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

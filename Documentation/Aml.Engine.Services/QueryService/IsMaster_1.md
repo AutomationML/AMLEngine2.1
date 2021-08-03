@@ -1,6 +1,6 @@
 QueryService.IsMaster Method (ExternalInterfaceType)
 ====================================================
-AutomationML 2.1 APIDetermines whether the specified ExternalInterface is referenced by other ExternalInterface objects called 'Mirrors'.
+Determines whether the specified ExternalInterface is referenced by other ExternalInterface objects called 'Mirrors'.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

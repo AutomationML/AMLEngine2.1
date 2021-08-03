@@ -1,6 +1,6 @@
 AttributeTypeType.DefaultValue Property
 =======================================
-AutomationML 2.1 APIGets and sets the DefaultValue element of this Attribute object. Use the property [DefaultAttributeValue][1], to get or set the type encoded default value according to the Attribute Data Type.
+Gets and sets the DefaultValue element of this Attribute object. Use the property [DefaultAttributeValue][1], to get or set the type encoded default value according to the Attribute Data Type.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

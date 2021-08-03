@@ -1,6 +1,6 @@
 CAEXWrapper.CAEXParent Property
 ===============================
-AutomationML 2.1 APIGets the CAEXParent of this instance if it exists.
+Gets the CAEXParent of this instance if it exists.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLib.AssociatedFacet Field
 ======================================================
-AutomationML 2.1 APIThe 'AssociatedFacet' AttributeType path
+The 'AssociatedFacet' AttributeType path
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

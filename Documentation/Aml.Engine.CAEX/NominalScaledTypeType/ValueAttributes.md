@@ -1,6 +1,6 @@
 NominalScaledTypeType.ValueAttributes Property
 ==============================================
-AutomationML 2.1 APIGets a list of [CaexValue][1] corresponding to the associated nominal values of this instance.
+Gets a list of [CaexValue][1] corresponding to the associated nominal values of this instance.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

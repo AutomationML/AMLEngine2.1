@@ -1,6 +1,6 @@
 IMapping Interface
 ==================
-AutomationML 2.1 APIThis interface is implemented by the CAEX elements, which are possible children of the [MappingType][1].
+This interface is implemented by the CAEX elements, which are possible children of the [MappingType][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

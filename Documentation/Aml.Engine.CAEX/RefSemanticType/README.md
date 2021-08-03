@@ -1,6 +1,6 @@
 RefSemanticType Class
 =====================
-AutomationML 2.1 APIThis class is a CAEXWrapper for the CAEX element 'RefSemantic' used in an [AttributeType][1].
+This class is a CAEXWrapper for the CAEX element 'RefSemantic' used in an [AttributeType][1].
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 InstanceHierarchyType.Constructor Property
 ==========================================
-AutomationML 2.1 APIThe constructor function for the [InstanceHierarchyType][1].
+The constructor function for the [InstanceHierarchyType][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

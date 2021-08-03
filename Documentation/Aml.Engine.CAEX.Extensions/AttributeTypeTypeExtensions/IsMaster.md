@@ -1,6 +1,6 @@
 AttributeTypeTypeExtensions.IsMaster Method
 ===========================================
-AutomationML 2.1 APIDetermines whether the specified Attribute is referenced by other Attribute objects called 'Mirrors'.
+Determines whether the specified Attribute is referenced by other Attribute objects called 'Mirrors'.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

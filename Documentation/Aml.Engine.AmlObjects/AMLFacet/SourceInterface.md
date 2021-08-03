@@ -1,6 +1,6 @@
 AMLFacet.SourceInterface Method
 ===============================
-AutomationML 2.1 APIGets the original ExternalInterface from the [AssignedParentInterfaces()][1] which is related to this Facet Interface.
+Gets the original ExternalInterface from the [AssignedParentInterfaces()][1] which is related to this Facet Interface.
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

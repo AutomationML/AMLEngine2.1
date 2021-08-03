@@ -1,6 +1,6 @@
 XmlSchemaElementInfo.SchemaElement Property
 ===========================================
-AutomationML 2.1 APIGets the defining schema element for this instance
+Gets the defining schema element for this instance
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AutomationMLContainer.AddColladaSchema Method (Stream, Uri)
 ===========================================================
-AutomationML 2.1 APIAdds a COLLADA schema part from the stream resource to the package and creates a package - part relationship to the package using [ColladaSchema][1].
+Adds a COLLADA schema part from the stream resource to the package and creates a package - part relationship to the package using [ColladaSchema][1].
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

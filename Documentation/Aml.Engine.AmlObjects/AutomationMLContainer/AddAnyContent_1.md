@@ -1,6 +1,6 @@
 AutomationMLContainer.AddAnyContent Method (PackagePart, String, Uri, String, Boolean)
 ======================================================================================
-AutomationML 2.1 APIAdds any content to the package creating relationships to the package and to the part, containing the root document using the relationship type [AnyContent][1].
+Adds any content to the package creating relationships to the package and to the part, containing the root document using the relationship type [AnyContent][1].
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

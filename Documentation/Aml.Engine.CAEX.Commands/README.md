@@ -1,6 +1,6 @@
 Aml.Engine.CAEX.Commands Namespace
 ==================================
-AutomationML 2.1 APIThe Aml.Engine.CAEX.Commands Namespace contains different commands that are provided to add, delete or change elements in a CAEX document. The classes support the implementation of Undo Redo using the command pattern with methods for command execution and reverse execution. If an Undo Redo service is registered, it will be located by the commands and used to push commands on the Undo Redo stack.
+The Aml.Engine.CAEX.Commands Namespace contains different commands that are provided to add, delete or change elements in a CAEX document. The classes support the implementation of Undo Redo using the command pattern with methods for command execution and reverse execution. If an Undo Redo service is registered, it will be located by the commands and used to push commands on the Undo Redo stack.
 
 
 Classes

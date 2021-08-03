@@ -1,6 +1,6 @@
 CAEXPathBuilder.PathNameArray Method
 ====================================
-AutomationML 2.1 APIReturns the Path Part object names of a CAEX Path. If any object name contains a path separator character the path part is enclosed in square brackets '[', ']'. The square brackets are removed from the object name in the returned result (default behaviour). If keepPathPartBrackets is set to true, square brackets are not removed.
+Returns the Path Part object names of a CAEX Path. If any object name contains a path separator character the path part is enclosed in square brackets '[', ']'. The square brackets are removed from the object name in the returned result (default behaviour). If keepPathPartBrackets is set to true, square brackets are not removed.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

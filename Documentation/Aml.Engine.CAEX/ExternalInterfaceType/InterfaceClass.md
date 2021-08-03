@@ -1,6 +1,6 @@
 ExternalInterfaceType.InterfaceClass Property
 =============================================
-AutomationML 2.1 APIGets or sets the references interface class.
+Gets or sets the references interface class.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

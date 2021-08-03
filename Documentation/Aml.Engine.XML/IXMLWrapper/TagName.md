@@ -1,6 +1,6 @@
 IXMLWrapper.TagName Property
 ============================
-AutomationML 2.1 APIGets the Schema Tag name of this instance.
+Gets the Schema Tag name of this instance.
 
   **Namespace:**  [Aml.Engine.XML][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

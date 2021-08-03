@@ -1,6 +1,6 @@
 AttributeFamilyType Class
 =========================
-AutomationML 2.1 APIThis class is a wrapper for the CAEX element 'AttributeType' which defines base structures for attribute type definitions. The AttributeType allows the creation of AttributeType trees. AttributeTypes are organized in AttributeType libraries, which can be processed with the [AttributeTypeLibType][1]. This class supports direct enumeration of the AttributeType's children in the AttributeType tree.
+This class is a wrapper for the CAEX element 'AttributeType' which defines base structures for attribute type definitions. The AttributeType allows the creation of AttributeType trees. AttributeTypes are organized in AttributeType libraries, which can be processed with the [AttributeTypeLibType][1]. This class supports direct enumeration of the AttributeType's children in the AttributeType tree.
 
 
 Inheritance Hierarchy

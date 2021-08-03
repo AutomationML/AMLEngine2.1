@@ -1,6 +1,6 @@
 ExternalReferenceResolver.ResolvedDocuments Method
 ==================================================
-AutomationML 2.1 APIGets all already resolved externals for the provided CAEXDocument containing ExternalReference objects
+Gets all already resolved externals for the provided CAEXDocument containing ExternalReference objects
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

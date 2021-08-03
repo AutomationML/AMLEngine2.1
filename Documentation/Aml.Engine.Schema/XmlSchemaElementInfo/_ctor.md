@@ -1,6 +1,6 @@
 XmlSchemaElementInfo Constructor
 ================================
-AutomationML 2.1 APIcreates an instance for the defines schema element
+creates an instance for the defines schema element
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

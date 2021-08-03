@@ -1,6 +1,6 @@
 CAEXElementChangeMode Enumeration
 =================================
-AutomationML 2.1 APIThis enum defines possible changes of a CAEX object. The changes are notified in a **ChangedEvent** or a **ChangingEvent**.
+This enum defines possible changes of a CAEX object. The changes are notified in a **ChangedEvent** or a **ChangingEvent**.
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

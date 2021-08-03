@@ -1,6 +1,6 @@
 RoleRequirementsType.QualifiedExternalInterfaces Property
 =========================================================
-AutomationML 2.1 APIGets the collection of CAEX External Interfaces from the [ExternalInterface][1] which are qualified with the name of a SupportedRoleClass. This method is valid for documents based on CAEX 2.15 only. The qualification of ExternalInterfaces is a feature to assign multiple roles to an InternalElement and apply a mapping to the Interface objects.
+Gets the collection of CAEX External Interfaces from the [ExternalInterface][1] which are qualified with the name of a SupportedRoleClass. This method is valid for documents based on CAEX 2.15 only. The qualification of ExternalInterfaces is a feature to assign multiple roles to an InternalElement and apply a mapping to the Interface objects.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

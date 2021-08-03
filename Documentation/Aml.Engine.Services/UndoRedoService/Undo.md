@@ -1,6 +1,6 @@
 UndoRedoService.Undo Method
 ===========================
-AutomationML 2.1 APIReverses the last action of the defined document.
+Reverses the last action of the defined document.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

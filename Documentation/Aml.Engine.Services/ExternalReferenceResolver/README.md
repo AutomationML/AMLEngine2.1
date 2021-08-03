@@ -1,6 +1,6 @@
 ExternalReferenceResolver Class
 ===============================
-AutomationML 2.1 APIThis class implements the [IExternalReferenceResolver][1] service interface. With this service it is possible to access CAEX objects which are outsourced into external documents and referenced using alias names. Normally the service is located by other services like query services. They can call this service to resolve an external reference if an alias is part of a CAEX path in any query.
+This class implements the [IExternalReferenceResolver][1] service interface. With this service it is possible to access CAEX objects which are outsourced into external documents and referenced using alias names. Normally the service is located by other services like query services. They can call this service to resolve an external reference if an alias is part of a CAEX path in any query.
 
 
 Inheritance Hierarchy

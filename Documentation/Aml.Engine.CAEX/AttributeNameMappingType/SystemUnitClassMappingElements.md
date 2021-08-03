@@ -1,6 +1,6 @@
 AttributeNameMappingType.SystemUnitClassMappingElements Property
 ================================================================
-AutomationML 2.1 APIGets the collection of possible mapping identifiers for this AttributeNameMappingType for elements of the mapped SystemUnitClass. The Collection contains all attributes (including inherited attributes) of the SystemUnitClass and also the attributes of the ExternalInterfaces (including inherited external interfaces) of the SystemUnitClass. The Attribute Identifiers are the unique CAEXPath's of the attributes relative to the SystemUnitClass.
+Gets the collection of possible mapping identifiers for this AttributeNameMappingType for elements of the mapped SystemUnitClass. The Collection contains all attributes (including inherited attributes) of the SystemUnitClass and also the attributes of the ExternalInterfaces (including inherited external interfaces) of the SystemUnitClass. The Attribute Identifiers are the unique CAEXPath's of the attributes relative to the SystemUnitClass.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

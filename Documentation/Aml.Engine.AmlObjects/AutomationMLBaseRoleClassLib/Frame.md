@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.Frame Field
 ========================================
-AutomationML 2.1 APIThe 'Frame' RoleClass path
+The 'Frame' RoleClass path
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

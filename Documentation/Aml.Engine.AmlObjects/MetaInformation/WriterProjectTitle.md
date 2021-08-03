@@ -1,6 +1,6 @@
 MetaInformation.WriterProjectTitle Property
 ===========================================
-AutomationML 2.1 APIname of the project that contains the source engineering data
+name of the project that contains the source engineering data
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

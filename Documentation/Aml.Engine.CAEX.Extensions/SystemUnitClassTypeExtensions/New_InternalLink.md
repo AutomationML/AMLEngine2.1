@@ -1,6 +1,6 @@
 SystemUnitClassTypeExtensions.New_InternalLink Method
 =====================================================
-AutomationML 2.1 APIInserts a new InternalLink as the first InternalLink if nothing else if explicit defined.
+Inserts a new InternalLink as the first InternalLink if nothing else if explicit defined.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

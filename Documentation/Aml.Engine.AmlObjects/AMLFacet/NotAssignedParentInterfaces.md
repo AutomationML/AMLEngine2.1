@@ -1,6 +1,6 @@
 AMLFacet.NotAssignedParentInterfaces Method
 ===========================================
-AutomationML 2.1 APIGet the parent interfaces which are yet not assigned with the AMLFacet
+Get the parent interfaces which are yet not assigned with the AMLFacet
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

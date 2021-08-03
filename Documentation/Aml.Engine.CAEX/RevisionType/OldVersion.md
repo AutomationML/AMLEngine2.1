@@ -1,6 +1,6 @@
 RevisionType.OldVersion Property
 ================================
-AutomationML 2.1 APIGets or sets the old version.
+Gets or sets the old version.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

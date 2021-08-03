@@ -1,6 +1,6 @@
 ExternalDataReference.ExternalDataReferenceInterfaceClass Method (InterfaceClassLibType)
 ========================================================================================
-AutomationML 2.1 APIGets the ExternalDataReference InterfaceClass from the AutomationMLBPRInterfaceClassLib.
+Gets the ExternalDataReference InterfaceClass from the AutomationMLBPRInterfaceClassLib.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 ValidatorService Class
 ======================
-AutomationML 2.1 APIThis service is defined for the validation of an AML document. Additionally the service can also be used to repair specific invalid properties in a document.
+This service is defined for the validation of an AML document. Additionally the service can also be used to repair specific invalid properties in a document.
 
 
 Inheritance Hierarchy

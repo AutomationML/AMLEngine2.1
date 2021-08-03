@@ -1,6 +1,6 @@
 ICAEXCommand.DisplayName Property
 =================================
-AutomationML 2.1 APIGets the display name.
+Gets the display name.
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

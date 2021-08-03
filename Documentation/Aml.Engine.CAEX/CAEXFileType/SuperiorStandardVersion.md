@@ -1,6 +1,6 @@
 CAEXFileType.SuperiorStandardVersion Property
 =============================================
-AutomationML 2.1 APIGets the collection of SuperiorStandardVersion objects contained in the CAEXFile. The value of the SuperiorStandardVersion object is defined as a string.
+Gets the collection of SuperiorStandardVersion objects contained in the CAEXFile. The value of the SuperiorStandardVersion object is defined as a string.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

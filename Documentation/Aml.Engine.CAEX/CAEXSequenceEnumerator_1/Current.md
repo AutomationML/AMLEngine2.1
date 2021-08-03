@@ -1,6 +1,6 @@
 CAEXSequenceEnumerator&lt;T>.Current Property
 =============================================
-AutomationML 2.1 APIGets the item in the collection at the current position of the enumerator.
+Gets the item in the collection at the current position of the enumerator.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 MappingElementType&lt;T>.RoleClassMappingElements Method
 ========================================================
-AutomationML 2.1 APIGets the collection of all possible elements and their mapping identifiers of the mapped RoleClass and its ancestors in the inheritance tree for this mapping element. The mapping identifier uniquely identifies the mapped CAEX object. The syntax of the identifier is defined by the derived mapping element types and is build from the CAEX path of the object.
+Gets the collection of all possible elements and their mapping identifiers of the mapped RoleClass and its ancestors in the inheritance tree for this mapping element. The mapping identifier uniquely identifies the mapped CAEX object. The syntax of the identifier is defined by the derived mapping element types and is build from the CAEX path of the object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

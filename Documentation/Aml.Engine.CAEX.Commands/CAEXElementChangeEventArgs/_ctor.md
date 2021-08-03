@@ -1,6 +1,6 @@
 CAEXElementChangeEventArgs Constructor (XElement, XElement, CAEXDocument, CAEXElementChangeMode)
 ================================================================================================
-AutomationML 2.1 APIConstructs arguments for an element changing event
+Constructs arguments for an element changing event
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 RefURIAttributeType.REF_URI_ATTRIBUTE Field
 ===========================================
-AutomationML 2.1 APIThe ref Uri attribute
+The ref Uri attribute
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

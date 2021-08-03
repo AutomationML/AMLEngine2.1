@@ -1,6 +1,6 @@
 CAEXSequenceOfCAEXObjects&lt;T>.Item Property (String)
 ======================================================
-AutomationML 2.1 APIGets the first CAEX object with this name from the sequence of elements.
+Gets the first CAEX object with this name from the sequence of elements.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

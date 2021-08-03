@@ -1,6 +1,6 @@
 AMLEngineAdapter.getReferencedGUID Method
 =========================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Parsing a string of form GUID:Interface and returning the GUID

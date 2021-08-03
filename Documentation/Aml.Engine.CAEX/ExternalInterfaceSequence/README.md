@@ -1,6 +1,6 @@
 ExternalInterfaceSequence Class
 ===============================
-AutomationML 2.1 APIThis class defines a sequence of CAEX 'ExternalInterface' elements. A sequence of ExternalInterfaces can be associated to each class, which implements the [IObjectWithExternalInterface][1] interface.
+This class defines a sequence of CAEX 'ExternalInterface' elements. A sequence of ExternalInterfaces can be associated to each class, which implements the [IObjectWithExternalInterface][1] interface.
 
 
 Inheritance Hierarchy

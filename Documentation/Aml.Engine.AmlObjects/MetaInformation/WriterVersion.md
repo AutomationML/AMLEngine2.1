@@ -1,6 +1,6 @@
 MetaInformation.WriterVersion Property
 ======================================
-AutomationML 2.1 APIversion of the writer tool, e.g. "3.4"
+version of the writer tool, e.g. "3.4"
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

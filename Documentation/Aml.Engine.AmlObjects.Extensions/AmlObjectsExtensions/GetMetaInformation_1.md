@@ -1,6 +1,6 @@
 AmlObjectsExtensions.GetMetaInformation Method (CAEXFileType, String)
 =====================================================================
-AutomationML 2.1 APIThis function returns the MetaInformation corresponding to the writerID, otherwise null.
+This function returns the MetaInformation corresponding to the writerID, otherwise null.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

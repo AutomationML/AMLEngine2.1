@@ -1,6 +1,6 @@
 AMLEngineAdapter.Name Method
 ============================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Get the Name of the specified object.

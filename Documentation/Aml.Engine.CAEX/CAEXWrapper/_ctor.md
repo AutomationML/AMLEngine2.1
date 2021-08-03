@@ -1,6 +1,6 @@
 CAEXWrapper Constructor
 =======================
-AutomationML 2.1 APIA new CAEXWrapper instance is constructed to wrap the provided XML element.
+A new CAEXWrapper instance is constructed to wrap the provided XML element.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

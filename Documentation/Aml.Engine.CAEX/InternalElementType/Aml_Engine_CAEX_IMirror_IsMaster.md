@@ -1,6 +1,6 @@
 InternalElementType.IMirror.IsMaster Property
 =============================================
-AutomationML 2.1 APIGets a value indicating whether this instance is a master.
+Gets a value indicating whether this instance is a master.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

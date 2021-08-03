@@ -1,6 +1,6 @@
 CAEXFileTypeExtensions.Insert_RoleClassLibHierarchy Method
 ==========================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Insert a RoleClassLib to this CAEX file as the last RoleClassLib.

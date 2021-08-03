@@ -1,6 +1,6 @@
 AutomationMLInterfaceClassLibType.InterfaceClassLib Method
 ==========================================================
-AutomationML 2.1 APIGets the standard AutomationMLInterfaceClassLib from the provided document. If the document doesn't contain the required library it will be automatically imported from an external resource.
+Gets the standard AutomationMLInterfaceClassLib from the provided document. If the document doesn't contain the required library it will be automatically imported from an external resource.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

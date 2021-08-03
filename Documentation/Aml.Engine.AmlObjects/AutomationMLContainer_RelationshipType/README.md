@@ -1,6 +1,6 @@
 AutomationMLContainer.RelationshipType Class
 ============================================
-AutomationML 2.1 APIClass RelationshipType describes the distinguished package part relationship types. This class cannot be inherited.
+Class RelationshipType describes the distinguished package part relationship types. This class cannot be inherited.
 
 
 Inheritance Hierarchy

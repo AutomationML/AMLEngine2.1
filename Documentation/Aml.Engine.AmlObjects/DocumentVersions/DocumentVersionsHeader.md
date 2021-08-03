@@ -1,6 +1,6 @@
 DocumentVersions.DocumentVersionsHeader Method
 ==============================================
-AutomationML 2.1 APIGet the Additional Information XML-Node from the CAEXFile, which represents the Document Versions node.
+Get the Additional Information XML-Node from the CAEXFile, which represents the Document Versions node.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

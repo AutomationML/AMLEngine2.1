@@ -1,6 +1,6 @@
 CAEXSequenceExtension.OfRoleClass Method (CAEXSequence&lt;SupportedRoleClassType>, RoleFamilyType)
 ==================================================================================================
-AutomationML 2.1 APIGets all SupportedRoleClasses from the specified sequence, which are instances of a specific RoleClass
+Gets all SupportedRoleClasses from the specified sequence, which are instances of a specific RoleClass
 
   **Namespace:**  [Aml.Engine.CAEX.Linq][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

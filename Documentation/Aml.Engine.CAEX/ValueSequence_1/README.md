@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType> Class
 =================================
-AutomationML 2.1 APIThis class implements methods to work with a sequence of CAEX elements and indexed access to their values.
+This class implements methods to work with a sequence of CAEX elements and indexed access to their values.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 OrdinalScaledTypeType Class
 ===========================
-AutomationML 2.1 APIThis class is a wrapper for the CAEXElement 'OrdinalScaledType" which defined a value range for an attribute constraint.
+This class is a wrapper for the CAEXElement 'OrdinalScaledType" which defined a value range for an attribute constraint.
 
 
 Inheritance Hierarchy

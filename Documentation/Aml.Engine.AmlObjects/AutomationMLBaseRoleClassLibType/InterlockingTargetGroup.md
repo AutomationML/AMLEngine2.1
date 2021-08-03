@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLibType.InterlockingTargetGroup Property
 =================================================================
-AutomationML 2.1 APIGets the interlocking target group.
+Gets the interlocking target group.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

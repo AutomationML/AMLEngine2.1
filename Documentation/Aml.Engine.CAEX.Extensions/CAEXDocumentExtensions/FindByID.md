@@ -1,6 +1,6 @@
 CAEXDocumentExtensions.FindByID Method
 ======================================
-AutomationML 2.1 APITries to locate a CAEX object from the specified ID. If the ID uses an alias reference and an [IExternalReferenceResolver][1] can be located, it is tried to resolve the external reference and to get the object from the external source.
+Tries to locate a CAEX object from the specified ID. If the ID uses an alias reference and an [IExternalReferenceResolver][1] can be located, it is tried to resolve the external reference and to get the object from the external source.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

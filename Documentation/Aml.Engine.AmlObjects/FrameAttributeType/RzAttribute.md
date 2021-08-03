@@ -1,6 +1,6 @@
 FrameAttributeType.RzAttribute Property
 =======================================
-AutomationML 2.1 APIThe Rz-attribute
+The Rz-attribute
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

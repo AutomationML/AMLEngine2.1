@@ -1,6 +1,6 @@
 MappingElementType&lt;T>.MappingRoleClass Property
 ==================================================
-AutomationML 2.1 APIGets the RoleClass, which provides the [RoleClassMappingElements(Boolean)][1].
+Gets the RoleClass, which provides the [RoleClassMappingElements(Boolean)][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

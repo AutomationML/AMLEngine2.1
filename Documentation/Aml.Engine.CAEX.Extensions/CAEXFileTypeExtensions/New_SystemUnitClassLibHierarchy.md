@@ -1,6 +1,6 @@
 CAEXFileTypeExtensions.New_SystemUnitClassLibHierarchy Method
 =============================================================
-AutomationML 2.1 APIAdding a new SystemUnitClassLib to this CAEX file.
+Adding a new SystemUnitClassLib to this CAEX file.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

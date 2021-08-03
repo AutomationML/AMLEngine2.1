@@ -1,6 +1,6 @@
 UndoRedoService.EndTransaction Method
 =====================================
-AutomationML 2.1 APIEnds the current transaction from the specified document.
+Ends the current transaction from the specified document.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

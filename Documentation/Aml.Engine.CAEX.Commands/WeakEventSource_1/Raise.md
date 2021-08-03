@@ -1,6 +1,6 @@
 WeakEventSource&lt;TEventArgs>.Raise Method
 ===========================================
-AutomationML 2.1 APIRaises an event, defined with this instance
+Raises an event, defined with this instance
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

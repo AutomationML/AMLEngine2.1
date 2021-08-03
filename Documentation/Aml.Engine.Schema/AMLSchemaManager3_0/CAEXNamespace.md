@@ -1,6 +1,6 @@
 AMLSchemaManager3_0.CAEXNamespace Property
 ==========================================
-AutomationML 2.1 APIGets the Namespace defined for CAEX Version 3.0. The Namespace name is [http://www.dke.de/CAEX][1].
+Gets the Namespace defined for CAEX Version 3.0. The Namespace name is [http://www.dke.de/CAEX][1].
 
   **Namespace:**  [Aml.Engine.Schema][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

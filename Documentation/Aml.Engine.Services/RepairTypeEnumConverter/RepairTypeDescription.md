@@ -1,6 +1,6 @@
 RepairTypeEnumConverter.RepairTypeDescription Method
 ====================================================
-AutomationML 2.1 APIConverts the specified repair option to a readable string
+Converts the specified repair option to a readable string
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

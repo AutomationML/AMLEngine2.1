@@ -1,6 +1,6 @@
 AMLEngineAdapter.getReferencedInterfaceName Method
 ==================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Getting the name of the referenced Interface.

@@ -1,6 +1,6 @@
 CAEXPathBuilder.ExternalInterfaceIDInAttributeReference Method
 ==============================================================
-AutomationML 2.1 APICheck, if the provided reference is a reference to an attribute of an ExternalInterface, using the ID of an ExternalInterface.
+Check, if the provided reference is a reference to an attribute of an ExternalInterface, using the ID of an ExternalInterface.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AmlObjectsExtensions.RefTypeAttribute Method
 ============================================
-AutomationML 2.1 APIGets the RefTypeAttribute from the *objectWithAttributes* if one exists.
+Gets the RefTypeAttribute from the *objectWithAttributes* if one exists.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

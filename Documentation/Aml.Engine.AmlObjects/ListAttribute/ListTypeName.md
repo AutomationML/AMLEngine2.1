@@ -1,6 +1,6 @@
 ListAttribute.ListTypeName Field
 ================================
-AutomationML 2.1 APIThe list type name used as a semantic ref type for unordered list attributes
+The list type name used as a semantic ref type for unordered list attributes
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

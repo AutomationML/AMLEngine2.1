@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.ATTRIBUTE_NAME_REFBASECLASSPATH Field
 ==============================================================
-AutomationML 2.1 APIThe Name of the CAEX-Attribute 'RefBaseClassPath'. This is a Property in all Classes that implement [IClassWithBaseClassReference][1]
+The Name of the CAEX-Attribute 'RefBaseClassPath'. This is a Property in all Classes that implement [IClassWithBaseClassReference][1]
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

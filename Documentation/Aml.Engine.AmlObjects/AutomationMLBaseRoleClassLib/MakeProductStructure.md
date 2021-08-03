@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.MakeProductStructure Method
 ========================================================
-AutomationML 2.1 APIMakes the product structure.
+Makes the product structure.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

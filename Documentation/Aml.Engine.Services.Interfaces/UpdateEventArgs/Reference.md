@@ -1,6 +1,6 @@
 UpdateEventArgs.Reference Property
 ==================================
-AutomationML 2.1 APIGets the updated reference.
+Gets the updated reference.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

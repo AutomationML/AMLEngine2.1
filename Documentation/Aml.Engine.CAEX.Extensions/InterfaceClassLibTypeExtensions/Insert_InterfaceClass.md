@@ -1,6 +1,6 @@
 InterfaceClassLibTypeExtensions.Insert_InterfaceClass Method
 ============================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Inserting an InterfaceClass element to the InterfaceClassLib object.

@@ -1,6 +1,6 @@
 ObjectWithAMLAttributes Class
 =============================
-AutomationML 2.1 APIThis class defines specific AutomationML defined attributes to be associated to any AutomationML object, which is allowed to contain attributes. Instances of this class can be constructed with an implicit type conversion operator, defined in the wrapper classes, which implement the [IObjectWithAttributes][1] interface.
+This class defines specific AutomationML defined attributes to be associated to any AutomationML object, which is allowed to contain attributes. Instances of this class can be constructed with an implicit type conversion operator, defined in the wrapper classes, which implement the [IObjectWithAttributes][1] interface.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 IXMLWrapper.Node Property
 =========================
-AutomationML 2.1 APIGet the XML node of this instance. Direct manipulations of the XML node are not monitored by the AML engine.
+Get the XML node of this instance. Direct manipulations of the XML node are not monitored by the AML engine.
 
   **Namespace:**  [Aml.Engine.XML][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

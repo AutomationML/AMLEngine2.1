@@ -1,6 +1,6 @@
 InterfaceClassLibTypeExtensions.InterfaceClassDescendants Method
 ================================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Gets all descendant [InterfaceFamilyType][1] Objects in the InterfaceClass Library. InterfaceClasses on all levels are returned.

@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLibType.AssociatedFacet Property
 =============================================================
-AutomationML 2.1 APIGets the AssociatedFacet.
+Gets the AssociatedFacet.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

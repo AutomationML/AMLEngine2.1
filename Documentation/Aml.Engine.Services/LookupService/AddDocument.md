@@ -1,6 +1,6 @@
 LookupService.AddDocument Method
 ================================
-AutomationML 2.1 APIAdds the document to the query service. All tables for the document will be created.
+Adds the document to the query service. All tables for the document will be created.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

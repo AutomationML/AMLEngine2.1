@@ -1,6 +1,6 @@
 CAEXWrapper.InsertNew Method
 ============================
-AutomationML 2.1 APIThis method can be used to create an XML node, if this CAEX wrapper was instantiated without an XML node. This method can only be applied, if an [Owner][1] is defined. The new created CAEX object is inserted as a new child of the owner.
+This method can be used to create an XML node, if this CAEX wrapper was instantiated without an XML node. This method can only be applied, if an [Owner][1] is defined. The new created CAEX object is inserted as a new child of the owner.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

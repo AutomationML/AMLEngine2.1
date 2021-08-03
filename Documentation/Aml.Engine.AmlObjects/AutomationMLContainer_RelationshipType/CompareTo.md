@@ -1,6 +1,6 @@
 AutomationMLContainer.RelationshipType.CompareTo Method
 =======================================================
-AutomationML 2.1 APICompares the current instance's name to another object's name of the same type and returns an integer indicating whether the current instance's name occurs in the sort order before or after the other object or at the same position.
+Compares the current instance's name to another object's name of the same type and returns an integer indicating whether the current instance's name occurs in the sort order before or after the other object or at the same position.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

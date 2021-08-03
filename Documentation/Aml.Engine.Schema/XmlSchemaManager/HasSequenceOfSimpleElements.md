@@ -1,6 +1,6 @@
 XmlSchemaManager.HasSequenceOfSimpleElements Method
 ===================================================
-AutomationML 2.1 APIDetermines, if the schema defines a sequence of simple elements for the provided parent child combination.
+Determines, if the schema defines a sequence of simple elements for the provided parent child combination.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

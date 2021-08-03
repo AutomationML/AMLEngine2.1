@@ -1,6 +1,6 @@
 CaexValue.ValueElement Property
 ===============================
-AutomationML 2.1 APIGets the Element, which contains the Attribute value.
+Gets the Element, which contains the Attribute value.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

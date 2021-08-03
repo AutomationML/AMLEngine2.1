@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLib.AutomationMLBaseAttributeTypeLibName Field
 ===========================================================================
-AutomationML 2.1 APIThe 'AutomationMLBaseAttributeTypeLib' library name
+The 'AutomationMLBaseAttributeTypeLib' library name
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

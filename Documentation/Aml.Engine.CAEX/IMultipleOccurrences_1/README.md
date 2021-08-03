@@ -1,6 +1,6 @@
 IMultipleOccurrences&lt;T> Interface
 ====================================
-AutomationML 2.1 APIThis interface class is used to define generic methods for CAEX objects which can have multiple occurrences below its parent element. The methods defined in this interface class affect the relation to the sibling elements of a CAEX object with the same type.
+This interface class is used to define generic methods for CAEX objects which can have multiple occurrences below its parent element. The methods defined in this interface class affect the relation to the sibling elements of a CAEX object with the same type.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

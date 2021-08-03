@@ -1,6 +1,6 @@
 DocumentVersions.GetDocumentVersionInformation Method
 =====================================================
-AutomationML 2.1 APIThis function returns the DocumentVersion Information from the AutomationML document with the specified document Identifier, otherwise null.
+This function returns the DocumentVersion Information from the AutomationML document with the specified document Identifier, otherwise null.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

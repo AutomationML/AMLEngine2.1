@@ -1,6 +1,6 @@
 RefURIAttributeType.Create Method
 =================================
-AutomationML 2.1 APICreates a new RefURIAttribute using the specified document.
+Creates a new RefURIAttribute using the specified document.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CaexValue.IsBinaryValue Method
 ==============================
-AutomationML 2.1 APIDetermines if the type code derived from the Attribute datatype is a binary type.
+Determines if the type code derived from the Attribute datatype is a binary type.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

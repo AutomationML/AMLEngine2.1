@@ -1,6 +1,6 @@
 CAEXLibrary&lt;TLibItem>.GetEnumerator Method
 =============================================
-AutomationML 2.1 APIGets the enumerator to iterate through the collection of library objects.
+Gets the enumerator to iterate through the collection of library objects.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

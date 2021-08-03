@@ -1,6 +1,6 @@
 InterfaceClassLibTypeExtensions Class
 =====================================
-AutomationML 2.1 APIExtension methods for an InterfaceClassLib element and its defining class [InterfaceClassLibType][1].
+Extension methods for an InterfaceClassLib element and its defining class [InterfaceClassLibType][1].
 
 
 Inheritance Hierarchy

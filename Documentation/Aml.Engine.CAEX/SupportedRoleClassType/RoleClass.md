@@ -1,6 +1,6 @@
 SupportedRoleClassType.RoleClass Property
 =========================================
-AutomationML 2.1 APIGets and sets the RoleClass, referenced from this SupportedRoleClass object using the [RefRoleClassPath][1].
+Gets and sets the RoleClass, referenced from this SupportedRoleClass object using the [RefRoleClassPath][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

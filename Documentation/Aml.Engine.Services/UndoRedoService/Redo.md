@@ -1,6 +1,6 @@
 UndoRedoService.Redo Method
 ===========================
-AutomationML 2.1 APIExecutes the last undone operation from the specified document again.
+Executes the last undone operation from the specified document again.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

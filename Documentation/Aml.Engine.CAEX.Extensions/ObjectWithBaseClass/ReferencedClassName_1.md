@@ -1,6 +1,6 @@
 ObjectWithBaseClass.ReferencedClassName Method (InterfaceClassType)
 ===================================================================
-AutomationML 2.1 APIName of the referenced InterfaceClass without path information.
+Name of the referenced InterfaceClass without path information.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

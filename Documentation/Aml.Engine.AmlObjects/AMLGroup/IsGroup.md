@@ -1,6 +1,6 @@
 AMLGroup.IsGroup Property
 =========================
-AutomationML 2.1 APIGets a value indicating whether the defining InternalElement instance is an AMLGroup
+Gets a value indicating whether the defining InternalElement instance is an AMLGroup
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

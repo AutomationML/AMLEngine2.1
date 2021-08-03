@@ -1,6 +1,6 @@
 XmlCAEXSchema Class
 ===================
-AutomationML 2.1 APIClass, defining extension methods, related to the interpretation of the Schema version of a CAEX file.
+Class, defining extension methods, related to the interpretation of the Schema version of a CAEX file.
 
 
 Inheritance Hierarchy

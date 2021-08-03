@@ -1,6 +1,6 @@
 ServiceLocator.AutoUpdateService Property
 =========================================
-AutomationML 2.1 APIGets the automatic update service.
+Gets the automatic update service.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

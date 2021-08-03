@@ -1,6 +1,6 @@
 MappingTypeExtensions.Insert_AttributeNameMapping Method
 ========================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Appends the AttributeNameMapping object to the defined Mapping object

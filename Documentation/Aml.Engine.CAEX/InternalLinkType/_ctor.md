@@ -1,6 +1,6 @@
 InternalLinkType Constructor
 ============================
-AutomationML 2.1 APIInitializes a new instance of the [InternalLinkType][1] class.
+Initializes a new instance of the [InternalLinkType][1] class.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

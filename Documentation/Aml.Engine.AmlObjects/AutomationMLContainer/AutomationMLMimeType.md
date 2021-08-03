@@ -1,6 +1,6 @@
 AutomationMLContainer.AutomationMLMimeType Field
 ================================================
-AutomationML 2.1 APIThe AutomationML MIME type
+The AutomationML MIME type
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 InterfaceIDMappingType.RoleInterfaceID Property
 ===============================================
-AutomationML 2.1 APIGets and sets the ID of the mapped ExternalInterface of the role reference
+Gets and sets the ID of the mapped ExternalInterface of the role reference
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

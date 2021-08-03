@@ -1,6 +1,6 @@
 CAEXDocument.DefaultSchema Property
 ===================================
-AutomationML 2.1 APIThe Default schema for new CAEX documents
+The Default schema for new CAEX documents
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AMLEngineAdapter.getReferencedClass Method
 ==========================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Getting the XML Node for a class path.

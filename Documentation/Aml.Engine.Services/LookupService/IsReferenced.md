@@ -1,6 +1,6 @@
 LookupService.IsReferenced Method
 =================================
-AutomationML 2.1 APIDetermines whether the specified CAEX object is referenced.
+Determines whether the specified CAEX object is referenced.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

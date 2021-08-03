@@ -1,6 +1,6 @@
 ExternalDataReference.AutomationMLBPRRoleClassLibName Field
 ===========================================================
-AutomationML 2.1 APIThe name of the library containing role classes specified in BPR documents
+The name of the library containing role classes specified in BPR documents
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

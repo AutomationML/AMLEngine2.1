@@ -1,6 +1,6 @@
 AMLSystemUnitClass.AMLGroups Property
 =====================================
-AutomationML 2.1 APIGets the Collection of AMLGroup objects.
+Gets the Collection of AMLGroup objects.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

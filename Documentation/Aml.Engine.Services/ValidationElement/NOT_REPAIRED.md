@@ -1,6 +1,6 @@
 ValidationElement.NOT_REPAIRED Field
 ====================================
-AutomationML 2.1 APIconstant string, defining validation elements which are yet not repaired.
+constant string, defining validation elements which are yet not repaired.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

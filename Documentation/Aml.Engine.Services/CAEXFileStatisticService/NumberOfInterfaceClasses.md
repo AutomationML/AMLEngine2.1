@@ -1,6 +1,6 @@
 CAEXFileStatisticService.NumberOfInterfaceClasses Method
 ========================================================
-AutomationML 2.1 APICounts all InterfaceClass objects and returns the result.
+Counts all InterfaceClass objects and returns the result.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

@@ -1,6 +1,6 @@
 CAEXReference.ReferenceAttributeValue Property
 ==============================================
-AutomationML 2.1 APIGets the reference attribute value.
+Gets the reference attribute value.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXSequenceEnumerator&lt;T> Class
 ==================================
-AutomationML 2.1 APIThis class implements the CAEX sequence enumerator which creates a CAEXWrapper for each enumerated XML-Element.
+This class implements the CAEX sequence enumerator which creates a CAEXWrapper for each enumerated XML-Element.
 
 
 Inheritance Hierarchy

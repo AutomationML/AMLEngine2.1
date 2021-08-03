@@ -1,6 +1,6 @@
 CAEXFileType.Insert Method (Int32, CAEXWrapper)
 ===============================================
-AutomationML 2.1 APIInserts the specified CAEX object in it's associated sequence at the given position. The CAEXFile defines the [ExternalReference][1], [InstanceHierarchy][2], [InterfaceClassLib][3], [RoleClassLib][4], [SystemUnitClassLib][5] and [AttributeTypeLib][6] sequences.
+Inserts the specified CAEX object in it's associated sequence at the given position. The CAEXFile defines the [ExternalReference][1], [InstanceHierarchy][2], [InterfaceClassLib][3], [RoleClassLib][4], [SystemUnitClassLib][5] and [AttributeTypeLib][6] sequences.
 
   **Namespace:**  [Aml.Engine.CAEX][7]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

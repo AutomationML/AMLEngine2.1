@@ -1,6 +1,6 @@
 WeakEventSource&lt;TEventArgs>.Unsubscribe Method
 =================================================
-AutomationML 2.1 APIUnsubscribes the specified handler with this event source.
+Unsubscribes the specified handler with this event source.
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

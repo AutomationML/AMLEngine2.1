@@ -1,6 +1,6 @@
 ObjectWithAttributes.AddAttributeTypeReference Method (IObjectWithAttributes, String, Boolean, Boolean, String)
 ===============================================================================================================
-AutomationML 2.1 APIAdds an AttributeType reference to this ObjectWithAttribute using the provided CAEX path, referencing an AttributeType object. The AttributeType reference is added as a [AttributeType][1] object.
+Adds an AttributeType reference to this ObjectWithAttribute using the provided CAEX path, referencing an AttributeType object. The AttributeType reference is added as a [AttributeType][1] object.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

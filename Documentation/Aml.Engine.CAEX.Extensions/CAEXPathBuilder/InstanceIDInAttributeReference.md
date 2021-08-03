@@ -1,6 +1,6 @@
 CAEXPathBuilder.InstanceIDInAttributeReference Method
 =====================================================
-AutomationML 2.1 APIGets the ID of the master parent instance from a reference defined in an Attribute mirror object in the specified CAEX document.
+Gets the ID of the master parent instance from a reference defined in an Attribute mirror object in the specified CAEX document.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

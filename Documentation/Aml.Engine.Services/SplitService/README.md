@@ -1,6 +1,6 @@
 SplitService Class
 ==================
-AutomationML 2.1 APIThis class is an implementation of a split service. This service is able to split one [CAEXDocument][1] into multiple files using split points.
+This class is an implementation of a split service. This service is able to split one [CAEXDocument][1] into multiple files using split points.
 
 
 Inheritance Hierarchy

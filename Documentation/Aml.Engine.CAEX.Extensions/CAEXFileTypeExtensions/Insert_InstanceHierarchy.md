@@ -1,6 +1,6 @@
 CAEXFileTypeExtensions.Insert_InstanceHierarchy Method
 ======================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Insert an existing InstanceHierarchy to this CAEX file as the last InstanceHierarchy.

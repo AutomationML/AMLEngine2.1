@@ -1,6 +1,6 @@
 InternalElementSequence Class
 =============================
-AutomationML 2.1 APIThis class defines a sequence of CAEX 'InternalElement' elements. A sequence of InternalElements can be associated with each class which implements the [IInternalElementContainer][1] interface.
+This class defines a sequence of CAEX 'InternalElement' elements. A sequence of InternalElements can be associated with each class which implements the [IInternalElementContainer][1] interface.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 AttributeType Class
 ===================
-AutomationML 2.1 APIThis Class is a wrapper for the CAEX element 'Attribute' which defines base structures for attribute definitions. Attributes can be associated to each object which implements the [IObjectWithAttributes][1] interface. An associated collection of Attributes is wrapped in an [AttributeSequence][2].
+This Class is a wrapper for the CAEX element 'Attribute' which defines base structures for attribute definitions. Attributes can be associated to each object which implements the [IObjectWithAttributes][1] interface. An associated collection of Attributes is wrapped in an [AttributeSequence][2].
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 EmptyLookup&lt;TKey, TElement>.Instance Property
 ================================================
-AutomationML 2.1 APIGets the empty lookup table instance.
+Gets the empty lookup table instance.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

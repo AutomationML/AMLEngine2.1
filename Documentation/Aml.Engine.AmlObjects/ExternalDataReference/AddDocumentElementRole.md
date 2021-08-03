@@ -1,6 +1,6 @@
 ExternalDataReference.AddDocumentElementRole Method
 ===================================================
-AutomationML 2.1 APIAdd a role reference to a external data role class or derived role class defined with the given role class path as a supported role class to the internal element. If the specified role class path can not be identified as a derived role from the [ExternalDataRoleClassPath][1] no role reference is added (returns false).
+Add a role reference to a external data role class or derived role class defined with the given role class path as a supported role class to the internal element. If the specified role class path can not be identified as a derived role from the [ExternalDataRoleClassPath][1] no role reference is added (returns false).
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

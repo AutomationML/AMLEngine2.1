@@ -1,6 +1,6 @@
 AMLEngineAdapter.Insert_NewInstance Method
 ==========================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Inserting a new class instance to this object. This method can be overridden in derived classes. The Instance is inserted as the first instance of any other element with the same type if nothing else is explicit defined.

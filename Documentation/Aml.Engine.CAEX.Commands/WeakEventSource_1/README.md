@@ -1,6 +1,6 @@
 WeakEventSource&lt;TEventArgs> Class
 ====================================
-AutomationML 2.1 APIThis Class defines a WeakEventSource, used to define Events, raised in the AML Engine.
+This Class defines a WeakEventSource, used to define Events, raised in the AML Engine.
 
 
 Inheritance Hierarchy

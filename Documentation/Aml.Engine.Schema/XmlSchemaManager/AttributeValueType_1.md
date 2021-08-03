@@ -1,6 +1,6 @@
 XmlSchemaManager.AttributeValueType Method (XmlSchemaAttribute)
 ===============================================================
-AutomationML 2.1 APIGets the type code for the schema attribute.
+Gets the type code for the schema attribute.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

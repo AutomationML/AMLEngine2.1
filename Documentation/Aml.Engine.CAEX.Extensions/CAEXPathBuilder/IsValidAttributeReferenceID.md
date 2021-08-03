@@ -1,6 +1,6 @@
 CAEXPathBuilder.IsValidAttributeReferenceID Method
 ==================================================
-AutomationML 2.1 APIDetermines whether the ID is valid to be used in an attribute mirror reference.
+Determines whether the ID is valid to be used in an attribute mirror reference.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

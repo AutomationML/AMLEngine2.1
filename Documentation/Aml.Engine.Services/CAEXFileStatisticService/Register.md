@@ -1,6 +1,6 @@
 CAEXFileStatisticService.Register Method
 ========================================
-AutomationML 2.1 APIRegisters a new instance of a CAEXFileStatisticService with the [ServiceLocator][1] of the AMLEngine.
+Registers a new instance of a CAEXFileStatisticService with the [ServiceLocator][1] of the AMLEngine.
 
   **Namespace:**  [Aml.Engine.Services][2]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

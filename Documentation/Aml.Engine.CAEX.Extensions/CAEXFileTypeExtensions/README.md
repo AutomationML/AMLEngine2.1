@@ -1,6 +1,6 @@
 CAEXFileTypeExtensions Class
 ============================
-AutomationML 2.1 APIThis class defines extension methods for the CAEXFile Element
+This class defines extension methods for the CAEXFile Element
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 XmlSchemaManager.SchemaLocation Property
 ========================================
-AutomationML 2.1 APIGets the SchemaLocation string
+Gets the SchemaLocation string
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

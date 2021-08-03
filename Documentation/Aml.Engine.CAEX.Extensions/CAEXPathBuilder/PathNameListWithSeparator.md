@@ -1,6 +1,6 @@
 CAEXPathBuilder.PathNameListWithSeparator Method
 ================================================
-AutomationML 2.1 APIReturns the Path Part object names of a CAEX Path with the Separator Char at the Names End as an array of strings.
+Returns the Path Part object names of a CAEX Path with the Separator Char at the Names End as an array of strings.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

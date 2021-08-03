@@ -1,6 +1,6 @@
 IAutoUpdate.IsAutoUpdateEnabled Property
 ========================================
-AutomationML 2.1 APIGets or sets a value indicating whether this instance will automatically update cross references between AutomationML objects.
+Gets or sets a value indicating whether this instance will automatically update cross references between AutomationML objects.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

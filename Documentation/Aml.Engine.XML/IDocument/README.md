@@ -1,6 +1,6 @@
 IDocument Interface
 ===================
-AutomationML 2.1 APIInterface for a XDocument Wrapper
+Interface for a XDocument Wrapper
 
   **Namespace:**  [Aml.Engine.XML][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

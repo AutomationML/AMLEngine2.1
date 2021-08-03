@@ -1,6 +1,6 @@
 CaexValue.Value Property
 ========================
-AutomationML 2.1 APIGets and sets the value attribute using the type specific XML conversion method. If no AttributeDataType is defined, the value is encoded / decoded as it is.
+Gets and sets the value attribute using the type specific XML conversion method. If no AttributeDataType is defined, the value is encoded / decoded as it is.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 NamedElementSequence&lt;T>.IEnumerable.GetEnumerator Method
 ===========================================================
-AutomationML 2.1 API
+
 [Missing &lt;summary> documentation for "M:Aml.Engine.CAEX.NamedElementSequence`1.System#Collections#IEnumerable#GetEnumerator"]
 
 

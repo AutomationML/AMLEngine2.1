@@ -1,6 +1,6 @@
 StringExtensions.IsInterfacePathWithID Method
 =============================================
-AutomationML 2.1 APIDetermines whether the specified path is an interface path containing an ID
+Determines whether the specified path is an interface path containing an ID
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

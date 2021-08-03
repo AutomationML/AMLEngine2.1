@@ -1,6 +1,6 @@
 ICAEXCommand.UnExecute Method
 =============================
-AutomationML 2.1 APICommand reverse execution Method (enables undo)
+Command reverse execution Method (enables undo)
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

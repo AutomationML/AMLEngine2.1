@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.TagName Method
 =======================================
-AutomationML 2.1 APIgets the CAEX-Tag name for the CAEX-wrapper type.
+gets the CAEX-Tag name for the CAEX-wrapper type.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

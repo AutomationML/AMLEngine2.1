@@ -1,6 +1,6 @@
 AMLSchemaManager.ResourcePath Field
 ===================================
-AutomationML 2.1 APIDefines the resource path of the assembly
+Defines the resource path of the assembly
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

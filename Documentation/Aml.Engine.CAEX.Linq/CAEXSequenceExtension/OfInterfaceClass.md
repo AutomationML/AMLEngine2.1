@@ -1,6 +1,6 @@
 CAEXSequenceExtension.OfInterfaceClass Method
 =============================================
-AutomationML 2.1 APIGets all ExternalInterfaces from the specified sequence, which are instances of a specific InterfaceClass
+Gets all ExternalInterfaces from the specified sequence, which are instances of a specific InterfaceClass
 
   **Namespace:**  [Aml.Engine.CAEX.Linq][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

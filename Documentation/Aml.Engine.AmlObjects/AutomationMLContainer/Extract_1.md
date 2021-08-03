@@ -1,6 +1,6 @@
 AutomationMLContainer.Extract Method (DirectoryInfo, PackagePart)
 =================================================================
-AutomationML 2.1 APIExtracts the specified part in the package to the specified directory.
+Extracts the specified part in the package to the specified directory.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

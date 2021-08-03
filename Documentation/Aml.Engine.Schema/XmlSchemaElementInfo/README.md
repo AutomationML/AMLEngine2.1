@@ -1,6 +1,6 @@
 XmlSchemaElementInfo Class
 ==========================
-AutomationML 2.1 APIThis class defined methods and properties to access schema information for a schema element.
+This class defined methods and properties to access schema information for a schema element.
 
 
 Inheritance Hierarchy

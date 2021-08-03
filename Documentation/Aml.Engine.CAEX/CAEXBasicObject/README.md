@@ -1,6 +1,6 @@
 CAEXBasicObject Class
 =====================
-AutomationML 2.1 APIThe class CAEXBasicObject comprises a basic set of attributes and header information which exist for all CAEX elements.
+The class CAEXBasicObject comprises a basic set of attributes and header information which exist for all CAEX elements.
 
 
 Inheritance Hierarchy

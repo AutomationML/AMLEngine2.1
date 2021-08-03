@@ -1,6 +1,6 @@
 IObjectWithRoleReference Interface
 ==================================
-AutomationML 2.1 APIThis Interface is implemented by [RoleRequirementsType][1] and [SupportedRoleClassType][2].
+This Interface is implemented by [RoleRequirementsType][1] and [SupportedRoleClassType][2].
 
   **Namespace:**  [Aml.Engine.CAEX][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

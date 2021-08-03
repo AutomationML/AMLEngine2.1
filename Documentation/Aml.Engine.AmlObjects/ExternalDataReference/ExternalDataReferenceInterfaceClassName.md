@@ -1,6 +1,6 @@
 ExternalDataReference.ExternalDataReferenceInterfaceClassName Field
 ===================================================================
-AutomationML 2.1 APIThe name for the ExternalDataReference interface class
+The name for the ExternalDataReference interface class
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

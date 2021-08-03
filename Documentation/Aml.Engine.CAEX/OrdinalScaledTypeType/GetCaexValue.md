@@ -1,6 +1,6 @@
 OrdinalScaledTypeType.GetCaexValue Method
 =========================================
-AutomationML 2.1 APIGets the [CaexValue][1] for the value attribute with the defined attribute name. are [ATTRIBUTE_CONSTRAINT_ORDINAL_VALUE_STRING][2] and [ATTRIBUTE_CONSTRAINT_ORDINAL_MIN_STRING][3] and [ATTRIBUTE_CONSTRAINT_ORDINAL_MAX_STRING][4].
+Gets the [CaexValue][1] for the value attribute with the defined attribute name. are [ATTRIBUTE_CONSTRAINT_ORDINAL_VALUE_STRING][2] and [ATTRIBUTE_CONSTRAINT_ORDINAL_MIN_STRING][3] and [ATTRIBUTE_CONSTRAINT_ORDINAL_MAX_STRING][4].
 
   **Namespace:**  [Aml.Engine.CAEX][5]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

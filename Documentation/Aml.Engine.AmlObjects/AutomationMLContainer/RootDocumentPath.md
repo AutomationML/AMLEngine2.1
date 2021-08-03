@@ -1,6 +1,6 @@
 AutomationMLContainer.RootDocumentPath Method
 =============================================
-AutomationML 2.1 APIGets the file path to the first root AML document when the container is already extracted. [Extract(DirectoryInfo)][1] If the container is created from a stream source or no root document is found, the return value is `string.Empty`.
+Gets the file path to the first root AML document when the container is already extracted. [Extract(DirectoryInfo)][1] If the container is created from a stream source or no root document is found, the return value is `string.Empty`.
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

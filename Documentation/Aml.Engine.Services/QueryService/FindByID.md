@@ -1,6 +1,6 @@
 QueryService.FindByID Method
 ============================
-AutomationML 2.1 APIFinds the first element in the defined document, which ID is equal to the provided ID.
+Finds the first element in the defined document, which ID is equal to the provided ID.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

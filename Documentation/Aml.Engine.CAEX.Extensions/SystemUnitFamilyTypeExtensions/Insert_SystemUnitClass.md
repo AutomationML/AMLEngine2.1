@@ -1,6 +1,6 @@
 SystemUnitFamilyTypeExtensions.Insert_SystemUnitClass Method
 ============================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Inserts the provided SystemUnitClass object as a subordinate child into this SystemUnitClass

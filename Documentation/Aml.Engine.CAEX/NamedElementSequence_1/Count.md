@@ -1,6 +1,6 @@
 NamedElementSequence&lt;T>.Count Property
 =========================================
-AutomationML 2.1 APIGets the number of elements in this sequence
+Gets the number of elements in this sequence
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

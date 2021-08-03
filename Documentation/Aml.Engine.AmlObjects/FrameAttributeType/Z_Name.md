@@ -1,6 +1,6 @@
 FrameAttributeType.Z_Name Field
 ===============================
-AutomationML 2.1 APIThe z name
+The z name
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

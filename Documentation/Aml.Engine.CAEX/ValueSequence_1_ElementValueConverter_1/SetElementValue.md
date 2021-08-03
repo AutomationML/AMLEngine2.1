@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.ElementValueConverter&lt;T>.SetElementValue Method
 ==============================================================================
-AutomationML 2.1 APISets the element value.
+Sets the element value.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

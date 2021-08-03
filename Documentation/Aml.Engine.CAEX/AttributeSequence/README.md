@@ -1,6 +1,6 @@
 AttributeSequence Class
 =======================
-AutomationML 2.1 APIThis class defines a sequence of CAEX 'Attribute' elements. A sequence of Attribute's can be associated with each class which implements the [IObjectWithAttributes][1] interface.
+This class defines a sequence of CAEX 'Attribute' elements. A sequence of Attribute's can be associated with each class which implements the [IObjectWithAttributes][1] interface.
 
 
 Inheritance Hierarchy

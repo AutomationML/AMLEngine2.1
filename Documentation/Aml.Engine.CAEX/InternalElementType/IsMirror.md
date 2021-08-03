@@ -1,6 +1,6 @@
 InternalElementType.IsMirror Property
 =====================================
-AutomationML 2.1 APIDetermines, if this instance is a Mirror
+Determines, if this instance is a Mirror
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

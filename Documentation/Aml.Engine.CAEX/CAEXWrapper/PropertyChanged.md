@@ -1,6 +1,6 @@
 CAEXWrapper.PropertyChanged Event
 =================================
-AutomationML 2.1 APIThe Change event raised when any property is modified.
+The Change event raised when any property is modified.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

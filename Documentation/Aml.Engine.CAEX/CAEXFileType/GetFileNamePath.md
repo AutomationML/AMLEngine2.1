@@ -1,6 +1,6 @@
 CAEXFileType.GetFileNamePath Method
 ===================================
-AutomationML 2.1 APIRetrieves the file name including full path out of the CAEX document.
+Retrieves the file name including full path out of the CAEX document.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

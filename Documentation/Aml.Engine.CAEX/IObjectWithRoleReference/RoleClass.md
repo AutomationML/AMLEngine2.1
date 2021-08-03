@@ -1,6 +1,6 @@
 IObjectWithRoleReference.RoleClass Property
 ===========================================
-AutomationML 2.1 APIGets and sets the referenced role class
+Gets and sets the referenced role class
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

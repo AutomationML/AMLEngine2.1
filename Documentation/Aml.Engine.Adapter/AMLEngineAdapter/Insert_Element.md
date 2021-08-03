@@ -1,6 +1,6 @@
 AMLEngineAdapter.Insert_Element Method
 ======================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Inserting an element of base type TypeBase to this object. The Element is inserted at the first Element of any existing Elements of the same Type if nothing else is explicit defined.

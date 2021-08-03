@@ -1,6 +1,6 @@
 RoleRequirementsType.RoleClass Property
 =======================================
-AutomationML 2.1 APIGets and sets the referenced RoleClass using the [RefBaseRoleClassPath][1]
+Gets and sets the referenced RoleClass using the [RefBaseRoleClassPath][1]
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

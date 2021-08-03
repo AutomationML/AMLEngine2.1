@@ -1,6 +1,6 @@
 CAEXDocument.SchemaVersionString Property
 =========================================
-AutomationML 2.1 APIGets the schema version string for the assigned schema
+Gets the schema version string for the assigned schema
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 RevisionType.Comment Property
 =============================
-AutomationML 2.1 APIGets or sets the comment.
+Gets or sets the comment.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

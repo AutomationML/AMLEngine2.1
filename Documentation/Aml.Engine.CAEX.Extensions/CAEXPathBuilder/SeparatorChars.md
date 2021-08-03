@@ -1,6 +1,6 @@
 CAEXPathBuilder.SeparatorChars Method
 =====================================
-AutomationML 2.1 APIGets the defined Separator characters according to the provided schema version.
+Gets the defined Separator characters according to the provided schema version.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

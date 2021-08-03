@@ -1,6 +1,6 @@
 QueryService.AllClassReferences Method (CAEXObject)
 ===================================================
-AutomationML 2.1 APIGets all classes which have references to the provided CAEX object.
+Gets all classes which have references to the provided CAEX object.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

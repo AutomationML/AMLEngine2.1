@@ -1,6 +1,6 @@
 CAEXFileType.InterfaceClassLib Property
 =======================================
-AutomationML 2.1 APIGets the collection of InterfaceClassLib objects contained in the CAEXFile.
+Gets the collection of InterfaceClassLib objects contained in the CAEXFile.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

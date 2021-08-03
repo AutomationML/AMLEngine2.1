@@ -1,6 +1,6 @@
 AutomationMLContainer.AddLibrary Method (Stream, Uri)
 =====================================================
-AutomationML 2.1 APIAdds a library stream to the package and creates a package - part relationship of type [Library][1].
+Adds a library stream to the package and creates a package - part relationship of type [Library][1].
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

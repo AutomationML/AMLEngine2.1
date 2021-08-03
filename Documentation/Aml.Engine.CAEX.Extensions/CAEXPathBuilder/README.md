@@ -1,6 +1,6 @@
 CAEXPathBuilder Class
 =====================
-AutomationML 2.1 APIStatic class supporting the generation and analysis of CAEXPath's
+Static class supporting the generation and analysis of CAEXPath's
 
 
 Inheritance Hierarchy

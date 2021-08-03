@@ -1,6 +1,6 @@
 AutomationMLContainer.RelationshipType.Name Property
 ====================================================
-AutomationML 2.1 APIGets the name of the relationship.
+Gets the name of the relationship.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

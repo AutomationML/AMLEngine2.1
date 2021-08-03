@@ -1,6 +1,6 @@
 CAEXElementChangeEventArgs.OldValue Property
 ============================================
-AutomationML 2.1 APIThe old value
+The old value
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

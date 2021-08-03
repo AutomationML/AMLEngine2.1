@@ -1,6 +1,6 @@
 UndoRedoService.PushCommand Method
 ==================================
-AutomationML 2.1 APIA command is pushed on the undo stack of this service.
+A command is pushed on the undo stack of this service.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

@@ -1,6 +1,6 @@
 ISplitPoint Interface
 =====================
-AutomationML 2.1 APIThis interface is defined for all CAEXObjects to which a split point can be assigned. SplitPoints are allowed on [InternalElementType][1] and [CAEXLibrary&lt;TLibItem>][2].
+This interface is defined for all CAEXObjects to which a split point can be assigned. SplitPoints are allowed on [InternalElementType][1] and [CAEXLibrary&lt;TLibItem>][2].
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

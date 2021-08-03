@@ -1,6 +1,6 @@
 AutomationMLContainer.AddCollada Method (PackagePart, Stream, Uri, Boolean)
 ===========================================================================
-AutomationML 2.1 APIAdds a COLLADA part read from the specified stream resource to the package and creates relationships to the package and to the root document using the [Collada][1].
+Adds a COLLADA part read from the specified stream resource to the package and creates relationships to the package and to the root document using the [Collada][1].
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

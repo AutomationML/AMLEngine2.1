@@ -1,6 +1,6 @@
 ListAttribute Class
 ===================
-AutomationML 2.1 APIClass ListAttribute supports List Attributes as it is defined in the BPR 'Modelling of List Attributes in AutomationML' from January 2016 Version 1.0.0
+Class ListAttribute supports List Attributes as it is defined in the BPR 'Modelling of List Attributes in AutomationML' from January 2016 Version 1.0.0
 
 
 Inheritance Hierarchy

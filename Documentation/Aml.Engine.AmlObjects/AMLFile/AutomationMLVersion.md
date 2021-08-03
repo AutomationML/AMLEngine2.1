@@ -1,6 +1,6 @@
 AMLFile.AutomationMLVersion Property
 ====================================
-AutomationML 2.1 APIGets or sets the AutomationML version. It is not allowed to set an AMLVersion which is higher than the [MaximalAMLVersion][1]. If this is tried, the maximal known version is used for this document.
+Gets or sets the AutomationML version. It is not allowed to set an AMLVersion which is higher than the [MaximalAMLVersion][1]. If this is tried, the maximal known version is used for this document.
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

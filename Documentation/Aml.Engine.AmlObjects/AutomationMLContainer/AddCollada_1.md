@@ -1,6 +1,6 @@
 AutomationMLContainer.AddCollada Method (PackagePart, String, Uri, Boolean)
 ===========================================================================
-AutomationML 2.1 APIAdds a COLLADA file to the package and creates relationships to the package and to the root document using the [Collada][1].
+Adds a COLLADA file to the package and creates relationships to the package and to the root document using the [Collada][1].
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

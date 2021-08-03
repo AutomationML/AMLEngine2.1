@@ -1,6 +1,6 @@
 AMLPort.PortName Field
 ======================
-AutomationML 2.1 APIThe Port name
+The Port name
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

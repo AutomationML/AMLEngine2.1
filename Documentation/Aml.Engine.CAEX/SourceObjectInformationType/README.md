@@ -1,6 +1,6 @@
 SourceObjectInformationType Class
 =================================
-AutomationML 2.1 APIThis class is a wrapper for the CAEX element 'SourceObjectInformation'. This element can be assigned to a [CAEXObject][1] to store a mapping between the ID of a CAEXObject and the ID of the same object, as it is defined in the object source.
+This class is a wrapper for the CAEX element 'SourceObjectInformation'. This element can be assigned to a [CAEXObject][1] to store a mapping between the ID of a CAEXObject and the ID of the same object, as it is defined in the object source.
 
 
 Inheritance Hierarchy

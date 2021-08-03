@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLibType.Group Property
 ===============================================
-AutomationML 2.1 APIGets the group.
+Gets the group.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

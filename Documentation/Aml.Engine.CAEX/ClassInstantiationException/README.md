@@ -1,6 +1,6 @@
 ClassInstantiationException Class
 =================================
-AutomationML 2.1 APIUser defined exception that is thrown when an error occurs during instantiation of a class.
+User defined exception that is thrown when an error occurs during instantiation of a class.
 
 
 Inheritance Hierarchy

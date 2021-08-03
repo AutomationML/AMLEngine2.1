@@ -1,6 +1,6 @@
 AMLEngineAdapter.Insert_RoleRequirements Method
 ===============================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Inserting a RoleRequirement to this InternalElement. An exception is thrown if a RoleRequirements is already existent.

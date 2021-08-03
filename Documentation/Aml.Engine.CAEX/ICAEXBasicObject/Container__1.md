@@ -1,6 +1,6 @@
 ICAEXBasicObject.Container&lt;T> Method
 =======================================
-AutomationML 2.1 APIGets the CAEXSequence for elements of type T, which is owned by this CAEX object.
+Gets the CAEXSequence for elements of type T, which is owned by this CAEX object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 LookupService.RemoveDocument Method
 ===================================
-AutomationML 2.1 APIRemoves the document from the query service. All tables for the document will be unloaded.
+Removes the document from the query service. All tables for the document will be unloaded.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

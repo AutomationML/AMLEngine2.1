@@ -1,6 +1,6 @@
 FrameAttributeType.IsFrame Method
 =================================
-AutomationML 2.1 APIDetermines whether the specified node models an AutomationML Frame-Attribute.
+Determines whether the specified node models an AutomationML Frame-Attribute.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

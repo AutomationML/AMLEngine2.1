@@ -1,6 +1,6 @@
 AutomationMLInterfaceClassLib.SequencingLogicInterface Field
 ============================================================
-AutomationML 2.1 APIThe sequencing logic interface class path (a Part 4 Interface)
+The sequencing logic interface class path (a Part 4 Interface)
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

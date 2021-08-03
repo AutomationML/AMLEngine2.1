@@ -1,6 +1,6 @@
 AMLEngineAdapter.Ancestors Method
 =================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Returns all SystemUnit Classes which are ancestors of this. This SystemUnit Class is included in the enumeration as the first Element, The farthest is the last Element in the enumeration.

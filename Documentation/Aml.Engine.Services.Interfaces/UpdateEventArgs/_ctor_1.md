@@ -1,6 +1,6 @@
 UpdateEventArgs Constructor (XElement, XAttribute, String)
 ==========================================================
-AutomationML 2.1 APIInitializes a new instance of the [UpdateEventArgs][1] class.
+Initializes a new instance of the [UpdateEventArgs][1] class.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

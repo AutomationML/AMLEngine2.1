@@ -1,6 +1,6 @@
 ICAEXSequence.At Method
 =======================
-AutomationML 2.1 APIGets the CAEX object at the specified index.
+Gets the CAEX object at the specified index.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

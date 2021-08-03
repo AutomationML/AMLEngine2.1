@@ -1,6 +1,6 @@
 LookupService.ReferenceUpdated Event
 ====================================
-AutomationML 2.1 APIOccurs when any reference has been updated.
+Occurs when any reference has been updated.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

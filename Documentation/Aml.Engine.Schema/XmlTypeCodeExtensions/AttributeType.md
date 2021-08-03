@@ -1,6 +1,6 @@
 XmlTypeCodeExtensions.AttributeType Method
 ==========================================
-AutomationML 2.1 APIGets the CLR-Type for the provided typeCode
+Gets the CLR-Type for the provided typeCode
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

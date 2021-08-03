@@ -1,6 +1,6 @@
 IAttributeValueType.AttributeDataType Property
 ==============================================
-AutomationML 2.1 APIGets the Attribute datatype which is valid for all attribute values of this element
+Gets the Attribute datatype which is valid for all attribute values of this element
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

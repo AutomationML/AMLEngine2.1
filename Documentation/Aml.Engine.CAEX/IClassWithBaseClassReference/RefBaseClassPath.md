@@ -1,6 +1,6 @@
 IClassWithBaseClassReference.RefBaseClassPath Property
 ======================================================
-AutomationML 2.1 APIGets the reference base class path.
+Gets the reference base class path.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

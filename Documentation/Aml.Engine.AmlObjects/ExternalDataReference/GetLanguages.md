@@ -1,6 +1,6 @@
 ExternalDataReference.GetLanguages Method
 =========================================
-AutomationML 2.1 APIGets the languages, defined for the document element. If the given internal element is not a document element, the collection is empty.
+Gets the languages, defined for the document element. If the given internal element is not a document element, the collection is empty.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

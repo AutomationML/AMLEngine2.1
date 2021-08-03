@@ -1,6 +1,6 @@
 RoleRequirementsType.AssignQualifiedRoleClassAttribute Method
 =============================================================
-AutomationML 2.1 APIThis method supports the Multiple Roles concept in AutomationML 2.0, based on CAEX 2.15. The method is not applicable for documents, based on CAEX 3.0 and later. It tests, if the provided Attribute object is a role class attribute of a supported role class object which can be used in a Multiple role mapping and assigns it to this RoleRequirements instance.
+This method supports the Multiple Roles concept in AutomationML 2.0, based on CAEX 2.15. The method is not applicable for documents, based on CAEX 3.0 and later. It tests, if the provided Attribute object is a role class attribute of a supported role class object which can be used in a Multiple role mapping and assigns it to this RoleRequirements instance.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

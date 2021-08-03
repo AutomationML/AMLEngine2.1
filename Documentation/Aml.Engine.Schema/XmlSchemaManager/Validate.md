@@ -1,6 +1,6 @@
 XmlSchemaManager.Validate Method
 ================================
-AutomationML 2.1 APIValidates a document if it is conform to this schema instance.
+Validates a document if it is conform to this schema instance.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

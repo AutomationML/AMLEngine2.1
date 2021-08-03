@@ -1,6 +1,6 @@
 CAEXReference.CaexObject Property
 =================================
-AutomationML 2.1 APIGets the CAEX object which contains the reference.
+Gets the CAEX object which contains the reference.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 InterfaceClassType.ExternalInterface Property
 =============================================
-AutomationML 2.1 APIGets the collection of ExternalInterfaces for this Instance.
+Gets the collection of ExternalInterfaces for this Instance.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

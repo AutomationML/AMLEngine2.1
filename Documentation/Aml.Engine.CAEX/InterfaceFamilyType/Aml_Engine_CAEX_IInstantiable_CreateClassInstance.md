@@ -1,6 +1,6 @@
 InterfaceFamilyType.IInstantiable.CreateClassInstance Method
 ============================================================
-AutomationML 2.1 APICreates a ExternalInterface object as an instance of this InterfaceClass object. All Base-Classes are resolved to create the instance.
+Creates a ExternalInterface object as an instance of this InterfaceClass object. All Base-Classes are resolved to create the instance.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXSequence&lt;T>.ICAEXSequence.Item Property (Int32)
 ======================================================
-AutomationML 2.1 APIGets a wrapper for the CAEX element in this sequence at the given position
+Gets a wrapper for the CAEX element in this sequence at the given position
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 IMirror.MasterID Property
 =========================
-AutomationML 2.1 APIGets the master identifier.
+Gets the master identifier.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CaexValue.IsNumericValue Method
 ===============================
-AutomationML 2.1 APIDetermines if the type code derived from the Attribute datatype is a numeric type. The following type codes are recognized as numeric types: [Double][1][Float][1][Long][1][UnsignedShort][1][UnsignedLong][1][UnsignedInt][1][UnsignedByte][1][Int][1][UnsignedShort][1][Short][1][NegativeInteger][1][PositiveInteger][1][Decimal][1][NonPositiveInteger][1][NonNegativeInteger][1][Byte][1][Integer][1]
+Determines if the type code derived from the Attribute datatype is a numeric type. The following type codes are recognized as numeric types: [Double][1][Float][1][Long][1][UnsignedShort][1][UnsignedLong][1][UnsignedInt][1][UnsignedByte][1][Int][1][UnsignedShort][1][Short][1][NegativeInteger][1][PositiveInteger][1][Decimal][1][NonPositiveInteger][1][NonNegativeInteger][1][Byte][1][Integer][1]
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

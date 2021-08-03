@@ -1,6 +1,6 @@
 SystemUnitClassTypeExtensions.Append_InternalElement Method
 ===========================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Inserts the InternalElement object after the defined Predecessor in the InternalElement collection of the SystemUnitClass. If the Predecessor is null, the InternalElement object is inserted at the first position of the InternalElement collection.

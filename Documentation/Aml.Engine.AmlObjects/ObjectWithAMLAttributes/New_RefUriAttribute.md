@@ -1,6 +1,6 @@
 ObjectWithAMLAttributes.New_RefUriAttribute Method
 ==================================================
-AutomationML 2.1 APICreates a new RefURI attribute for the [CAEXBase][1] object if none exists. The RefURI attribute value is set to the provided Uri.
+Creates a new RefURI attribute for the [CAEXBase][1] object if none exists. The RefURI attribute value is set to the provided Uri.
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

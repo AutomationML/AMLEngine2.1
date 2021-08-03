@@ -1,6 +1,6 @@
 UniqueNameService.UnRegister Method
 ===================================
-AutomationML 2.1 APIUnregisters the current instance of the UniqueNameService with the [ServiceLocator][1] of the AMLEngine.
+Unregisters the current instance of the UniqueNameService with the [ServiceLocator][1] of the AMLEngine.
 
   **Namespace:**  [Aml.Engine.Services][2]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

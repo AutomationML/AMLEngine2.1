@@ -1,6 +1,6 @@
 CAEXObjectExtensions.SetDescription Method
 ==========================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 This method sets a description. If no description exists, it is created.

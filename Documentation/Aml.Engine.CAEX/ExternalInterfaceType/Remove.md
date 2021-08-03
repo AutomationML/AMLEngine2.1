@@ -1,6 +1,6 @@
 ExternalInterfaceType.Remove Method
 ===================================
-AutomationML 2.1 APIRemoves this ExternalInterface. After that it is no longer assigned to a document and has no owner anymore. If this ExternalInterfaces has InternalLink relations, the InternalLink relations are removed too.
+Removes this ExternalInterface. After that it is no longer assigned to a document and has no owner anymore. If this ExternalInterfaces has InternalLink relations, the InternalLink relations are removed too.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

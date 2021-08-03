@@ -1,6 +1,6 @@
 AttributeTypeType.Insert Method (CAEXWrapper, Boolean)
 ======================================================
-AutomationML 2.1 APIInserts the specified CAEX object in it's associated sequence. The AttributeType defines additional sequences for [Attribute][1], [Constraint][2] and [RefSemantic][3].
+Inserts the specified CAEX object in it's associated sequence. The AttributeType defines additional sequences for [Attribute][1], [Constraint][2] and [RefSemantic][3].
 
   **Namespace:**  [Aml.Engine.CAEX][4]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

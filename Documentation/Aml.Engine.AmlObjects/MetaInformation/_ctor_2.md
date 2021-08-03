@@ -1,6 +1,6 @@
 MetaInformation Constructor (XElement)
 ======================================
-AutomationML 2.1 APIInitializes a new instance of the [MetaInformation][1] class, using a WriterHeader node to populate the properties.
+Initializes a new instance of the [MetaInformation][1] class, using a WriterHeader node to populate the properties.
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

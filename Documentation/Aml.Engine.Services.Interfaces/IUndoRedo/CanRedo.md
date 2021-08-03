@@ -1,6 +1,6 @@
 IUndoRedo.CanRedo Method
 ========================
-AutomationML 2.1 APIDetermines, if the service can redo a command
+Determines, if the service can redo a command
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

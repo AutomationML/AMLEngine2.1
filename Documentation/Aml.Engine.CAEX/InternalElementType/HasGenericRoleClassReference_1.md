@@ -1,6 +1,6 @@
 InternalElementType.HasGenericRoleClassReference Method (String)
 ================================================================
-AutomationML 2.1 APIDetermines whether this InternalElement object has an associated RoleClass reference which is a generalization of the specified CAEX path role reference.
+Determines whether this InternalElement object has an associated RoleClass reference which is a generalization of the specified CAEX path role reference.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

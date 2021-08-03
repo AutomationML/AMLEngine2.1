@@ -1,6 +1,6 @@
 CAEXWrapper.Exists Property
 ===========================
-AutomationML 2.1 APIDetermines if this is a wrapper around an existing XML-Element
+Determines if this is a wrapper around an existing XML-Element
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

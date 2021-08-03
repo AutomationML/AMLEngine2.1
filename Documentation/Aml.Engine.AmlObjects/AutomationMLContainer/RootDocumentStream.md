@@ -1,6 +1,6 @@
 AutomationMLContainer.RootDocumentStream Method
 ===============================================
-AutomationML 2.1 APIGets the stream of the first root AML document. If no root document is found, the return value is `null`.
+Gets the stream of the first root AML document. If no root document is found, the return value is `null`.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

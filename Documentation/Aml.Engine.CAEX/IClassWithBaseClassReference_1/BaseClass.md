@@ -1,6 +1,6 @@
 IClassWithBaseClassReference&lt;T>.BaseClass Property
 =====================================================
-AutomationML 2.1 APIGets and sets the base class to define a class to class relation.
+Gets and sets the base class to define a class to class relation.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

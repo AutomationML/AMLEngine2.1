@@ -1,6 +1,6 @@
 NominalScaledTypeType.RequiredValue Property
 ============================================
-AutomationML 2.1 APIGets the collection of the 'RequiredValue' elements for this nominal scaled attribute constraint.
+Gets the collection of the 'RequiredValue' elements for this nominal scaled attribute constraint.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

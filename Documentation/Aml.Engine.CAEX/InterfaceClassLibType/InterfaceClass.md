@@ -1,6 +1,6 @@
 InterfaceClassLibType.InterfaceClass Property
 =============================================
-AutomationML 2.1 APIGets a collection of the InterfaceClass objects contained in this InterfaceClass Library.
+Gets a collection of the InterfaceClass objects contained in this InterfaceClass Library.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

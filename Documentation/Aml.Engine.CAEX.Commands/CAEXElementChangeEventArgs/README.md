@@ -1,6 +1,6 @@
 CAEXElementChangeEventArgs Class
 ================================
-AutomationML 2.1 APIEvent arguments for a [CAEXElementChangingEvent][1] and a [CAEXElementChangedEvent][2]
+Event arguments for a [CAEXElementChangingEvent][1] and a [CAEXElementChangedEvent][2]
 
 
 Inheritance Hierarchy

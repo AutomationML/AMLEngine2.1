@@ -1,6 +1,6 @@
 ISchemaTransform.TransformationStarted Event
 ============================================
-AutomationML 2.1 APIRaised from the ShemaTransform service when a transformation has started.
+Raised from the ShemaTransform service when a transformation has started.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

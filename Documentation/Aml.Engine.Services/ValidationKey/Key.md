@@ -1,6 +1,6 @@
 ValidationKey.Key Property
 ==========================
-AutomationML 2.1 APIGets the key.
+Gets the key.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

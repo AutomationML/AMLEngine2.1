@@ -1,6 +1,6 @@
 SourceDocumentInformationType.LastWritingDateTime Property
 ==========================================================
-AutomationML 2.1 APIgets and sets the Date and time of the creation of the CAEX document.
+gets and sets the Date and time of the creation of the CAEX document.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

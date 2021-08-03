@@ -1,6 +1,6 @@
 LookupService Class
 ===================
-AutomationML 2.1 APIThis class is a query service based on dictionaries.
+This class is a query service based on dictionaries.
 
 
 Inheritance Hierarchy

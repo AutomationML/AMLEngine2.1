@@ -1,6 +1,6 @@
 CAEXException Class
 ===================
-AutomationML 2.1 APIThe CAEX exception class.
+The CAEX exception class.
 
 
 Inheritance Hierarchy

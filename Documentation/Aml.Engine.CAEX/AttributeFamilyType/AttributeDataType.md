@@ -1,6 +1,6 @@
 AttributeFamilyType.AttributeDataType Property
 ==============================================
-AutomationML 2.1 APIGets and set the AttributeDataType. If the AttributeDataType is not defined for this AttributeType but a [BaseClass][1] exists, the AttributeDataType of the BaseClass is returned. If this optional attribute is not defined, the data type is assumed to be "xs:string", according to CAEX (DIN EN 62424:2008-08)
+Gets and set the AttributeDataType. If the AttributeDataType is not defined for this AttributeType but a [BaseClass][1] exists, the AttributeDataType of the BaseClass is returned. If this optional attribute is not defined, the data type is assumed to be "xs:string", according to CAEX (DIN EN 62424:2008-08)
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXPathBuilder.InternalLinkReferencePath Method (XElement, XElement)
 =====================================================================
-AutomationML 2.1 APIgets the reference path for an Interface-Reference in an InternalLink
+gets the reference path for an Interface-Reference in an InternalLink
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

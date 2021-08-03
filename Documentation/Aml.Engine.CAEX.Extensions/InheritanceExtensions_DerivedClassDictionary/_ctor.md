@@ -1,6 +1,6 @@
 InheritanceExtensions.DerivedClassDictionary Constructor
 ========================================================
-AutomationML 2.1 APIInitializes a new instance of the [InheritanceExtensions.DerivedClassDictionary][1] class
+Initializes a new instance of the [InheritanceExtensions.DerivedClassDictionary][1] class
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

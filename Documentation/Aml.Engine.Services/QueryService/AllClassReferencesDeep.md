@@ -1,6 +1,6 @@
 QueryService.AllClassReferencesDeep Method (CAEXDocument, String, String)
 =========================================================================
-AutomationML 2.1 APIGets all classes which have references to the provided CAEX object and their referencing classes (recursive). This method extends the [AllClassReferences(CAEXDocument, String, String)][1] and gets not only the directly derived classes of a base class but also the derived classes of these classes and further on. If the *elementName* is set, only classes with the defined element name are considered.
+Gets all classes which have references to the provided CAEX object and their referencing classes (recursive). This method extends the [AllClassReferences(CAEXDocument, String, String)][1] and gets not only the directly derived classes of a base class but also the derived classes of these classes and further on. If the *elementName* is set, only classes with the defined element name are considered.
 
   **Namespace:**  [Aml.Engine.Services][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CaexValue.TypeCode Method
 =========================
-AutomationML 2.1 APITranslates an XSd schema type to an XmlTypeCode.
+Translates an XSd schema type to an XmlTypeCode.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 DocumentVersions.ReplaceDocumentVersionInformation Method
 =========================================================
-AutomationML 2.1 APIThis function replaces any existing DocumentVersion information corresponding to the identical oldDocumentID with the provided new DocumentVersion information.
+This function replaces any existing DocumentVersion information corresponding to the identical oldDocumentID with the provided new DocumentVersion information.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

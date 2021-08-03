@@ -1,6 +1,6 @@
 AMLPort.Insert Method (CAEXWrapper, Boolean)
 ============================================
-AutomationML 2.1 APIInserts the specified CAEX object in it's associated container. AMLPort objects are not allowed to contain child InternalElement objects. If an InternalElement is tried to insert, the result is `false`.
+Inserts the specified CAEX object in it's associated container. AMLPort objects are not allowed to contain child InternalElement objects. If an InternalElement is tried to insert, the result is `false`.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

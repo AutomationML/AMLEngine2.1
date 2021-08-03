@@ -1,6 +1,6 @@
 InheritanceExtensions.DerivedClassDictionary.AddClassDerivations Method
 =======================================================================
-AutomationML 2.1 APIAdds the class derivations for the specified class path to the dictionary.
+Adds the class derivations for the specified class path to the dictionary.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

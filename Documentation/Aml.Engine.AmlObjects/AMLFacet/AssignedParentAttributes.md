@@ -1,6 +1,6 @@
 AMLFacet.AssignedParentAttributes Method
 ========================================
-AutomationML 2.1 APIGet the original parent attributes which are already assigned with the AMLFacet
+Get the original parent attributes which are already assigned with the AMLFacet
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

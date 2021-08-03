@@ -1,6 +1,6 @@
 XmlOperation.CreateCAEXWrapper Method
 =====================================
-AutomationML 2.1 APIWraps the provided Xml-Element into an element specific CAEXWrapper object.
+Wraps the provided Xml-Element into an element specific CAEXWrapper object.
 
   **Namespace:**  [Aml.Engine.Xml.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

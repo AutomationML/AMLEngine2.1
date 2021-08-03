@@ -1,6 +1,6 @@
 IXMLWrapper.Owner Property
 ==========================
-AutomationML 2.1 APIGets the XML parent node of this instance. Direct manipulations of the XML node are not monitored by the AML engine.
+Gets the XML parent node of this instance. Direct manipulations of the XML node are not monitored by the AML engine.
 
   **Namespace:**  [Aml.Engine.XML][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

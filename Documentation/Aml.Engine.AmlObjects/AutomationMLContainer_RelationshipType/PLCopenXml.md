@@ -1,6 +1,6 @@
 AutomationMLContainer.RelationshipType.PLCopenXml Field
 =======================================================
-AutomationML 2.1 APIrelationship type for package to part or root part to part relations to a PLCopenXml part.
+relationship type for package to part or root part to part relations to a PLCopenXml part.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

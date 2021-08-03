@@ -1,6 +1,6 @@
 ObjectWithAMLAttributes.Attribute Property
 ==========================================
-AutomationML 2.1 APIGet the collection of all attributes of this object. Inherited Attributes are not included.
+Get the collection of all attributes of this object. Inherited Attributes are not included.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

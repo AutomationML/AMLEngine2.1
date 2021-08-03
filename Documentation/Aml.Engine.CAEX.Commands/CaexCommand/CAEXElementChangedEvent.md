@@ -1,6 +1,6 @@
 CaexCommand.CAEXElementChangedEvent Event
 =========================================
-AutomationML 2.1 APIThis event is raised after a CAEXElement has been changed. [CAEXElementChangeMode][1]
+This event is raised after a CAEXElement has been changed. [CAEXElementChangeMode][1]
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 IAttributeValueType.Item Property
 =================================
-AutomationML 2.1 APIGets and sets the attribute value for the named attribute using the decoding and encoding methods of [CaexValue][1].
+Gets and sets the attribute value for the named attribute using the decoding and encoding methods of [CaexValue][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

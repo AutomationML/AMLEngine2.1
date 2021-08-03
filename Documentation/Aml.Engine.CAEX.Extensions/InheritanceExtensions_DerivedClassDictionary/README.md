@@ -1,6 +1,6 @@
 InheritanceExtensions.DerivedClassDictionary Class
 ==================================================
-AutomationML 2.1 APIThis class can be used to improve the performance of the [ClassIsDerivedFrom&lt;T>(CAEXDocument, String, String)][1] method. If your class library in the AML document is stable, it is possible to add the base classes, which are of interest, into the dictionary. After a class is registered, all derived classes of this class are fast accessible. If not longer needed or if the class library needs an update, the dictionary entries should be updated or removed.
+This class can be used to improve the performance of the [ClassIsDerivedFrom&lt;T>(CAEXDocument, String, String)][1] method. If your class library in the AML document is stable, it is possible to add the base classes, which are of interest, into the dictionary. After a class is registered, all derived classes of this class are fast accessible. If not longer needed or if the class library needs an update, the dictionary entries should be updated or removed.
 
 
 Inheritance Hierarchy

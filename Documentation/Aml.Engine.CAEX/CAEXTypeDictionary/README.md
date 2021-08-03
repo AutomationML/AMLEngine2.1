@@ -1,6 +1,6 @@
 CAEXTypeDictionary Class
 ========================
-AutomationML 2.1 APIClass CAEXTypeDictionary is a Dictionary of all CAEX - WrapperClass Types, defined in Aml.Engine.CAEX. The TypeName is used as a key. This class is a singleton.
+Class CAEXTypeDictionary is a Dictionary of all CAEX - WrapperClass Types, defined in Aml.Engine.CAEX. The TypeName is used as a key. This class is a singleton.
 
 
 Inheritance Hierarchy

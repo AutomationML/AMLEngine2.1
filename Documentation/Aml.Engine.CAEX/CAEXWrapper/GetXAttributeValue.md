@@ -1,6 +1,6 @@
 CAEXWrapper.GetXAttributeValue Method
 =====================================
-AutomationML 2.1 APIGets the value of the Xml-Attribute with the specified attribute name of the wrapped Xml-Element.
+Gets the value of the Xml-Attribute with the specified attribute name of the wrapped Xml-Element.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

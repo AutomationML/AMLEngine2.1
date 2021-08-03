@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.SUPERIORSTANDARDVERSION_STRING Field
 =============================================================
-AutomationML 2.1 APIThe TypeName of the CAEX-Element 'SuperiorStandardVersion'.
+The TypeName of the CAEX-Element 'SuperiorStandardVersion'.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

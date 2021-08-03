@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.ElementValue Class
 ==============================================
-AutomationML 2.1 APIclass defining an Xml-Element and its associated Value
+class defining an Xml-Element and its associated Value
 
 
 Inheritance Hierarchy

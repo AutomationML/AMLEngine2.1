@@ -1,6 +1,6 @@
 RoleClassLibTypeExtensions Class
 ================================
-AutomationML 2.1 APIExtension methods for the RoleClassLib element and its defining class [RoleClassLibType][1]
+Extension methods for the RoleClassLib element and its defining class [RoleClassLibType][1]
 
 
 Inheritance Hierarchy

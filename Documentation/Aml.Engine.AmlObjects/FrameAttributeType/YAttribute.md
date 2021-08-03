@@ -1,6 +1,6 @@
 FrameAttributeType.YAttribute Property
 ======================================
-AutomationML 2.1 APIThe Y-attribute
+The Y-attribute
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

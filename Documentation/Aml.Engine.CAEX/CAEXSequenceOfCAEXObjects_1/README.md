@@ -1,6 +1,6 @@
 CAEXSequenceOfCAEXObjects&lt;T> Class
 =====================================
-AutomationML 2.1 APIThis class implements methods to work with a sequence of CAEX objects. The class will wrap all elements with the same CAEX element name of an owner element to the denoted wrapper type which is given as the type-argument.
+This class implements methods to work with a sequence of CAEX objects. The class will wrap all elements with the same CAEX element name of an owner element to the denoted wrapper type which is given as the type-argument.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 CAEXSequenceEnumerator&lt;T>.Dispose Method
 ===========================================
-AutomationML 2.1 APIDispose this instance.
+Dispose this instance.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

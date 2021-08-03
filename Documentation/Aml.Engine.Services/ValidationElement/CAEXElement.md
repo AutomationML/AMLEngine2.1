@@ -1,6 +1,6 @@
 ValidationElement.CAEXElement Property
 ======================================
-AutomationML 2.1 APIGets the CAEX element wrapper for the XElement.
+Gets the CAEX element wrapper for the XElement.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

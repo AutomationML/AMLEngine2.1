@@ -1,6 +1,6 @@
 IStatistic.NumberOfInterfaceClasses Method
 ==========================================
-AutomationML 2.1 APICounts all InterfaceClass objects and returns the result.
+Counts all InterfaceClass objects and returns the result.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

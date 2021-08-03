@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.ATTRIBUTE_REFSEMANTIC_STRING Field
 ===========================================================
-AutomationML 2.1 APIThe Name of the CAEX-Attribute 'RefSemantic'. A Property in [AttributeTypeType][1].
+The Name of the CAEX-Attribute 'RefSemantic'. A Property in [AttributeTypeType][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

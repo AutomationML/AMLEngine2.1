@@ -1,6 +1,6 @@
 RoleRequirementsType.HasRoleClassReference Method
 =================================================
-AutomationML 2.1 APIDetermines whether this RoleRequirements object has an associated reference to the provided RoleClass. If inheritance relations between RoleClasses should be regarded, the optional parameter 'regardInheritance' should be set. In this case the specified RoleClass is either identical to the referenced RoleClass or the referenced RoleClass is derived from the provided RoleClass.
+Determines whether this RoleRequirements object has an associated reference to the provided RoleClass. If inheritance relations between RoleClasses should be regarded, the optional parameter 'regardInheritance' should be set. In this case the specified RoleClass is either identical to the referenced RoleClass or the referenced RoleClass is derived from the provided RoleClass.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

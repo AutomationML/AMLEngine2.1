@@ -1,6 +1,6 @@
 SystemUnitClassType.Attribute Property
 ======================================
-AutomationML 2.1 APIGets the collection of Attribute objects for this instance.
+Gets the collection of Attribute objects for this instance.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

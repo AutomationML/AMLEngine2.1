@@ -1,6 +1,6 @@
 CAEXPathBuilder.ObjectSeparator Field
 =====================================
-AutomationML 2.1 APIThe object separator used between object hierarchies
+The object separator used between object hierarchies
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

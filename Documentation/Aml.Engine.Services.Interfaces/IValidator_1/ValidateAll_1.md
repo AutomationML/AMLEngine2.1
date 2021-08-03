@@ -1,6 +1,6 @@
 IValidator&lt;RESULTTYPE>.ValidateAll Method (CAEXDocument, Boolean)
 ====================================================================
-AutomationML 2.1 APIGet Validation Information for all elements in the specified document, which have validation issues. The [IValidationResult][1] provides detailed information about available Repair Options and an additional Information Text.
+Get Validation Information for all elements in the specified document, which have validation issues. The [IValidationResult][1] provides detailed information about available Repair Options and an additional Information Text.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

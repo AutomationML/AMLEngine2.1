@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.SYSTEMUNITCLASSLIB_STRING Field
 ========================================================
-AutomationML 2.1 APIThe Name of the CAEX-Element 'SystemUnitClassLib'. The CAEX-Wrapper is [SystemUnitClassLibType][1].
+The Name of the CAEX-Element 'SystemUnitClassLib'. The CAEX-Wrapper is [SystemUnitClassLibType][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

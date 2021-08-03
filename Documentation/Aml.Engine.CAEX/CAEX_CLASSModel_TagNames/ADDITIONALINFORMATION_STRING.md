@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.ADDITIONALINFORMATION_STRING Field
 ===========================================================
-AutomationML 2.1 APIThe Name of the CAEX-Element 'AdditionalInformation'. This Element has no special CAEX-Wrapper.
+The Name of the CAEX-Element 'AdditionalInformation'. This Element has no special CAEX-Wrapper.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

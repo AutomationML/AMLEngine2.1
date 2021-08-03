@@ -1,6 +1,6 @@
 AutomationMLContainer.GetRelatedPartByUri Method
 ================================================
-AutomationML 2.1 APIGets the related part by URI.
+Gets the related part by URI.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

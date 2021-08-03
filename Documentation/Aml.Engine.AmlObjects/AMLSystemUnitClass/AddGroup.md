@@ -1,6 +1,6 @@
 AMLSystemUnitClass.AddGroup Method
 ==================================
-AutomationML 2.1 APIAdds an AMLGroup object to the AMLSystemUnitClass with the provided name.
+Adds an AMLGroup object to the AMLSystemUnitClass with the provided name.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

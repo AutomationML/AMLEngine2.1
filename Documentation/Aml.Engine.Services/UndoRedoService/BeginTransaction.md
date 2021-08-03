@@ -1,6 +1,6 @@
 UndoRedoService.BeginTransaction Method
 =======================================
-AutomationML 2.1 APIBegins a new transaction. All changes, made to a CAEXDocument inside a transaction are treated as a single operation.
+Begins a new transaction. All changes, made to a CAEXDocument inside a transaction are treated as a single operation.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

@@ -1,6 +1,6 @@
 MetaInformation.WriterVendor Property
 =====================================
-AutomationML 2.1 APIthe vendor of the writer tool, e.g. "3S"
+the vendor of the writer tool, e.g. "3S"
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

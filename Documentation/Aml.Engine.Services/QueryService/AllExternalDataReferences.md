@@ -1,6 +1,6 @@
 QueryService.AllExternalDataReferences Method
 =============================================
-AutomationML 2.1 APIReturns all ExternalInterfaces in the provided document or optionally in the caexObject and descendants, which are instances of the standard Interface class [ExternalDataConnector][1].
+Returns all ExternalInterfaces in the provided document or optionally in the caexObject and descendants, which are instances of the standard Interface class [ExternalDataConnector][1].
 
   **Namespace:**  [Aml.Engine.Services][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

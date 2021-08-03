@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.ALIAS_ATTRIBUTE Field
 ==============================================
-AutomationML 2.1 APIThe Name of the CAEX-Attribute 'Alias'. This is a Property in the CAEX-Wrapper [ExternalReferenceType][1]
+The Name of the CAEX-Attribute 'Alias'. This is a Property in the CAEX-Wrapper [ExternalReferenceType][1]
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

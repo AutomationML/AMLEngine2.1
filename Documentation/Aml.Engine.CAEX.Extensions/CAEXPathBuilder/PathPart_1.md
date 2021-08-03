@@ -1,6 +1,6 @@
 CAEXPathBuilder.PathPart Method (XElement, Boolean)
 ===================================================
-AutomationML 2.1 APItransforms the name of the defined element to a path Part (special characters are escaped).
+transforms the name of the defined element to a path Part (special characters are escaped).
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

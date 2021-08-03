@@ -1,6 +1,6 @@
 AutomationMLContainer.Flush Method
 ==================================
-AutomationML 2.1 APISaves the contents of all parts and relationships, contained in the package.
+Saves the contents of all parts and relationships, contained in the package.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 SplitService.RemoveSplitPoint Method
 ====================================
-AutomationML 2.1 APIRemoves the split point for the provided CAEX object.
+Removes the split point for the provided CAEX object.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

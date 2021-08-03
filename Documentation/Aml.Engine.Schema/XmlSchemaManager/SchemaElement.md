@@ -1,6 +1,6 @@
 XmlSchemaManager.SchemaElement Method
 =====================================
-AutomationML 2.1 APIGets the schema information for the provided parent child combination.
+Gets the schema information for the provided parent child combination.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

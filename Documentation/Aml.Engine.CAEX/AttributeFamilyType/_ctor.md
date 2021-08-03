@@ -1,6 +1,6 @@
 AttributeFamilyType Constructor
 ===============================
-AutomationML 2.1 APICreates a wrapper for the specified XElement which is an AttributeType
+Creates a wrapper for the specified XElement which is an AttributeType
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

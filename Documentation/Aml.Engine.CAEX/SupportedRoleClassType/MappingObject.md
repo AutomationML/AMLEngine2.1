@@ -1,6 +1,6 @@
 SupportedRoleClassType.MappingObject Property
 =============================================
-AutomationML 2.1 APIGets the MappingObject associated with a SupportedRoleClass. Mapping objects are used to define mappings between properties of the associated object and the role class itself.
+Gets the MappingObject associated with a SupportedRoleClass. Mapping objects are used to define mappings between properties of the associated object and the role class itself.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

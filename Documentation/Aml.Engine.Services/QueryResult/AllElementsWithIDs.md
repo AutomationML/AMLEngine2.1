@@ -1,6 +1,6 @@
 QueryResult.AllElementsWithIDs Method
 =====================================
-AutomationML 2.1 APIGets all the elements with IDs. Elements using the same ID are grouped together. Use this method to validate the uniqueness of IDs.
+Gets all the elements with IDs. Elements using the same ID are grouped together. Use this method to validate the uniqueness of IDs.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

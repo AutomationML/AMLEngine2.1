@@ -1,6 +1,6 @@
 SourceDocumentInformationType.OriginName Property
 =================================================
-AutomationML 2.1 APIGets and sets the Name of the origin of the CAEX document, e.g. the source engineering tool or an exporter software
+Gets and sets the Name of the origin of the CAEX document, e.g. the source engineering tool or an exporter software
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

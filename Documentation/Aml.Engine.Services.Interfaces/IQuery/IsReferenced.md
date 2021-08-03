@@ -1,6 +1,6 @@
 IQuery.IsReferenced Method
 ==========================
-AutomationML 2.1 APIDetermines whether the specified CAEX object is referenced.
+Determines whether the specified CAEX object is referenced.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

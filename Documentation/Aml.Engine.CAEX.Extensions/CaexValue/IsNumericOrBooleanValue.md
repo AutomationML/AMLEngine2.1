@@ -1,6 +1,6 @@
 CaexValue.IsNumericOrBooleanValue Method
 ========================================
-AutomationML 2.1 APIDetermines if the type code derived from the Attribute datatype is a numeric or boolean type. For a lit of numeric types .
+Determines if the type code derived from the Attribute datatype is a numeric or boolean type. For a lit of numeric types .
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 IUndoRedo Interface
 ===================
-AutomationML 2.1 APIThe UndoRedo service supports undo and redo of all changes made to a CAEXDocument.
+The UndoRedo service supports undo and redo of all changes made to a CAEXDocument.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

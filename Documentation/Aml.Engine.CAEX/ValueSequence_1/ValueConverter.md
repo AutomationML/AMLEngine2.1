@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.ValueConverter Property
 ===================================================
-AutomationML 2.1 APIThe value converter
+The value converter
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

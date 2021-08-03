@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLib.MIMEType Field
 ===============================================
-AutomationML 2.1 APIThe 'MIMEType' AttributeType path
+The 'MIMEType' AttributeType path
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

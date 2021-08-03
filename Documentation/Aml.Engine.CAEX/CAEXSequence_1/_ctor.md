@@ -1,6 +1,6 @@
 CAEXSequence&lt;T> Constructor
 ==============================
-AutomationML 2.1 APICreates a new instance of the CAEXSequencce for the specified owner and the specified name which has to be a valid name for child elements, which can be filtered out from the owner by this name.
+Creates a new instance of the CAEXSequencce for the specified owner and the specified name which has to be a valid name for child elements, which can be filtered out from the owner by this name.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

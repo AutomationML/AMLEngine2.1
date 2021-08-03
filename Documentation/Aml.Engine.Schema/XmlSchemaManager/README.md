@@ -1,6 +1,6 @@
 XmlSchemaManager Class
 ======================
-AutomationML 2.1 APIClass supports the creation of schema conform xml documents for a given schema. It can be used to create elements with all required attributes and child elements and default values associated. Insertion of new child elements for a given parent at a schema is supported, guaranteeing schema conform sequences and occurrences of all children.
+Class supports the creation of schema conform xml documents for a given schema. It can be used to create elements with all required attributes and child elements and default values associated. Insertion of new child elements for a given parent at a schema is supported, guaranteeing schema conform sequences and occurrences of all children.
 
 
 Inheritance Hierarchy

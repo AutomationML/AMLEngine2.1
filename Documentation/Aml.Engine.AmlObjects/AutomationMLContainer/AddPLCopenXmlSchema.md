@@ -1,6 +1,6 @@
 AutomationMLContainer.AddPLCopenXmlSchema Method (Stream, Uri)
 ==============================================================
-AutomationML 2.1 APIAdds a PLCopenXml schema part from a stream resource to the package and creates a package - part relationship of type [PLCopenXmlSchema][1].
+Adds a PLCopenXml schema part from a stream resource to the package and creates a package - part relationship of type [PLCopenXmlSchema][1].
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 IValidationResult.RepairResult Property
 =======================================
-AutomationML 2.1 APIGets information about the result of a repair operation for one element.
+Gets information about the result of a repair operation for one element.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

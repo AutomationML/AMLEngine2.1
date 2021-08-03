@@ -1,6 +1,6 @@
 AMLFile.ReplaceMetaInformation Method
 =====================================
-AutomationML 2.1 APIThis function replaces any existing meta information corresponding to the identical oldWriterID with the new meta information defined in the new Meta information
+This function replaces any existing meta information corresponding to the identical oldWriterID with the new meta information defined in the new Meta information
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

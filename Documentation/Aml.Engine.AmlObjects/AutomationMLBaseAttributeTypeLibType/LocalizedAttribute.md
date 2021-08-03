@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLibType.LocalizedAttribute Property
 ================================================================
-AutomationML 2.1 APIGets the LocalizedAttribute attribute type.
+Gets the LocalizedAttribute attribute type.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

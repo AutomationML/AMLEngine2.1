@@ -1,6 +1,6 @@
 CopyrightType Class
 ===================
-AutomationML 2.1 APIThis class is a wrapper for the CAEX element 'Copyright'.
+This class is a wrapper for the CAEX element 'Copyright'.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 NominalScaledTypeType.AttributeDataType Property
 ================================================
-AutomationML 2.1 APIGets the AttributeDataType of the defining attribute. The AttributeDataType can be used to interpret the defined nominal values of this instance.
+Gets the AttributeDataType of the defining attribute. The AttributeDataType can be used to interpret the defined nominal values of this instance.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

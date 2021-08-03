@@ -1,6 +1,6 @@
 XmlSchemaManager.ValueType Method
 =================================
-AutomationML 2.1 APIReturns the type code for a value that may be associated with the defined child.
+Returns the type code for a value that may be associated with the defined child.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

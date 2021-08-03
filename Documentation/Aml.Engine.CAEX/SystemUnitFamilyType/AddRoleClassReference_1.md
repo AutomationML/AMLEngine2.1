@@ -1,6 +1,6 @@
 SystemUnitFamilyType.AddRoleClassReference Method (String, Boolean)
 ===================================================================
-AutomationML 2.1 APIAdds a RoleClass reference to this SystemUnitClass object using the provided CAEX path, referencing a RoleClass object. The RoleClass reference is added as a [SupportedRoleClassType][1] object.
+Adds a RoleClass reference to this SystemUnitClass object using the provided CAEX path, referencing a RoleClass object. The RoleClass reference is added as a [SupportedRoleClassType][1] object.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

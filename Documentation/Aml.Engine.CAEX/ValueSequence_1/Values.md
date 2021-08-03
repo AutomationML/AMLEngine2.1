@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.Values Property
 ===========================================
-AutomationML 2.1 APIGets a collection of values of the CAEX elements of this sequence
+Gets a collection of values of the CAEX elements of this sequence
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

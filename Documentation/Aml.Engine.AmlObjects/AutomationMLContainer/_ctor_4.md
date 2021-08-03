@@ -1,6 +1,6 @@
 AutomationMLContainer Constructor (String, FileMode)
 ====================================================
-AutomationML 2.1 APIInitializes a new instance of the [AutomationMLContainer][1] class using the specified container file to load or save the package.
+Initializes a new instance of the [AutomationMLContainer][1] class using the specified container file to load or save the package.
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

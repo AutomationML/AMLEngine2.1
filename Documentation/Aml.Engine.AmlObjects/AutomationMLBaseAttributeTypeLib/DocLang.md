@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLib.DocLang Field
 ==============================================
-AutomationML 2.1 APIThe 'DocLang' AttributeType path
+The 'DocLang' AttributeType path
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

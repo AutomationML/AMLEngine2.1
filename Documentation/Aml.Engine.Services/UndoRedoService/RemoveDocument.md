@@ -1,6 +1,6 @@
 UndoRedoService.RemoveDocument Method
 =====================================
-AutomationML 2.1 APIRemoves the XML document from the internal registry of the service. Undo- and Redo Stacks for this document will be deleted.
+Removes the XML document from the internal registry of the service. Undo- and Redo Stacks for this document will be deleted.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

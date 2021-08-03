@@ -1,6 +1,6 @@
 AmlObjectsExtensions Class
 ==========================
-AutomationML 2.1 APIThis class provides extensions methods for the identification of properties of AML objects, using CAEX objects.
+This class provides extensions methods for the identification of properties of AML objects, using CAEX objects.
 
 
 Inheritance Hierarchy

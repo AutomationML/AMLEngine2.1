@@ -1,6 +1,6 @@
 IClassWithBaseClassReference Interface
 ======================================
-AutomationML 2.1 APIInterface class that defines methods and properties that apply to all classes which can be part of a class to class relation. A class to class relation is also referred to as an inheritance relation.
+Interface class that defines methods and properties that apply to all classes which can be part of a class to class relation. A class to class relation is also referred to as an inheritance relation.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

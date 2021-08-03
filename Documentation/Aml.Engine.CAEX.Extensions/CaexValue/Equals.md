@@ -1,6 +1,6 @@
 CaexValue.Equals Method
 =======================
-AutomationML 2.1 APIDetermines whether the specified [Object][1], is equal to this instance.
+Determines whether the specified [Object][1], is equal to this instance.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

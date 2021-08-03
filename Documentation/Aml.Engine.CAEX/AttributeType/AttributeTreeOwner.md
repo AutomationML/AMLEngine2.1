@@ -1,6 +1,6 @@
 AttributeType.AttributeTreeOwner Property
 =========================================
-AutomationML 2.1 APIGets the owner of the Attribute Tree. This is the first ancestor, which is not an AttributeType object.
+Gets the owner of the Attribute Tree. This is the first ancestor, which is not an AttributeType object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXSequenceExtension.OfRoleClass Method (CAEXSequence&lt;RoleRequirementsType>, RoleFamilyType)
 ================================================================================================
-AutomationML 2.1 APIGets all RoleRequirements from the specified sequence, which are instances of a specific RoleClass
+Gets all RoleRequirements from the specified sequence, which are instances of a specific RoleClass
 
   **Namespace:**  [Aml.Engine.CAEX.Linq][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

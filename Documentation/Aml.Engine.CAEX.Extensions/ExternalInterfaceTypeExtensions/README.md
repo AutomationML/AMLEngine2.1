@@ -1,6 +1,6 @@
 ExternalInterfaceTypeExtensions Class
 =====================================
-AutomationML 2.1 APIExtension methods for the CAEX element "ExternalInterface"
+Extension methods for the CAEX element "ExternalInterface"
 
 
 Inheritance Hierarchy

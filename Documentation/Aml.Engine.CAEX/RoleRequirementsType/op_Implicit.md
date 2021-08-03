@@ -1,6 +1,6 @@
 RoleRequirementsType Implicit Conversion (RoleRequirementsType to ObjectWithAMLAttributes)
 ==========================================================================================
-AutomationML 2.1 APIConversion to get access to specific AutomationML defined Attributes from the RoleRequirements object.
+Conversion to get access to specific AutomationML defined Attributes from the RoleRequirements object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

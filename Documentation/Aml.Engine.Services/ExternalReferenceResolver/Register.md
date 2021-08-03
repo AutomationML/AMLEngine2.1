@@ -1,6 +1,6 @@
 ExternalReferenceResolver.Register Method
 =========================================
-AutomationML 2.1 APIRegisters a service to resolve external references.
+Registers a service to resolve external references.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

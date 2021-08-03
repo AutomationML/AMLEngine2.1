@@ -1,6 +1,6 @@
 ExternalDataReference.AddDocumentElement Method
 ===============================================
-AutomationML 2.1 APIAdds a document element to the defined internalElement. A Document Element is semantically described with an attached role defined with the base role class [ExternalDataRoleClassPath][1] or a derived role class. If no role class path is given as a parameter the default is used. If the specified role class path can not be identified as a derived role from the [ExternalDataRoleClassPath][1] no document element is added (returns null).
+Adds a document element to the defined internalElement. A Document Element is semantically described with an attached role defined with the base role class [ExternalDataRoleClassPath][1] or a derived role class. If no role class path is given as a parameter the default is used. If the specified role class path can not be identified as a derived role from the [ExternalDataRoleClassPath][1] no document element is added (returns null).
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

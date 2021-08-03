@@ -1,6 +1,6 @@
 XDocumentWrapper.Unload Method
 ==============================
-AutomationML 2.1 APIUnloads this document instance.
+Unloads this document instance.
 
   **Namespace:**  [Aml.Engine.XML][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

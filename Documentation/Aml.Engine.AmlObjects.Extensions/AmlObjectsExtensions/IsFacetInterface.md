@@ -1,6 +1,6 @@
 AmlObjectsExtensions.IsFacetInterface Method
 ============================================
-AutomationML 2.1 APIDetermines, if the ExternalInterface object is an ExternalInterface of an AMLFacet.
+Determines, if the ExternalInterface object is an ExternalInterface of an AMLFacet.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

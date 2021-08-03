@@ -1,6 +1,6 @@
 CaexValue.IsValidStringValue Method
 ===================================
-AutomationML 2.1 APIChecks for all string data types, if the provided string is valid according to the defined data type [TypeCodeOfAttribute][1]. The supported types are : [NmToken][2][Name][2][NormalizedString][2][NCName][2][QName][2][Token][2]
+Checks for all string data types, if the provided string is valid according to the defined data type [TypeCodeOfAttribute][1]. The supported types are : [NmToken][2][Name][2][NormalizedString][2][NCName][2][QName][2][Token][2]
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

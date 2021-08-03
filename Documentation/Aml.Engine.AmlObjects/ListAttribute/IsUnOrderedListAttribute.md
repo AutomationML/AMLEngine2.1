@@ -1,6 +1,6 @@
 ListAttribute.IsUnOrderedListAttribute Method
 =============================================
-AutomationML 2.1 APIDetermines whether the specified attribute is an unordered list attribute.
+Determines whether the specified attribute is an unordered list attribute.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AutomationMLContainer.GetPartsByRelationShipType Method
 =======================================================
-AutomationML 2.1 APIReturns an enumeration of all parts with the given relationship type from the package.
+Returns an enumeration of all parts with the given relationship type from the package.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

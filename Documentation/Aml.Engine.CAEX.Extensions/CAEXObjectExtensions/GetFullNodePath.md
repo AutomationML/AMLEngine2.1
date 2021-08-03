@@ -1,6 +1,6 @@
 CAEXObjectExtensions.GetFullNodePath Method
 ===========================================
-AutomationML 2.1 APIGets the full node path of the provided CAEX object, which includes the object names of all ancestor hierarchy levels and the name of the object itself.
+Gets the full node path of the provided CAEX object, which includes the object names of all ancestor hierarchy levels and the name of the object itself.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

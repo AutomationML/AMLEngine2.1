@@ -1,6 +1,6 @@
 InternalLinkType.LinkedObjects.AInterface Property
 ==================================================
-AutomationML 2.1 APIGets the A-Interface of the InternalLink by interpretation of the [RefPartnerSideA][1] Attribute on first access. Consecutive reads will return the at first calculated value. A Reinterpretation is performed, when the respective InternalLink property [AInterface][2] is read or set.
+Gets the A-Interface of the InternalLink by interpretation of the [RefPartnerSideA][1] Attribute on first access. Consecutive reads will return the at first calculated value. A Reinterpretation is performed, when the respective InternalLink property [AInterface][2] is read or set.
 
   **Namespace:**  [Aml.Engine.CAEX][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

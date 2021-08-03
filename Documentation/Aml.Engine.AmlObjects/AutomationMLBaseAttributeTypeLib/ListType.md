@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLib.ListType Field
 ===============================================
-AutomationML 2.1 APIThe 'ListType' AttributeType path
+The 'ListType' AttributeType path
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

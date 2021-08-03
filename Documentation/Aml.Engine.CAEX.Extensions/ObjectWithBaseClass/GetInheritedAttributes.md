@@ -1,6 +1,6 @@
 ObjectWithBaseClass.GetInheritedAttributes Method
 =================================================
-AutomationML 2.1 APIGets a collection of Attribute objects that are inherited from base classes. The own attributes are included in the enumeration.
+Gets a collection of Attribute objects that are inherited from base classes. The own attributes are included in the enumeration.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

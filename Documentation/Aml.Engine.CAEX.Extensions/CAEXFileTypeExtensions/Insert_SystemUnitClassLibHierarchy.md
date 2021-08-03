@@ -1,6 +1,6 @@
 CAEXFileTypeExtensions.Insert_SystemUnitClassLibHierarchy Method
 ================================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Append a SystemUnitClassLib to this CAEX file as the last SystemUnitClassLib.

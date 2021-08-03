@@ -1,6 +1,6 @@
 SchemaConformanceException Constructor (String)
 ===============================================
-AutomationML 2.1 APIInitializes a new instance of the [SchemaConformanceException][1]-class with the defined error message.
+Initializes a new instance of the [SchemaConformanceException][1]-class with the defined error message.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

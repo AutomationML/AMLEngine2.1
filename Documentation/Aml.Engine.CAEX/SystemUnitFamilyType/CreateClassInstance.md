@@ -1,6 +1,6 @@
 SystemUnitFamilyType.CreateClassInstance Method
 ===============================================
-AutomationML 2.1 APICreates an InternalElement as an instance of this class. All References to Base classes are resolved.
+Creates an InternalElement as an instance of this class. All References to Base classes are resolved.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

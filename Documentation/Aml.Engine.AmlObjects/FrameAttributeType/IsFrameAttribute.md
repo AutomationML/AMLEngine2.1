@@ -1,6 +1,6 @@
 FrameAttributeType.IsFrameAttribute Method
 ==========================================
-AutomationML 2.1 APIGets a value indicating whether the attribute is a Frame attribute.
+Gets a value indicating whether the attribute is a Frame attribute.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

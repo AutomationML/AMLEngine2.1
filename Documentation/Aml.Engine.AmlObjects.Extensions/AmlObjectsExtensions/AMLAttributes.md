@@ -1,6 +1,6 @@
 AmlObjectsExtensions.AMLAttributes Method
 =========================================
-AutomationML 2.1 APIConversion of any object which has an attribute collection to get access to specific AutomationML defined attributes.
+Conversion of any object which has an attribute collection to get access to specific AutomationML defined attributes.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 NominalScaledTypeType.AttributeTypeDefiningAttribute Property
 =============================================================
-AutomationML 2.1 APIGets the AttributeType object, defining this instance.
+Gets the AttributeType object, defining this instance.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

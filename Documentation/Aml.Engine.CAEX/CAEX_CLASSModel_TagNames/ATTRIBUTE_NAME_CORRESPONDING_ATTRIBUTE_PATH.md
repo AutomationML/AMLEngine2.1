@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.ATTRIBUTE_NAME_CORRESPONDING_ATTRIBUTE_PATH Field
 ==========================================================================
-AutomationML 2.1 APIThe Name of the Attribute 'CorrespondingAttributePath' of the CAEX-Element [RefSemanticType][1]
+The Name of the Attribute 'CorrespondingAttributePath' of the CAEX-Element [RefSemanticType][1]
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

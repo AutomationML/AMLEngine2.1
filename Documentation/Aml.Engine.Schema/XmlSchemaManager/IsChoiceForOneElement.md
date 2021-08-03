@@ -1,6 +1,6 @@
 XmlSchemaManager.IsChoiceForOneElement Method
 =============================================
-AutomationML 2.1 APIDetermines if the schema defines a choice of only one element for the provided schema element.
+Determines if the schema defines a choice of only one element for the provided schema element.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 IMerge.Merge Method (CAEXDocument, ExternalReferenceType, String[], Boolean)
 ============================================================================
-AutomationML 2.1 APIMerges the defined ExternalReference into the provided CAEXDocument. The source is loaded from the file path in the external reference.
+Merges the defined ExternalReference into the provided CAEXDocument. The source is loaded from the file path in the external reference.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

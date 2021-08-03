@@ -1,6 +1,6 @@
 ObjectWithAttributes.New_Attribute Method
 =========================================
-AutomationML 2.1 APIAppends a new Attribute object with the defined name to the specified CAEX object.
+Appends a new Attribute object with the defined name to the specified CAEX object.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AttributeType.IMirror.Master Property
 =====================================
-AutomationML 2.1 APIGets the master, if this is a mirror attribute
+Gets the master, if this is a mirror attribute
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

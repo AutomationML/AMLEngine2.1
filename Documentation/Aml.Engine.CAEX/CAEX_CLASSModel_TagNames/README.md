@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames Class
 ==============================
-AutomationML 2.1 APIClass CAEX_CLASSModel_TagNames.
+Class CAEX_CLASSModel_TagNames.
 
 
 Inheritance Hierarchy

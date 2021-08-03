@@ -1,6 +1,6 @@
 SplitService.Split Method (CAEXDocument, ISplitPoint, String, String)
 =====================================================================
-AutomationML 2.1 APISplits the specified source document.
+Splits the specified source document.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

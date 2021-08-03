@@ -1,6 +1,6 @@
 AMLFile.DocumentVersion Property
 ================================
-AutomationML 2.1 APIGets the collection of defined document version information of the AMLFile
+Gets the collection of defined document version information of the AMLFile
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

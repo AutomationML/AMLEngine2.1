@@ -1,6 +1,6 @@
 CAEXFileTypeExtensions.FindFastByID Method (CAEXFileType, String, Boolean)
 ==========================================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Performs a document wide fast search and returns a CAEXObject given by its ID.

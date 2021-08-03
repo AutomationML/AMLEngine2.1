@@ -1,6 +1,6 @@
 IAttributeValueType.AttributeTypeDefiningAttribute Property
 ===========================================================
-AutomationML 2.1 APIGets the attribute, which specifies the attribute data type for the attribute values.
+Gets the attribute, which specifies the attribute data type for the attribute values.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

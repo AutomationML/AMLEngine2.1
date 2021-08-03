@@ -1,6 +1,6 @@
 InternalElementType Class
 =========================
-AutomationML 2.1 APIThis Class is a wrapper for the CAEXElement 'InternalElement'.
+This Class is a wrapper for the CAEXElement 'InternalElement'.
 
 
 Inheritance Hierarchy

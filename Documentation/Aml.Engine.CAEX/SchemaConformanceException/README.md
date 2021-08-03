@@ -1,6 +1,6 @@
 SchemaConformanceException Class
 ================================
-AutomationML 2.1 APIException for violations of the CAEX Schema. An example for a violation is the insertion of more than one RoleRequirement object into an InternalElement.
+Exception for violations of the CAEX Schema. An example for a violation is the insertion of more than one RoleRequirement object into an InternalElement.
 
 
 Inheritance Hierarchy

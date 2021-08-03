@@ -1,6 +1,6 @@
 AttributeType.IsMirror Property
 ===============================
-AutomationML 2.1 APIGets a value indicating whether this instance is a mirror of another Attribute object.
+Gets a value indicating whether this instance is a mirror of another Attribute object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

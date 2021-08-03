@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.NAME_ATTRIBUTE Field
 =============================================
-AutomationML 2.1 APIThe Name of the CAEX-Attribute 'Name'. This is an Element in every [CAEXObject][1].
+The Name of the CAEX-Attribute 'Name'. This is an Element in every [CAEXObject][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

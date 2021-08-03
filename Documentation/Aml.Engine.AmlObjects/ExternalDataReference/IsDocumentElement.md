@@ -1,6 +1,6 @@
 ExternalDataReference.IsDocumentElement Method
 ==============================================
-AutomationML 2.1 APIDetermines whether the specified internal element is a document element.
+Determines whether the specified internal element is a document element.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

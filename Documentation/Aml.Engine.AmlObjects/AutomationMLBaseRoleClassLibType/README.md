@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLibType Class
 ======================================
-AutomationML 2.1 APIThis Class is a wrapper for the AutomationML standard 'AutomationMLBaseRoleClassLib' which is the container for a hierarchy of standard RoleClass definitions.
+This Class is a wrapper for the AutomationML standard 'AutomationMLBaseRoleClassLib' which is the container for a hierarchy of standard RoleClass definitions.
 
 
 Inheritance Hierarchy

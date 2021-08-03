@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.ProductStructure Field
 ===================================================
-AutomationML 2.1 APIThe 'ProductStructure' RoleClass path
+The 'ProductStructure' RoleClass path
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

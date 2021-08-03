@@ -1,6 +1,6 @@
 InternalLinkType.LinkedObjects.BInterface Property
 ==================================================
-AutomationML 2.1 APIGets the B-Interface of the InternalLink by interpretation of the [RefPartnerSideB][1] Attribute on first access. Consecutive reads will return the at first calculated value. A Reinterpretation is performed, when the respective InternalLink property [BInterface][2] is read or set.
+Gets the B-Interface of the InternalLink by interpretation of the [RefPartnerSideB][1] Attribute on first access. Consecutive reads will return the at first calculated value. A Reinterpretation is performed, when the respective InternalLink property [BInterface][2] is read or set.
 
   **Namespace:**  [Aml.Engine.CAEX][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

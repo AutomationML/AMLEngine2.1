@@ -1,6 +1,6 @@
 AmlObjectsExtensions.IsFacetAttribute Method
 ============================================
-AutomationML 2.1 APIDetermines, if the attribute is an attribute of an AMLFacet.
+Determines, if the attribute is an attribute of an AMLFacet.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

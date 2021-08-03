@@ -1,6 +1,6 @@
 DocumentVersions.GetAllDocumentVersionInformation Method
 ========================================================
-AutomationML 2.1 APIThis methods returns an Enumeration of all Information related to document versions defined in the "DocumentVersions" information of an AutomationML document.
+This methods returns an Enumeration of all Information related to document versions defined in the "DocumentVersions" information of an AutomationML document.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

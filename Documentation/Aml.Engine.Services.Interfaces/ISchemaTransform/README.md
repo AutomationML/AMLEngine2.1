@@ -1,6 +1,6 @@
 ISchemaTransform Interface
 ==========================
-AutomationML 2.1 APIThis interface class defines a service interface for a schema transformation service
+This interface class defines a service interface for a schema transformation service
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 ListAttribute.IsOrderedListAttribute Method
 ===========================================
-AutomationML 2.1 APIDetermines whether the specified attribute is an ordered list attribute.
+Determines whether the specified attribute is an ordered list attribute.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

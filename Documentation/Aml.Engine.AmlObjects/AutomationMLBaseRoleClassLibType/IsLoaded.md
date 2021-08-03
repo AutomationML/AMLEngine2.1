@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLibType.IsLoaded Method
 ================================================
-AutomationML 2.1 APIDetermines if the AutomationMLBaseRoleClassLib exists in the document.
+Determines if the AutomationMLBaseRoleClassLib exists in the document.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

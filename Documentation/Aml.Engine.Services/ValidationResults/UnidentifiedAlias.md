@@ -1,6 +1,6 @@
 ValidationResults.UnidentifiedAlias Method
 ==========================================
-AutomationML 2.1 APIGets the validation results for all elements with references to an Alias, but no ExternalReference with that Alias is defined.
+Gets the validation results for all elements with references to an Alias, but no ExternalReference with that Alias is defined.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

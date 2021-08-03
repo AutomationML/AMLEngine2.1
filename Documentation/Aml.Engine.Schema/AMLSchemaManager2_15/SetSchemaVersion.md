@@ -1,6 +1,6 @@
 AMLSchemaManager2_15.SetSchemaVersion Method
 ============================================
-AutomationML 2.1 APISets the schema version.
+Sets the schema version.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

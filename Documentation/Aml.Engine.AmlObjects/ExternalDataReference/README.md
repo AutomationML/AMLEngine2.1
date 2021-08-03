@@ -1,6 +1,6 @@
 ExternalDataReference Class
 ===========================
-AutomationML 2.1 APIThis class provides methods to create and retrieve external data references as it is defined in the BPR document "ExternalDataReference" Version 1.0.0 from July 2016.
+This class provides methods to create and retrieve external data references as it is defined in the BPR document "ExternalDataReference" Version 1.0.0 from July 2016.
 
 
 Inheritance Hierarchy

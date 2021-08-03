@@ -1,6 +1,6 @@
 AttributeValueRequirementType.New_NominalType Method
 ====================================================
-AutomationML 2.1 APIA new 'NominalScaledType' constraint is defined if no constraint has been defined before.
+A new 'NominalScaledType' constraint is defined if no constraint has been defined before.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

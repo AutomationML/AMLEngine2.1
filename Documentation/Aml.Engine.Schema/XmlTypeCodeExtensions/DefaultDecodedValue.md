@@ -1,6 +1,6 @@
 XmlTypeCodeExtensions.DefaultDecodedValue Method
 ================================================
-AutomationML 2.1 APIReturns the default value for an XmlTypeCode. The data type of the returned object is the associated CLR type of the provided type code. The CLR type is available with the [AttributeType(XmlTypeCode)][1] method.
+Returns the default value for an XmlTypeCode. The data type of the returned object is the associated CLR type of the provided type code. The CLR type is available with the [AttributeType(XmlTypeCode)][1] method.
 
   **Namespace:**  [Aml.Engine.Schema][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

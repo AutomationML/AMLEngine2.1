@@ -1,6 +1,6 @@
 AmlObjectsExtensions.ToRefURIAttribute Method
 =============================================
-AutomationML 2.1 APIConverts an AttributeType to a RefUriAttribute.
+Converts an AttributeType to a RefUriAttribute.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 RoleClassLibType.Insert Method (Int32, CAEXWrapper)
 ===================================================
-AutomationML 2.1 APIInserts the specified CAEX object in it's associated sequence at the given position. The RoleClassLibType defines the [RoleClass][1] sequence.
+Inserts the specified CAEX object in it's associated sequence at the given position. The RoleClassLibType defines the [RoleClass][1] sequence.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

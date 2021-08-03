@@ -1,6 +1,6 @@
 QueryService.IsMaster Method (AttributeType)
 ============================================
-AutomationML 2.1 APIDetermines whether the specified attribute is a master attribute.
+Determines whether the specified attribute is a master attribute.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AmlObjectsExtensions.IsRefTypeAttribute Method
 ==============================================
-AutomationML 2.1 APIGets a value indicating whether this instance is a RefType attribute.
+Gets a value indicating whether this instance is a RefType attribute.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

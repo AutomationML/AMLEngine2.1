@@ -1,6 +1,6 @@
 ExternalDataReference.DocumentElements Method
 =============================================
-AutomationML 2.1 APIGets all Internal Element Children from the specified internal element which are document elements.
+Gets all Internal Element Children from the specified internal element which are document elements.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

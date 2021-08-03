@@ -1,6 +1,6 @@
 AMLFacet.SourceAttribute Method
 ===============================
-AutomationML 2.1 APIGets the original Attribute from the [AssignedParentAttributes()][1] which is related to this Facet Attribute.
+Gets the original Attribute from the [AssignedParentAttributes()][1] which is related to this Facet Attribute.
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

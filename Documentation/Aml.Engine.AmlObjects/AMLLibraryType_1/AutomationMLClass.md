@@ -1,6 +1,6 @@
 AMLLibraryType&lt;T>.AutomationMLClass Method
 =============================================
-AutomationML 2.1 APIGets the AutomationML class from this library, which can be identified by the provided CAEX path.
+Gets the AutomationML class from this library, which can be identified by the provided CAEX path.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

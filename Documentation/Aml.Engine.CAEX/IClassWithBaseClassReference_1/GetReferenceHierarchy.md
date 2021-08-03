@@ -1,6 +1,6 @@
 IClassWithBaseClassReference&lt;T>.GetReferenceHierarchy Method
 ===============================================================
-AutomationML 2.1 APIGets the reference hierarchy for all class to class relations, starting with this class.
+Gets the reference hierarchy for all class to class relations, starting with this class.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

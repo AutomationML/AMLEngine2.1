@@ -1,6 +1,6 @@
 ICAEXSequence.First Property
 ============================
-AutomationML 2.1 APIGets a wrapper for the first CAEX element in this sequence, if the sequence contains no elements `null` is returned.
+Gets a wrapper for the first CAEX element in this sequence, if the sequence contains no elements `null` is returned.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

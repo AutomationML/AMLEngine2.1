@@ -1,6 +1,6 @@
 CAEXObjectExtensions Class
 ==========================
-AutomationML 2.1 APIThis class defines extension methods for the CAEXObject Element
+This class defines extension methods for the CAEXObject Element
 
 
 Inheritance Hierarchy

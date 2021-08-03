@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.CAEXOBJECT Field
 =========================================
-AutomationML 2.1 APIThe Type Name of any CAEXObject. The CAEX-Wrapper is [CAEXObject][1].
+The Type Name of any CAEXObject. The CAEX-Wrapper is [CAEXObject][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

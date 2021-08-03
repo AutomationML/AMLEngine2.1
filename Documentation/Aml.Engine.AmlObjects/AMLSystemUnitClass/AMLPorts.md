@@ -1,6 +1,6 @@
 AMLSystemUnitClass.AMLPorts Property
 ====================================
-AutomationML 2.1 APIGets the Collection of AMLPort objects.
+Gets the Collection of AMLPort objects.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

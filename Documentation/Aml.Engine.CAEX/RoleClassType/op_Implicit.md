@@ -1,6 +1,6 @@
 RoleClassType Implicit Conversion (RoleClassType to ObjectWithAMLAttributes)
 ============================================================================
-AutomationML 2.1 APIConversion to get access to specific AutomationML defined Attributes
+Conversion to get access to specific AutomationML defined Attributes
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

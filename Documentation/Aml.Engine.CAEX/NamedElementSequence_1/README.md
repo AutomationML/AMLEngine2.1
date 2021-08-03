@@ -1,6 +1,6 @@
 NamedElementSequence&lt;T> Class
 ================================
-AutomationML 2.1 APIA Sequence of XML elements related to a specific element name. An XML element may contain different NamedElementSequences with different names.
+A Sequence of XML elements related to a specific element name. An XML element may contain different NamedElementSequences with different names.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 RoleClassFamilyTypeExtensions.New_RoleClass Method
 ==================================================
-AutomationML 2.1 APIAdding a new RoleClass to this RoleClassFamily.
+Adding a new RoleClass to this RoleClassFamily.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

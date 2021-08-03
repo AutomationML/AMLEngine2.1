@@ -1,6 +1,6 @@
 IStatistic.NumberOfAttributes Method
 ====================================
-AutomationML 2.1 APICounts all Attribute objects and returns the result.
+Counts all Attribute objects and returns the result.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

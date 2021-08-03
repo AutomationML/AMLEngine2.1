@@ -1,6 +1,6 @@
 CAEXTypeDictionary.TryGetCreator Method
 =======================================
-AutomationML 2.1 APITries to get the constructor function which can be used to create a CAEX wrapper for an CAEX element with the provided element name.
+Tries to get the constructor function which can be used to create a CAEX wrapper for an CAEX element with the provided element name.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

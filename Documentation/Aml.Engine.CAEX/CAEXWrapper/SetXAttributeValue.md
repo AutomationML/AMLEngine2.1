@@ -1,6 +1,6 @@
 CAEXWrapper.SetXAttributeValue Method
 =====================================
-AutomationML 2.1 APISets the value of an attribute, adds an attribute, or removes an attribute (if the value is null).
+Sets the value of an attribute, adds an attribute, or removes an attribute (if the value is null).
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

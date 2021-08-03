@@ -1,6 +1,6 @@
 IValidationResult.ValidationInformation Property
 ================================================
-AutomationML 2.1 APIGets information about the validation of one element.
+Gets information about the validation of one element.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

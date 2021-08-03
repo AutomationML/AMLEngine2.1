@@ -1,6 +1,6 @@
 ReferenceElement Class
 ======================
-AutomationML 2.1 APIReferenceElement is a Tuple of an XElement and the Name of an Attributes, which is used to reference another Element. The reference may be used as a key to find the referenced Element.
+ReferenceElement is a Tuple of an XElement and the Name of an Attributes, which is used to reference another Element. The reference may be used as a key to find the referenced Element.
 
 
 Inheritance Hierarchy

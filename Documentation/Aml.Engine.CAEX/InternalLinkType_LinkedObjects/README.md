@@ -1,6 +1,6 @@
 InternalLinkType.LinkedObjects Class
 ====================================
-AutomationML 2.1 APIThis class allows accessing the related objects of an InternalLink without recalculation which improves the performance for consecutive access of the related objects.
+This class allows accessing the related objects of an InternalLink without recalculation which improves the performance for consecutive access of the related objects.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 LookupService.AllClassReferences Method (CAEXObject)
 ====================================================
-AutomationML 2.1 APIGets all classes which have references to the provided CAEX object. Use this method to get all classes which have a class to class relation to the provided CAEX object.
+Gets all classes which have references to the provided CAEX object. Use this method to get all classes which have a class to class relation to the provided CAEX object.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

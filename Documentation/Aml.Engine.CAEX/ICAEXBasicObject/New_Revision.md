@@ -1,6 +1,6 @@
 ICAEXBasicObject.New_Revision Method
 ====================================
-AutomationML 2.1 APICreates a new Revision object and inserts it to the collection of Revision objects [Revision][1] either at the beginning or at the end of the sequence, according to the specified optional value. The Revision object is initialized with the provided values.
+Creates a new Revision object and inserts it to the collection of Revision objects [Revision][1] either at the beginning or at the end of the sequence, according to the specified optional value. The Revision object is initialized with the provided values.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

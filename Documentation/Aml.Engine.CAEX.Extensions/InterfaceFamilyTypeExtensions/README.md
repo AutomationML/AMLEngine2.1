@@ -1,6 +1,6 @@
 InterfaceFamilyTypeExtensions Class
 ===================================
-AutomationML 2.1 APIExtension methods for an InterfaceClass element and its defining class [InterfaceFamilyType][1].
+Extension methods for an InterfaceClass element and its defining class [InterfaceFamilyType][1].
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 ObjectWithBaseClass.ReferencedClassName Method (IClassWithBaseClassReference)
 =============================================================================
-AutomationML 2.1 APIName of the referenced Class without path information.
+Name of the referenced Class without path information.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

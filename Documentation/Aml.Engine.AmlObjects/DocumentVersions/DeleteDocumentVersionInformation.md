@@ -1,6 +1,6 @@
 DocumentVersions.DeleteDocumentVersionInformation Method
 ========================================================
-AutomationML 2.1 APIThis function deletes all existing DocumentVersion information from the AutomationML document corresponding to the documentID.
+This function deletes all existing DocumentVersion information from the AutomationML document corresponding to the documentID.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AttributeFamilyType.GetReferenceHierarchy&lt;T> Method
 ======================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Gets the reference (inheritance) hierarchy. The reference hierarchy includes this instance and the reference hierarchy of an associated [BaseClass][1] defining a class to class relation.

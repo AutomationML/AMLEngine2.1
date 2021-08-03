@@ -1,6 +1,6 @@
 CaexObjectWithReference&lt;T> Class
 ===================================
-AutomationML 2.1 APIBase class for all CAEX objects which may define a class to class relation referencing some base class.
+Base class for all CAEX objects which may define a class to class relation referencing some base class.
 
 
 Inheritance Hierarchy

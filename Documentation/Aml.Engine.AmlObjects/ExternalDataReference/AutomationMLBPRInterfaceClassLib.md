@@ -1,6 +1,6 @@
 ExternalDataReference.AutomationMLBPRInterfaceClassLib Method
 =============================================================
-AutomationML 2.1 APIGets the AutomationMLBPRInterfaceClassLib containing all interface classes used to model external document references to the AMLDocument.
+Gets the AutomationMLBPRInterfaceClassLib containing all interface classes used to model external document references to the AMLDocument.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

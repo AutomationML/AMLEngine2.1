@@ -1,6 +1,6 @@
 AMLEngineAdapter.New_RequiredValue Method (NominalScaledTypeType, String)
 =========================================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Adds a new required value to the NominalScaledType Constraint.

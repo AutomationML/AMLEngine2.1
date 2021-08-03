@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLib.OrderedListType Field
 ======================================================
-AutomationML 2.1 APIThe 'OrderedListType' AttributeType path
+The 'OrderedListType' AttributeType path
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

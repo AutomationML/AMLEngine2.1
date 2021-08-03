@@ -1,6 +1,6 @@
 CAEXWrapper.Copy Method
 =======================
-AutomationML 2.1 APICreates a deep copy of this CAEX object
+Creates a deep copy of this CAEX object
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

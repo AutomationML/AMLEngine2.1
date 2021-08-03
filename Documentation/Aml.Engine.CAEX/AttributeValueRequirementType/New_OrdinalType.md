@@ -1,6 +1,6 @@
 AttributeValueRequirementType.New_OrdinalType Method
 ====================================================
-AutomationML 2.1 APIA new 'OrdinalScaledType' constraint is added if no constraint has been defined before.
+A new 'OrdinalScaledType' constraint is added if no constraint has been defined before.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

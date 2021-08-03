@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLib.RefURI Field
 =============================================
-AutomationML 2.1 APIThe 'RefURI' AttributeType path
+The 'RefURI' AttributeType path
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

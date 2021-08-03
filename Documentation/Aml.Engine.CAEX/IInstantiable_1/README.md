@@ -1,6 +1,6 @@
 IInstantiable&lt;TINSTANCE> Interface
 =====================================
-AutomationML 2.1 APIGeneric interface IInstantiable defining the instantiation method and the instance type.
+Generic interface IInstantiable defining the instantiation method and the instance type.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

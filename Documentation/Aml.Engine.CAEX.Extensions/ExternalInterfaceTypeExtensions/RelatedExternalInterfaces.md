@@ -1,6 +1,6 @@
 ExternalInterfaceTypeExtensions.RelatedExternalInterfaces Method
 ================================================================
-AutomationML 2.1 APIGets the related external interfaces of the specified ExternalInterface connected with InternalLinks. Either the [AInterface][1] or the [BInterface][2] of the InternalLink is equal to the specified ExternalInterface.
+Gets the related external interfaces of the specified ExternalInterface connected with InternalLinks. Either the [AInterface][1] or the [BInterface][2] of the InternalLink is equal to the specified ExternalInterface.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

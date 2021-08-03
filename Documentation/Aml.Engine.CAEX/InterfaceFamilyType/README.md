@@ -1,6 +1,6 @@
 InterfaceFamilyType Class
 =========================
-AutomationML 2.1 APIThis Class is a wrapper for the CAEXElement 'InterfaceFamilyType'
+This Class is a wrapper for the CAEXElement 'InterfaceFamilyType'
 
 
 Inheritance Hierarchy

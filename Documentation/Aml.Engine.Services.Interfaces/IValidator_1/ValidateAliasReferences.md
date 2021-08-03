@@ -1,6 +1,6 @@
 IValidator&lt;RESULTTYPE>.ValidateAliasReferences Method
 ========================================================
-AutomationML 2.1 APIValidates the alias references and returns the validation result describing possible repair options. The [IValidationResult][1] provides detailed information about available Repair Options and an additional Information Text.
+Validates the alias references and returns the validation result describing possible repair options. The [IValidationResult][1] provides detailed information about available Repair Options and an additional Information Text.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

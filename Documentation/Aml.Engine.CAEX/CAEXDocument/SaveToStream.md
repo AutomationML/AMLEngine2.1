@@ -1,6 +1,6 @@
 CAEXDocument.SaveToStream Method
 ================================
-AutomationML 2.1 APISaves the CAEX document to the specified file path.
+Saves the CAEX document to the specified file path.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

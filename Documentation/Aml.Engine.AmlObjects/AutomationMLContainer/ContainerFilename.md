@@ -1,6 +1,6 @@
 AutomationMLContainer.ContainerFilename Property
 ================================================
-AutomationML 2.1 APIGets the full path of the used container file.
+Gets the full path of the used container file.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

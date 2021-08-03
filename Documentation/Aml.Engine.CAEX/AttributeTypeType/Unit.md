@@ -1,6 +1,6 @@
 AttributeTypeType.Unit Property
 ===============================
-AutomationML 2.1 APIGets and sets the Unit attribute for this Attribute object.
+Gets and sets the Unit attribute for this Attribute object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

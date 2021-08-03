@@ -1,6 +1,6 @@
 ObjectWithAttributes.SetAttributeValue Method (IObjectWithAttributes, String, Double, Double, String, String)
 =============================================================================================================
-AutomationML 2.1 APIModifies the attribute with the specified name from the attribute collection of the CAEX object, using the provided values. If no attribute with that name exists, it is created. Sets the AttributeDataType to xs:double
+Modifies the attribute with the specified name from the attribute collection of the CAEX object, using the provided values. If no attribute with that name exists, it is created. Sets the AttributeDataType to xs:double
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 InternalElementExtensions Class
 ===============================
-AutomationML 2.1 APIExtension methods for the CAEX element "InternalElement"
+Extension methods for the CAEX element "InternalElement"
 
 
 Inheritance Hierarchy

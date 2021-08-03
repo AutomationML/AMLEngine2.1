@@ -1,6 +1,6 @@
 ValidationResults Class
 =======================
-AutomationML 2.1 APIThis class defines methods to assist the interpretation of validation results.
+This class defines methods to assist the interpretation of validation results.
 
 
 Inheritance Hierarchy

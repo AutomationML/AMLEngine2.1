@@ -1,6 +1,6 @@
 AutomationMLInterfaceClassLib.ExternalDataConnector Field
 =========================================================
-AutomationML 2.1 APIThe external data connector (a Part 1 Interface)
+The external data connector (a Part 1 Interface)
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

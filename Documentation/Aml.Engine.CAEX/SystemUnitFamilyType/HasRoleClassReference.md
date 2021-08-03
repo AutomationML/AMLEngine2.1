@@ -1,6 +1,6 @@
 SystemUnitFamilyType.HasRoleClassReference Method (RoleFamilyType, Boolean)
 ===========================================================================
-AutomationML 2.1 APIDetermines whether this SystemUnitClass object has a SupportedRoleClass with a reference to the specified RoleClass. If inheritance relations between role classes should be regarded, the optional parameter 'regardInheritance' should be set. In this case the specified RoleClass is either identical to a referenced RoleClass or a referenced RoleClass is derived from the specified RoleClass. Independently of the *regardInheritanceOfRoleClasses* value, always the Role assignments to this SystemUnitClass and any ancestors of this SystemUnitClass are checked, using the [GetInheritedSupportedRoles()][1] method.
+Determines whether this SystemUnitClass object has a SupportedRoleClass with a reference to the specified RoleClass. If inheritance relations between role classes should be regarded, the optional parameter 'regardInheritance' should be set. In this case the specified RoleClass is either identical to a referenced RoleClass or a referenced RoleClass is derived from the specified RoleClass. Independently of the *regardInheritanceOfRoleClasses* value, always the Role assignments to this SystemUnitClass and any ancestors of this SystemUnitClass are checked, using the [GetInheritedSupportedRoles()][1] method.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

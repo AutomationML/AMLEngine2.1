@@ -1,6 +1,6 @@
 UpdateEventArgs.UpdateValue Property
 ====================================
-AutomationML 2.1 APIGets the updated new value (used in changing event notifications, if the reference has not updated).
+Gets the updated new value (used in changing event notifications, if the reference has not updated).
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

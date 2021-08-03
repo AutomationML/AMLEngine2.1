@@ -1,6 +1,6 @@
 AMLFile.GetMetaInformation Method
 =================================
-AutomationML 2.1 APIThis methods returns an Enumeration of all "WriterHeader" meta information out of an existing AutomationML file.
+This methods returns an Enumeration of all "WriterHeader" meta information out of an existing AutomationML file.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

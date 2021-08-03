@@ -1,6 +1,6 @@
 IQuery Interface
 ================
-AutomationML 2.1 APIThe Query service provides methods to query relations modeled in an AutomationML document. The AMLEngine provides a default query service based on Linq (System.Xml.Linq). To get a better performance for queries, users can register a Lookup service which also implements this query interface but uses dictionary based queries. If ExternalReferences should be queried too, a [IExternalReferenceResolver][1] service should be registered.
+The Query service provides methods to query relations modeled in an AutomationML document. The AMLEngine provides a default query service based on Linq (System.Xml.Linq). To get a better performance for queries, users can register a Lookup service which also implements this query interface but uses dictionary based queries. If ExternalReferences should be queried too, a [IExternalReferenceResolver][1] service should be registered.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

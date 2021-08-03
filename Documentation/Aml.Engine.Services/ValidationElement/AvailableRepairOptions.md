@@ -1,6 +1,6 @@
 ValidationElement.AvailableRepairOptions Property
 =================================================
-AutomationML 2.1 APIGets the available repair options.
+Gets the available repair options.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

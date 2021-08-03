@@ -1,6 +1,6 @@
 CaexCommand.Execute Method
 ==========================
-AutomationML 2.1 APICommand Execution method
+Command Execution method
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

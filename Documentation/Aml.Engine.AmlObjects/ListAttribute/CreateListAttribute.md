@@ -1,6 +1,6 @@
 ListAttribute.CreateListAttribute Method
 ========================================
-AutomationML 2.1 APICreates a new list attribute for an element which can have attributes.
+Creates a new list attribute for an element which can have attributes.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

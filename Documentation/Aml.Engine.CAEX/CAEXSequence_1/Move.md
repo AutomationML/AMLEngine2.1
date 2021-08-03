@@ -1,6 +1,6 @@
 CAEXSequence&lt;T>.Move Method
 ==============================
-AutomationML 2.1 APIMoves the CAEX object at the specified index to a new location in the collection.
+Moves the CAEX object at the specified index to a new location in the collection.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

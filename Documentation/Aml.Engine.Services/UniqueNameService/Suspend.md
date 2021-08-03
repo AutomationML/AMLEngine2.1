@@ -1,6 +1,6 @@
 UniqueNameService.Suspend Method
 ================================
-AutomationML 2.1 APISuspends activities of the unique name service.
+Suspends activities of the unique name service.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

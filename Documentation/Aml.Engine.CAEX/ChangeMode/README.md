@@ -1,6 +1,6 @@
 ChangeMode Enumeration
 ======================
-AutomationML 2.1 APIEnumeration defining possible ChangeMode values of the ChangeMode Attribute
+Enumeration defining possible ChangeMode values of the ChangeMode Attribute
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

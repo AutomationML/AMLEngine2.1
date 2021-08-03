@@ -1,6 +1,6 @@
 NamedElementSequence&lt;T>.Elements Property
 ============================================
-AutomationML 2.1 APIGets a list of unwrapped CAEX elements (XElements) of this sequence
+Gets a list of unwrapped CAEX elements (XElements) of this sequence
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

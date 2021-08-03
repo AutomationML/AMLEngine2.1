@@ -1,6 +1,6 @@
 IMappingElementType.MappingSystemUnitClass Property
 ===================================================
-AutomationML 2.1 APIGets the SystemUnitClass, which is either an [InternalElementType][1] or a [SystemUnitFamilyType][2], which provides the mapping elements.
+Gets the SystemUnitClass, which is either an [InternalElementType][1] or a [SystemUnitFamilyType][2], which provides the mapping elements.
 
   **Namespace:**  [Aml.Engine.CAEX][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

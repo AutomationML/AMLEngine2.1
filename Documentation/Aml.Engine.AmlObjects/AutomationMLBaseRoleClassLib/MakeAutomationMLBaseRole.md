@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.MakeAutomationMLBaseRole Method
 ============================================================
-AutomationML 2.1 APIMakes the AutomationML base role.
+Makes the AutomationML base role.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

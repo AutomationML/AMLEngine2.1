@@ -1,6 +1,6 @@
 AMLFile.GenericAdditionalInformation Property
 =============================================
-AutomationML 2.1 APIGets the AdditionalInformation values contained in this instance which are neither DocumentVersion or WriterHeader. DocumentVersion and WriterHeader objects are realized using AdditionalInformation objects, too. But these elements define a specific syntax to be recognized as specific AdditionalInformation objects.
+Gets the AdditionalInformation values contained in this instance which are neither DocumentVersion or WriterHeader. DocumentVersion and WriterHeader objects are realized using AdditionalInformation objects, too. But these elements define a specific syntax to be recognized as specific AdditionalInformation objects.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CaexCommand Class
 =================
-AutomationML 2.1 APIThis is the abstract base class for all CAEX commands, applicable to CAEX elements
+This is the abstract base class for all CAEX commands, applicable to CAEX elements
 
 
 Inheritance Hierarchy

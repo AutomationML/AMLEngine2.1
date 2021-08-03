@@ -1,6 +1,6 @@
 ICAEXCommand Interface
 ======================
-AutomationML 2.1 APIInterface for CAEXCommands. If Commands implement this interface, they can use a [IUndoRedo][1] to enable undo and redo.
+Interface for CAEXCommands. If Commands implement this interface, they can use a [IUndoRedo][1] to enable undo and redo.
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXBasicObjectExtensions.Ancestors&lt;T> Method
 ================================================
-AutomationML 2.1 APIFinds the ancestors of the provided CAEX object which have the given type.
+Finds the ancestors of the provided CAEX object which have the given type.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

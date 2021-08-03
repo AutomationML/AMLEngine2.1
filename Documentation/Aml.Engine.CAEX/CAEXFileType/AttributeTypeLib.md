@@ -1,6 +1,6 @@
 CAEXFileType.AttributeTypeLib Property
 ======================================
-AutomationML 2.1 APIGets the collection of AttributeTypeLib objects contained in the CAEXFile.
+Gets the collection of AttributeTypeLib objects contained in the CAEXFile.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

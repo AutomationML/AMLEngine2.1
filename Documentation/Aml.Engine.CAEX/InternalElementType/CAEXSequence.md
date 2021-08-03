@@ -1,6 +1,6 @@
 InternalElementType.CAEXSequence Method
 =======================================
-AutomationML 2.1 APIGets the CAEXSequence owned by this CAEX object, which contains the specified CAEX object.
+Gets the CAEXSequence owned by this CAEX object, which contains the specified CAEX object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXDocumentExtensions.FindByPath Method
 ========================================
-AutomationML 2.1 APITries to locates a CAEX object from the specified CAEX path. If the path uses an alias reference and an [IExternalReferenceResolver][1] can be located, it is tried to resolve the external reference and to get the object from the external source.
+Tries to locates a CAEX object from the specified CAEX path. If the path uses an alias reference and an [IExternalReferenceResolver][1] can be located, it is tried to resolve the external reference and to get the object from the external source.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

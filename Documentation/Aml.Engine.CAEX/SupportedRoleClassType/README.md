@@ -1,6 +1,6 @@
 SupportedRoleClassType Class
 ============================
-AutomationML 2.1 APIThis class is a wrapper for the CAEXElement 'SupportedRoleClass' assignable to a SystemUnitClass. Associated supported roles of a SystemUnitClass are used to specify some semantic meanings like features or functions for the associated object.
+This class is a wrapper for the CAEXElement 'SupportedRoleClass' assignable to a SystemUnitClass. Associated supported roles of a SystemUnitClass are used to specify some semantic meanings like features or functions for the associated object.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 CAEXObject Class
 ================
-AutomationML 2.1 APIThe class CAEXObject is derived from CAEXBasicObject, augmented by the CAEX Attributes Name(required) and ID(optional).
+The class CAEXObject is derived from CAEXBasicObject, augmented by the CAEX Attributes Name(required) and ID(optional).
 
 
 Inheritance Hierarchy

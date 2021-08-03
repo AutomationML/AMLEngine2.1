@@ -1,6 +1,6 @@
 FrameValues.Y Property
 ======================
-AutomationML 2.1 APIGets or sets the y.
+Gets or sets the y.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

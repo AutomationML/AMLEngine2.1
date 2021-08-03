@@ -1,6 +1,6 @@
 CAEXPathBuilder.IDRefEnum Enumeration
 =====================================
-AutomationML 2.1 APIenumeration type specifying possible ID Reference types
+enumeration type specifying possible ID Reference types
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

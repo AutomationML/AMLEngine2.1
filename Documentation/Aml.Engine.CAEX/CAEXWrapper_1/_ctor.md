@@ -1,6 +1,6 @@
 CAEXWrapper&lt;TDataType> Constructor
 =====================================
-AutomationML 2.1 APIInitializes a new instance of the [CAEXWrapper&lt;TDataType>][1] class.
+Initializes a new instance of the [CAEXWrapper&lt;TDataType>][1] class.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

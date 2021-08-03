@@ -1,6 +1,6 @@
 AmlObjectsExtensions.AutomationMLVersion Method
 ===============================================
-AutomationML 2.1 APIGets the AutomationML version for this CAEXFile object.
+Gets the AutomationML version for this CAEXFile object.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

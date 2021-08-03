@@ -1,6 +1,6 @@
 DocumentVersions Class
 ======================
-AutomationML 2.1 APIThe Class DocumentVersions defines extension methods for the [CAEXFileType][1] to retrieve and manipulate document versions attached to a CAEXFile. The DocumentVersion feature is described in the AutomationML BPR 06 "Naming of related documents and their versions" .
+The Class DocumentVersions defines extension methods for the [CAEXFileType][1] to retrieve and manipulate document versions attached to a CAEXFile. The DocumentVersion feature is described in the AutomationML BPR 06 "Naming of related documents and their versions" .
 
 
 Inheritance Hierarchy

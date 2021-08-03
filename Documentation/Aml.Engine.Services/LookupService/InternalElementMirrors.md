@@ -1,6 +1,6 @@
 LookupService.InternalElementMirrors Method
 ===========================================
-AutomationML 2.1 APIReturns all Mirrors of the specified InternalElement
+Returns all Mirrors of the specified InternalElement
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

@@ -1,6 +1,6 @@
 MetaInformation Constructor (SourceDocumentInformationType)
 ===========================================================
-AutomationML 2.1 APIInitializes a new instance of the [MetaInformation][1] class using the information provided from the specified SourceDocumentInformation
+Initializes a new instance of the [MetaInformation][1] class using the information provided from the specified SourceDocumentInformation
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

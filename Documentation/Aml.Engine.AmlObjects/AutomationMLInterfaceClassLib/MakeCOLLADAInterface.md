@@ -1,6 +1,6 @@
 AutomationMLInterfaceClassLib.MakeCOLLADAInterface Method
 =========================================================
-AutomationML 2.1 APIMakes the COLLADA interface.
+Makes the COLLADA interface.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

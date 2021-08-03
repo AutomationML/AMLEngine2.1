@@ -1,6 +1,6 @@
 ICAEXContainer Interface
 ========================
-AutomationML 2.1 APIThis interface is defined for CAEXObjects, which may contain different types of CAEX objects like the [SystemUnitClassType][1]. The defined methods allow the selection of the associated container for a specific type and the insertion of a CAEX object to its associated container.
+This interface is defined for CAEXObjects, which may contain different types of CAEX objects like the [SystemUnitClassType][1]. The defined methods allow the selection of the associated container for a specific type and the insertion of a CAEX object to its associated container.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

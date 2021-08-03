@@ -1,6 +1,6 @@
 XmlSchemaManager.CreateElement Method
 =====================================
-AutomationML 2.1 APICreates a new node with the specified child name in the given xmlDocument. The node is created with all required attributes and elements but is not inserted in the document tree at this point. Use [Insert(XElement, XElement)][1] for insertion or [InsertNew(XElement, XName, Boolean)][2] for a combined creation and insertion.
+Creates a new node with the specified child name in the given xmlDocument. The node is created with all required attributes and elements but is not inserted in the document tree at this point. Use [Insert(XElement, XElement)][1] for insertion or [InsertNew(XElement, XName, Boolean)][2] for a combined creation and insertion.
 
   **Namespace:**  [Aml.Engine.Schema][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

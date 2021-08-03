@@ -1,6 +1,6 @@
 CAEXDocument.Document Method (CAEXWrapper)
 ==========================================
-AutomationML 2.1 APIGets the CAEX document which contains the specified CAEX object. If the CAEX object has not been inserted into a CAEX document, no CAEX document is returned.
+Gets the CAEX document which contains the specified CAEX object. If the CAEX object has not been inserted into a CAEX document, no CAEX document is returned.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

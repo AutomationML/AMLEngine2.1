@@ -1,6 +1,6 @@
 CAEXPathBuilder.InterfaceSeparator Field
 ========================================
-AutomationML 2.1 APIThe interface separator used before an interface
+The interface separator used before an interface
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

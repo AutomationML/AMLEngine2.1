@@ -1,6 +1,6 @@
 ICAEXObject.CAEXPath Method
 ===========================
-AutomationML 2.1 APIGets the CAEX path for this object. A path can be used to uniquely reference an object, for example in inheritances and instances. The path syntax for an object is defined differently in CAEX 2.15 and CAEX 3.0. The engine uses the [CAEXPathBuilder][1] to generate the CAEX path of an object according to the documents CAEX version.
+Gets the CAEX path for this object. A path can be used to uniquely reference an object, for example in inheritances and instances. The path syntax for an object is defined differently in CAEX 2.15 and CAEX 3.0. The engine uses the [CAEXPathBuilder][1] to generate the CAEX path of an object according to the documents CAEX version.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

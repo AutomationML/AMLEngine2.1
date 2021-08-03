@@ -1,6 +1,6 @@
 FacetExternalInterfaceSequence.Append Method
 ============================================
-AutomationML 2.1 APIThis method is not applicable for ExternalInterfaces, if the owner is an AMLFacet.
+This method is not applicable for ExternalInterfaces, if the owner is an AMLFacet.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

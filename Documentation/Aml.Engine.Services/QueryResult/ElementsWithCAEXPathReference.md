@@ -1,6 +1,6 @@
 QueryResult.ElementsWithCAEXPathReference Method
 ================================================
-AutomationML 2.1 APIGets alls the elements from the document which have a reference to the provided Path.
+Gets alls the elements from the document which have a reference to the provided Path.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

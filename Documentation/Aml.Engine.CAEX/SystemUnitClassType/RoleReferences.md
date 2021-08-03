@@ -1,6 +1,6 @@
 SystemUnitClassType.RoleReferences Property
 ===========================================
-AutomationML 2.1 APIGets all role references for the SystemUnitClass. The collection includes all RoleRequirement objects and SupportedRoleClass objects.
+Gets all role references for the SystemUnitClass. The collection includes all RoleRequirement objects and SupportedRoleClass objects.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

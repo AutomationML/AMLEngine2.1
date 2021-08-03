@@ -1,6 +1,6 @@
 ExternalInterfaceType.AssociatedObject Property
 ===============================================
-AutomationML 2.1 APIDetermines, if this external interface is associated to a SystemUnitClass, InternalElement, InterfaceClass, RoleClass or RoleRequirement and returns the Wrapper for this associated object. Also works for nested Interfaces.
+Determines, if this external interface is associated to a SystemUnitClass, InternalElement, InterfaceClass, RoleClass or RoleRequirement and returns the Wrapper for this associated object. Also works for nested Interfaces.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

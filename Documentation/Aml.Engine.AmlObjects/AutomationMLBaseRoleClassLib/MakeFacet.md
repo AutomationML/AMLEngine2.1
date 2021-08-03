@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.MakeFacet Method
 =============================================
-AutomationML 2.1 APIMakes the facet.
+Makes the facet.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

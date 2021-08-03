@@ -1,6 +1,6 @@
 IAttributeValueType Interface
 =============================
-AutomationML 2.1 APIThis Interface is implemented by CAEX elements which contain Value properties. With the specified properties and methods it is possible to convert attribute values according to an existing attribute data type into a type based object. The type conversion is supported by a new class [CaexValue][1].
+This Interface is implemented by CAEX elements which contain Value properties. With the specified properties and methods it is possible to convert attribute values according to an existing attribute data type into a type based object. The type conversion is supported by a new class [CaexValue][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 InternalLinkType.InterfaceFromAttributeValue Method
 ===================================================
-AutomationML 2.1 APIGets the Interface from the provided InternalLink Attribute value, which is from [RefPartnerSideA][1] or from the [RefPartnerSideB][2] attribute.
+Gets the Interface from the provided InternalLink Attribute value, which is from [RefPartnerSideA][1] or from the [RefPartnerSideB][2] attribute.
 
   **Namespace:**  [Aml.Engine.CAEX][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

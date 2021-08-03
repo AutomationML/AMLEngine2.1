@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.AutomationMLBaseRoleClassLibName Field
 ===================================================================
-AutomationML 2.1 APIThe 'AutomationMLBaseRoleClassLib' library name
+The 'AutomationMLBaseRoleClassLib' library name
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

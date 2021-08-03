@@ -1,6 +1,6 @@
 WeakEventSource&lt;TEventArgs> Constructor
 ==========================================
-AutomationML 2.1 APIInitializes a new instance of the [WeakEventSource&lt;TEventArgs>][1] class.
+Initializes a new instance of the [WeakEventSource&lt;TEventArgs>][1] class.
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

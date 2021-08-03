@@ -1,6 +1,6 @@
 FrameAttributeType.RX_Name Field
 ================================
-AutomationML 2.1 APIThe rx name
+The rx name
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

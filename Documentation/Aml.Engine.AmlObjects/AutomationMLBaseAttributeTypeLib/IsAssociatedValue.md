@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLib.IsAssociatedValue Method
 =========================================================
-AutomationML 2.1 APIDetermines whether the specified attribute reference defines an inheritance relation from the AssociatedValue AttributeType
+Determines whether the specified attribute reference defines an inheritance relation from the AssociatedValue AttributeType
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AttributeTypeType.Item Property
 ===============================
-AutomationML 2.1 APIGets the type-decoded value and sets the type-encoded value for the value attribute with the defined name. The allowed Names as [ATTRIBUTE_VALUE_STRING][1] and [ATTRIBUTE_DEFAULTVALUE_STRING][2].
+Gets the type-decoded value and sets the type-encoded value for the value attribute with the defined name. The allowed Names as [ATTRIBUTE_VALUE_STRING][1] and [ATTRIBUTE_DEFAULTVALUE_STRING][2].
 
   **Namespace:**  [Aml.Engine.CAEX][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

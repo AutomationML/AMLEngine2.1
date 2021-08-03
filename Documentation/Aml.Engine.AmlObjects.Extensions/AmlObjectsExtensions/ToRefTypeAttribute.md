@@ -1,6 +1,6 @@
 AmlObjectsExtensions.ToRefTypeAttribute Method
 ==============================================
-AutomationML 2.1 APIConverts an AttributeType to a RefTypeAttribute.
+Converts an AttributeType to a RefTypeAttribute.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

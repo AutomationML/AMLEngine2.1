@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.Group Field
 ========================================
-AutomationML 2.1 APIThe 'Group' RoleClass path
+The 'Group' RoleClass path
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

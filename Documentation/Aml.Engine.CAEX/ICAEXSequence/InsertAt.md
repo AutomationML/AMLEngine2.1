@@ -1,6 +1,6 @@
 ICAEXSequence.InsertAt Method
 =============================
-AutomationML 2.1 APIInserts the specified CAEX object into this sequence at the defined index.
+Inserts the specified CAEX object into this sequence at the defined index.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

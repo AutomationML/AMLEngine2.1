@@ -1,6 +1,6 @@
 AMLEngineAdapter Class
 ======================
-AutomationML 2.1 APIThis class provides methods, which exists in the old AMLEngine_v3.x.x and are no longer supported. These methods are provided to support the migration of legacy code.
+This class provides methods, which exists in the old AMLEngine_v3.x.x and are no longer supported. These methods are provided to support the migration of legacy code.
 
 
 Inheritance Hierarchy

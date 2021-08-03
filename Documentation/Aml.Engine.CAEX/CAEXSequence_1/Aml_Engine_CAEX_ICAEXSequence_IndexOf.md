@@ -1,6 +1,6 @@
 CAEXSequence&lt;T>.ICAEXSequence.IndexOf Method
 ===============================================
-AutomationML 2.1 APIGets the Index of the specified CAEX object in this sequence of elements.
+Gets the Index of the specified CAEX object in this sequence of elements.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

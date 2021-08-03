@@ -1,6 +1,6 @@
 CaexValue.FriendlyValueString Property
 ======================================
-AutomationML 2.1 APIGets a friendly string of the Attribute value. This string is not in any case equal to the attribute value string, which is always an encoded string, according to the AttributeDataType. The conversion format used to convert the value to its string representation is fix and cannot be changed.
+Gets a friendly string of the Attribute value. This string is not in any case equal to the attribute value string, which is always an encoded string, according to the AttributeDataType. The conversion format used to convert the value to its string representation is fix and cannot be changed.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

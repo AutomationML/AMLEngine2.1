@@ -1,6 +1,6 @@
 AutomationMLContainer Class
 ===========================
-AutomationML 2.1 APIClass AutomationMLContainer provides methods to save an AutomationML document and related documents which are needed for the interpretation or representation of AutomationML data into a single packed and zipped file. The various parts are assembled into this AutomationMLContainer. The Class provides methods to retrieve parts from a loaded container or for the assembly of parts into one single container. A Utility, to build a self containing container from a loaded CAEXDocument and the external referenced files, retrieved from the external references and ExternalInterface classes is defined in a special service.
+Class AutomationMLContainer provides methods to save an AutomationML document and related documents which are needed for the interpretation or representation of AutomationML data into a single packed and zipped file. The various parts are assembled into this AutomationMLContainer. The Class provides methods to retrieve parts from a loaded container or for the assembly of parts into one single container. A Utility, to build a self containing container from a loaded CAEXDocument and the external referenced files, retrieved from the external references and ExternalInterface classes is defined in a special service.
 
 
 Inheritance Hierarchy

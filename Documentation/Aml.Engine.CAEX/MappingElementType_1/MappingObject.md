@@ -1,6 +1,6 @@
 MappingElementType&lt;T>.MappingObject Property
 ===============================================
-AutomationML 2.1 APIGets the mapping object which contains this Mapping Element.
+Gets the mapping object which contains this Mapping Element.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

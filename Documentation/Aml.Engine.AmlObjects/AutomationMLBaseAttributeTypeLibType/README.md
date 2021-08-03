@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLibType Class
 ==========================================
-AutomationML 2.1 APIThis Class is a wrapper for the AutomationML standard 'AutomationMLBaseAttributeTypeLib' which is the container for a hierarchy of standard AttributeType definitions.
+This Class is a wrapper for the AutomationML standard 'AutomationMLBaseAttributeTypeLib' which is the container for a hierarchy of standard AttributeType definitions.
 
 
 Inheritance Hierarchy

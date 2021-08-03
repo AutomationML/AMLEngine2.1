@@ -1,6 +1,6 @@
 SystemUnitClassLibType Class
 ============================
-AutomationML 2.1 APIThis Class is a wrapper for the CAEXElement 'SystemUnitClassLib'.
+This Class is a wrapper for the CAEXElement 'SystemUnitClassLib'.
 
 
 Inheritance Hierarchy

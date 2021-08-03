@@ -1,6 +1,6 @@
 IMerge Interface
 ================
-AutomationML 2.1 APIThis interface defines methods for a merge service. A merge service can merge ExternalReferences into an AML document.
+This interface defines methods for a merge service. A merge service can merge ExternalReferences into an AML document.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

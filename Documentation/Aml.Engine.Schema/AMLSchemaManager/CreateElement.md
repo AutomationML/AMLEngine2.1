@@ -1,6 +1,6 @@
 AMLSchemaManager.CreateElement Method
 =====================================
-AutomationML 2.1 APIMethod overrides the [CreateElement(XName, XName, Boolean)][1]. The created node is made to an AML node.
+Method overrides the [CreateElement(XName, XName, Boolean)][1]. The created node is made to an AML node.
 
   **Namespace:**  [Aml.Engine.Schema][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

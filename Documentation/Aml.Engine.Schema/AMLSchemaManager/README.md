@@ -1,6 +1,6 @@
 AMLSchemaManager Class
 ======================
-AutomationML 2.1 APIClass AMLSchemaManager extends the XMLSchemaManager. Methods which create new objects are overridden to add required properties and values to some objects which is not defined in the underlying CAEX schema but in the AML standard.
+Class AMLSchemaManager extends the XMLSchemaManager. Methods which create new objects are overridden to add required properties and values to some objects which is not defined in the underlying CAEX schema but in the AML standard.
 
 
 Inheritance Hierarchy

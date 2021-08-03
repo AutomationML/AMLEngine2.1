@@ -1,6 +1,6 @@
 AutomationMLContainer Constructor (Stream, FileMode)
 ====================================================
-AutomationML 2.1 APIInitializes a new instance of the [AutomationMLContainer][1] class using the specified stream resource.
+Initializes a new instance of the [AutomationMLContainer][1] class using the specified stream resource.
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

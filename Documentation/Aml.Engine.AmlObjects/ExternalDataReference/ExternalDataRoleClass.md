@@ -1,6 +1,6 @@
 ExternalDataReference.ExternalDataRoleClass Method (CAEXFileType)
 =================================================================
-AutomationML 2.1 APIGets the ExternalData RoleClass from the AML document.
+Gets the ExternalData RoleClass from the AML document.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXSchemaTransformer.TransformationStarted Event
 =================================================
-AutomationML 2.1 APIRaised from the ShemaTransform service when a transformation has started.
+Raised from the ShemaTransform service when a transformation has started.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

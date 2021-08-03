@@ -1,6 +1,6 @@
 UniqueNameService Class
 =======================
-AutomationML 2.1 APIThis class defines methods for a unique name service. The names of CAEX-Objects in a Sequence of Elements should all be unique. If a unique name service is registered, the AMLEngine will automatically call this service for a unique name generation whenever a new element is added to a sequence which requires a unique name for its members. This services uses a generation pattern which consists of the specified default name followed by a generated ordinal number of the elements in a sequence.
+This class defines methods for a unique name service. The names of CAEX-Objects in a Sequence of Elements should all be unique. If a unique name service is registered, the AMLEngine will automatically call this service for a unique name generation whenever a new element is added to a sequence which requires a unique name for its members. This services uses a generation pattern which consists of the specified default name followed by a generated ordinal number of the elements in a sequence.
 
 
 Inheritance Hierarchy

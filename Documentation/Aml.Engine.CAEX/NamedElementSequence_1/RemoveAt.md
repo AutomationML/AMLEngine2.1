@@ -1,6 +1,6 @@
 NamedElementSequence&lt;T>.RemoveAt Method
 ==========================================
-AutomationML 2.1 APIRemoves the element at the given index.
+Removes the element at the given index.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

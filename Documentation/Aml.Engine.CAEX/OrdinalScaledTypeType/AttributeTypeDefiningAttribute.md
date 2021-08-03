@@ -1,6 +1,6 @@
 OrdinalScaledTypeType.AttributeTypeDefiningAttribute Property
 =============================================================
-AutomationML 2.1 APIGets the attribute, which specifies the attribute data type for the value elements of this instance.
+Gets the attribute, which specifies the attribute data type for the value elements of this instance.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

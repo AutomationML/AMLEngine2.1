@@ -1,6 +1,6 @@
 SourceDocumentInformationType.OriginRelease Property
 ====================================================
-AutomationML 2.1 APIGets and sets the release information of the origin of the CAEX document, e.g. the version of the source engineering tool or the exporter software (optional in CAEX)
+Gets and sets the release information of the origin of the CAEX document, e.g. the version of the source engineering tool or the exporter software (optional in CAEX)
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 SystemUnitFamilyType Class
 ==========================
-AutomationML 2.1 APIThis Class is a wrapper for the CAEXElement 'SystemUnitFamilyType' which defines base structures for a hierarchical SystemUnitClass tree. The hierarchical structure has organizational character only. The class supports direct enumeration of the Tree.
+This Class is a wrapper for the CAEXElement 'SystemUnitFamilyType' which defines base structures for a hierarchical SystemUnitClass tree. The hierarchical structure has organizational character only. The class supports direct enumeration of the Tree.
 
 
 Inheritance Hierarchy

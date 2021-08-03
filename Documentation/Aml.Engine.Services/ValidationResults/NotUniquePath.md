@@ -1,6 +1,6 @@
 ValidationResults.NotUniquePath Method
 ======================================
-AutomationML 2.1 APIGets the validation results for all elements which are not uniquely identifiable with a CAEX path
+Gets the validation results for all elements which are not uniquely identifiable with a CAEX path
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

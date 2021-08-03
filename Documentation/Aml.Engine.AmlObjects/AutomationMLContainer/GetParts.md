@@ -1,6 +1,6 @@
 AutomationMLContainer.GetParts Method
 =====================================
-AutomationML 2.1 APIReturns an enumeration of all parts inside the package.
+Returns an enumeration of all parts inside the package.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXBasicObjectExtensions.FirstAncestor Method (ICAEXWrapper, Predicate&lt;ICAEXWrapper>)
 =========================================================================================
-AutomationML 2.1 APIFinds the first ancestor of the specified CAEX object which fulfils the specified predicate
+Finds the first ancestor of the specified CAEX object which fulfils the specified predicate
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 StringExtensions.IsClassReference Method
 ========================================
-AutomationML 2.1 APIDetermines whether the specified attribute is an attribute, containing a class reference.
+Determines whether the specified attribute is an attribute, containing a class reference.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

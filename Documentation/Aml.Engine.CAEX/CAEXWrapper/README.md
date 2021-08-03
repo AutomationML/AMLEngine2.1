@@ -1,6 +1,6 @@
 CAEXWrapper Class
 =================
-AutomationML 2.1 APIThis class is the base CAEXWrapper class, defined for all CAEX objects. The CAEXWrapper class supports notifications of changes.
+This class is the base CAEXWrapper class, defined for all CAEX objects. The CAEXWrapper class supports notifications of changes.
 
 
 Inheritance Hierarchy

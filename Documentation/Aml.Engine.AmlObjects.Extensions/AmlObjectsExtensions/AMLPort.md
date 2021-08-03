@@ -1,6 +1,6 @@
 AmlObjectsExtensions.AMLPort Method
 ===================================
-AutomationML 2.1 APIConverts an InternalElementType to an AMLPort.
+Converts an InternalElementType to an AMLPort.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

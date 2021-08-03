@@ -1,6 +1,6 @@
 AMLEngineAdapter.getLinkedObjects Method
 ========================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Getting a List of LinkedObjects object of this SystemUnitClass containing references to the concrete referenced InternalElements via an InternalLink.

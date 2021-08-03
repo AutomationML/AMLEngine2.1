@@ -1,6 +1,6 @@
 AttributeTypeType.ValueAttributes Property
 ==========================================
-AutomationML 2.1 APIGets all the CAEXValue objects for the defined value attributes of this instance. Recognized value attributes are [ATTRIBUTE_DEFAULTVALUE_STRING][1] and [ATTRIBUTE_VALUE_STRING][2].
+Gets all the CAEXValue objects for the defined value attributes of this instance. Recognized value attributes are [ATTRIBUTE_DEFAULTVALUE_STRING][1] and [ATTRIBUTE_VALUE_STRING][2].
 
   **Namespace:**  [Aml.Engine.CAEX][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

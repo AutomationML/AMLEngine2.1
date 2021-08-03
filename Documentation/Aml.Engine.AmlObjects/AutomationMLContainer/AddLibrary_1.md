@@ -1,6 +1,6 @@
 AutomationMLContainer.AddLibrary Method (PackagePart, String, Uri, Boolean)
 ===========================================================================
-AutomationML 2.1 APIAdds a library file to the package and creates relationships to the package and to the package containing the root document using the [Library][1].
+Adds a library file to the package and creates relationships to the package and to the package containing the root document using the [Library][1].
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

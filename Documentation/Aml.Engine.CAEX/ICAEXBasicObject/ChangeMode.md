@@ -1,6 +1,6 @@
 ICAEXBasicObject.ChangeMode Property
 ====================================
-AutomationML 2.1 APIGets and sets the change mode for a CAEX element (Optional in CAEX).
+Gets and sets the change mode for a CAEX element (Optional in CAEX).
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

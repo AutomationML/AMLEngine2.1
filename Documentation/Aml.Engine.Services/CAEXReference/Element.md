@@ -1,6 +1,6 @@
 CAEXReference.Element Property
 ==============================
-AutomationML 2.1 APIGets the XML element, which contains the reference.
+Gets the XML element, which contains the reference.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AutomationMLContainer.Dispose Method
 ====================================
-AutomationML 2.1 APIPerforms application-defined tasks associated with the release, return or resetting of unmanaged resources.
+Performs application-defined tasks associated with the release, return or resetting of unmanaged resources.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.CAEX_NAMESPACE Field
 =============================================
-AutomationML 2.1 APIThe CAEXNamespace of a CAEX Document
+The CAEXNamespace of a CAEX Document
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

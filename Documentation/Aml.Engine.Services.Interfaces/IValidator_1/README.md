@@ -1,6 +1,6 @@
 IValidator&lt;RESULTTYPE> Interface
 ===================================
-AutomationML 2.1 APIThis service interface is defined for the validation of an AML document. The type parameter of this generic interface defined the validation result type.
+This service interface is defined for the validation of an AML document. The type parameter of this generic interface defined the validation result type.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

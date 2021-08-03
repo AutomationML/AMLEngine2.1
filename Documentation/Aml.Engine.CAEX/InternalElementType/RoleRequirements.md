@@ -1,6 +1,6 @@
 InternalElementType.RoleRequirements Property
 =============================================
-AutomationML 2.1 APIGets the collection of RoleRequirements objects contained in this instance.
+Gets the collection of RoleRequirements objects contained in this instance.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

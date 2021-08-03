@@ -1,6 +1,6 @@
 IAutoUpdate.ReferenceUpdated Event
 ==================================
-AutomationML 2.1 APIOccurs when any reference has been updated.
+Occurs when any reference has been updated.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

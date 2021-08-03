@@ -1,6 +1,6 @@
 FrameValues Constructor
 =======================
-AutomationML 2.1 APICreating a new FrameValues object with initially all values set to 0.0
+Creating a new FrameValues object with initially all values set to 0.0
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

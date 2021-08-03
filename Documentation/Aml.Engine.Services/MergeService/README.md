@@ -1,6 +1,6 @@
 MergeService Class
 ==================
-AutomationML 2.1 APIThis class implements a merge service which is able to merge CAEX documents from different sources into one common document. The merge service adds the libraries from the external referenced file into the target document and updates all references, which use an alias and can be resolved after the merge. If a library, which is used in the external source, also exists in the target document, this library is replaced, if the library version in the external source is newer. If not the existing library is kept. If an InstanceHierarchy in the external source can be identified as an outsourced Master InternalElement, it is tried to add the Master InternalElement back to its original position.
+This class implements a merge service which is able to merge CAEX documents from different sources into one common document. The merge service adds the libraries from the external referenced file into the target document and updates all references, which use an alias and can be resolved after the merge. If a library, which is used in the external source, also exists in the target document, this library is replaced, if the library version in the external source is newer. If not the existing library is kept. If an InstanceHierarchy in the external source can be identified as an outsourced Master InternalElement, it is tried to add the Master InternalElement back to its original position.
 
 
 Inheritance Hierarchy

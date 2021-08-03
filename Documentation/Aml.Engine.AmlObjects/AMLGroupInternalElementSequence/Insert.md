@@ -1,6 +1,6 @@
 AMLGroupInternalElementSequence.Insert Method
 =============================================
-AutomationML 2.1 APIInserts the specified InternalElement into this sequence. Before the InternalElement is inserted, it is checked, if it is a valid Group-InternalElement.
+Inserts the specified InternalElement into this sequence. Before the InternalElement is inserted, it is checked, if it is a valid Group-InternalElement.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

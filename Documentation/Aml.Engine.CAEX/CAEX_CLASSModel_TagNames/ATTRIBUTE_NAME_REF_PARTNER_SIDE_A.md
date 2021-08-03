@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.ATTRIBUTE_NAME_REF_PARTNER_SIDE_A Field
 ================================================================
-AutomationML 2.1 APIThe Name of the CAEX-Attribute 'RefPartnerSideA'. This is a Property in the CAEX-Wrapper [InternalLinkType][1]
+The Name of the CAEX-Attribute 'RefPartnerSideA'. This is a Property in the CAEX-Wrapper [InternalLinkType][1]
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

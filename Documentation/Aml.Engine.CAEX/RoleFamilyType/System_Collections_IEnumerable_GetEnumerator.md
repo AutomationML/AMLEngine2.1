@@ -1,6 +1,6 @@
 RoleFamilyType.IEnumerable.GetEnumerator Method
 ===============================================
-AutomationML 2.1 APIGets the Enumerator for the enumeration of the [RoleClass][1] field.
+Gets the Enumerator for the enumeration of the [RoleClass][1] field.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

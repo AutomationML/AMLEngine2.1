@@ -1,6 +1,6 @@
 CAEXFileStatisticService.NumberOfAttributeTypeReferences Method
 ===============================================================
-AutomationML 2.1 APICounts all Attribute type reference objects and returns the result.
+Counts all Attribute type reference objects and returns the result.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

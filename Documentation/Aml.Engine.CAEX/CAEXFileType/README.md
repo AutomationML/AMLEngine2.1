@@ -1,6 +1,6 @@
 CAEXFileType Class
 ==================
-AutomationML 2.1 APIThis class is a wrapper for the CAEX element 'CAEXFile' which is the root-element of any CAEX document.
+This class is a wrapper for the CAEX element 'CAEXFile' which is the root-element of any CAEX document.
 
 
 Inheritance Hierarchy

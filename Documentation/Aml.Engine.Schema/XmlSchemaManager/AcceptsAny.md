@@ -1,6 +1,6 @@
 XmlSchemaManager.AcceptsAny Method
 ==================================
-AutomationML 2.1 APIDetermines if the schema element accepts values of any type.
+Determines if the schema element accepts values of any type.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

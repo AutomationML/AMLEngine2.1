@@ -1,6 +1,6 @@
 BaseElementType&lt;TDataType> Class
 ===================================
-AutomationML 2.1 APIThis class is a generic base class for CAEX elements with simple values. This class is used by the CAEX adapter only.
+This class is a generic base class for CAEX elements with simple values. This class is used by the CAEX adapter only.
 
 
 Inheritance Hierarchy

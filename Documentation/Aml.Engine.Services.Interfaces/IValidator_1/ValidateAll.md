@@ -1,6 +1,6 @@
 IValidator&lt;RESULTTYPE>.ValidateAll Method (CAEXDocument, AutomationMLContainer, Boolean)
 ===========================================================================================
-AutomationML 2.1 APIGet Validation Information for all elements in the specified document, which have validation issues. The [IValidationResult][1] provides detailed information about available Repair Options and an additional Information Text. This method should be used, if the Document is loaded from an AutomationML container. The Validation service will check validity of external references which are packed parts of the container.
+Get Validation Information for all elements in the specified document, which have validation issues. The [IValidationResult][1] provides detailed information about available Repair Options and an additional Information Text. This method should be used, if the Document is loaded from an AutomationML container. The Validation service will check validity of external references which are packed parts of the container.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

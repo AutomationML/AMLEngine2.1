@@ -1,6 +1,6 @@
 InheritanceExtensions Class
 ===========================
-AutomationML 2.1 APIExtension methods to navigate the inheritance relations
+Extension methods to navigate the inheritance relations
 
 
 Inheritance Hierarchy

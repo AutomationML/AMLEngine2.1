@@ -1,6 +1,6 @@
 SplitService.RemoveDocument Method
 ==================================
-AutomationML 2.1 APIRemoves the document from the internal registry of the split service. All registered split points for this document will be removed.
+Removes the document from the internal registry of the split service. All registered split points for this document will be removed.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

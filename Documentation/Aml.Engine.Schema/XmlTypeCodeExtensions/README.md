@@ -1,6 +1,6 @@
 XmlTypeCodeExtensions Class
 ===========================
-AutomationML 2.1 APIThis static class provides extension methods for the interpretation of [XmlTypeCode][1].
+This static class provides extension methods for the interpretation of [XmlTypeCode][1].
 
 
 Inheritance Hierarchy

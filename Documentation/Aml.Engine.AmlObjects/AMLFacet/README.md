@@ -1,6 +1,6 @@
 AMLFacet Class
 ==============
-AutomationML 2.1 APIA Facet is an AML object providing a sub-view on attributes or interfaces of the parent AML object. This concept serves for the storage of different configuration settings such as HMI or PLC related data and allows the automation of several control engineering steps. For this, this part of IEC 62714 defines the AML RoleClass “Facet” (see6.4.4).“ [IEC 62714-1:2014 8.3 (p.43)]
+A Facet is an AML object providing a sub-view on attributes or interfaces of the parent AML object. This concept serves for the storage of different configuration settings such as HMI or PLC related data and allows the automation of several control engineering steps. For this, this part of IEC 62714 defines the AML RoleClass “Facet” (see6.4.4).“ [IEC 62714-1:2014 8.3 (p.43)]
 
 
 Inheritance Hierarchy

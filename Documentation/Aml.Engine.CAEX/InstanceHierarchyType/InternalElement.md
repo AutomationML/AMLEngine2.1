@@ -1,6 +1,6 @@
 InstanceHierarchyType.InternalElement Property
 ==============================================
-AutomationML 2.1 APIGets the List of wrappers for the InternalElements of the top level of the InstanceHierarchy.
+Gets the List of wrappers for the InternalElements of the top level of the InstanceHierarchy.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

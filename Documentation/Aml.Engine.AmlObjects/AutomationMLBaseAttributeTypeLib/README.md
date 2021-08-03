@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLib Class
 ======================================
-AutomationML 2.1 APIContains definitions and access methods of standard base AttributeType objects.
+Contains definitions and access methods of standard base AttributeType objects.
 
 
 Inheritance Hierarchy

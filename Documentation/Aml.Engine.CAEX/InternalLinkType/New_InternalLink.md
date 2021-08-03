@@ -1,6 +1,6 @@
 InternalLinkType.New_InternalLink Method
 ========================================
-AutomationML 2.1 APICreates a new InternalLink object and append it to the lowest common parent of the SystemUnitClass objects, associated with the provided ExternalInterface objects. If no common parent exists, the InternalLink will be associated with the owner of the *aInterface*.
+Creates a new InternalLink object and append it to the lowest common parent of the SystemUnitClass objects, associated with the provided ExternalInterface objects. If no common parent exists, the InternalLink will be associated with the owner of the *aInterface*.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

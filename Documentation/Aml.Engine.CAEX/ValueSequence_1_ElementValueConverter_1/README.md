@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.ElementValueConverter&lt;T> Class
 =============================================================
-AutomationML 2.1 API
+
 [Missing &lt;summary> documentation for "T:Aml.Engine.CAEX.ValueSequence`1.ElementValueConverter`1"]
 
 

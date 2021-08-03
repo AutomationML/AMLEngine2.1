@@ -1,6 +1,6 @@
 CAEXFileTypeExtensions.Insert_ExternalReference Method
 ======================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Inserts the ExternalReference into the CAEX file.

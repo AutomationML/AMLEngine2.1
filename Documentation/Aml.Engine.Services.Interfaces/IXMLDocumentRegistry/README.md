@@ -1,6 +1,6 @@
 IXMLDocumentRegistry Interface
 ==============================
-AutomationML 2.1 APIThis is a special interface for an AML service, which uses a registry to store data about an XML Document.
+This is a special interface for an AML service, which uses a registry to store data about an XML Document.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

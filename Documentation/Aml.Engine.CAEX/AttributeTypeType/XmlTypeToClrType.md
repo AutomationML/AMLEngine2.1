@@ -1,6 +1,6 @@
 AttributeTypeType.XmlTypeToClrType Method
 =========================================
-AutomationML 2.1 APIGets the CLR type for the specified xmlType. The Mapping is done according to [Mapping XML Data Types to CLR Types.][1]
+Gets the CLR type for the specified xmlType. The Mapping is done according to [Mapping XML Data Types to CLR Types.][1]
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

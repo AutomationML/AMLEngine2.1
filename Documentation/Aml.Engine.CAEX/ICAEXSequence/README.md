@@ -1,6 +1,6 @@
 ICAEXSequence Interface
 =======================
-AutomationML 2.1 APIThis interface defines a sequence of CAEX elements.
+This interface defines a sequence of CAEX elements.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AMLLibraryType&lt;T> Class
 ==========================
-AutomationML 2.1 APIThis class is a generic type definition for CAEX libraries, which are defined by AutomationML and contain standardized classes.
+This class is a generic type definition for CAEX libraries, which are defined by AutomationML and contain standardized classes.
 
 
 Inheritance Hierarchy

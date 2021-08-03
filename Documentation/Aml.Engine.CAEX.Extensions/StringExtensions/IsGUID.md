@@ -1,6 +1,6 @@
 StringExtensions.IsGUID Method
 ==============================
-AutomationML 2.1 APIstring extension method to check if it as GUID
+string extension method to check if it as GUID
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

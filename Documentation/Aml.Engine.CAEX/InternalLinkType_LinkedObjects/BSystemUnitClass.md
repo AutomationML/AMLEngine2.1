@@ -1,6 +1,6 @@
 InternalLinkType.LinkedObjects.BSystemUnitClass Property
 ========================================================
-AutomationML 2.1 APIGets the B-SystemUnitClass using the preserved value [BInterface][1]. If this value has not been calculated, a recalculation is performed.
+Gets the B-SystemUnitClass using the preserved value [BInterface][1]. If this value has not been calculated, a recalculation is performed.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

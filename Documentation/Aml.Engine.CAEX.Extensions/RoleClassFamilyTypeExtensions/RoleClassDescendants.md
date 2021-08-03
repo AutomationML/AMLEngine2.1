@@ -1,6 +1,6 @@
 RoleClassFamilyTypeExtensions.RoleClassDescendants Method
 =========================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Gets all descendant [RoleFamilyType][1] Objects in the RoleClass. RoleClasses on all levels are returned.

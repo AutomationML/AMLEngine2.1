@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLibType.AssociatedExternalValue Property
 =====================================================================
-AutomationML 2.1 APIGets the AssociatedExternalValue Attribute Type.
+Gets the AssociatedExternalValue Attribute Type.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 ExternalDataReference.ExternalDataRoleClass Method (RoleClassLibType)
 =====================================================================
-AutomationML 2.1 APIGets the 'ExternalData' RoleClass from the AutomationMLBPRRoleClassLib.
+Gets the 'ExternalData' RoleClass from the AutomationMLBPRRoleClassLib.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

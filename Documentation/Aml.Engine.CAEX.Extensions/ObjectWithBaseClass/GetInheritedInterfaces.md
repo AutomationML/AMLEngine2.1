@@ -1,6 +1,6 @@
 ObjectWithBaseClass.GetInheritedInterfaces Method
 =================================================
-AutomationML 2.1 APIGets a collection of ExternalInterface objects that are inherited from base classes.
+Gets a collection of ExternalInterface objects that are inherited from base classes.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

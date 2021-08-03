@@ -1,6 +1,6 @@
 InheritanceExtensions.ClassIsDerivedFrom&lt;T> Method (IClassWithBaseClassReference&lt;T>, IClassWithBaseClassReference&lt;T>)
 ==============================================================================================================================
-AutomationML 2.1 APIDetermines, if the specified class is directly or indirectly (across multiple generations) a descendant of the specified base class or identical to it. This method can be used, if the classes are distributed over different CAEX documents, the documents should be referenced by external references and alias references.
+Determines, if the specified class is directly or indirectly (across multiple generations) a descendant of the specified base class or identical to it. This method can be used, if the classes are distributed over different CAEX documents, the documents should be referenced by external references and alias references.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

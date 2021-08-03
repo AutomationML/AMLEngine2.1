@@ -1,6 +1,6 @@
 IClassWithBaseClassReference&lt;T> Interface
 ============================================
-AutomationML 2.1 APIThis interface class is derived from [IClassWithBaseClassReference][1] and defines a generic interface using a type parameter to specify the type of the class to class relation. A class to class relation is also referred to as an inheritance relation.
+This interface class is derived from [IClassWithBaseClassReference][1] and defines a generic interface using a type parameter to specify the type of the class to class relation. A class to class relation is also referred to as an inheritance relation.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

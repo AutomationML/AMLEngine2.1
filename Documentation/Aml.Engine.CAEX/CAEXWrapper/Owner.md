@@ -1,6 +1,6 @@
 CAEXWrapper.Owner Property
 ==========================
-AutomationML 2.1 APIGets the wrapped Xml-Element's parent
+Gets the wrapped Xml-Element's parent
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

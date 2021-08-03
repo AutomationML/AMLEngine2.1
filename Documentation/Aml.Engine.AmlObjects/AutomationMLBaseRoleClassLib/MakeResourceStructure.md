@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.MakeResourceStructure Method
 =========================================================
-AutomationML 2.1 APIMakes the resource structure.
+Makes the resource structure.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 IXMLDocumentRegistry.RemoveDocument Method
 ==========================================
-AutomationML 2.1 APIRemoves the document from the internal registry of the service.
+Removes the document from the internal registry of the service.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

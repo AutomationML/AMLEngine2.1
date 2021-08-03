@@ -1,6 +1,6 @@
 RoleRequirementsType.QualifiedAttributes Property
 =================================================
-AutomationML 2.1 APIGets the collection of CAEX attributes from the [Attribute][1] which are qualified with the name of a SupportedRoleClass. This method is valid for documents based on CAEX 2.15 only. The qualification of attributes is a feature to assign multiple roles to an InternalElement.
+Gets the collection of CAEX attributes from the [Attribute][1] which are qualified with the name of a SupportedRoleClass. This method is valid for documents based on CAEX 2.15 only. The qualification of attributes is a feature to assign multiple roles to an InternalElement.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

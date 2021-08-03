@@ -1,6 +1,6 @@
 IInternalElementContainer Interface
 ===================================
-AutomationML 2.1 APIInterface to define elements which contain a collection of internal elements
+Interface to define elements which contain a collection of internal elements
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

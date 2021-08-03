@@ -1,6 +1,6 @@
 DocumentVersionInformation Class
 ================================
-AutomationML 2.1 APIThis Class is defined for the modeling of document version information as defined in the AutomationML BPR 06 "Naming of related documents and their versions". [DocumentVersions][1] are stored as [AdditionalInformation][2] attached to the CAEXFile Node of the AMLDocument.
+This Class is defined for the modeling of document version information as defined in the AutomationML BPR 06 "Naming of related documents and their versions". [DocumentVersions][1] are stored as [AdditionalInformation][2] attached to the CAEXFile Node of the AMLDocument.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 AutomationMLInterfaceClassLib.SignalInterface Field
 ===================================================
-AutomationML 2.1 APIThe signal interface class path (a Part 1 Interface)
+The signal interface class path (a Part 1 Interface)
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

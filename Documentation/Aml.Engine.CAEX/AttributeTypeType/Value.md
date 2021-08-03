@@ -1,6 +1,6 @@
 AttributeTypeType.Value Property
 ================================
-AutomationML 2.1 APIGets and sets the Value for this Attribute object. The correct XML-String representation for the defined [AttributeDataType][1] has to be ensured by the caller.
+Gets and sets the Value for this Attribute object. The correct XML-String representation for the defined [AttributeDataType][1] has to be ensured by the caller.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

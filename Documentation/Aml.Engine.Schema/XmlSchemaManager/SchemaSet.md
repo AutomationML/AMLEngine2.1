@@ -1,6 +1,6 @@
 XmlSchemaManager.SchemaSet Property
 ===================================
-AutomationML 2.1 APIGets the actual XSD schema set
+Gets the actual XSD schema set
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

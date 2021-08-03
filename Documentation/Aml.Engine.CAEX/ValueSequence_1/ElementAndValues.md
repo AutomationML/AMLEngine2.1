@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.ElementAndValues Property
 =====================================================
-AutomationML 2.1 APIGets the collection of Xml-Elements and their associated Values in this ValueSequence.
+Gets the collection of Xml-Elements and their associated Values in this ValueSequence.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

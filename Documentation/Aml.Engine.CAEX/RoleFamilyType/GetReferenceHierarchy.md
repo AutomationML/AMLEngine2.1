@@ -1,6 +1,6 @@
 RoleFamilyType.GetReferenceHierarchy Method
 ===========================================
-AutomationML 2.1 APIGets the reference (Inheritance) hierarchy including this instance in an ordered sequence of ancestors.
+Gets the reference (Inheritance) hierarchy including this instance in an ordered sequence of ancestors.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

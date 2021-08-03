@@ -1,6 +1,6 @@
 InheritanceExtensions.DerivedClasses Property
 =============================================
-AutomationML 2.1 APIGets the dictionary of derived classes. The dictionary has to be filled manually [AddClassDerivations(CAEXDocument, String, String)][1].
+Gets the dictionary of derived classes. The dictionary has to be filled manually [AddClassDerivations(CAEXDocument, String, String)][1].
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXPathBuilder.PathPartName Method
 ===================================
-AutomationML 2.1 APITransforms a name to a path Part (special characters are escaped).
+Transforms a name to a path Part (special characters are escaped).
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

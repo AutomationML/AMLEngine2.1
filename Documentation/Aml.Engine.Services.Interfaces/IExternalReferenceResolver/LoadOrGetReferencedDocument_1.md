@@ -1,6 +1,6 @@
 IExternalReferenceResolver.LoadOrGetReferencedDocument Method (ExternalReferenceType)
 =====================================================================================
-AutomationML 2.1 APILoads the external reference in a new CAEXDocument. The new CAEXDocument is a separate document and no libraries are merged to the current document. This Method doesn't change any references, which use the alias of this external reference. Use the [IMerge][1] service to achieve this.
+Loads the external reference in a new CAEXDocument. The new CAEXDocument is a separate document and no libraries are merged to the current document. This Method doesn't change any references, which use the alias of this external reference. Use the [IMerge][1] service to achieve this.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

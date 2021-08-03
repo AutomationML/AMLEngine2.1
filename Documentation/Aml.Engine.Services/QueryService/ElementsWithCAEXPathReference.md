@@ -1,6 +1,6 @@
 QueryService.ElementsWithCAEXPathReference Method
 =================================================
-AutomationML 2.1 APIGets alls the elements which are descendants of the provided CAEX object which have a reference to the provided CAEXPath.
+Gets alls the elements which are descendants of the provided CAEX object which have a reference to the provided CAEXPath.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

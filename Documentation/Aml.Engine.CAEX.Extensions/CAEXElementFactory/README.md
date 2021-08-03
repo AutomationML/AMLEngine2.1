@@ -1,6 +1,6 @@
 CAEXElementFactory Class
 ========================
-AutomationML 2.1 APIFactory to create CAEX-Elements according to a provided Type.
+Factory to create CAEX-Elements according to a provided Type.
 
 
 Inheritance Hierarchy

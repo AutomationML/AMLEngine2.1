@@ -1,6 +1,6 @@
 SystemUnitClassType.Insert Method (Int32, CAEXWrapper)
 ======================================================
-AutomationML 2.1 APIInserts the specified CAEX object in it's associated sequence. The SystemUnitClass defines the [Attribute][1], [ExternalInterface][2], [InternalElement][3], [InternalLink][4], and [SupportedRoleClass][5] sequence.
+Inserts the specified CAEX object in it's associated sequence. The SystemUnitClass defines the [Attribute][1], [ExternalInterface][2], [InternalElement][3], [InternalLink][4], and [SupportedRoleClass][5] sequence.
 
   **Namespace:**  [Aml.Engine.CAEX][6]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

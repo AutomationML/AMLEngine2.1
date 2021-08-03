@@ -1,6 +1,6 @@
 CAEXSequenceOfCAEXObjects&lt;T>.Item Property (String[])
 ========================================================
-AutomationML 2.1 APIGets the CAEX object which can be identified with a CAEX path, where the path parts are defined in the provided array of names.
+Gets the CAEX object which can be identified with a CAEX path, where the path parts are defined in the provided array of names.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

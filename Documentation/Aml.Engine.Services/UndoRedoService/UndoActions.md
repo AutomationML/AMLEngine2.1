@@ -1,6 +1,6 @@
 UndoRedoService.UndoActions Method
 ==================================
-AutomationML 2.1 APIGets the command names of all undo actions of the defined document.
+Gets the command names of all undo actions of the defined document.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

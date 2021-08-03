@@ -1,6 +1,6 @@
 XmlSchemaManager.AddNewAfterSelf Method
 =======================================
-AutomationML 2.1 APICreates a new Xml-Element with the provided content and inserts it behind the provided sibling according to this schema instance.
+Creates a new Xml-Element with the provided content and inserts it behind the provided sibling according to this schema instance.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

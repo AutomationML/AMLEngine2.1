@@ -1,6 +1,6 @@
 DocumentVersionInformation.Version Property
 ===========================================
-AutomationML 2.1 APIThe document attribute "Version" shall define the version range of the referenced document.
+The document attribute "Version" shall define the version range of the referenced document.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

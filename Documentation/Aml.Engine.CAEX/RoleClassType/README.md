@@ -1,6 +1,6 @@
 RoleClassType Class
 ===================
-AutomationML 2.1 APIThis Class is a wrapper for the CAEXElement 'RoleClass'
+This Class is a wrapper for the CAEXElement 'RoleClass'
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 CAEXPathBuilder.PathPartEndInName Field
 =======================================
-AutomationML 2.1 APIThe escaped [PathPartEnd][1], used in an object name, if it contains this character
+The escaped [PathPartEnd][1], used in an object name, if it contains this character
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

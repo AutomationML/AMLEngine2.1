@@ -1,6 +1,6 @@
 AutomationMLContainer.RelationshipType.MimeType Property
 ========================================================
-AutomationML 2.1 APIGets the mime type of the relationship
+Gets the mime type of the relationship
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

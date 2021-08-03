@@ -1,6 +1,6 @@
 OrdinalScaledTypeType.ValueAttributes Property
 ==============================================
-AutomationML 2.1 APIGets all the CAEXValue objects for the defined value attributes of this instance. Recognized value attributes are [ATTRIBUTE_CONSTRAINT_ORDINAL_MAX_STRING][1] and [ATTRIBUTE_CONSTRAINT_ORDINAL_MIN_STRING][2] and [ATTRIBUTE_CONSTRAINT_ORDINAL_VALUE_STRING][3].
+Gets all the CAEXValue objects for the defined value attributes of this instance. Recognized value attributes are [ATTRIBUTE_CONSTRAINT_ORDINAL_MAX_STRING][1] and [ATTRIBUTE_CONSTRAINT_ORDINAL_MIN_STRING][2] and [ATTRIBUTE_CONSTRAINT_ORDINAL_VALUE_STRING][3].
 
   **Namespace:**  [Aml.Engine.CAEX][4]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

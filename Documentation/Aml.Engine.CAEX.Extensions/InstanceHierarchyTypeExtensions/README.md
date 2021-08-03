@@ -1,6 +1,6 @@
 InstanceHierarchyTypeExtensions Class
 =====================================
-AutomationML 2.1 APIExtension methods for an InstanceHierarchy element
+Extension methods for an InstanceHierarchy element
 
 
 Inheritance Hierarchy

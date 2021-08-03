@@ -1,6 +1,6 @@
 IQuery.InterfacesWithInternalLinkRelations Method
 =================================================
-AutomationML 2.1 APIReturns all ExternalInterface objects which are descendants of the provided CAEX object and are used in relations (InternalLinks).
+Returns all ExternalInterface objects which are descendants of the provided CAEX object and are used in relations (InternalLinks).
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

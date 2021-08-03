@@ -1,6 +1,6 @@
 ICAEXSequence.Item Property (ValueTuple&lt;String, String>)
 ===========================================================
-AutomationML 2.1 APIGets the first CAEX object with a specific attribute value from the sequence of elements
+Gets the first CAEX object with a specific attribute value from the sequence of elements
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

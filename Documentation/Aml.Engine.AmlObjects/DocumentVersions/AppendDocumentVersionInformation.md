@@ -1,6 +1,6 @@
 DocumentVersions.AppendDocumentVersionInformation Method (CAEXFileType, DocumentVersionInformation, String)
 ===========================================================================================================
-AutomationML 2.1 APIAppends the provided document version information to the AutomationML document
+Appends the provided document version information to the AutomationML document
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

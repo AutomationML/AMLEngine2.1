@@ -1,6 +1,6 @@
 NamedElementSequence&lt;T>.ElementName Property
 ===============================================
-AutomationML 2.1 APIGets the name of the elements in this sequence
+Gets the name of the elements in this sequence
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

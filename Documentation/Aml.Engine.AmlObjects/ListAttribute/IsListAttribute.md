@@ -1,6 +1,6 @@
 ListAttribute.IsListAttribute Method
 ====================================
-AutomationML 2.1 APIDetermines whether the specified attribute is a list attribute. This can be ordered or unordered.
+Determines whether the specified attribute is a list attribute. This can be ordered or unordered.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

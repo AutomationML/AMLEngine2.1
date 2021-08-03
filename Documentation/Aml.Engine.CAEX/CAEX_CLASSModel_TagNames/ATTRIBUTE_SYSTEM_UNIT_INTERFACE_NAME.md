@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.ATTRIBUTE_SYSTEM_UNIT_INTERFACE_NAME Field
 ===================================================================
-AutomationML 2.1 APIThe Name of the CAEX-Attribute 'SystemUnitInterfaceName' in an InterfaceNameMapping. The CAEX-Wrapper is [InterfaceNameMappingType][1].
+The Name of the CAEX-Attribute 'SystemUnitInterfaceName' in an InterfaceNameMapping. The CAEX-Wrapper is [InterfaceNameMappingType][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

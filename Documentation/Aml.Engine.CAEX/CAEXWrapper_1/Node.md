@@ -1,6 +1,6 @@
 CAEXWrapper&lt;TDataType>.Node Property
 =======================================
-AutomationML 2.1 APIGets the wrapped XML node.
+Gets the wrapped XML node.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

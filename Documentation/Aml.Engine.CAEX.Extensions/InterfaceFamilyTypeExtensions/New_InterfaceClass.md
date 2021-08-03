@@ -1,6 +1,6 @@
 InterfaceFamilyTypeExtensions.New_InterfaceClass Method
 =======================================================
-AutomationML 2.1 APIA new InterfaceClass is added to the specified InterfaceClass object.
+A new InterfaceClass is added to the specified InterfaceClass object.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXSequenceEnumerator&lt;T>.Reset Method
 =========================================
-AutomationML 2.1 APIResets the enumerator.
+Resets the enumerator.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

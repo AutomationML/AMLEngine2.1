@@ -1,6 +1,6 @@
 AMLGroup.AssociatedFacet Property
 =================================
-AutomationML 2.1 APIGets or sets the associated facet for the AMLGroup object
+Gets or sets the associated facet for the AMLGroup object
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

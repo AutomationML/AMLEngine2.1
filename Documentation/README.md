@@ -1,6 +1,6 @@
 AutomationML API
 ================
-AutomationML 2.1 API
+
 
 Namespaces
 ----------

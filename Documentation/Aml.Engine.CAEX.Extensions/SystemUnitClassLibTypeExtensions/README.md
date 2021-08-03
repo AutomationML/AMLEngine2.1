@@ -1,6 +1,6 @@
 SystemUnitClassLibTypeExtensions Class
 ======================================
-AutomationML 2.1 APIExtension methods for the SystemUnitClassLib element and its defining class [SystemUnitClassLibType][1]
+Extension methods for the SystemUnitClassLib element and its defining class [SystemUnitClassLibType][1]
 
 
 Inheritance Hierarchy

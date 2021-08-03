@@ -1,6 +1,6 @@
 AutomationMLContainer.RelationshipType.ColladaSchema Field
 ==========================================================
-AutomationML 2.1 APIrelationship type for package to part relation to the COLLADA schema.
+relationship type for package to part relation to the COLLADA schema.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

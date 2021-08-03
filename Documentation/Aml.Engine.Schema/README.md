@@ -1,6 +1,6 @@
 Aml.Engine.Schema Namespace
 ===========================
-AutomationML 2.1 APIThe Aml.Engine.Schema Namespace contains a schema parser which is used to parse the document assigned CAEX schema. All changes made to a document with API methods are supported by a schema specific schema manager which assures, that all insertions and changes are schema conform. Currently schema managers exist for CAEX version 2.15, which is [AMLSchemaManager2_15][1] and CAEX version 3.0, which is [AMLSchemaManager3_0][2]. The schema managers are made public to supply methods for schema conform CAEX document processing capabilities to users who don't like to use the API wrapper-classes and methods.
+The Aml.Engine.Schema Namespace contains a schema parser which is used to parse the document assigned CAEX schema. All changes made to a document with API methods are supported by a schema specific schema manager which assures, that all insertions and changes are schema conform. Currently schema managers exist for CAEX version 2.15, which is [AMLSchemaManager2_15][1] and CAEX version 3.0, which is [AMLSchemaManager3_0][2]. The schema managers are made public to supply methods for schema conform CAEX document processing capabilities to users who don't like to use the API wrapper-classes and methods.
 
 
 Classes

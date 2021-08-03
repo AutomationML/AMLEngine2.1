@@ -1,6 +1,6 @@
 AutomationMLContainer.RelationshipType.Root Field
 =================================================
-AutomationML 2.1 APIrelationship type for the package to part relation to the part containing the root document.
+relationship type for the package to part relation to the part containing the root document.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

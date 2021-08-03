@@ -1,6 +1,6 @@
 NamedElementSequence&lt;T>.Exists Property
 ==========================================
-AutomationML 2.1 APIDetermines, if the sequence contains any element
+Determines, if the sequence contains any element
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

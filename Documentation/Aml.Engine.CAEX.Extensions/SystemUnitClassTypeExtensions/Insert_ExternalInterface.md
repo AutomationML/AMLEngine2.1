@@ -1,6 +1,6 @@
 SystemUnitClassTypeExtensions.Insert_ExternalInterface Method
 =============================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Inserting an ExternalInterface to the ExternalInterface-Collection of the *objectWithExternalInterface*. The Element is inserted at the first Element of any existing ExternalInterfaces if no other position is defined.

@@ -1,6 +1,6 @@
 IUndoRedo.Pause Method
 ======================
-AutomationML 2.1 APIRequest to not record changes of the specified document. If the recording of document changes is paused the [Undo(CAEXDocument)][1] and [Redo(CAEXDocument)][2] methods can not be applied.
+Request to not record changes of the specified document. If the recording of document changes is paused the [Undo(CAEXDocument)][1] and [Redo(CAEXDocument)][2] methods can not be applied.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

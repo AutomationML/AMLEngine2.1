@@ -1,6 +1,6 @@
 MetaInformation.WriterID Property
 =================================
-AutomationML 2.1 APIthe ID of the writer tool, maybe identical to the tools name if it is not subject of change
+the ID of the writer tool, maybe identical to the tools name if it is not subject of change
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

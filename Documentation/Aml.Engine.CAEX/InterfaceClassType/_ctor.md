@@ -1,6 +1,6 @@
 InterfaceClassType Constructor
 ==============================
-AutomationML 2.1 APICreates a Wrapper for the specified XElement, if it is a CAEX InterfaceClass.
+Creates a Wrapper for the specified XElement, if it is a CAEX InterfaceClass.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

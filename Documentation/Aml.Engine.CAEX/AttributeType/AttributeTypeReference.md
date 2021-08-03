@@ -1,6 +1,6 @@
 AttributeType.AttributeTypeReference Property
 =============================================
-AutomationML 2.1 APIGets and sets the AttributeType of an Attribute object, defining a new instance to class relation, using the CAEX attribute [RefAttributeType][1].
+Gets and sets the AttributeType of an Attribute object, defining a new instance to class relation, using the CAEX attribute [RefAttributeType][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

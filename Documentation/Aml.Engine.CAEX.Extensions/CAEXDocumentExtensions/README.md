@@ -1,6 +1,6 @@
 CAEXDocumentExtensions Class
 ============================
-AutomationML 2.1 APIThis class defines extension methods for the [CAEXDocument][1] class.
+This class defines extension methods for the [CAEXDocument][1] class.
 
 
 Inheritance Hierarchy

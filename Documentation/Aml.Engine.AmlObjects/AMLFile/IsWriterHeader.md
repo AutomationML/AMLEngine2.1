@@ -1,6 +1,6 @@
 AMLFile.IsWriterHeader Method
 =============================
-AutomationML 2.1 APIDetermines whether the specified XML element represents an AdditionalInformation object, using the specific WriterHeader syntax.
+Determines whether the specified XML element represents an AdditionalInformation object, using the specific WriterHeader syntax.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

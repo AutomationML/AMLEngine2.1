@@ -1,6 +1,6 @@
 QueryResult.ReferencesWithName Method
 =====================================
-AutomationML 2.1 APIGets all the references with the provided name from the query result.
+Gets all the references with the provided name from the query result.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

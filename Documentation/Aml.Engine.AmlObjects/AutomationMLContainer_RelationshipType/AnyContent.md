@@ -1,6 +1,6 @@
 AutomationMLContainer.RelationshipType.AnyContent Field
 =======================================================
-AutomationML 2.1 APIrelationship type for package to part or root part to part relations to any content.
+relationship type for package to part or root part to part relations to any content.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

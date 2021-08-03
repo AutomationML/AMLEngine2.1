@@ -1,6 +1,6 @@
 CAEXDocument.Validate Method
 ============================
-AutomationML 2.1 APIChecks if the document is schema compliant.
+Checks if the document is schema compliant.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

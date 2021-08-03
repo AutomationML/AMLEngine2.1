@@ -1,6 +1,6 @@
 XmlSchemaManager.MaxOccurence Method
 ====================================
-AutomationML 2.1 APIReturned the maximal occurrence for child nodes with the specified name under a parent node with the specified name. For unbounded occurrences, the returned value is [MaxValue][1]. If the occurrence is `0`, the existence of a child with that name under a parent with that name is not allowed.
+Returned the maximal occurrence for child nodes with the specified name under a parent node with the specified name. For unbounded occurrences, the returned value is [MaxValue][1]. If the occurrence is `0`, the existence of a child with that name under a parent with that name is not allowed.
 
   **Namespace:**  [Aml.Engine.Schema][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

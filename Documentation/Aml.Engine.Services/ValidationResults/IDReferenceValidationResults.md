@@ -1,6 +1,6 @@
 ValidationResults.IDReferenceValidationResults Method
 =====================================================
-AutomationML 2.1 APIGets the ID reference validation results from the validation result list.
+Gets the ID reference validation results from the validation result list.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

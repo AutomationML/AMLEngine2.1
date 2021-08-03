@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType> Constructor (XElement, String, Predicate&lt;XElement>)
 ==================================================================================
-AutomationML 2.1 APICreates a new instance of the ValueSequence for the specified owner and the specified name which has to be a valid name for child elements, which can be filtered out from the owner by this name. The specified condition is used as an additional filter criteria.
+Creates a new instance of the ValueSequence for the specified owner and the specified name which has to be a valid name for child elements, which can be filtered out from the owner by this name. The specified condition is used as an additional filter criteria.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

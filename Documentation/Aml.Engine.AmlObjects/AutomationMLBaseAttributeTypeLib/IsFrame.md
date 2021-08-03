@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLib.IsFrame Method
 ===============================================
-AutomationML 2.1 APIDetermines whether the specified attribute reference defines an inheritance relation from the Frame AttributeType
+Determines whether the specified attribute reference defines an inheritance relation from the Frame AttributeType
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXElementChangeEventArgs.CAEXAttributeName Property
 =====================================================
-AutomationML 2.1 APIGets the name of the CAEX attribute.
+Gets the name of the CAEX attribute.
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

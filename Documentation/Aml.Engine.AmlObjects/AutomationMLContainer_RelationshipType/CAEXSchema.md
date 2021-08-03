@@ -1,6 +1,6 @@
 AutomationMLContainer.RelationshipType.CAEXSchema Field
 =======================================================
-AutomationML 2.1 APIrelationship type for package to part relation to the CAEX schema part.
+relationship type for package to part relation to the CAEX schema part.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AutomationMLContainer.AddCAEXSchema Method (Stream, Uri)
 ========================================================
-AutomationML 2.1 APIAdds a CAEX schema part retrieved from a stream resource to the package and creates a package - part relationship to the package using the relationship type [CAEXSchema][1].
+Adds a CAEX schema part retrieved from a stream resource to the package and creates a package - part relationship to the package using the relationship type [CAEXSchema][1].
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

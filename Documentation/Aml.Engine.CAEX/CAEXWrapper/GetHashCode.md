@@ -1,6 +1,6 @@
 CAEXWrapper.GetHashCode Method
 ==============================
-AutomationML 2.1 APIGets the Hash code for this instance, using the wrapped XML element.
+Gets the Hash code for this instance, using the wrapped XML element.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

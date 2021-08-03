@@ -1,6 +1,6 @@
 ExternalReferenceType.Alias Property
 ====================================
-AutomationML 2.1 APIGets and sets the alias name of an external CAEX file to enable referencing elements of the external CAEX file from other elements
+Gets and sets the alias name of an external CAEX file to enable referencing elements of the external CAEX file from other elements
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

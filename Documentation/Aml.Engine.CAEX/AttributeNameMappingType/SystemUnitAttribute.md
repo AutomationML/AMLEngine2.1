@@ -1,6 +1,6 @@
 AttributeNameMappingType.SystemUnitAttribute Property
 =====================================================
-AutomationML 2.1 APIGets or sets the system unit attribute which is defined using the CAEX attribute [SystemUnitAttributeName][1].
+Gets or sets the system unit attribute which is defined using the CAEX attribute [SystemUnitAttributeName][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

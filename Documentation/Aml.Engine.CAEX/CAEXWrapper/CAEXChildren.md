@@ -1,6 +1,6 @@
 CAEXWrapper.CAEXChildren Method
 ===============================
-AutomationML 2.1 APIGets all children of this CAEX object with the defined CAEX tag name.
+Gets all children of this CAEX object with the defined CAEX tag name.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

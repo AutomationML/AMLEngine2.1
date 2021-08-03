@@ -1,6 +1,6 @@
 InternalLinkType.AInterface Property
 ====================================
-AutomationML 2.1 APIGets and sets the AInterface of the InternalLink by reading or setting the [RefPartnerSideA][1] Attribute. A read access to this property updates the [RelatedObjects][2].
+Gets and sets the AInterface of the InternalLink by reading or setting the [RefPartnerSideA][1] Attribute. A read access to this property updates the [RelatedObjects][2].
 
   **Namespace:**  [Aml.Engine.CAEX][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

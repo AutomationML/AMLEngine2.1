@@ -1,6 +1,6 @@
 AutomationMLInterfaceClassLib.MakeAutomationMLBaseInterface Method
 ==================================================================
-AutomationML 2.1 APIMakes the AutomationML base interface.
+Makes the AutomationML base interface.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

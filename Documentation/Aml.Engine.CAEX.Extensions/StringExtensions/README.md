@@ -1,6 +1,6 @@
 StringExtensions Class
 ======================
-AutomationML 2.1 APIExtension methods for string type CAEX attributes (i.e. GUID, Path, etc.)
+Extension methods for string type CAEX attributes (i.e. GUID, Path, etc.)
 
 
 Inheritance Hierarchy

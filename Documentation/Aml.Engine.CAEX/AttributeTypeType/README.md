@@ -1,6 +1,6 @@
 AttributeTypeType Class
 =======================
-AutomationML 2.1 APIThis Class is the generic base class for 'Attribute' and 'AttributeType' elements and defines base structures for Attribute- and AttributeType definitions.
+This Class is the generic base class for 'Attribute' and 'AttributeType' elements and defines base structures for Attribute- and AttributeType definitions.
 
 
 Inheritance Hierarchy

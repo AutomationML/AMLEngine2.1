@@ -1,6 +1,6 @@
 ISchemaTransform.TransformationEnded Event
 ==========================================
-AutomationML 2.1 APIRaised from the ShemaTransform service when a transformation has ended.
+Raised from the ShemaTransform service when a transformation has ended.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 ICAEXSequence.RemoveElement Method
 ==================================
-AutomationML 2.1 APIRemoves the provided CAEX object from this sequence.
+Removes the provided CAEX object from this sequence.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

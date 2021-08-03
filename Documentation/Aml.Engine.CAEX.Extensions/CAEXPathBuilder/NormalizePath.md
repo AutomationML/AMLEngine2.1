@@ -1,6 +1,6 @@
 CAEXPathBuilder.NormalizePath Method
 ====================================
-AutomationML 2.1 APINormalization of a CAEXPath. A normalized path is freed of all path part delimiters '[' and ']' in case that there is no path part name containing a path separator character like '/'.
+Normalization of a CAEXPath. A normalized path is freed of all path part delimiters '[' and ']' in case that there is no path part name containing a path separator character like '/'.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

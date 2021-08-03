@@ -1,6 +1,6 @@
 XmlSchemaManager.IsParent Method
 ================================
-AutomationML 2.1 APIDetermines, if the parent is allowed to contain a child with the provided name according to this schema instance.
+Determines, if the parent is allowed to contain a child with the provided name according to this schema instance.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

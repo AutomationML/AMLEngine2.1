@@ -1,6 +1,6 @@
 MappingElementType&lt;T>.AddRoleClassElement Method
 ===================================================
-AutomationML 2.1 APIThis method is an extension to the [RoleClassElement][1] setter in case of MultipleRole assignments in AutomationML 2.0 based on CAEX 2.15. The method can assign a qualified RoleClassElement as a mapping element and will eventually create a missing RoleRequirement element for the qualified element. For Documents, based on CAEX 3.0 the behaviour of this method is identical to the [RoleClassElement][1] setter.
+This method is an extension to the [RoleClassElement][1] setter in case of MultipleRole assignments in AutomationML 2.0 based on CAEX 2.15. The method can assign a qualified RoleClassElement as a mapping element and will eventually create a missing RoleRequirement element for the qualified element. For Documents, based on CAEX 3.0 the behaviour of this method is identical to the [RoleClassElement][1] setter.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

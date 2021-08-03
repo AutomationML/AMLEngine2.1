@@ -1,6 +1,6 @@
 AMLEngineAdapter.findInternalElement Method
 ===========================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Resolve a reference to an InternalElement and return the referenced element if found.

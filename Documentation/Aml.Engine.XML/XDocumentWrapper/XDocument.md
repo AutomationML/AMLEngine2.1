@@ -1,6 +1,6 @@
 XDocumentWrapper.XDocument Property
 ===================================
-AutomationML 2.1 APIGets the underlying XDocument
+Gets the underlying XDocument
 
   **Namespace:**  [Aml.Engine.XML][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AMLEngineAdapter.New_RoleRequirements Method (InternalElementType)
 ==================================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Adding a new RoleRequirements element to this InternalElement. It is only allowed to add one RoleRequirements node in CAEX 2.15.

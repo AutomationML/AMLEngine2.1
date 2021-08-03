@@ -1,6 +1,6 @@
 SupportedRoleClassType.SystemUnitClass Property
 ===============================================
-AutomationML 2.1 APIGets the associated SystemUnitClass for this SupportedRoleClass object.
+Gets the associated SystemUnitClass for this SupportedRoleClass object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AttributeTypeType.GetDateTime Method
 ====================================
-AutomationML 2.1 APIParse the Attribute Value string as dateTime. If the string can not be parsed, a format exception is returned. This method uses the XmlConvert [ToDateTime(String, XmlDateTimeSerializationMode)][1] method.
+Parse the Attribute Value string as dateTime. If the string can not be parsed, a format exception is returned. This method uses the XmlConvert [ToDateTime(String, XmlDateTimeSerializationMode)][1] method.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

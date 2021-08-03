@@ -1,6 +1,6 @@
 IAttributeValueType.GetCaexValue Method
 =======================================
-AutomationML 2.1 APIGets the CAEXValue for the named value attribute which allows type-coded access to the value property using appropriate encoding and decoding methods.
+Gets the CAEXValue for the named value attribute which allows type-coded access to the value property using appropriate encoding and decoding methods.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

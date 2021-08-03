@@ -1,6 +1,6 @@
 SourceDocumentInformationType.OriginProjectID Property
 ======================================================
-AutomationML 2.1 APIGets and sets a unique identifier of the corresponding source project (optional in CAEX)
+Gets and sets a unique identifier of the corresponding source project (optional in CAEX)
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

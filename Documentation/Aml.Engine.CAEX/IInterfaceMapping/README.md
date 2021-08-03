@@ -1,6 +1,6 @@
 IInterfaceMapping Interface
 ===========================
-AutomationML 2.1 APISince CAEX 3.0 a new definition has been added to model Interface mappings using the ID of the mapped ExternalInterface. This Interface has been designed, to support InterfaceMapping access to the CAEX documents, defined using prior schema versions.
+Since CAEX 3.0 a new definition has been added to model Interface mappings using the ID of the mapped ExternalInterface. This Interface has been designed, to support InterfaceMapping access to the CAEX documents, defined using prior schema versions.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

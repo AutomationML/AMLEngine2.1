@@ -1,6 +1,6 @@
 AttributeFamilyType.BaseClass Property
 ======================================
-AutomationML 2.1 APIGets and sets the base class for this AttributeType. Setting a base class creates a class to class inheritance relation. Base classes are defined using the CAEX-Attribute [RefAttributeType][1] which is set to the CAEX-path of the base class. According to CAEX, a class shall not inherit from itself or from a derivative of itself, therefore any cyclic reference is denied.
+Gets and sets the base class for this AttributeType. Setting a base class creates a class to class inheritance relation. Base classes are defined using the CAEX-Attribute [RefAttributeType][1] which is set to the CAEX-path of the base class. According to CAEX, a class shall not inherit from itself or from a derivative of itself, therefore any cyclic reference is denied.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 QueryResult.AllElementsWithIDReference Method
 =============================================
-AutomationML 2.1 APIGets all the elements with identifier references. Elements referencing the same ID are grouped together. Use this method to validate the existence of referenced IDs.
+Gets all the elements with identifier references. Elements referencing the same ID are grouped together. Use this method to validate the existence of referenced IDs.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

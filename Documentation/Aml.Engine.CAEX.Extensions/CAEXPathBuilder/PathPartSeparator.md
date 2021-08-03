@@ -1,6 +1,6 @@
 CAEXPathBuilder.PathPartSeparator Method (CAEXObject)
 =====================================================
-AutomationML 2.1 APIReturns the Path part separator for an element, which should be put before that element in a Path
+Returns the Path part separator for an element, which should be put before that element in a Path
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

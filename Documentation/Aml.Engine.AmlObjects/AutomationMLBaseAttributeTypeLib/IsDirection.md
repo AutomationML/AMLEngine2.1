@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLib.IsDirection Method
 ===================================================
-AutomationML 2.1 APIDetermines whether the specified attribute reference defines an inheritance relation from the Direction AttributeType
+Determines whether the specified attribute reference defines an inheritance relation from the Direction AttributeType
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

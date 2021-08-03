@@ -1,6 +1,6 @@
 CAEXBasicObjectExtensions Class
 ===============================
-AutomationML 2.1 APIThis class provides extension methods for all types of CAEX objects.
+This class provides extension methods for all types of CAEX objects.
 
 
 Inheritance Hierarchy

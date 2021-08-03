@@ -1,6 +1,6 @@
 RoleFamilyType.CreateSupportedRoleClass Method
 ==============================================
-AutomationML 2.1 APICreates a SupportedRoleClass object from this RoleClass.
+Creates a SupportedRoleClass object from this RoleClass.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

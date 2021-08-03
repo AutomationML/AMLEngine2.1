@@ -1,6 +1,6 @@
 QueryResult.AllElementsWithCAEXPathReference Method
 ===================================================
-AutomationML 2.1 APIGets all the elements with a path reference. Elements referencing the same path are grouped together. Use this method to validate the existence of referenced classes.
+Gets all the elements with a path reference. Elements referencing the same path are grouped together. Use this method to validate the existence of referenced classes.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

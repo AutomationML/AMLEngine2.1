@@ -1,6 +1,6 @@
 InternalElementExtensions.IsMaster Method
 =========================================
-AutomationML 2.1 APIDetermines whether the specified InternalElement is referenced by other InternalElement objects called 'Mirrors'.
+Determines whether the specified InternalElement is referenced by other InternalElement objects called 'Mirrors'.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 Aml.Engine.AmlObjects Namespace
 ===============================
-AutomationML 2.1 APIThe Aml.Engine.AmlObjects Namespace contains classes that support the generation and analysis of AutomationML features which are specified in the AutomationML standard, white-papers, best practice recommendation or application recommendations. These features are not covered with the classes in the Aml.Engine.CAEX namespace, which only supports the CAEX standard. Classes in the Aml.Engine.AmlObjects namespace may be derived from the CAEX classes.
+The Aml.Engine.AmlObjects Namespace contains classes that support the generation and analysis of AutomationML features which are specified in the AutomationML standard, white-papers, best practice recommendation or application recommendations. These features are not covered with the classes in the Aml.Engine.CAEX namespace, which only supports the CAEX standard. Classes in the Aml.Engine.AmlObjects namespace may be derived from the CAEX classes.
 
 
 Classes

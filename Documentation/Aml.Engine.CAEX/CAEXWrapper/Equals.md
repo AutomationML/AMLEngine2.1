@@ -1,6 +1,6 @@
 CAEXWrapper.Equals Method
 =========================
-AutomationML 2.1 APIEquality of CAEX wrapper instances is defined on the equality of the wrapped XML elements.
+Equality of CAEX wrapper instances is defined on the equality of the wrapped XML elements.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

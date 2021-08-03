@@ -1,6 +1,6 @@
 CAEXPathBuilder.IsIDReferenceWithAlias Method
 =============================================
-AutomationML 2.1 APIDetermines whether the specified object reference is an alias reference to an ID in the specified document
+Determines whether the specified object reference is an alias reference to an ID in the specified document
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

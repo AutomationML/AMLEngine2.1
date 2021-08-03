@@ -1,6 +1,6 @@
 FrameValues.PropertyChanged Event
 =================================
-AutomationML 2.1 APIoccurs, when a property changed
+occurs, when a property changed
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

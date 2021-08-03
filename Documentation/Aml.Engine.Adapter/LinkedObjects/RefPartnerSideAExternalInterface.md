@@ -1,6 +1,6 @@
 LinkedObjects.RefPartnerSideAExternalInterface Property
 =======================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Gets or sets the reference partner side A External Interface.

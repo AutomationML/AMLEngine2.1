@@ -1,6 +1,6 @@
 CAEXFileType.IEnumerable.GetEnumerator Method
 =============================================
-AutomationML 2.1 API
+
 [Missing &lt;summary> documentation for "M:Aml.Engine.CAEX.CAEXFileType.System#Collections#IEnumerable#GetEnumerator"]
 
 

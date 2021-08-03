@@ -1,6 +1,6 @@
 AmlObjectsExtensions.ReplaceMetaInformation Method
 ==================================================
-AutomationML 2.1 APIThis function replaces any existing meta information corresponding to the identical oldWriterID with the new meta information defined in the newMetainformation
+This function replaces any existing meta information corresponding to the identical oldWriterID with the new meta information defined in the newMetainformation
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

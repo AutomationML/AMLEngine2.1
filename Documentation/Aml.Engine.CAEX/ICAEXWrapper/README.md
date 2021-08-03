@@ -1,6 +1,6 @@
 ICAEXWrapper Interface
 ======================
-AutomationML 2.1 APIThis interface class is implemented by all CAEX - object classes and defines accessors to the wrapped XML node.
+This interface class is implemented by all CAEX - object classes and defines accessors to the wrapped XML node.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

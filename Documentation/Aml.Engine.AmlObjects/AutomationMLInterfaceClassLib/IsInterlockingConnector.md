@@ -1,6 +1,6 @@
 AutomationMLInterfaceClassLib.IsInterlockingConnector Method
 ============================================================
-AutomationML 2.1 APIDetermines whether the specified interface class is derived from the InterlockingConnector interface class. The method can resolve alias references anywhere in the inheritance hierarchy.
+Determines whether the specified interface class is derived from the InterlockingConnector interface class. The method can resolve alias references anywhere in the inheritance hierarchy.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

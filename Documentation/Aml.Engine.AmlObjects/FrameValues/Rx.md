@@ -1,6 +1,6 @@
 FrameValues.Rx Property
 =======================
-AutomationML 2.1 APIGets or sets the rx.
+Gets or sets the rx.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 XmlSchemaElementInfo.Optional Property
 ======================================
-AutomationML 2.1 APIGets the names for all optional elements defined for this instance.
+Gets the names for all optional elements defined for this instance.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

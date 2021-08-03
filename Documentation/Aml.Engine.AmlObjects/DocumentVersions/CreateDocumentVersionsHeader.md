@@ -1,6 +1,6 @@
 DocumentVersions.CreateDocumentVersionsHeader Method
 ====================================================
-AutomationML 2.1 APICreates the additional information representing a document versions header and appends it to the AutomationML document.
+Creates the additional information representing a document versions header and appends it to the AutomationML document.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

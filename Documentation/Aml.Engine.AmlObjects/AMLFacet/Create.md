@@ -1,6 +1,6 @@
 AMLFacet.Create Method
 ======================
-AutomationML 2.1 APICreates an AMLFacet AML object with this name, using the provided document.
+Creates an AMLFacet AML object with this name, using the provided document.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

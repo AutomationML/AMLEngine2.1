@@ -1,6 +1,6 @@
 AMLFile.WriterHeader Property
 =============================
-AutomationML 2.1 APIGets the collection of defined writer headers of the AMLFile
+Gets the collection of defined writer headers of the AMLFile
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

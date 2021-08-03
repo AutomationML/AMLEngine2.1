@@ -1,6 +1,6 @@
 AMLFacet.IsFacet Property
 =========================
-AutomationML 2.1 APIGets a value indicating whether this instance is an AMLFacet
+Gets a value indicating whether this instance is an AMLFacet
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

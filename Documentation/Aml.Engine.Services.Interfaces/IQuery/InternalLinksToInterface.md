@@ -1,6 +1,6 @@
 IQuery.InternalLinksToInterface Method
 ======================================
-AutomationML 2.1 APIGets all InternalLinks that reference the specified ExternalInterface.
+Gets all InternalLinks that reference the specified ExternalInterface.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 ObjectWithAMLAttributes.RefURIAttribute Property
 ================================================
-AutomationML 2.1 APIGets a defined RefURIAttribute from the [Attribute][1] collection of the [CAEXBase][2]. If no such attribute exists, `null` is returned.
+Gets a defined RefURIAttribute from the [Attribute][1] collection of the [CAEXBase][2]. If no such attribute exists, `null` is returned.
 
   **Namespace:**  [Aml.Engine.AmlObjects][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AttributeTypeType.GetCaexValue Method
 =====================================
-AutomationML 2.1 APIGets the [CaexValue][1] for the value attribute with the defined attribute name. The allowed Names as [ATTRIBUTE_VALUE_STRING][2] and [ATTRIBUTE_DEFAULTVALUE_STRING][3].
+Gets the [CaexValue][1] for the value attribute with the defined attribute name. The allowed Names as [ATTRIBUTE_VALUE_STRING][2] and [ATTRIBUTE_DEFAULTVALUE_STRING][3].
 
   **Namespace:**  [Aml.Engine.CAEX][4]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

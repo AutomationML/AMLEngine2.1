@@ -1,6 +1,6 @@
 IAutoUpdate Interface
 =====================
-AutomationML 2.1 APIInterface defined for services, which support automatic updates of cross references between AutomationML objects. Updates are executed, when a referenced object changes its identification (its Name or its ID).
+Interface defined for services, which support automatic updates of cross references between AutomationML objects. Updates are executed, when a referenced object changes its identification (its Name or its ID).
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

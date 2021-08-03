@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.ATTRIBUTE_DEFAULTVALUE_STRING Field
 ============================================================
-AutomationML 2.1 APIThe Name of the CAEX-Attribute 'DefaultValue'. This is a Property in the CAEX-Wrapper [AttributeTypeType][1]
+The Name of the CAEX-Attribute 'DefaultValue'. This is a Property in the CAEX-Wrapper [AttributeTypeType][1]
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

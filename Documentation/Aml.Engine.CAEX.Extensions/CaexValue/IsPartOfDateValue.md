@@ -1,6 +1,6 @@
 CaexValue.IsPartOfDateValue Method
 ==================================
-AutomationML 2.1 APIDetermines if the type code derived from the Attribute datatype defined a part of a date. The datatype `ushort` is used for a date part. The following type codes are recognized as date parts: [GMonth][1][GDay][1][GYear][1]
+Determines if the type code derived from the Attribute datatype defined a part of a date. The datatype `ushort` is used for a date part. The following type codes are recognized as date parts: [GMonth][1][GDay][1][GYear][1]
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

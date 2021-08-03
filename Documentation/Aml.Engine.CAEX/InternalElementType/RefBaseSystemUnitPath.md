@@ -1,6 +1,6 @@
 InternalElementType.RefBaseSystemUnitPath Property
 ==================================================
-AutomationML 2.1 APIGets and sets the RefBaseSystemUnitPath Attribute of an InternalElement. For Class assignments the property [SystemUnitClass][1] is appropriate.
+Gets and sets the RefBaseSystemUnitPath Attribute of an InternalElement. For Class assignments the property [SystemUnitClass][1] is appropriate.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

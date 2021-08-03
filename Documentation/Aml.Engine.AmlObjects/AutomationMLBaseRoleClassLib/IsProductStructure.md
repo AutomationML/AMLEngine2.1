@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.IsProductStructure Method
 ======================================================
-AutomationML 2.1 APIDetermines whether the specified role reference defines an inheritance relation from the ProductStructure RoleClass
+Determines whether the specified role reference defines an inheritance relation from the ProductStructure RoleClass
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

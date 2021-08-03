@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.META_WRITERHEADER_STRING Field
 =======================================================
-AutomationML 2.1 APIThe Name of the additional AutomationML-CaexFile-Element 'WriterHeader'.
+The Name of the additional AutomationML-CaexFile-Element 'WriterHeader'.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

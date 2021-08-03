@@ -1,6 +1,6 @@
 AutomationMLContainer.AddRoot Method (String, Uri)
 ==================================================
-AutomationML 2.1 APIAdds a root AML file to the package and creates a package - part relationship of type [Root][1].
+Adds a root AML file to the package and creates a package - part relationship of type [Root][1].
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

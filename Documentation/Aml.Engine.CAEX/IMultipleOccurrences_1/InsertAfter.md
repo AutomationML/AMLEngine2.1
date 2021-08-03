@@ -1,6 +1,6 @@
 IMultipleOccurrences&lt;T>.InsertAfter Method
 =============================================
-AutomationML 2.1 APIInserts the provided CAEX object as a new sibling after this CAEX object, if both are of the same type.
+Inserts the provided CAEX object as a new sibling after this CAEX object, if both are of the same type.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

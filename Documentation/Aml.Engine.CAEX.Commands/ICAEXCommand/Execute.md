@@ -1,6 +1,6 @@
 ICAEXCommand.Execute Method
 ===========================
-AutomationML 2.1 APICommand Execution Method (enables redo)
+Command Execution Method (enables redo)
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

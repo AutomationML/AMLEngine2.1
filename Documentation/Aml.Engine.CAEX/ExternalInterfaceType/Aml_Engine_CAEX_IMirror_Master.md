@@ -1,6 +1,6 @@
 ExternalInterfaceType.IMirror.Master Property
 =============================================
-AutomationML 2.1 APIGets the master, if this is a mirror object.
+Gets the master, if this is a mirror object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 ObjectWithExternalInterface.AddInterfaceClassReference Method (IObjectWithExternalInterface, InterfaceFamilyType, Boolean, Boolean, String)
 ===========================================================================================================================================
-AutomationML 2.1 APIAdds an InterfaceClass reference to this ObjectWithExternalInterface using the provided InterfaceClass object. The InterfaceClass reference is added as a [ExternalInterfaceType][1] object.
+Adds an InterfaceClass reference to this ObjectWithExternalInterface using the provided InterfaceClass object. The InterfaceClass reference is added as a [ExternalInterfaceType][1] object.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

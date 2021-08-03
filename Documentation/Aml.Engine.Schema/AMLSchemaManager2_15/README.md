@@ -1,6 +1,6 @@
 AMLSchemaManager2_15 Class
 ==========================
-AutomationML 2.1 APISingleton Class: Schema manager for CAEX-Schema Version 2.15 used in AutomationML
+Singleton Class: Schema manager for CAEX-Schema Version 2.15 used in AutomationML
 
 
 Inheritance Hierarchy

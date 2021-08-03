@@ -1,6 +1,6 @@
 ValidationResults.MissingDocumentSourceInformation Method
 =========================================================
-AutomationML 2.1 APIGets the validation results for all MetaData which are related to missing source information in an AML file.
+Gets the validation results for all MetaData which are related to missing source information in an AML file.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

@@ -1,6 +1,6 @@
 AttributeTypeType.XsdDataTypes Property
 =======================================
-AutomationML 2.1 APIThe XSD data types which are supported.
+The XSD data types which are supported.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

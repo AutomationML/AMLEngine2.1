@@ -1,6 +1,6 @@
 AttributeFamilyType.Unit Property
 =================================
-AutomationML 2.1 APIGets and set the Unit. If the Unit is not defined for this AttributeType but a [BaseClass][1] exists, the Unit of the BaseClass is returned.
+Gets and set the Unit. If the Unit is not defined for this AttributeType but a [BaseClass][1] exists, the Unit of the BaseClass is returned.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 RoleClassLibType.RoleClass Property
 ===================================
-AutomationML 2.1 APIGets the collection of RoleClass objects contained in this library.
+Gets the collection of RoleClass objects contained in this library.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

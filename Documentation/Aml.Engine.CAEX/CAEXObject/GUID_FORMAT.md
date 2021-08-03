@@ -1,6 +1,6 @@
 CAEXObject.GUID_FORMAT Field
 ============================
-AutomationML 2.1 APISpecifies the format used for GUIDs. Format "D" is NOT adding {} around the GUID
+Specifies the format used for GUIDs. Format "D" is NOT adding {} around the GUID
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

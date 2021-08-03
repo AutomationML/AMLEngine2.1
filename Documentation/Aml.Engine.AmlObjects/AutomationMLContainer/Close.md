@@ -1,6 +1,6 @@
 AutomationMLContainer.Close Method
 ==================================
-AutomationML 2.1 APISaves and closes the package and all part streams.
+Saves and closes the package and all part streams.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

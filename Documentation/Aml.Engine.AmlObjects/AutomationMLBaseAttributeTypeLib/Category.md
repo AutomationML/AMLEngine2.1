@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLib.Category Field
 ===============================================
-AutomationML 2.1 APIThe 'Category' AttributeType path
+The 'Category' AttributeType path
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

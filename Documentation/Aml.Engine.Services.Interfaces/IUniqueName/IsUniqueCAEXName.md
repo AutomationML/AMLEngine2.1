@@ -1,6 +1,6 @@
 IUniqueName.IsUniqueCAEXName Method
 ===================================
-AutomationML 2.1 APIDetermines whether the specified element has a unique CAEX name in the sequence of equal elements of its parent.
+Determines whether the specified element has a unique CAEX name in the sequence of equal elements of its parent.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 RefURIAttributeType.IsFile Method
 =================================
-AutomationML 2.1 APIDetermines whether this instance is file.
+Determines whether this instance is file.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

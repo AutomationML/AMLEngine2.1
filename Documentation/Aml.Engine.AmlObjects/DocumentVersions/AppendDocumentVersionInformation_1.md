@@ -1,6 +1,6 @@
 DocumentVersions.AppendDocumentVersionInformation Method (CAEXFileType, String, String, String)
 ===============================================================================================
-AutomationML 2.1 APIThis function sets the DocumentVersion information for a referenced document. If DocumentVersion information about the same document Identifier already exists, this DocumentVersion information is replaced.
+This function sets the DocumentVersion information for a referenced document. If DocumentVersion information about the same document Identifier already exists, this DocumentVersion information is replaced.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

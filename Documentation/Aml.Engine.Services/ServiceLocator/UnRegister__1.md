@@ -1,6 +1,6 @@
 ServiceLocator.UnRegister&lt;T> Method
 ======================================
-AutomationML 2.1 APIUnregisters a service of this type which will afterwards no more locatable
+Unregisters a service of this type which will afterwards no more locatable
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 XmlTypeCodeExtensions.XmlTypeCodeFromSchemaType Method
 ======================================================
-AutomationML 2.1 APIGets the [XmlTypeCode][1] from the W3C XSD schema type string.
+Gets the [XmlTypeCode][1] from the W3C XSD schema type string.
 
   **Namespace:**  [Aml.Engine.Schema][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

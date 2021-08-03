@@ -1,6 +1,6 @@
 ExternalInterfaceTypeExtensions.RelatedInternalElementsWithRoleReference Method
 ===============================================================================
-AutomationML 2.1 APIGets the related InternalElements of the specified ExternalInterface connected with InternalLinks, which have a role reference to the provided *roleClassPath*. Inheritance is considered here. Either the [AInterface][1] or the [BInterface][2] of the InternalLink is equal to the specified ExternalInterface.
+Gets the related InternalElements of the specified ExternalInterface connected with InternalLinks, which have a role reference to the provided *roleClassPath*. Inheritance is considered here. Either the [AInterface][1] or the [BInterface][2] of the InternalLink is equal to the specified ExternalInterface.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

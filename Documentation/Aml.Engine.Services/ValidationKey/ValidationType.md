@@ -1,6 +1,6 @@
 ValidationKey.ValidationType Property
 =====================================
-AutomationML 2.1 APIGets the type of the validation.
+Gets the type of the validation.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

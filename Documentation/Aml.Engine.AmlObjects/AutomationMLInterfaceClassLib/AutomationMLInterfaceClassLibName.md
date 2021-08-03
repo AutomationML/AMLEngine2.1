@@ -1,6 +1,6 @@
 AutomationMLInterfaceClassLib.AutomationMLInterfaceClassLibName Field
 =====================================================================
-AutomationML 2.1 APIThe AutomationML base interface class library name
+The AutomationML base interface class library name
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

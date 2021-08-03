@@ -1,6 +1,6 @@
 AttributeFamilyType.InheritedConstraints Property
 =================================================
-AutomationML 2.1 APIGets all constraints, including the inherited constraints of the base classes in the inheritance tree.
+Gets all constraints, including the inherited constraints of the base classes in the inheritance tree.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 XDocumentWrapper.Document Method (XElement)
 ===========================================
-AutomationML 2.1 APIGets the XDocument wrapper which contains the specified XML node. If the node is not contained in an XML document, no document is returned.
+Gets the XDocument wrapper which contains the specified XML node. If the node is not contained in an XML document, no document is returned.
 
   **Namespace:**  [Aml.Engine.XML][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CaexValue.IsDateTimeType Method
 ===============================
-AutomationML 2.1 APIDetermines if the type code derived from the Attribute datatype is a date time type. The following type codes are recognized as date time types: [Time][1][Date][1][DateTime][1][GYearMonth][1][GMonthDay][1]
+Determines if the type code derived from the Attribute datatype is a date time type. The following type codes are recognized as date time types: [Time][1][Date][1][DateTime][1][GYearMonth][1][GMonthDay][1]
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

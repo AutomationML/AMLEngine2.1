@@ -1,6 +1,6 @@
 AttributeTypeType.SetDouble Method
 ==================================
-AutomationML 2.1 APISets the specified double value as the attribute value. The AttributeDataType is set to xs:double
+Sets the specified double value as the attribute value. The AttributeDataType is set to xs:double
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

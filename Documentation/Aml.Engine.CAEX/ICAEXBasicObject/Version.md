@@ -1,6 +1,6 @@
 ICAEXBasicObject.Version Property
 =================================
-AutomationML 2.1 APIGets and sets the Version for this object.
+Gets and sets the Version for this object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

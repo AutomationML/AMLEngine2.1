@@ -1,6 +1,6 @@
 InternalElementType.SystemUnitClass Property
 ============================================
-AutomationML 2.1 APIGets and sets the referenced SystemUnitClass using the [RefBaseSystemUnitPath][1]
+Gets and sets the referenced SystemUnitClass using the [RefBaseSystemUnitPath][1]
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXFileTypeExtensions.Insert_InterfaceClassLibHierarchy Method
 ===============================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Insert an existing InterfaceClassLib to this CAEX file as the last InterfaceClassLib.

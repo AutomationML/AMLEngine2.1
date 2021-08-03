@@ -1,6 +1,6 @@
 CAEXBasicObjectExtensions.New_Description Method
 ================================================
-AutomationML 2.1 APIAdds an new Description node to this object if it doesn't exists.
+Adds an new Description node to this object if it doesn't exists.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

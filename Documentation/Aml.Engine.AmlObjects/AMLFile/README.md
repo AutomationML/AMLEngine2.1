@@ -1,6 +1,6 @@
 AMLFile Class
 =============
-AutomationML 2.1 APIAn AMLFile is a CAEXFile, containing information about the AutomationML version and the WriterHeader (if CAEX 2.15 is used) or the SourceDocumentInformation (CAEX 3.0 and later versions).
+An AMLFile is a CAEXFile, containing information about the AutomationML version and the WriterHeader (if CAEX 2.15 is used) or the SourceDocumentInformation (CAEX 3.0 and later versions).
 
 
 Inheritance Hierarchy

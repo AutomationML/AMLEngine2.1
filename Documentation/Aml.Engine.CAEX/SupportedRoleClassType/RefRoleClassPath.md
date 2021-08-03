@@ -1,6 +1,6 @@
 SupportedRoleClassType.RefRoleClassPath Property
 ================================================
-AutomationML 2.1 APIGets and sets the Attribute [ATTRIBUTE_NAME_REFROLECLASSPATH][1] of this SupportedRoleClass object.
+Gets and sets the Attribute [ATTRIBUTE_NAME_REFROLECLASSPATH][1] of this SupportedRoleClass object.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

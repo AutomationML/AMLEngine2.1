@@ -1,6 +1,6 @@
 CAEXFileStatisticService Class
 ==============================
-AutomationML 2.1 APIThis service calculates statistics for a CAEX document.
+This service calculates statistics for a CAEX document.
 
 
 Inheritance Hierarchy

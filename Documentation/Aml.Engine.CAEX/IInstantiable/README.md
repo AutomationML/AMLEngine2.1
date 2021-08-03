@@ -1,6 +1,6 @@
 IInstantiable Interface
 =======================
-AutomationML 2.1 APIInterface IInstantiable is implemented by all CAEX classes.
+Interface IInstantiable is implemented by all CAEX classes.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

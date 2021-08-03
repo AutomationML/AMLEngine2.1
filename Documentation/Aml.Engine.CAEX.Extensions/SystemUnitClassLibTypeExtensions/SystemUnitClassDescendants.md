@@ -1,6 +1,6 @@
 SystemUnitClassLibTypeExtensions.SystemUnitClassDescendants Method
 ==================================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Gets all descendant [SystemUnitFamilyType][1] Objects in the SystemUnitClassLib. SystemUnitClasss on all levels are returned.

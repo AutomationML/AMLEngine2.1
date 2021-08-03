@@ -1,6 +1,6 @@
 AutomationMLContainer.AddPLCopenXml Method (PackagePart, String, Uri, Boolean)
 ==============================================================================
-AutomationML 2.1 APIAdds a PLCopenXml file to the package and creates relationships to the package and to the package part containing the root document using the relationship type [PLCopenXml][1].
+Adds a PLCopenXml file to the package and creates relationships to the package and to the package part containing the root document using the relationship type [PLCopenXml][1].
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

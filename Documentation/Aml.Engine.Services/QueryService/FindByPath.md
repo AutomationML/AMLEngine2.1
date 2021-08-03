@@ -1,6 +1,6 @@
 QueryService.FindByPath Method
 ==============================
-AutomationML 2.1 APIThis method tries to find the first element in the defined document, which CAEXPath is equal to the provided path. If the path uses an alias to reference an object in a external document it is tried to locate an [IExternalReferenceResolver][1] service. If such a service is registered, the CAEXObject is tried to be found in the resolved document.
+This method tries to find the first element in the defined document, which CAEXPath is equal to the provided path. If the path uses an alias to reference an object in a external document it is tried to locate an [IExternalReferenceResolver][1] service. If such a service is registered, the CAEXObject is tried to be found in the resolved document.
 
   **Namespace:**  [Aml.Engine.Services][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

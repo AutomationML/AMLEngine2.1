@@ -1,6 +1,6 @@
 IStatistic.NumberOfAllObjects Method
 ====================================
-AutomationML 2.1 APICounts all objects (sum of all others with specific counts) and returns the result.
+Counts all objects (sum of all others with specific counts) and returns the result.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

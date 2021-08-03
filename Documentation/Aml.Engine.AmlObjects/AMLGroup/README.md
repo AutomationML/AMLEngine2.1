@@ -1,6 +1,6 @@
 AMLGroup Class
 ==============
-AutomationML 2.1 APIThe AML Group concept allows separating structure information from instance information. An informative overview about the Group concept including examples is provided in A.2.4.” [IEC 62714-1:2014 8.4 (p.43)]. An AML Group object shall be described by a CAEX InternalElement with an association to the RoleClass “Group” which is defined in 6.4.3. [IEC 62714-1:2014 8.4 (p.43)]
+The AML Group concept allows separating structure information from instance information. An informative overview about the Group concept including examples is provided in A.2.4.” [IEC 62714-1:2014 8.4 (p.43)]. An AML Group object shall be described by a CAEX InternalElement with an association to the RoleClass “Group” which is defined in 6.4.3. [IEC 62714-1:2014 8.4 (p.43)]
 
 
 Inheritance Hierarchy

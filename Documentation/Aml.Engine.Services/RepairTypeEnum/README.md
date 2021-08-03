@@ -1,6 +1,6 @@
 RepairTypeEnum Enumeration
 ==========================
-AutomationML 2.1 APIEnumeration RepairTypeEnum
+Enumeration RepairTypeEnum
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

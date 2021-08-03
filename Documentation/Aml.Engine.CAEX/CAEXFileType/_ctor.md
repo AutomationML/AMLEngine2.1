@@ -1,6 +1,6 @@
 CAEXFileType Constructor
 ========================
-AutomationML 2.1 APIInitializes a new CAEXWrapper of the 'CAEXFile' element.
+Initializes a new CAEXWrapper of the 'CAEXFile' element.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXSequenceOfCAEXObjects&lt;T> Constructor (XElement, String, Func&lt;XElement, T>, Predicate&lt;XElement>)
 ============================================================================================================
-AutomationML 2.1 APIInitializes a new instance of the [CAEXSequenceOfCAEXObjects&lt;T>][1] class with condition.
+Initializes a new instance of the [CAEXSequenceOfCAEXObjects&lt;T>][1] class with condition.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

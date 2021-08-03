@@ -1,6 +1,6 @@
 CAEXFileTypeExtensions.New_ExternalReference Method
 ===================================================
-AutomationML 2.1 APIA new ExternalReference node is added to the CAEX file.
+A new ExternalReference node is added to the CAEX file.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

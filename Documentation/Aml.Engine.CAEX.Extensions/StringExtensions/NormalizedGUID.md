@@ -1,6 +1,6 @@
 StringExtensions.NormalizedGUID Method
 ======================================
-AutomationML 2.1 APIString extension method to normalize a GUID. If the string cannot be identified as a GUID the original string is returned
+String extension method to normalize a GUID. If the string cannot be identified as a GUID the original string is returned
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

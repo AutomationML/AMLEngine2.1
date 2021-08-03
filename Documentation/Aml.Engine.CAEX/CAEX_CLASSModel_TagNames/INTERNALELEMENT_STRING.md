@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.INTERNALELEMENT_STRING Field
 =====================================================
-AutomationML 2.1 APIThe Name of the CAEX-Element 'InternalElement'. The CAEX-Wrapper is [InternalElementType][1].
+The Name of the CAEX-Element 'InternalElement'. The CAEX-Wrapper is [InternalElementType][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

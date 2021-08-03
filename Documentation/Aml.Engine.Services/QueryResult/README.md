@@ -1,6 +1,6 @@
 QueryResult Class
 =================
-AutomationML 2.1 APIThis class supports the interpretation of the queryResult table which is the result of some queries, defined in [IQuery][1]
+This class supports the interpretation of the queryResult table which is the result of some queries, defined in [IQuery][1]
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 AMLEngineAdapter.Insert_MappingObject Method (SupportedRoleClassType, MappingType)
 ==================================================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Adding a MappingObject element to this Supported Role.

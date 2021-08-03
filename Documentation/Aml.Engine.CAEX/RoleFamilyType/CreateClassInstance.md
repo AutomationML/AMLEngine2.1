@@ -1,6 +1,6 @@
 RoleFamilyType.CreateClassInstance Method
 =========================================
-AutomationML 2.1 APICreates a RoleRequirements object as an instance of this RoleClass object. All Base-Class references are resolved to create the instance - copying the Attribute and ExternalInterface objects to the created RoleRequirements object. The IDs of the ExternalInterface objects are made unique.
+Creates a RoleRequirements object as an instance of this RoleClass object. All Base-Class references are resolved to create the instance - copying the Attribute and ExternalInterface objects to the created RoleRequirements object. The IDs of the ExternalInterface objects are made unique.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

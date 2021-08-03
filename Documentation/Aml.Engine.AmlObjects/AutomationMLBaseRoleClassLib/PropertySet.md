@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.PropertySet Field
 ==============================================
-AutomationML 2.1 APIThe 'PropertySet' RoleClass path
+The 'PropertySet' RoleClass path
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

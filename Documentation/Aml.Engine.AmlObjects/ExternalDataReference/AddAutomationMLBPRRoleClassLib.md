@@ -1,6 +1,6 @@
 ExternalDataReference.AddAutomationMLBPRRoleClassLib Method
 ===========================================================
-AutomationML 2.1 APIAdds the AutomationMLBPRRoleClassLib containing all role classes used to model external document references to the AMLDocument.
+Adds the AutomationMLBPRRoleClassLib containing all role classes used to model external document references to the AMLDocument.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

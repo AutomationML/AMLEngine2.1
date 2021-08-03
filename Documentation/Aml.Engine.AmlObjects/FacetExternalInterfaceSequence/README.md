@@ -1,6 +1,6 @@
 FacetExternalInterfaceSequence Class
 ====================================
-AutomationML 2.1 APIThis class defines a sequence of ExternalInterfaces which belong to an [AMLFacet][1]. A Facet interface shall be related to an existing interface of the parent object, the identifier is the same name. Facet interfaces which are not part of the parent object are not permitted. [IEC 62714-1:2014 8.3 (p.43)]
+This class defines a sequence of ExternalInterfaces which belong to an [AMLFacet][1]. A Facet interface shall be related to an existing interface of the parent object, the identifier is the same name. Facet interfaces which are not part of the parent object are not permitted. [IEC 62714-1:2014 8.3 (p.43)]
 
 
 Inheritance Hierarchy

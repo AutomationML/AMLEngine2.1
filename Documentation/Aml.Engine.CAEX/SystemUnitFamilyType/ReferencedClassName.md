@@ -1,6 +1,6 @@
 SystemUnitFamilyType.ReferencedClassName Property
 =================================================
-AutomationML 2.1 APIGets the name (not the full path) of the referenced base class.
+Gets the name (not the full path) of the referenced base class.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

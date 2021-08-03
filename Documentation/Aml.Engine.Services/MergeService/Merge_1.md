@@ -1,6 +1,6 @@
 MergeService.Merge Method (CAEXDocument, ExternalReferenceType, String[], Boolean)
 ==================================================================================
-AutomationML 2.1 APIMerges the defined ExternalReference into the provided CAEXDocument.
+Merges the defined ExternalReference into the provided CAEXDocument.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

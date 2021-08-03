@@ -1,6 +1,6 @@
 AttributeType.RecreateAttributeInstance Method
 ==============================================
-AutomationML 2.1 APIReplaces the content of this Attribute object with the specified attribute type. This Attribute object is changed to an instance of the provided Attribute Type.
+Replaces the content of this Attribute object with the specified attribute type. This Attribute object is changed to an instance of the provided Attribute Type.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

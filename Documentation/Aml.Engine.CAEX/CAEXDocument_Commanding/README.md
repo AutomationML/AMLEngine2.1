@@ -1,6 +1,6 @@
 CAEXDocument.Commanding Class
 =============================
-AutomationML 2.1 APIThe Commanding class, which provides events for changes of CAEX objects
+The Commanding class, which provides events for changes of CAEX objects
 
 
 Inheritance Hierarchy

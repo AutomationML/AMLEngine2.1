@@ -1,6 +1,6 @@
 RoleFamilyType.GetReferenceHierarchy&lt;T> Method
 =================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Gets the reference (Inheritance) hierarchy including this instance in an ordered sequence of ancestors.

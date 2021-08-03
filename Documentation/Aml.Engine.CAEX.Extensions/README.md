@@ -1,6 +1,6 @@
 Aml.Engine.CAEX.Extensions Namespace
 ====================================
-AutomationML 2.1 APIThe Aml.Engine.CAEX.Extensions Namespace contains extension methods for most of the specific CAEXObject classes. The most of these extension methods are methods which are obsolete and only kept to be downward compatible to AMLEngine the versions prior to v5.0.0. For most of these methods, better alternatives are provided either via a specific service [Aml.Engine.Services][1] or are available in the [Aml.Engine.CAEX][2] namespace.
+The Aml.Engine.CAEX.Extensions Namespace contains extension methods for most of the specific CAEXObject classes. The most of these extension methods are methods which are obsolete and only kept to be downward compatible to AMLEngine the versions prior to v5.0.0. For most of these methods, better alternatives are provided either via a specific service [Aml.Engine.Services][1] or are available in the [Aml.Engine.CAEX][2] namespace.
 
 
 Classes

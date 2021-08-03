@@ -1,6 +1,6 @@
 AttributeFamilyType.GetReferenceHierarchy Method
 ================================================
-AutomationML 2.1 APIGets the reference (inheritance) hierarchy. The reference hierarchy includes this instance and the reference hierarchy of an associated [BaseClass][1] defining a class to class relation.
+Gets the reference (inheritance) hierarchy. The reference hierarchy includes this instance and the reference hierarchy of an associated [BaseClass][1] defining a class to class relation.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

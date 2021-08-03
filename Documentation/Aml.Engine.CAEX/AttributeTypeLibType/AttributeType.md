@@ -1,6 +1,6 @@
 AttributeTypeLibType.AttributeType Property
 ===========================================
-AutomationML 2.1 APIGets the collection of AttributeType objects contained in this AttributeTypeLib element.
+Gets the collection of AttributeType objects contained in this AttributeTypeLib element.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

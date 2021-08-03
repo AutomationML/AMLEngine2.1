@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.META_WRITERNAME_STRING Field
 =====================================================
-AutomationML 2.1 APIThe meta WriterName string
+The meta WriterName string
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

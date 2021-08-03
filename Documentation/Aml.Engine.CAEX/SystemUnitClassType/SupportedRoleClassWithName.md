@@ -1,6 +1,6 @@
 SystemUnitClassType.SupportedRoleClassWithName Method
 =====================================================
-AutomationML 2.1 APIGet the RoleClass from the sequence of [SupportedRoleClass][1] with the provided *roleClassName*.
+Get the RoleClass from the sequence of [SupportedRoleClass][1] with the provided *roleClassName*.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

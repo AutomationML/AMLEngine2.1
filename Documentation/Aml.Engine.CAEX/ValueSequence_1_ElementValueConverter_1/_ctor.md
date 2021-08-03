@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.ElementValueConverter&lt;T> Constructor
 ===================================================================
-AutomationML 2.1 APIInitializes a new instance of the ElementValueConverter class.
+Initializes a new instance of the ElementValueConverter class.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

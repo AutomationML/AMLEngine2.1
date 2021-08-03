@@ -1,6 +1,6 @@
 ObjectWithBaseClass.InheritedElements&lt;TInheritedElement> Method
 ==================================================================
-AutomationML 2.1 APIGets a collection of objects of the defined InheritedElement-Type that are inherited from base classes.
+Gets a collection of objects of the defined InheritedElement-Type that are inherited from base classes.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

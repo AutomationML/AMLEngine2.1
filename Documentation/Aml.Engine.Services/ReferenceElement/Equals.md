@@ -1,6 +1,6 @@
 ReferenceElement.Equals Method
 ==============================
-AutomationML 2.1 APIDetermines whether the specified [Object][1] is equal to this instance.
+Determines whether the specified [Object][1] is equal to this instance.
 
   **Namespace:**  [Aml.Engine.Services][2]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

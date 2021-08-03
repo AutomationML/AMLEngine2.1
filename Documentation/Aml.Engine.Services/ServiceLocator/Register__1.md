@@ -1,6 +1,6 @@
 ServiceLocator.Register&lt;T> Method
 ====================================
-AutomationML 2.1 APIRegisters a service which will be locatable
+Registers a service which will be locatable
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXPathBuilder.IsObjectReferenceWithAlias Method
 =================================================
-AutomationML 2.1 APIDetermines whether the specified classReference is an alias reference to the provided AutomationML class path.
+Determines whether the specified classReference is an alias reference to the provided AutomationML class path.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

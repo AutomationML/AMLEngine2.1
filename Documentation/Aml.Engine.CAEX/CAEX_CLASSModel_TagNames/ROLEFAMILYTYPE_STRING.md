@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.ROLEFAMILYTYPE_STRING Field
 ====================================================
-AutomationML 2.1 APIThe TypeName of the CAEX-Element 'RoleClass'. The CAEX-Wrappers are [RoleClassType][1] and [RoleFamilyType][2] for the Type.
+The TypeName of the CAEX-Element 'RoleClass'. The CAEX-Wrappers are [RoleClassType][1] and [RoleFamilyType][2] for the Type.
 
   **Namespace:**  [Aml.Engine.CAEX][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

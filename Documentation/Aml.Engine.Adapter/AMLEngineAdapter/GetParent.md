@@ -1,6 +1,6 @@
 AMLEngineAdapter.GetParent Method
 =================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 This method returns the parent CAEXBasicObject of the current CAEXBasicObject.

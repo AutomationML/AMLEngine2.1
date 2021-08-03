@@ -1,6 +1,6 @@
 NamedElementSequence&lt;T>.Item Property
 ========================================
-AutomationML 2.1 APIGets or sets the value at the specified index.
+Gets or sets the value at the specified index.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

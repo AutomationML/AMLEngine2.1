@@ -1,6 +1,6 @@
 CAEXPathBuilder.InternalLinkReferencePath Method (SystemUnitClassType, InterfaceClassType)
 ==========================================================================================
-AutomationML 2.1 APIBuilds the reference Path for an Interface-Reference in an InternalLink
+Builds the reference Path for an Interface-Reference in an InternalLink
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

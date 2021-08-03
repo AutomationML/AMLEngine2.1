@@ -1,6 +1,6 @@
 IExternalReferenceResolver.LoadOrGetReferencedDocument Method (CAEXDocument, String)
 ====================================================================================
-AutomationML 2.1 APIDetermines, if the provided path contains an alias and gets the resolved document for that alias if it is already resolved. If the reference has not been resolved it is resolved.
+Determines, if the provided path contains an alias and gets the resolved document for that alias if it is already resolved. If the reference has not been resolved it is resolved.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

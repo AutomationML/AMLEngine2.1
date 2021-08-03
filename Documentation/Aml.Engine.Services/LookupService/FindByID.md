@@ -1,6 +1,6 @@
 LookupService.FindByID Method
 =============================
-AutomationML 2.1 APILocates a CAEX object in the provided document using the specified ID - Attribute for identification.
+Locates a CAEX object in the provided document using the specified ID - Attribute for identification.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

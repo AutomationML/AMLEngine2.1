@@ -1,6 +1,6 @@
 SystemUnitClassType.InsertAfter Method
 ======================================
-AutomationML 2.1 APIInserts the provided CAEX object as a new sibling after this CAEX object.
+Inserts the provided CAEX object as a new sibling after this CAEX object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

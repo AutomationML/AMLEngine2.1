@@ -1,6 +1,6 @@
 CaexValue.GetHashCode Method
 ============================
-AutomationML 2.1 APIReturns a hash code for this instance.
+Returns a hash code for this instance.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

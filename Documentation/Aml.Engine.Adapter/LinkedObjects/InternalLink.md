@@ -1,6 +1,6 @@
 LinkedObjects.InternalLink Property
 ===================================
-AutomationML 2.1 APIGets or sets the Internal Link.
+Gets or sets the Internal Link.
 
   **Namespace:**  [Aml.Engine.Adapter][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

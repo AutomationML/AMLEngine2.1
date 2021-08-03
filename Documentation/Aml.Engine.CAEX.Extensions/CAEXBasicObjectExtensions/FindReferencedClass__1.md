@@ -1,6 +1,6 @@
 CAEXBasicObjectExtensions.FindReferencedClass&lt;T> Method
 ==========================================================
-AutomationML 2.1 APIFinds the CAEX object with the specified CAEX path and the specified Type.
+Finds the CAEX object with the specified CAEX path and the specified Type.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

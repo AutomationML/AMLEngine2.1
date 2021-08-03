@@ -1,6 +1,6 @@
 ICAEXBasicObject Interface
 ==========================
-AutomationML 2.1 APIInterface class implemented by [CAEXBasicObject][1] which comprises a basic set of attributes and header information which exist for all CAEX elements.
+Interface class implemented by [CAEXBasicObject][1] which comprises a basic set of attributes and header information which exist for all CAEX elements.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

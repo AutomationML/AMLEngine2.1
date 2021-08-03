@@ -1,6 +1,6 @@
 ICAEXSequence.Append Method
 ===========================
-AutomationML 2.1 APICreates a new CAEX object and appends it to already existing elements in this sequence.
+Creates a new CAEX object and appends it to already existing elements in this sequence.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 InterfaceFamilyTypeExtensions.CreateInterfaceFamilyClass Method
 ===============================================================
-AutomationML 2.1 APICreate an InterfaceClass from this interface (e.g. ExternalInterface). An InterfaceClass is of type InterfaceFamilyType and may contain InterfaceFamilyTypes as child elements.
+Create an InterfaceClass from this interface (e.g. ExternalInterface). An InterfaceClass is of type InterfaceFamilyType and may contain InterfaceFamilyTypes as child elements.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

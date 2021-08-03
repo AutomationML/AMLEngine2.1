@@ -1,6 +1,6 @@
 AMLEngineAdapter.getAttributeField Method
 =========================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Get the whole attribute field containing a collection of all attributes of this object.

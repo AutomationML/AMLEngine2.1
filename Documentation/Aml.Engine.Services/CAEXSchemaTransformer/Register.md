@@ -1,6 +1,6 @@
 CAEXSchemaTransformer.Register Method
 =====================================
-AutomationML 2.1 APIRegistration of a new [ISchemaTransform][1]
+Registration of a new [ISchemaTransform][1]
 
   **Namespace:**  [Aml.Engine.Services][2]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

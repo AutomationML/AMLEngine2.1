@@ -1,6 +1,6 @@
 RoleRequirementsType.UnAssignedQualifiedRoleClassAttributesOfMultipleRoles Property
 ===================================================================================
-AutomationML 2.1 APIThis property supports the Multiple Roles concept in AutomationML 2.0, based on CAEX 2.15. The property is not applicable for documents, based on CAEX 3.0 and later. It gets the role class attributes of supported role class objects which are not assigned to this RoleRequirements instance. The returned Attributes are created with a qualified Name, including the supported role class name, a separator string "." and the attribute name.
+This property supports the Multiple Roles concept in AutomationML 2.0, based on CAEX 2.15. The property is not applicable for documents, based on CAEX 3.0 and later. It gets the role class attributes of supported role class objects which are not assigned to this RoleRequirements instance. The returned Attributes are created with a qualified Name, including the supported role class name, a separator string "." and the attribute name.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

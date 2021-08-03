@@ -1,6 +1,6 @@
 InternalElementType.MasterID Property
 =====================================
-AutomationML 2.1 APIGets the master identifier, if this InternalElement is a mirror .
+Gets the master identifier, if this InternalElement is a mirror .
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

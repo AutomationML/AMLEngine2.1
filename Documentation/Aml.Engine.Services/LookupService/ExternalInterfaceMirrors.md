@@ -1,6 +1,6 @@
 LookupService.ExternalInterfaceMirrors Method
 =============================================
-AutomationML 2.1 APIReturns all Mirrors of the specified ExternalInterface
+Returns all Mirrors of the specified ExternalInterface
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

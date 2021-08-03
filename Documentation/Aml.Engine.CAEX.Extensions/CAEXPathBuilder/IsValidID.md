@@ -1,6 +1,6 @@
 CAEXPathBuilder.IsValidID Method
 ================================
-AutomationML 2.1 APIDetermines whether the specified string can represent an ID
+Determines whether the specified string can represent an ID
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

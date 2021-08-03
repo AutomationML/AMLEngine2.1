@@ -1,6 +1,6 @@
 AttributeTypeType.GetDouble Method
 ==================================
-AutomationML 2.1 APIParse the Attribute Value string as double. If the string can not be parsed, a format exception is returned. This method uses the XmlConvert [ToDouble(String)][1] method and a fall back conversion, if the first conversion fails.
+Parse the Attribute Value string as double. If the string can not be parsed, a format exception is returned. This method uses the XmlConvert [ToDouble(String)][1] method and a fall back conversion, if the first conversion fails.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

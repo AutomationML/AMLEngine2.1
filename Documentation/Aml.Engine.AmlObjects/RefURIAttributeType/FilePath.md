@@ -1,6 +1,6 @@
 RefURIAttributeType.FilePath Property
 =====================================
-AutomationML 2.1 APIGets the pure file path of this external reference attribute without the identifier.
+Gets the pure file path of this external reference attribute without the identifier.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 ReferenceElement.ReferenceAttributeName Property
 ================================================
-AutomationML 2.1 APIGets the name of the reference attribute of the [Element][1]
+Gets the name of the reference attribute of the [Element][1]
 
   **Namespace:**  [Aml.Engine.Services][2]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

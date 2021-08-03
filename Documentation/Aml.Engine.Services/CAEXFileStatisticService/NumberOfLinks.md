@@ -1,6 +1,6 @@
 CAEXFileStatisticService.NumberOfLinks Method
 =============================================
-AutomationML 2.1 APICounts all InternalLink objects and returns the result.
+Counts all InternalLink objects and returns the result.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

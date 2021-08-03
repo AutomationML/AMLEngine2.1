@@ -1,6 +1,6 @@
 MappingTypeExtensions.New_InterfaceNameMapping Method
 =====================================================
-AutomationML 2.1 APIAdding a new InterfaceNameMapping to the defined Mapping object. An InterfaceNameMapping allows the definition of the mapping between Interface names of corresponding RoleClasses and SystemUnitClasses.
+Adding a new InterfaceNameMapping to the defined Mapping object. An InterfaceNameMapping allows the definition of the mapping between Interface names of corresponding RoleClasses and SystemUnitClasses.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

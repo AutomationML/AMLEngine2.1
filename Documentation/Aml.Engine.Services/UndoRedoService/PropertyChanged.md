@@ -1,6 +1,6 @@
 UndoRedoService.PropertyChanged Event
 =====================================
-AutomationML 2.1 APIOccurs when a property value changes.
+Occurs when a property value changes.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

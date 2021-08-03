@@ -1,6 +1,6 @@
 AmlObjectsExtensions.DeleteMetaInformation Method
 =================================================
-AutomationML 2.1 APIThis function deletes any existing meta information corresponding to the writerID.
+This function deletes any existing meta information corresponding to the writerID.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

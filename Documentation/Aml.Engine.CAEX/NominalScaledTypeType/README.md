@@ -1,6 +1,6 @@
 NominalScaledTypeType Class
 ===========================
-AutomationML 2.1 APIThis class is a wrapper for the CAEXElement 'NominalScaledType" which defined a list of required values for an attribute constraint.
+This class is a wrapper for the CAEXElement 'NominalScaledType" which defined a list of required values for an attribute constraint.
 
 
 Inheritance Hierarchy

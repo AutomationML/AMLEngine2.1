@@ -1,6 +1,6 @@
 AMLFacet.InternalElement Property
 =================================
-AutomationML 2.1 APIThe collection of InternalElement objects for an AMLFacet is always `null`.
+The collection of InternalElement objects for an AMLFacet is always `null`.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 FrameAttributeType Constructor (XElement, FrameValues)
 ======================================================
-AutomationML 2.1 APIInitializes a new instance of the [FrameAttributeType][1] class. It is not checked, if the provided attribute Node represents a valid Frame attribute. If Frame attributes exist, they are initialized using the specified frame values.
+Initializes a new instance of the [FrameAttributeType][1] class. It is not checked, if the provided attribute Node represents a valid Frame attribute. If Frame attributes exist, they are initialized using the specified frame values.
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

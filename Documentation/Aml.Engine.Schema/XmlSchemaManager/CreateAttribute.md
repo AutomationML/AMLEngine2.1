@@ -1,6 +1,6 @@
 XmlSchemaManager.CreateAttribute Method
 =======================================
-AutomationML 2.1 APICreates the attribute with the provided name if this attribute is defined in this schema instance.
+Creates the attribute with the provided name if this attribute is defined in this schema instance.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

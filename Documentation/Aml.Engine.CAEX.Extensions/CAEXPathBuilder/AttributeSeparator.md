@@ -1,6 +1,6 @@
 CAEXPathBuilder.AttributeSeparator Field
 ========================================
-AutomationML 2.1 APIThe attribute separator used before attribute hierarchies.
+The attribute separator used before attribute hierarchies.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

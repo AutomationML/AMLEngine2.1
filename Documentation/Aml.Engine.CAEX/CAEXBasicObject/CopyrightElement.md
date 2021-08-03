@@ -1,6 +1,6 @@
 CAEXBasicObject.CopyrightElement Property
 =========================================
-AutomationML 2.1 APIGets the wrapper for the Copyright element.
+Gets the wrapper for the Copyright element.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

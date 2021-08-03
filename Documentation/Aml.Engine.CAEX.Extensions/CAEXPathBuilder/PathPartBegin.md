@@ -1,6 +1,6 @@
 CAEXPathBuilder.PathPartBegin Field
 ===================================
-AutomationML 2.1 APIThe begin of a path part, used if the object name contains a Path Separator
+The begin of a path part, used if the object name contains a Path Separator
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

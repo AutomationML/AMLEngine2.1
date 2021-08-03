@@ -1,6 +1,6 @@
 ValidationElement Class
 =======================
-AutomationML 2.1 APIClass ValidationElement is a Tuple of an XElement and associated detailed Information about any inconsistencies, assigned with that Element.
+Class ValidationElement is a Tuple of an XElement and associated detailed Information about any inconsistencies, assigned with that Element.
 
 
 Inheritance Hierarchy

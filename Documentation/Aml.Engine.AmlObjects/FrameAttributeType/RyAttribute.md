@@ -1,6 +1,6 @@
 FrameAttributeType.RyAttribute Property
 =======================================
-AutomationML 2.1 APIThe Ry-attribute
+The Ry-attribute
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

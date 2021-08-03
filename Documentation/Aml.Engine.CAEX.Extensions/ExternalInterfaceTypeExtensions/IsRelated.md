@@ -1,6 +1,6 @@
 ExternalInterfaceTypeExtensions.IsRelated Method
 ================================================
-AutomationML 2.1 APIDetermines whether the specified ExternalInterface is related to other ExternalInterfaces using InternalLinks.
+Determines whether the specified ExternalInterface is related to other ExternalInterfaces using InternalLinks.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

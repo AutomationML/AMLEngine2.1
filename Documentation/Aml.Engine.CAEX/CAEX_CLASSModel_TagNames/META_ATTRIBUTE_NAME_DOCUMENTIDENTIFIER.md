@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.META_ATTRIBUTE_NAME_DOCUMENTIDENTIFIER Field
 =====================================================================
-AutomationML 2.1 APIThe meta attribute name document identifier is used to identify [META_ATTRIBUTE_NAME_DOCUMENTVERSION][1].
+The meta attribute name document identifier is used to identify [META_ATTRIBUTE_NAME_DOCUMENTVERSION][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

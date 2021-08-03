@@ -1,6 +1,6 @@
 IMirror Interface
 =================
-AutomationML 2.1 APIInterface class, implemented by any CAEX object, which can be mirrored
+Interface class, implemented by any CAEX object, which can be mirrored
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

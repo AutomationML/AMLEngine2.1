@@ -1,6 +1,6 @@
 InternalElementType.CreateMirror Method
 =======================================
-AutomationML 2.1 APICreates a new mirror element from this InternalElement
+Creates a new mirror element from this InternalElement
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

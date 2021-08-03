@@ -1,6 +1,6 @@
 AutomationMLInterfaceClassLib.AttachmentInterface Field
 =======================================================
-AutomationML 2.1 APIThe AttachmentInterface class path (a Part 3 Interface)
+The AttachmentInterface class path (a Part 3 Interface)
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

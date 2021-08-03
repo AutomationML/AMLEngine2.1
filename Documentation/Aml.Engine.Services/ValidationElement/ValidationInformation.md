@@ -1,6 +1,6 @@
 ValidationElement.ValidationInformation Property
 ================================================
-AutomationML 2.1 APIGets a short information about the validation of one element.
+Gets a short information about the validation of one element.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

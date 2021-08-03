@@ -1,6 +1,6 @@
 AttributeTypeLibType Class
 ==========================
-AutomationML 2.1 APIThis Class is a wrapper for the CAEX element 'AttributeTypeLib' which is a container for a hierarchy of AttributeType elements. CAEX supports multiple AttributeType libraries associated to a CAEXFile ([CAEXFileType][1]).
+This Class is a wrapper for the CAEX element 'AttributeTypeLib' which is a container for a hierarchy of AttributeType elements. CAEX supports multiple AttributeType libraries associated to a CAEXFile ([CAEXFileType][1]).
 
 
 Inheritance Hierarchy

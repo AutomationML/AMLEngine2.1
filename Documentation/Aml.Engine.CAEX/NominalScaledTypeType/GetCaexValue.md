@@ -1,6 +1,6 @@
 NominalScaledTypeType.GetCaexValue Method
 =========================================
-AutomationML 2.1 APIGets the [CaexValue][1] for the for the nominal value attribute with the defined value.
+Gets the [CaexValue][1] for the for the nominal value attribute with the defined value.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

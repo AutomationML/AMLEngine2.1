@@ -1,6 +1,6 @@
 FrameAttributeType.X_Name Field
 ===============================
-AutomationML 2.1 APIThe x name
+The x name
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 SystemUnitFamilyTypeExtensions.New_SystemUnitClass Method
 =========================================================
-AutomationML 2.1 APIAdding a new SystemUnitClass to this SystemUnitFamily.
+Adding a new SystemUnitClass to this SystemUnitFamily.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

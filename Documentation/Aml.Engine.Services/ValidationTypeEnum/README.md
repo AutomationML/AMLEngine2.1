@@ -1,6 +1,6 @@
 ValidationTypeEnum Enumeration
 ==============================
-AutomationML 2.1 APIEnumeration ValidationTypeEnum
+Enumeration ValidationTypeEnum
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

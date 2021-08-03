@@ -1,6 +1,6 @@
 ValidatorService.ValidateAliasReferences Method
 ===============================================
-AutomationML 2.1 APIValidates the alias references and returns the validation result describing possible repair options. The [ValidationElement][1] provides detailed information about available Repair Options and an additional Information Text.
+Validates the alias references and returns the validation result describing possible repair options. The [ValidationElement][1] provides detailed information about available Repair Options and an additional Information Text.
 
   **Namespace:**  [Aml.Engine.Services][2]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

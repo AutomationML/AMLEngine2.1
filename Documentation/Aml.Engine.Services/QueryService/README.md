@@ -1,6 +1,6 @@
 QueryService Class
 ==================
-AutomationML 2.1 APIThis class defines the default query service for a [CAEXDocument][1]. The query methods of this service are based on System.Xml.Linq and System.Xml.XPath.
+This class defines the default query service for a [CAEXDocument][1]. The query methods of this service are based on System.Xml.Linq and System.Xml.XPath.
 
 
 Inheritance Hierarchy

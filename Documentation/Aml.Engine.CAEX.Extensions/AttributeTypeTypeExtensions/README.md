@@ -1,6 +1,6 @@
 AttributeTypeTypeExtensions Class
 =================================
-AutomationML 2.1 APIExtension methods for class [AttributeTypeType][1].
+Extension methods for class [AttributeTypeType][1].
 
 
 Inheritance Hierarchy

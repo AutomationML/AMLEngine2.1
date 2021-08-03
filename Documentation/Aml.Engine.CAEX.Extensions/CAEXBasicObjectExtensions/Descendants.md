@@ -1,6 +1,6 @@
 CAEXBasicObjectExtensions.Descendants Method (CAEXWrapper, Type)
 ================================================================
-AutomationML 2.1 APIFinds the descendants of the provided CAEX object which are of the given type.
+Finds the descendants of the provided CAEX object which are of the given type.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

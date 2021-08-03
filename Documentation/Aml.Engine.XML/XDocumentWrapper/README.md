@@ -1,6 +1,6 @@
 XDocumentWrapper Class
 ======================
-AutomationML 2.1 APIThis class is an abstract base class for the wrapping of an XDocument, to provide additional schema specific document processing utilities. This class is used by the AMLEngine to provide a CAEXDocument. Other XML Engines, supporting different schemas (PLCopen, COLLADA) could also use this base class.
+This class is an abstract base class for the wrapping of an XDocument, to provide additional schema specific document processing utilities. This class is used by the AMLEngine to provide a CAEXDocument. Other XML Engines, supporting different schemas (PLCopen, COLLADA) could also use this base class.
 
 
 Inheritance Hierarchy

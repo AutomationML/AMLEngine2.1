@@ -1,6 +1,6 @@
 ReferenceElement.ReferenceAttributeValue Property
 =================================================
-AutomationML 2.1 APIgets the value of the Reference Attribute
+gets the value of the Reference Attribute
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

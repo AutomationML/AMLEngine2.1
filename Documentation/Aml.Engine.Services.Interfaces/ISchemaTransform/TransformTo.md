@@ -1,6 +1,6 @@
 ISchemaTransform.TransformTo Method
 ===================================
-AutomationML 2.1 APIMethod to do a schema transformation for the provided document to the defined schema. This method can be used for upward and downward transformations.
+Method to do a schema transformation for the provided document to the defined schema. This method can be used for upward and downward transformations.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

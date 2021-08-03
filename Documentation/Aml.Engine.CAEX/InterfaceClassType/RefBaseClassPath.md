@@ -1,6 +1,6 @@
 InterfaceClassType.RefBaseClassPath Property
 ============================================
-AutomationML 2.1 APIGets and sets the path which references a base class
+Gets and sets the path which references a base class
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

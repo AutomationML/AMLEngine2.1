@@ -1,6 +1,6 @@
 AttributeValueRequirementType.Insert Method (Int32, CAEXWrapper)
 ================================================================
-AutomationML 2.1 APIInserts the specified CAEX object in it's associated sequence at the defined position. The AttributeValueRequirementType defines the [UnknownTypeType][1], the [OrdinalScaledTypeType][2] and the [NominalScaledTypeType][3] as possible child elements. Only one of these types is allowed as a child.
+Inserts the specified CAEX object in it's associated sequence at the defined position. The AttributeValueRequirementType defines the [UnknownTypeType][1], the [OrdinalScaledTypeType][2] and the [NominalScaledTypeType][3] as possible child elements. Only one of these types is allowed as a child.
 
   **Namespace:**  [Aml.Engine.CAEX][4]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

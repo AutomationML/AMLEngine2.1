@@ -1,6 +1,6 @@
 CAEXPathBuilder.AliasSeparator Field
 ====================================
-AutomationML 2.1 APIThe alias separator used after Alias
+The alias separator used after Alias
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AutomationMLContainer.CompressionMode Property
 ==============================================
-AutomationML 2.1 APIGets or sets the compression mode which is [Normal][1] by default.
+Gets or sets the compression mode which is [Normal][1] by default.
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

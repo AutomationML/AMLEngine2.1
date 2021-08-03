@@ -1,6 +1,6 @@
 CAEXEnumerable&lt;T> Class
 ==========================
-AutomationML 2.1 APIThis class implements a specific enumeration type which wraps an XElement with a CAEXWrapper during enumeration. The enumerator for this class is [CAEXSequenceEnumerator&lt;T>][1]
+This class implements a specific enumeration type which wraps an XElement with a CAEXWrapper during enumeration. The enumerator for this class is [CAEXSequenceEnumerator&lt;T>][1]
 
 
 Inheritance Hierarchy

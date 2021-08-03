@@ -1,6 +1,6 @@
 ValidationElement Constructor
 =============================
-AutomationML 2.1 APIInitializes a new instance of the [ValidationElement][1] class.
+Initializes a new instance of the [ValidationElement][1] class.
 
   **Namespace:**  [Aml.Engine.Services][2]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

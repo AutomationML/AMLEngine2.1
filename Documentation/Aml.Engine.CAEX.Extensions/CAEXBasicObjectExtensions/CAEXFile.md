@@ -1,6 +1,6 @@
 CAEXBasicObjectExtensions.CAEXFile Method
 =========================================
-AutomationML 2.1 APIGets the CAEX file which contains this CAEX object.
+Gets the CAEX file which contains this CAEX object.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

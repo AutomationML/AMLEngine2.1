@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLibType.Product Property
 =================================================
-AutomationML 2.1 APIGets the product.
+Gets the product.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AMLEngineAdapter.Insert_SystemUnitFamilyType Method
 ===================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Appending the *systemUnitFamilyType* object into this object.

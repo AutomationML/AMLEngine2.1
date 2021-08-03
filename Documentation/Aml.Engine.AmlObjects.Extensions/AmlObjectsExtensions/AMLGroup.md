@@ -1,6 +1,6 @@
 AmlObjectsExtensions.AMLGroup Method
 ====================================
-AutomationML 2.1 APIConverts an InternalElementType to an AMLGroup.
+Converts an InternalElementType to an AMLGroup.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

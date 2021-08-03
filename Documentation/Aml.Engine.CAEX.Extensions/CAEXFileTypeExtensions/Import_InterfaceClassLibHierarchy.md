@@ -1,6 +1,6 @@
 CAEXFileTypeExtensions.Import_InterfaceClassLibHierarchy Method
 ===============================================================
-AutomationML 2.1 APIImports the provided library into the InterfaceClassLib collection of this CAEX file.
+Imports the provided library into the InterfaceClassLib collection of this CAEX file.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

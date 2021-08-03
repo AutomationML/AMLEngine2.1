@@ -1,6 +1,6 @@
 RefURIAttributeType.UriReferencesAreEqual Method
 ================================================
-AutomationML 2.1 APIDetermines, ob the refUri is equal to the attributes value
+Determines, ob the refUri is equal to the attributes value
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

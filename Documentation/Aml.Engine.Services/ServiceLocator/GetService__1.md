@@ -1,6 +1,6 @@
 ServiceLocator.GetService&lt;T> Method
 ======================================
-AutomationML 2.1 APIGets a service for the provided service interface
+Gets a service for the provided service interface
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

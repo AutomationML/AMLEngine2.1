@@ -1,6 +1,6 @@
 QueryResult.ElementsWithInternalLinkRelations Method
 ====================================================
-AutomationML 2.1 APIReturns all InternalElements and SystemUnitClasses in the defined Document, which are related to others via InternalLinks.
+Returns all InternalElements and SystemUnitClasses in the defined Document, which are related to others via InternalLinks.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

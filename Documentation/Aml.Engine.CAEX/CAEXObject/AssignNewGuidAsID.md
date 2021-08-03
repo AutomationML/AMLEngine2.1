@@ -1,6 +1,6 @@
 CAEXObject.AssignNewGuidAsID Method
 ===================================
-AutomationML 2.1 APIAssigns the new unique identifier as a new ID to this CAEX object.
+Assigns the new unique identifier as a new ID to this CAEX object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

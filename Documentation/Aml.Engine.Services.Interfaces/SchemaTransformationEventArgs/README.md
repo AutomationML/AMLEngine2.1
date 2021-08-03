@@ -1,6 +1,6 @@
 SchemaTransformationEventArgs Class
 ===================================
-AutomationML 2.1 APIEvent arguments for schema transformation events
+Event arguments for schema transformation events
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 ExternalReferenceResolver.LoadOrGetReferencedDocument Method (CAEXDocument, String)
 ===================================================================================
-AutomationML 2.1 APIDetermines, if the provided path contains an alias and gets the resolved document for that alias.
+Determines, if the provided path contains an alias and gets the resolved document for that alias.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

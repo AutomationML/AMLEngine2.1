@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.INTERFACECLASSLIB_STRING Field
 =======================================================
-AutomationML 2.1 APIThe Name of the CAEX-Element 'InterfaceClassLib'. The CAEX-Wrapper is [InterfaceClassLibType][1].
+The Name of the CAEX-Element 'InterfaceClassLib'. The CAEX-Wrapper is [InterfaceClassLibType][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 ValidationElement.ValidatedAttribute Property
 =============================================
-AutomationML 2.1 APIGets or sets the validated attribute.
+Gets or sets the validated attribute.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

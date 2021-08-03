@@ -1,6 +1,6 @@
 InternalElementSequence.InternalElementDescendantsAndSelf Method
 ================================================================
-AutomationML 2.1 APIGets all InternalElements and the InternalElement descendants (the InternalElement tree)
+Gets all InternalElements and the InternalElement descendants (the InternalElement tree)
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

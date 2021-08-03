@@ -1,6 +1,6 @@
 ICAEXObject Interface
 =====================
-AutomationML 2.1 APIThis interface class is implemented by all CAEXObject classes and defines accessors for the attributes of a CAEX object.
+This interface class is implemented by all CAEXObject classes and defines accessors for the attributes of a CAEX object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

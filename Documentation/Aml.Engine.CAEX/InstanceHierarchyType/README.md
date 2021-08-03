@@ -1,6 +1,6 @@
 InstanceHierarchyType Class
 ===========================
-AutomationML 2.1 APIThis Class is a wrapper for the CAEXElement 'InstanceHierarchy' which is a Container element for a hierarchy of InternalElements.
+This Class is a wrapper for the CAEXElement 'InstanceHierarchy' which is a Container element for a hierarchy of InternalElements.
 
 
 Inheritance Hierarchy

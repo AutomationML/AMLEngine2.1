@@ -1,6 +1,6 @@
 QueryService.AllClassReferencesDeep Method (CAEXObject)
 =======================================================
-AutomationML 2.1 APIGets all classes which have references to the provided CAEX object and their referencing classes (recursive)
+Gets all classes which have references to the provided CAEX object and their referencing classes (recursive)
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

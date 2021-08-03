@@ -1,6 +1,6 @@
 CAEXPathBuilder.IsAttributeReference Method
 ===========================================
-AutomationML 2.1 APIDetermines, if the path is an Attribute reference. This method is able to distinguish if an UUID is combined with a CAEX path
+Determines, if the path is an Attribute reference. This method is able to distinguish if an UUID is combined with a CAEX path
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

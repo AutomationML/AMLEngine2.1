@@ -1,6 +1,6 @@
 SystemUnitFamilyType.HasRoleClassReference Method (String, Boolean)
 ===================================================================
-AutomationML 2.1 APIDetermines whether this SystemUnitClass object has a SupportedRoleClass with the specified CAEX path reference. If inheritance relation should be regarded, the optional parameter 'regardInheritance' should be set.
+Determines whether this SystemUnitClass object has a SupportedRoleClass with the specified CAEX path reference. If inheritance relation should be regarded, the optional parameter 'regardInheritance' should be set.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

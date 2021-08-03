@@ -1,6 +1,6 @@
 AMLEngineAdapter.clone Method
 =============================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 [Copy(Boolean, Boolean, Boolean)][1]

@@ -1,6 +1,6 @@
 IStatistic.NumberOfRoleClasses Method
 =====================================
-AutomationML 2.1 APICounts all RoleClass objects and returns the result.
+Counts all RoleClass objects and returns the result.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

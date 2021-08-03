@@ -1,6 +1,6 @@
 IUndoRedo.ClearStacks Method
 ============================
-AutomationML 2.1 APIClears the undo and redo stacks.
+Clears the undo and redo stacks.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

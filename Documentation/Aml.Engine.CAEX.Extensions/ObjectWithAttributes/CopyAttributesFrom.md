@@ -1,6 +1,6 @@
 ObjectWithAttributes.CopyAttributesFrom Method
 ==============================================
-AutomationML 2.1 APICopies all attribute of the source object with attributes to the target object including children
+Copies all attribute of the source object with attributes to the target object including children
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

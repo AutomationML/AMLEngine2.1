@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.ATTRIBUTEFAMILYTYPE_STRING Field
 =========================================================
-AutomationML 2.1 APIThe TypeName of the CAEX-Element 'AttributeType'. The CAEX-Wrapper is [AttributeFamilyType][1] for the Type.
+The TypeName of the CAEX-Element 'AttributeType'. The CAEX-Wrapper is [AttributeFamilyType][1] for the Type.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

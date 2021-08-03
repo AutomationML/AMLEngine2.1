@@ -1,6 +1,6 @@
 AttributeValueRequirementType Class
 ===================================
-AutomationML 2.1 APIThis class is a wrapper for the CAEX-Element 'AttributeValueRequirement' which allows the specification of one value constraint for an attribute. There is a choice of different types defined for the type of the condition. [NominalScaledTypeType][1][OrdinalScaledTypeType][2][UnknownTypeType][3]
+This class is a wrapper for the CAEX-Element 'AttributeValueRequirement' which allows the specification of one value constraint for an attribute. There is a choice of different types defined for the type of the condition. [NominalScaledTypeType][1][OrdinalScaledTypeType][2][UnknownTypeType][3]
 
 
 Inheritance Hierarchy

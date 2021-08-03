@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.ElementValueConverter&lt;T>.SetConverters Method
 ============================================================================
-AutomationML 2.1 APISets custom value converters to support conversion from objects to user defined types.
+Sets custom value converters to support conversion from objects to user defined types.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

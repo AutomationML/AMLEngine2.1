@@ -1,6 +1,6 @@
 InternalElementType.HasSystemUnitClassReference Method
 ======================================================
-AutomationML 2.1 APIDetermines whether this InternalElement object has an associated reference to the specified SystemUnitClass. If inheritance relations between systemUnitClasses should be regarded, the optional parameter 'regardInheritance' should be set. In this case the specified SystemUnitClass is either identical to a referenced SystemUnitClass or a referenced SystemUnitClass is derived from the specified SystemUnitClass.
+Determines whether this InternalElement object has an associated reference to the specified SystemUnitClass. If inheritance relations between systemUnitClasses should be regarded, the optional parameter 'regardInheritance' should be set. In this case the specified SystemUnitClass is either identical to a referenced SystemUnitClass or a referenced SystemUnitClass is derived from the specified SystemUnitClass.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

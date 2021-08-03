@@ -1,6 +1,6 @@
 CaexObjectWithReference&lt;T>.InsertBefore Method
 =================================================
-AutomationML 2.1 APIInserts the provided CAEX object as a new sibling before this CAEX object.
+Inserts the provided CAEX object as a new sibling before this CAEX object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.META_ATTRIBUTE_NAME_AUTOMATIONMLVERSION Field
 ======================================================================
-AutomationML 2.1 APIThe Name of the additional AutomationML-CaexFile-Attribute 'AutomationMLVersion'.
+The Name of the additional AutomationML-CaexFile-Attribute 'AutomationMLVersion'.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

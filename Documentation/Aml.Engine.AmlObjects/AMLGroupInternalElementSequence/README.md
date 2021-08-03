@@ -1,6 +1,6 @@
 AMLGroupInternalElementSequence Class
 =====================================
-AutomationML 2.1 APIThis class is used to support the AMLGroup concept. An AMLGroup object shall only contain InternalElements which are AMLMirrorObjects and/or further AMLGroup objects.
+This class is used to support the AMLGroup concept. An AMLGroup object shall only contain InternalElements which are AMLMirrorObjects and/or further AMLGroup objects.
 
 
 Inheritance Hierarchy

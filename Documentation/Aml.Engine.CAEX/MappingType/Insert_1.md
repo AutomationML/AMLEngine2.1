@@ -1,6 +1,6 @@
 MappingType.Insert Method (Int32, CAEXWrapper)
 ==============================================
-AutomationML 2.1 APIInserts the specified CAEX object in it's associated sequence at the given position. The MappingType defines the [InterfaceIDMapping][1], [InterfaceNameMapping][2] and [AttributeNameMapping][3] sequence.
+Inserts the specified CAEX object in it's associated sequence at the given position. The MappingType defines the [InterfaceIDMapping][1], [InterfaceNameMapping][2] and [AttributeNameMapping][3] sequence.
 
   **Namespace:**  [Aml.Engine.CAEX][4]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

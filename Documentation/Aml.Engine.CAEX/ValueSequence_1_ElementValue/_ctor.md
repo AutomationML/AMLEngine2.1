@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.ElementValue Constructor
 ====================================================
-AutomationML 2.1 APICreates the ElementValue structure for the defined Element and Value
+Creates the ElementValue structure for the defined Element and Value
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

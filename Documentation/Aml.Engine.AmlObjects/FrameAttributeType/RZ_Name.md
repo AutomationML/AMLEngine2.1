@@ -1,6 +1,6 @@
 FrameAttributeType.RZ_Name Field
 ================================
-AutomationML 2.1 APIThe rz name
+The rz name
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

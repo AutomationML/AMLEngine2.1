@@ -1,6 +1,6 @@
 AutomationMLInterfaceClassLib Class
 ===================================
-AutomationML 2.1 APIContains definitions and access methods of standard base InterfaceClass objects.
+Contains definitions and access methods of standard base InterfaceClass objects.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 AMLFacet.ExternalInterface Property
 ===================================
-AutomationML 2.1 APIGets a collection of ExternalInterface objects contained in this instance.
+Gets a collection of ExternalInterface objects contained in this instance.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

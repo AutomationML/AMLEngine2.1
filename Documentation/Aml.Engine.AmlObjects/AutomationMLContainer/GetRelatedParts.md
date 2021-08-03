@@ -1,6 +1,6 @@
 AutomationMLContainer.GetRelatedParts Method (PackagePart)
 ==========================================================
-AutomationML 2.1 APIReturns an enumeration of all related parts for the given part.
+Returns an enumeration of all related parts for the given part.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

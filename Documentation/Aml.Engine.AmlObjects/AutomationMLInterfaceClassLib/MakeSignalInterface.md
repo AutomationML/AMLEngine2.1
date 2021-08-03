@@ -1,6 +1,6 @@
 AutomationMLInterfaceClassLib.MakeSignalInterface Method
 ========================================================
-AutomationML 2.1 APIMakes the signal interface.
+Makes the signal interface.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

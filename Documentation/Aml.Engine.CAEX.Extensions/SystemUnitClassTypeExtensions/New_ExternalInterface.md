@@ -1,6 +1,6 @@
 SystemUnitClassTypeExtensions.New_ExternalInterface Method (IObjectWithExternalInterface, String, Boolean)
 ==========================================================================================================
-AutomationML 2.1 APIAdding a new ExternalInterface instance to the ExternalInterface-Collection of the *objectWithExternalInterface*. The New ExternalInterface is inserted as the first ExternalInterface of any existing Interfaces if nothing else is explicit defined.
+Adding a new ExternalInterface instance to the ExternalInterface-Collection of the *objectWithExternalInterface*. The New ExternalInterface is inserted as the first ExternalInterface of any existing Interfaces if nothing else is explicit defined.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

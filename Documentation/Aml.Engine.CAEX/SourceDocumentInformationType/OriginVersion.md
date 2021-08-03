@@ -1,6 +1,6 @@
 SourceDocumentInformationType.OriginVersion Property
 ====================================================
-AutomationML 2.1 APIGets and sets the Version of the origin of the CAEX document, e.g. the version of the source engineering tool or the exporter software.
+Gets and sets the Version of the origin of the CAEX document, e.g. the version of the source engineering tool or the exporter software.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

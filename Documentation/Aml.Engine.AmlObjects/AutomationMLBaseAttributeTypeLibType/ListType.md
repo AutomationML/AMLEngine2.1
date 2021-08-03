@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLibType.ListType Property
 ======================================================
-AutomationML 2.1 APIGets the ListType Attribute type
+Gets the ListType Attribute type
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

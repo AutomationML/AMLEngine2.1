@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLibType.ProcessStructure Property
 ==========================================================
-AutomationML 2.1 APIGets the process structure.
+Gets the process structure.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

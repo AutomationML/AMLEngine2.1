@@ -1,6 +1,6 @@
 ObjectWithAttributes.GetAttribute Method
 ========================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Gets the first attribute with the specified name from the attribute collection of the CAEX object.

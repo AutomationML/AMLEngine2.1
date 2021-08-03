@@ -1,6 +1,6 @@
 AutomationMLContainer.Save Method
 =================================
-AutomationML 2.1 APISaves the package and all part streams, the package is still open.
+Saves the package and all part streams, the package is still open.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

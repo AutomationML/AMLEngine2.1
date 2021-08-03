@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.ATTRIBUTE_NAME_SCHEMA_LOCATION Field
 =============================================================
-AutomationML 2.1 APIThe Name of the Xml-Schema Location Attribute 'xsi:noNamespaceSchemaLocation'
+The Name of the Xml-Schema Location Attribute 'xsi:noNamespaceSchemaLocation'
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

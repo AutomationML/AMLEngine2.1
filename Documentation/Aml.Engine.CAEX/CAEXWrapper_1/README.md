@@ -1,6 +1,6 @@
 CAEXWrapper&lt;TDataType> Class
 ===============================
-AutomationML 2.1 APIA CAEXWrapper for any Element, which is defined as a simple type. The DataType of the simple type is used as the generic type parameter.
+A CAEXWrapper for any Element, which is defined as a simple type. The DataType of the simple type is used as the generic type parameter.
 
 
 Inheritance Hierarchy

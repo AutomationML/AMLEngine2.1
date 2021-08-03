@@ -1,6 +1,6 @@
 AutomationMLContainer.GetPart Method
 ====================================
-AutomationML 2.1 APIReturns the part with the given URI.
+Returns the part with the given URI.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

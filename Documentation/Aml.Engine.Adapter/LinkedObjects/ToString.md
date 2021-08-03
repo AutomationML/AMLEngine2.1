@@ -1,6 +1,6 @@
 LinkedObjects.ToString Method
 =============================
-AutomationML 2.1 APIReturns a [String][1] that represents this instance.
+Returns a [String][1] that represents this instance.
 
   **Namespace:**  [Aml.Engine.Adapter][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

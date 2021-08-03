@@ -1,6 +1,6 @@
 AutomationMLInterfaceClassLibType Class
 =======================================
-AutomationML 2.1 APIThis Class is a wrapper for the AutomationML standard 'AutomationMLInterfaceClassLib' which is the container for a hierarchy of standard InterfaceClass definitions.
+This Class is a wrapper for the AutomationML standard 'AutomationMLInterfaceClassLib' which is the container for a hierarchy of standard InterfaceClass definitions.
 
 
 Inheritance Hierarchy

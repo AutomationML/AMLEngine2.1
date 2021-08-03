@@ -1,6 +1,6 @@
 AttributeFamilyType.CreateClassInstance Method
 ==============================================
-AutomationML 2.1 APICreates a class instance for this AttributeType object. All inherited base classes are resolved in the resulting Attribute. The Attribute collection of the new Attribute instance contains all inherited attributes from base classes."/>
+Creates a class instance for this AttributeType object. All inherited base classes are resolved in the resulting Attribute. The Attribute collection of the new Attribute instance contains all inherited attributes from base classes."/>
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

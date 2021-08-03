@@ -1,6 +1,6 @@
 AMLEngineAdapter.ConsistencyCheck_ClassReference Method
 =======================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Check if the given classPath is a valid path to an existent class in the AML file.

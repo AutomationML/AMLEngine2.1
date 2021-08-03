@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.GetEnumerator Method
 ================================================
-AutomationML 2.1 APIGets the enumerator for this sequence which enumerates the [Values][1].
+Gets the enumerator for this sequence which enumerates the [Values][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

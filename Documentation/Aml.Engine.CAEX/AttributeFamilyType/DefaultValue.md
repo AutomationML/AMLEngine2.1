@@ -1,6 +1,6 @@
 AttributeFamilyType.DefaultValue Property
 =========================================
-AutomationML 2.1 APIGets and set the DefaultValue. If the DefaultValue is not defined for this AttributeType but a [BaseClass][1] exists, the DefaultValue of the BaseClass is returned.
+Gets and set the DefaultValue. If the DefaultValue is not defined for this AttributeType but a [BaseClass][1] exists, the DefaultValue of the BaseClass is returned.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

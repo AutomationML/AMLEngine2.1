@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.IsFacet Method
 ===========================================
-AutomationML 2.1 APIDetermines whether the specified role reference defines an inheritance relation from the Facet RoleClass
+Determines whether the specified role reference defines an inheritance relation from the Facet RoleClass
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 QueryService.InternalLinksToElement Method
 ==========================================
-AutomationML 2.1 APIGets all InternalLink objects referencing the provided SystemUnitClass object via an external interface attached to the SystemUnitClass.
+Gets all InternalLink objects referencing the provided SystemUnitClass object via an external interface attached to the SystemUnitClass.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

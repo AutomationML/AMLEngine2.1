@@ -1,6 +1,6 @@
 ValidationResults.UnresolvedIDRefs Method
 =========================================
-AutomationML 2.1 APIGets the validation results for all elements with ID references which are not resolvable.
+Gets the validation results for all elements with ID references which are not resolvable.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

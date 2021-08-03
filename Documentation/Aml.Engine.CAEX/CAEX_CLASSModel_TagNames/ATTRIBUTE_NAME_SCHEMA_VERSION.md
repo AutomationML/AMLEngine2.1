@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.ATTRIBUTE_NAME_SCHEMA_VERSION Field
 ============================================================
-AutomationML 2.1 APIThe Name of the Xml-Schema Version Attribute 'SchemaVersion' of the CAEX-Element [CAEXFileType][1]
+The Name of the Xml-Schema Version Attribute 'SchemaVersion' of the CAEX-Element [CAEXFileType][1]
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

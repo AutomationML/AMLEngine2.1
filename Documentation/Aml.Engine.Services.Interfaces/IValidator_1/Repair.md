@@ -1,6 +1,6 @@
 IValidator&lt;RESULTTYPE>.Repair Method
 =======================================
-AutomationML 2.1 APIRepairs the specified validated element.
+Repairs the specified validated element.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

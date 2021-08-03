@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.Item Property
 =========================================
-AutomationML 2.1 APIGets the value of the CAEX object in this sequence at the given position
+Gets the value of the CAEX object in this sequence at the given position
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

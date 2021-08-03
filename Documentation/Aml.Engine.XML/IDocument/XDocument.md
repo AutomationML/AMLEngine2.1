@@ -1,6 +1,6 @@
 IDocument.XDocument Property
 ============================
-AutomationML 2.1 APIGets the XDocument.
+Gets the XDocument.
 
   **Namespace:**  [Aml.Engine.XML][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

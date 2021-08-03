@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.MakeGroup Method
 =============================================
-AutomationML 2.1 APIMakes the group.
+Makes the group.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

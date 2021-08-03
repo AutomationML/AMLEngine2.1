@@ -1,6 +1,6 @@
 CaexCommand.OnCAEXElementChangedEvent Method
 ============================================
-AutomationML 2.1 APIRaises the [CAEXElementChangedEvent][1] for the provided document.
+Raises the [CAEXElementChangedEvent][1] for the provided document.
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 MetaInformation.WriterProjectID Property
 ========================================
-AutomationML 2.1 APIID of the project that contains the source engineering data
+ID of the project that contains the source engineering data
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 IUndoRedo.CanUndo Method
 ========================
-AutomationML 2.1 APIDetermines, if the service can undo a command
+Determines, if the service can undo a command
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

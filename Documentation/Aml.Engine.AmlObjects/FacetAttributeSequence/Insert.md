@@ -1,6 +1,6 @@
 FacetAttributeSequence.Insert Method
 ====================================
-AutomationML 2.1 APIInserts the specified attribute into this sequence. Before the attribute is inserted, it is checked, if it is a valid Facet attribute.
+Inserts the specified attribute into this sequence. Before the attribute is inserted, it is checked, if it is a valid Facet attribute.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

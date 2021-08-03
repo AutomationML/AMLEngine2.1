@@ -1,6 +1,6 @@
 CAEXDocument.New_CAEXDocument Method
 ====================================
-AutomationML 2.1 APICreates a new empty CAEX document containing only the CAEXFile Element as the root element. The CAEX document is created, using the default schema version [DefaultSchema][1].
+Creates a new empty CAEX document containing only the CAEXFile Element as the root element. The CAEX document is created, using the default schema version [DefaultSchema][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

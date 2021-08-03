@@ -1,6 +1,6 @@
 RefTypeAttributeType.IsExplicit Method
 ======================================
-AutomationML 2.1 APIDetermines whether this is an 'explicit' RefType
+Determines whether this is an 'explicit' RefType
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

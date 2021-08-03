@@ -1,6 +1,6 @@
 AmlObjectsExtensions.ClearMetaInformation Method
 ================================================
-AutomationML 2.1 APIRemoves all "Writer Header" specific meta information out of this CAEX file.
+Removes all "Writer Header" specific meta information out of this CAEX file.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 FrameAttributeType.Frame Property
 =================================
-AutomationML 2.1 APIGets and sets the frame values for this FrameAttribute
+Gets and sets the frame values for this FrameAttribute
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 FacetExternalInterfaceSequence.Insert Method
 ============================================
-AutomationML 2.1 APIInserts the specified ExternalInterface into this sequence. Before the ExternalInterface is inserted, it is checked, if it is a valid Facet-ExternalInterface.
+Inserts the specified ExternalInterface into this sequence. Before the ExternalInterface is inserted, it is checked, if it is a valid Facet-ExternalInterface.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

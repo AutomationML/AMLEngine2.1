@@ -1,6 +1,6 @@
 ValidationKey Class
 ===================
-AutomationML 2.1 APIClass ValidationKey.
+Class ValidationKey.
 
 
 Inheritance Hierarchy

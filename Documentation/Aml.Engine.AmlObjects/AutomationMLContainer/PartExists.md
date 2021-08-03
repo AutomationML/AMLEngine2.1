@@ -1,6 +1,6 @@
 AutomationMLContainer.PartExists Method
 =======================================
-AutomationML 2.1 APIDetermines, if a part with the specified part URI exists.
+Determines, if a part with the specified part URI exists.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

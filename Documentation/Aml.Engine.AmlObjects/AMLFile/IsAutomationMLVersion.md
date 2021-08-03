@@ -1,6 +1,6 @@
 AMLFile.IsAutomationMLVersion Method
 ====================================
-AutomationML 2.1 APIDetermines whether the specified XML element represents an AdditionalInformation object, representing the AutomationMLVersion.
+Determines whether the specified XML element represents an AdditionalInformation object, representing the AutomationMLVersion.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

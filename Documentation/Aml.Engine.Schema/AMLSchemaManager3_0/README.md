@@ -1,6 +1,6 @@
 AMLSchemaManager3_0 Class
 =========================
-AutomationML 2.1 APISingleton Class: Schema manager for CAEX-Schema Version 3.0 used in AutomationML
+Singleton Class: Schema manager for CAEX-Schema Version 3.0 used in AutomationML
 
 
 Inheritance Hierarchy

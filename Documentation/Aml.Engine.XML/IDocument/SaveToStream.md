@@ -1,6 +1,6 @@
 IDocument.SaveToStream Method
 =============================
-AutomationML 2.1 APISaves the document to stream.
+Saves the document to stream.
 
   **Namespace:**  [Aml.Engine.XML][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

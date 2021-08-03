@@ -1,6 +1,6 @@
 MappingTypeExtensions Class
 ===========================
-AutomationML 2.1 APIExtension methods for an Mapping element and its defining class [MappingType][1].
+Extension methods for an Mapping element and its defining class [MappingType][1].
 
 
 Inheritance Hierarchy

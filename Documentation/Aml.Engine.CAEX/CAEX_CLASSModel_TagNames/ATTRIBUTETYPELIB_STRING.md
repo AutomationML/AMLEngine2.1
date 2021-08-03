@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.ATTRIBUTETYPELIB_STRING Field
 ======================================================
-AutomationML 2.1 APIThe TypeName of the CAEX-Element 'AttributeTypeLib'. The CAEX-Wrappers are [AttributeTypeLibType][1].
+The TypeName of the CAEX-Element 'AttributeTypeLib'. The CAEX-Wrappers are [AttributeTypeLibType][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

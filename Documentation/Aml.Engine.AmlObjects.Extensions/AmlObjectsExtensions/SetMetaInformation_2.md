@@ -1,6 +1,6 @@
 AmlObjectsExtensions.SetMetaInformation Method (SourceDocumentInformationType, MetaInformation)
 ===============================================================================================
-AutomationML 2.1 APISets the properties for the specified SourceDocumentInformation object using the provided MetaInformation
+Sets the properties for the specified SourceDocumentInformation object using the provided MetaInformation
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

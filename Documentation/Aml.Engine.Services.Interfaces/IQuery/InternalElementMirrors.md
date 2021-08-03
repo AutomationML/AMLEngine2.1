@@ -1,6 +1,6 @@
 IQuery.InternalElementMirrors Method
 ====================================
-AutomationML 2.1 APIReturns all Mirrors of the specified InternalElement
+Returns all Mirrors of the specified InternalElement
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

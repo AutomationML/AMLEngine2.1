@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.SYSTEMUNITCLASS_STRING Field
 =====================================================
-AutomationML 2.1 APIThe Name of the CAEX-Element 'SystemUnitClass'. The CAEX-Wrappers are [SystemUnitClassType][1] and [SystemUnitFamilyType][2].
+The Name of the CAEX-Element 'SystemUnitClass'. The CAEX-Wrappers are [SystemUnitClassType][1] and [SystemUnitFamilyType][2].
 
   **Namespace:**  [Aml.Engine.CAEX][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

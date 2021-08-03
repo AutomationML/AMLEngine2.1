@@ -1,6 +1,6 @@
 UnknownTypeType.Requirements Property
 =====================================
-AutomationML 2.1 APIGets and sets the value of the Requirements element
+Gets and sets the value of the Requirements element
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

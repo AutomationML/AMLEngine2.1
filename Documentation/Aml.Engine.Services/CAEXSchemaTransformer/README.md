@@ -1,6 +1,6 @@
 CAEXSchemaTransformer Class
 ===========================
-AutomationML 2.1 APIThis class defines a service for a schema transformation. The service supports transformation of CAEX documents from CAEX Version 2.15 to version 3.0 and back. Backwards transformation can result in a loss of information.
+This class defines a service for a schema transformation. The service supports transformation of CAEX documents from CAEX Version 2.15 to version 3.0 and back. Backwards transformation can result in a loss of information.
 
 
 Inheritance Hierarchy

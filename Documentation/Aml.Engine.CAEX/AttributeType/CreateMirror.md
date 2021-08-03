@@ -1,6 +1,6 @@
 AttributeType.CreateMirror Method
 =================================
-AutomationML 2.1 APICreates a new mirror element from this AttributeType
+Creates a new mirror element from this AttributeType
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 ObjectWithBaseClass Class
 =========================
-AutomationML 2.1 APIExtensions for all classes which implement the [IClassWithBaseClassReference][1] interface.
+Extensions for all classes which implement the [IClassWithBaseClassReference][1] interface.
 
 
 Inheritance Hierarchy

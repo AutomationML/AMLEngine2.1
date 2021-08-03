@@ -1,6 +1,6 @@
 MappingElementType&lt;T>.RoleClassElement Property
 ==================================================
-AutomationML 2.1 APIGets the RoleClass element which can be identified with the [RoleClassElementIdentifier][1] or sets the [RoleClassElementIdentifier][1] extracted from the provided CAEXObject which shall be an AttributeType for an attribute mapping or an ExternalInterfaceType for an interface mapping. If the provided CAEXobject is not applicable for the Mapping, the [RoleClassElementIdentifier][1] is not changed.
+Gets the RoleClass element which can be identified with the [RoleClassElementIdentifier][1] or sets the [RoleClassElementIdentifier][1] extracted from the provided CAEXObject which shall be an AttributeType for an attribute mapping or an ExternalInterfaceType for an interface mapping. If the provided CAEXobject is not applicable for the Mapping, the [RoleClassElementIdentifier][1] is not changed.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

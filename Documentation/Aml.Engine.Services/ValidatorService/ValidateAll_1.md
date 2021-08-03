@@ -1,6 +1,6 @@
 ValidatorService.ValidateAll Method (CAEXDocument, Boolean)
 ===========================================================
-AutomationML 2.1 APIGet Validation Information for all elements in the specified document, which have validation issues. The [ValidationElement][1] provides detailed information about available Repair Options and an additional Information Text.
+Get Validation Information for all elements in the specified document, which have validation issues. The [ValidationElement][1] provides detailed information about available Repair Options and an additional Information Text.
 
   **Namespace:**  [Aml.Engine.Services][2]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

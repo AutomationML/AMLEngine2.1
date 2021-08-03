@@ -1,6 +1,6 @@
 ExternalReferenceType Class
 ===========================
-AutomationML 2.1 APIThis Class is a wrapper for the CAEXElement 'ExternalReference' which is a container element for the alias definition of external CAEX files.
+This Class is a wrapper for the CAEXElement 'ExternalReference' which is a container element for the alias definition of external CAEX files.
 
 
 Inheritance Hierarchy

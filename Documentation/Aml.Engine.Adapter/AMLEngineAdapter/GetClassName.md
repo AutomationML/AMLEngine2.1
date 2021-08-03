@@ -1,6 +1,6 @@
 AMLEngineAdapter.GetClassName Method (InterfaceClassType)
 =========================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Gets the name of the referenced InterfaceClass.

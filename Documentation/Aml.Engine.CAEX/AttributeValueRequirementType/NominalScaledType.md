@@ -1,6 +1,6 @@
 AttributeValueRequirementType.NominalScaledType Property
 ========================================================
-AutomationML 2.1 APIGets the 'NominalScaledType' constraint.
+Gets the 'NominalScaledType' constraint.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

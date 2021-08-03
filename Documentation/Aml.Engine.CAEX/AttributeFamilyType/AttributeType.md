@@ -1,6 +1,6 @@
 AttributeFamilyType.AttributeType Property
 ==========================================
-AutomationML 2.1 APIGets a collection of the subordinate AttributeTypes (the direct children) in the AttributeType tree of this AttributeType.
+Gets a collection of the subordinate AttributeTypes (the direct children) in the AttributeType tree of this AttributeType.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

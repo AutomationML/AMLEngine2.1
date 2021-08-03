@@ -1,6 +1,6 @@
 AMLEngineAdapter.AssignNewGUIDsAndRedirectExistingInternalLinks Method
 ======================================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Assigns the new GUIds and redirect existing internal links.

@@ -1,6 +1,6 @@
 ReferenceElement.Element Property
 =================================
-AutomationML 2.1 APIGets the XML node.
+Gets the XML node.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

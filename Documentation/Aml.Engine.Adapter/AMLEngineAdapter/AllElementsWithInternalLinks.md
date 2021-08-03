@@ -1,6 +1,6 @@
 AMLEngineAdapter.AllElementsWithInternalLinks Method
 ====================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Getting an enumerable of all Elements with InternalLinks of all InstanceHierarchies and SystemUnitClassLibraries in the CAEXFile. The enumeration may return InternalElements or SystemUnitClass elements.

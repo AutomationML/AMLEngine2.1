@@ -1,6 +1,6 @@
 RoleFamilyType Class
 ====================
-AutomationML 2.1 APIThis Class is a wrapper for the CAEXElement 'RoleFamilyType' which defines base structures for role class definitions. The RoleFamilyType Type allows the creation of role class trees
+This Class is a wrapper for the CAEXElement 'RoleFamilyType' which defines base structures for role class definitions. The RoleFamilyType Type allows the creation of role class trees
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 AmlObjectsExtensions.AMLSystemUnitClass Method
 ==============================================
-AutomationML 2.1 APIConverts an SystemUnitClassType to an AMLSystemUnitClass.
+Converts an SystemUnitClassType to an AMLSystemUnitClass.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

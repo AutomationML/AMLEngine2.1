@@ -1,6 +1,6 @@
 XmlSchemaManager.AddNew Method
 ==============================
-AutomationML 2.1 APICreates a new Xml-Element with the provided content and inserts it to the provided parent according to this schema instance.
+Creates a new Xml-Element with the provided content and inserts it to the provided parent according to this schema instance.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

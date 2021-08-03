@@ -1,6 +1,6 @@
 InternalLinkType.RefPartnerSideA Property
 =========================================
-AutomationML 2.1 APIGets and sets the Path to an ExternalInterface, defining the A-Side of the relation.
+Gets and sets the Path to an ExternalInterface, defining the A-Side of the relation.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

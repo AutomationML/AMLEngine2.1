@@ -1,6 +1,6 @@
 AMLEngineAdapter.SystemUnitClassChildren Method
 ===============================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Gets all Children [SystemUnitFamilyType][1] Objects of this SystemUnitClass.

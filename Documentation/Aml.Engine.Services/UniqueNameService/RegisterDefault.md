@@ -1,6 +1,6 @@
 UniqueNameService.RegisterDefault Method
 ========================================
-AutomationML 2.1 APIRegisters the default name for all CAEX objects with the provided element name.
+Registers the default name for all CAEX objects with the provided element name.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

@@ -1,6 +1,6 @@
 EmptyLookup&lt;TKey, TElement> Class
 ====================================
-AutomationML 2.1 APIExtension class which provides an empty lookup table
+Extension class which provides an empty lookup table
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 ISplit Interface
 ================
-AutomationML 2.1 APIThis interface defines the service interface for a split service. A split service is able to split one [CAEXDocument][1] into multiple files using split points.
+This interface defines the service interface for a split service. A split service is able to split one [CAEXDocument][1] into multiple files using split points.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

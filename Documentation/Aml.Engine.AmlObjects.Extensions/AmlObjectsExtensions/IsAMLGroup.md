@@ -1,6 +1,6 @@
 AmlObjectsExtensions.IsAMLGroup Method
 ======================================
-AutomationML 2.1 APIDetermines whether the InternalElement instance is an AMLGroup.
+Determines whether the InternalElement instance is an AMLGroup.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 ICAEXReference.ReferenceAttributeName Property
 ==============================================
-AutomationML 2.1 APIGets the name of the reference attribute which contains the value of the reference. To get or set the attribute value the [SetXAttributeValue(XName, Object)][1] an [GetXAttributeValue(XName)][2] methods can be used.
+Gets the name of the reference attribute which contains the value of the reference. To get or set the attribute value the [SetXAttributeValue(XName, Object)][1] an [GetXAttributeValue(XName)][2] methods can be used.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

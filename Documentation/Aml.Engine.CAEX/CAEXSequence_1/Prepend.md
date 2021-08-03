@@ -1,6 +1,6 @@
 CAEXSequence&lt;T>.Prepend Method
 =================================
-AutomationML 2.1 APICreates a new CAEX object and prepends it to already existing elements.
+Creates a new CAEX object and prepends it to already existing elements.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

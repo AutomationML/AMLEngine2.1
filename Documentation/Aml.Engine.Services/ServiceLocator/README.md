@@ -1,6 +1,6 @@
 ServiceLocator Class
 ====================
-AutomationML 2.1 APIThis class provides methods to register and locate services which can support the processing of AML documents. There can always exist only one service of the same type at one time. The available service types are recognized to be assignable to the [IAMLService][1] interface.
+This class provides methods to register and locate services which can support the processing of AML documents. There can always exist only one service of the same type at one time. The available service types are recognized to be assignable to the [IAMLService][1] interface.
 
 
 Inheritance Hierarchy

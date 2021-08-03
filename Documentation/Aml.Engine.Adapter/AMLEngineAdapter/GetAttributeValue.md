@@ -1,6 +1,6 @@
 AMLEngineAdapter.GetAttributeValue Method
 =========================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Returns an attribute value of a given attribute name.

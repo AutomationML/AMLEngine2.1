@@ -1,6 +1,6 @@
 InternalElementType.HasGenericRoleClassReference Method (RoleFamilyType)
 ========================================================================
-AutomationML 2.1 APIDetermines whether this InternalElement object has an associated reference to a RoleClass which is a generalization of the specified *specificRoleClass* which means, that the specified RoleClass is more specific than any already associated RoleClass of this InternalElement.
+Determines whether this InternalElement object has an associated reference to a RoleClass which is a generalization of the specified *specificRoleClass* which means, that the specified RoleClass is more specific than any already associated RoleClass of this InternalElement.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

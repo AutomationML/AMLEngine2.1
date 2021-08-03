@@ -1,6 +1,6 @@
 DocumentVersions.VersionAttributeName Field
 ===========================================
-AutomationML 2.1 APIThe version attribute name used in the document element
+The version attribute name used in the document element
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

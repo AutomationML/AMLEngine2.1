@@ -1,6 +1,6 @@
 CAEXDocument.Commanding.CAEXElementChangingEvent Event
 ======================================================
-AutomationML 2.1 APIThis event is raised before a CAEXElement will be changed. [CAEXElementChangeMode][1]
+This event is raised before a CAEXElement will be changed. [CAEXElementChangeMode][1]
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AMLEngineAdapter.ExternalInterfaces Method
 ==========================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Enumeration Method for direct Children of Type [InterfaceClassType][1]

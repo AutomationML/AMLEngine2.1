@@ -1,6 +1,6 @@
 MappingElementType&lt;T>.MappingRoleReference Property
 ======================================================
-AutomationML 2.1 APIGets the Role reference, which can provide additional [RoleClassMappingElements(Boolean)][1].
+Gets the Role reference, which can provide additional [RoleClassMappingElements(Boolean)][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 IStatistic Interface
 ====================
-AutomationML 2.1 APIThis service interface is used to get statistic data from a CAEX document.
+This service interface is used to get statistic data from a CAEX document.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

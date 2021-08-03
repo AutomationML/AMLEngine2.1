@@ -1,6 +1,6 @@
 RoleRequirementsType Class
 ==========================
-AutomationML 2.1 APIThis class is a CAEXWrapper for the CAEX-Element 'RoleRequirements'.
+This class is a CAEXWrapper for the CAEX-Element 'RoleRequirements'.
 
 
 Inheritance Hierarchy

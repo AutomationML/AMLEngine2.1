@@ -1,6 +1,6 @@
 InterfaceIDMappingType Class
 ============================
-AutomationML 2.1 APIThis class is a wrapper for the CAEXElement 'InterfaceIDMapping' which is used to map an Interface of a referenced role to an interface of a SystemUnitClass which contains the role reference. The ID of the interfaces is used for identification.
+This class is a wrapper for the CAEXElement 'InterfaceIDMapping' which is used to map an Interface of a referenced role to an interface of a SystemUnitClass which contains the role reference. The ID of the interfaces is used for identification.
 
 
 Inheritance Hierarchy

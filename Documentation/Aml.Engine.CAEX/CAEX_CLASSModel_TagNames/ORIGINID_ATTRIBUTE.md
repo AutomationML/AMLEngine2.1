@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.ORIGINID_ATTRIBUTE Field
 =================================================
-AutomationML 2.1 APIThe Name of the CAEX-Attribute 'OriginID'. This is an Element in every [SourceDocumentInformationType][1] .
+The Name of the CAEX-Attribute 'OriginID'. This is an Element in every [SourceDocumentInformationType][1] .
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

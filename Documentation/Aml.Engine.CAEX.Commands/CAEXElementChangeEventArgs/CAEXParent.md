@@ -1,6 +1,6 @@
 CAEXElementChangeEventArgs.CAEXParent Property
 ==============================================
-AutomationML 2.1 APIThe changed CAEXElement's parent. This Property should be used, to detect a former parent of a CAEXElement, when the CAEXElement has been deleted and has no associated parent.
+The changed CAEXElement's parent. This Property should be used, to detect a former parent of a CAEXElement, when the CAEXElement has been deleted and has no associated parent.
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

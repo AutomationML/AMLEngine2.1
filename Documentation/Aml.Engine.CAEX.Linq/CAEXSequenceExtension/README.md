@@ -1,6 +1,6 @@
 CAEXSequenceExtension Class
 ===========================
-AutomationML 2.1 APIExtensions defined for ExternalInterface Sequence and RoleRequirements sequence
+Extensions defined for ExternalInterface Sequence and RoleRequirements sequence
 
 
 Inheritance Hierarchy

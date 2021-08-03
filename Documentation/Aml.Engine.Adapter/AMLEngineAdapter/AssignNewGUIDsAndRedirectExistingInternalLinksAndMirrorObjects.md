@@ -1,6 +1,6 @@
 AMLEngineAdapter.AssignNewGUIDsAndRedirectExistingInternalLinksAndMirrorObjects Method
 ======================================================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 This Method assigns new GUIds to the SystemUnitClass and its subordinate Children, which have an ID. The References to the old IDs in Mirrors and InternalLinks are redirected to the new ID. If a Reference is not found in any of the subordinate Elements, the Reference will not be changed.

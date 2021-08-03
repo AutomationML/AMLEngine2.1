@@ -1,6 +1,6 @@
 XmlSchemaManager.ChildElementNames Method
 =========================================
-AutomationML 2.1 APIGets the Names for all elements, which can be added to the child which is defined with the name of it's parent and the name of itself.
+Gets the Names for all elements, which can be added to the child which is defined with the name of it's parent and the name of itself.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

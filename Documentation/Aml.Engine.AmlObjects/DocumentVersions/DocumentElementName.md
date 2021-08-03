@@ -1,6 +1,6 @@
 DocumentVersions.DocumentElementName Field
 ==========================================
-AutomationML 2.1 APIThe document element name
+The document element name
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

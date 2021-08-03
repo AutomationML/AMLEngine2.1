@@ -1,6 +1,6 @@
 DocumentVersions.DocumentIdentifierAttributeName Field
 ======================================================
-AutomationML 2.1 APIThe document identifier attribute name used in the Document element
+The document identifier attribute name used in the Document element
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

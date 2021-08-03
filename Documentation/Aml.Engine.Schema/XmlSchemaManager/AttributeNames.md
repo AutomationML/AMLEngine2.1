@@ -1,6 +1,6 @@
 XmlSchemaManager.AttributeNames Method
 ======================================
-AutomationML 2.1 APIGets the Attribute names of the specified child element of the specified parent element.
+Gets the Attribute names of the specified child element of the specified parent element.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

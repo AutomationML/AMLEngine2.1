@@ -1,6 +1,6 @@
 MetaInformation Class
 =====================
-AutomationML 2.1 APIClass for modelling meta information as defined in the AutomationML standard. This class was originally designed for AML Versions based on CAEX 2.15. For later versions you can switch to the [SourceDocumentInformationType][1]. It is possible to set SourceDocumentInformation in a CAEX 3.0 document using this class. If this is applied, the MetaInformation is automatically transformed to SourceDocumentInformation. The transformation works in both directions.
+Class for modelling meta information as defined in the AutomationML standard. This class was originally designed for AML Versions based on CAEX 2.15. For later versions you can switch to the [SourceDocumentInformationType][1]. It is possible to set SourceDocumentInformation in a CAEX 3.0 document using this class. If this is applied, the MetaInformation is automatically transformed to SourceDocumentInformation. The transformation works in both directions.
 
 
 Inheritance Hierarchy

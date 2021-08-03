@@ -1,6 +1,6 @@
 MappingElementType&lt;T> Class
 ==============================
-AutomationML 2.1 APIThis class is the base class for Mapping element types which are [InterfaceNameMappingType][1], [InterfaceIDMappingType][2], and [AttributeNameMappingType][3].
+This class is the base class for Mapping element types which are [InterfaceNameMappingType][1], [InterfaceIDMappingType][2], and [AttributeNameMappingType][3].
 
 
 Inheritance Hierarchy

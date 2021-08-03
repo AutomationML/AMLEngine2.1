@@ -1,6 +1,6 @@
 IAttributeValueType.ValueAttributes Property
 ============================================
-AutomationML 2.1 APIGets all the CAEXValue objects for the defined value attributes of this instance.
+Gets all the CAEXValue objects for the defined value attributes of this instance.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

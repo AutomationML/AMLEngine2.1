@@ -1,6 +1,6 @@
 QueryResult.InternalElements Method
 ===================================
-AutomationML 2.1 APIGets the InternalElement objects from the query result.
+Gets the InternalElement objects from the query result.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

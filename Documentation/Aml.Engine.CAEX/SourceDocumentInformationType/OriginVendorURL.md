@@ -1,6 +1,6 @@
 SourceDocumentInformationType.OriginVendorURL Property
 ======================================================
-AutomationML 2.1 APIGets and sets the vendors URL of the data source of the CAEX document (optional in CAEX)
+Gets and sets the vendors URL of the data source of the CAEX document (optional in CAEX)
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

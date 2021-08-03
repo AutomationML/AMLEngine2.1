@@ -1,6 +1,6 @@
 XmlSchemaManager.Choices Method
 ===============================
-AutomationML 2.1 APIGets the names of all alternative child nodes, which can be added to a parent node with the given name. The specified child itself is included. Choices only exists, if [IsChoice(String, String)][1] returns true for the defined child name.
+Gets the names of all alternative child nodes, which can be added to a parent node with the given name. The specified child itself is included. Choices only exists, if [IsChoice(String, String)][1] returns true for the defined child name.
 
   **Namespace:**  [Aml.Engine.Schema][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 ValidationResults.InvalidIDs Method
 ===================================
-AutomationML 2.1 APIGets the validation results for all elements with wrong formatted IDs.
+Gets the validation results for all elements with wrong formatted IDs.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

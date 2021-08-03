@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.Append Method
 =========================================
-AutomationML 2.1 APICreates a new CAEX object and appends it to the value sequence. The value of the appended object is set to the provided value.
+Creates a new CAEX object and appends it to the value sequence. The value of the appended object is set to the provided value.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

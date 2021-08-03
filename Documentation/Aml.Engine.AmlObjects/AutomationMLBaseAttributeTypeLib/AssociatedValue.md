@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLib.AssociatedValue Field
 ======================================================
-AutomationML 2.1 APIThe 'AssociatedValue' AttributeType path
+The 'AssociatedValue' AttributeType path
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AttributeType.MasterParentID Property
 =====================================
-AutomationML 2.1 APIGets the ID of the master attributes parent instance, if this is a mirror Attribute object. If it is not a mirror, `null` is returned.
+Gets the ID of the master attributes parent instance, if this is a mirror Attribute object. If it is not a mirror, `null` is returned.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

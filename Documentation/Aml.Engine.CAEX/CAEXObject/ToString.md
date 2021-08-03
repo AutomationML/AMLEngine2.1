@@ -1,6 +1,6 @@
 CAEXObject.ToString Method
 ==========================
-AutomationML 2.1 APIReturns the value of the 'Name' attribute of this CAEX object as the string representation of the object.
+Returns the value of the 'Name' attribute of this CAEX object as the string representation of the object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

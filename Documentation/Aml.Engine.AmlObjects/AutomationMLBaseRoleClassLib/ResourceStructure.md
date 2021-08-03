@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.ResourceStructure Field
 ====================================================
-AutomationML 2.1 APIThe 'ResourceStructure' RoleClass path
+The 'ResourceStructure' RoleClass path
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

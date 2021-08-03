@@ -1,6 +1,6 @@
 RoleClassFamilyTypeExtensions.Insert_RoleClass Method
 =====================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Inserts the provided RoleClass as a subordinate child to this RoleClass.

@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLibType.MIMEType Property
 ======================================================
-AutomationML 2.1 APIGets the MIMEType attribute type.
+Gets the MIMEType attribute type.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 InternalElementType.MappingObject Property
 ==========================================
-AutomationML 2.1 APIGets the MappingObject of an InternalElement
+Gets the MappingObject of an InternalElement
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

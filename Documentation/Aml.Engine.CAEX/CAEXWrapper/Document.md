@@ -1,6 +1,6 @@
 CAEXWrapper.Document Property
 =============================
-AutomationML 2.1 APIGets the XDocument of the wrapped XML-Element
+Gets the XDocument of the wrapped XML-Element
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

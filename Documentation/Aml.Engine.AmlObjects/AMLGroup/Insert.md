@@ -1,6 +1,6 @@
 AMLGroup.Insert Method (CAEXWrapper, Boolean)
 =============================================
-AutomationML 2.1 APIInserts the specified CAEX object in it's associated container. An AMLGroup object shall only contain InternalElements which are AMLMirrorObjects and/or further AMLGroup objects. If other InternalElements are tried to insert, the result is `false`.
+Inserts the specified CAEX object in it's associated container. An AMLGroup object shall only contain InternalElements which are AMLMirrorObjects and/or further AMLGroup objects. If other InternalElements are tried to insert, the result is `false`.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

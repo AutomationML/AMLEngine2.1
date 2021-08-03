@@ -1,6 +1,6 @@
 RepairTypeEnumConverter Class
 =============================
-AutomationML 2.1 APIExtensions for [RepairTypeEnum][1]
+Extensions for [RepairTypeEnum][1]
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 AMLEngineAdapter.CloneNode Method
 =================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Clones the node.

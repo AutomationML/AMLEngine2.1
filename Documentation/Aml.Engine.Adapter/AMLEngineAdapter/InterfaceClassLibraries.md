@@ -1,6 +1,6 @@
 AMLEngineAdapter.InterfaceClassLibraries Method
 ===============================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Enumeration Method for all InterfaceClass Libraries of the CAEXFile.

@@ -1,6 +1,6 @@
 FrameAttributeType.ValidateAndRepairFrameDatatypes Method
 =========================================================
-AutomationML 2.1 APIValidates and repairs the frame data types if the data type is not defined or not of type 'xs:double'
+Validates and repairs the frame data types if the data type is not defined or not of type 'xs:double'
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

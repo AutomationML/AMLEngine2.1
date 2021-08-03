@@ -1,6 +1,6 @@
 RefURIAttributeType.IsAbsoluteUri Method
 ========================================
-AutomationML 2.1 APIDetermines whether [is absolute URI].
+Determines whether [is absolute URI].
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXBasicObjectExtensions.CAEXSchema Method
 ===========================================
-AutomationML 2.1 APIGets the associated CAEX schema of the CAEX object.
+Gets the associated CAEX schema of the CAEX object.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AttributeFamilyType.Insert Method (Int32, CAEXWrapper)
 ======================================================
-AutomationML 2.1 APIInserts the specified CAEX object in it's associated sequence at the given index.
+Inserts the specified CAEX object in it's associated sequence at the given index.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

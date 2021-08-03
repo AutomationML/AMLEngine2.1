@@ -1,6 +1,6 @@
 CAEXPathBuilder.CanNormalize Method
 ===================================
-AutomationML 2.1 APIDetermines whether the specified path can be normalized because it contains path part delimiters
+Determines whether the specified path can be normalized because it contains path part delimiters
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AMLSchemaManager2_15.SchemaLocation Property
 ============================================
-AutomationML 2.1 APISchemaLocation attribute defining noNamespaceSchemaLocation
+SchemaLocation attribute defining noNamespaceSchemaLocation
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

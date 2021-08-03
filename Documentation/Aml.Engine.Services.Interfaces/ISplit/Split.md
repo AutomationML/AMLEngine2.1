@@ -1,6 +1,6 @@
 ISplit.Split Method (CAEXDocument, ISplitPoint, String, String)
 ===============================================================
-AutomationML 2.1 APISplits the specified document on only the specified split point. The created library is saved in an AutomationML document and an ExternalReference is created, using the specified alias. All remaining references to the external source are renamed using the provided alias. After splitting, the document doesn't contain this SplitPoints any more.
+Splits the specified document on only the specified split point. The created library is saved in an AutomationML document and an ExternalReference is created, using the specified alias. All remaining references to the external source are renamed using the provided alias. After splitting, the document doesn't contain this SplitPoints any more.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

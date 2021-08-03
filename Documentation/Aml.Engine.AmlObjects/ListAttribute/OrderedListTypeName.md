@@ -1,6 +1,6 @@
 ListAttribute.OrderedListTypeName Field
 =======================================
-AutomationML 2.1 APIThe list type name used as a semantic ref type for ordered list attributes
+The list type name used as a semantic ref type for ordered list attributes
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

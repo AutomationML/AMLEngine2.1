@@ -1,6 +1,6 @@
 ValidatorService.Repair Method
 ==============================
-AutomationML 2.1 APIRepairs the specified validated element.
+Repairs the specified validated element.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

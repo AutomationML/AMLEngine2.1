@@ -1,6 +1,6 @@
 CaexValue.CompareTo Method
 ==========================
-AutomationML 2.1 APIType based comparison of attribute values.
+Type based comparison of attribute values.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

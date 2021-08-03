@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.ElementValue.Value Field
 ====================================================
-AutomationML 2.1 APIThe Value of the Xml-Element transformed to the DataType
+The Value of the Xml-Element transformed to the DataType
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

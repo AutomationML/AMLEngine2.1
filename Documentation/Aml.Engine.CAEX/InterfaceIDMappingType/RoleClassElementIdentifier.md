@@ -1,6 +1,6 @@
 InterfaceIDMappingType.RoleClassElementIdentifier Property
 ==========================================================
-AutomationML 2.1 APIGets and sets the identifier for the mapped RoleClass element.
+Gets and sets the identifier for the mapped RoleClass element.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

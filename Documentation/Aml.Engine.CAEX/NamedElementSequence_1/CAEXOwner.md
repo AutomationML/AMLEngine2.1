@@ -1,6 +1,6 @@
 NamedElementSequence&lt;T>.CAEXOwner Property
 =============================================
-AutomationML 2.1 APIGets the CAEX owner of this sequence
+Gets the CAEX owner of this sequence
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AttributeTypeType.DefaultAttributeValue Property
 ================================================
-AutomationML 2.1 APIGets and set the encoded/decoded default attribute value according to the defined AttributeDataType.
+Gets and set the encoded/decoded default attribute value according to the defined AttributeDataType.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

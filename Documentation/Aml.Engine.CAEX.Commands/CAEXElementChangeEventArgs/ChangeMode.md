@@ -1,6 +1,6 @@
 CAEXElementChangeEventArgs.ChangeMode Property
 ==============================================
-AutomationML 2.1 APIThe change mode
+The change mode
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

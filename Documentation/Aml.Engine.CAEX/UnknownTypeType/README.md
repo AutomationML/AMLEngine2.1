@@ -1,6 +1,6 @@
 UnknownTypeType Class
 =====================
-AutomationML 2.1 APIThis class is a CAEXWrapper for the 'UnknownType' Element which is a choice for an [AttributeValueRequirementType][1]
+This class is a CAEXWrapper for the 'UnknownType' Element which is a choice for an [AttributeValueRequirementType][1]
 
 
 Inheritance Hierarchy

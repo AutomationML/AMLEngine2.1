@@ -1,6 +1,6 @@
 CAEXPathBuilder.InternalElementIDInInternalLinkReference Method
 ===============================================================
-AutomationML 2.1 APIGets the InternalElement ID from a reference defined in an InternalLink object.
+Gets the InternalElement ID from a reference defined in an InternalLink object.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

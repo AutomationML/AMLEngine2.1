@@ -1,6 +1,6 @@
 FrameValues.X Property
 ======================
-AutomationML 2.1 APIGets or sets the x.
+Gets or sets the x.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

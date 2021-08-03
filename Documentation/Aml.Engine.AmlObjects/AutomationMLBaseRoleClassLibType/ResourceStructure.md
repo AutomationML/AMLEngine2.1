@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLibType.ResourceStructure Property
 ===========================================================
-AutomationML 2.1 APIGets the resource structure.
+Gets the resource structure.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

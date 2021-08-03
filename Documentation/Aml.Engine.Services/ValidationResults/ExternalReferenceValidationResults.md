@@ -1,6 +1,6 @@
 ValidationResults.ExternalReferenceValidationResults Method
 ===========================================================
-AutomationML 2.1 APIGets the File reference validation results from the validation result list.
+Gets the File reference validation results from the validation result list.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

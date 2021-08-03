@@ -1,6 +1,6 @@
 MappingType Class
 =================
-AutomationML 2.1 APIThis Class is a wrapper for the CAEXElement 'MappingObject'
+This Class is a wrapper for the CAEXElement 'MappingObject'
 
 
 Inheritance Hierarchy

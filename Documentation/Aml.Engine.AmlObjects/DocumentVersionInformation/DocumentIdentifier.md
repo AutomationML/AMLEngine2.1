@@ -1,6 +1,6 @@
 DocumentVersionInformation.DocumentIdentifier Property
 ======================================================
-AutomationML 2.1 APIThe document attribute "DocumentIdentifier" shall define the name of the referenced document.
+The document attribute "DocumentIdentifier" shall define the name of the referenced document.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

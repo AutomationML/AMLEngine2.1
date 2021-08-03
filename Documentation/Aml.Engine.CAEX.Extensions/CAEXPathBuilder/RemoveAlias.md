@@ -1,6 +1,6 @@
 CAEXPathBuilder.RemoveAlias Method
 ==================================
-AutomationML 2.1 APIRemoves the alias from the provided path if the path is [IsReferenceWithAlias(String, CAEXDocument.CAEXSchema)][1].
+Removes the alias from the provided path if the path is [IsReferenceWithAlias(String, CAEXDocument.CAEXSchema)][1].
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

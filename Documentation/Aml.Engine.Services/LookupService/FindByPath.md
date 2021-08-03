@@ -1,6 +1,6 @@
 LookupService.FindByPath Method
 ===============================
-AutomationML 2.1 APILocates a CAEX object in the provided document using the specified CAEX - Path for identification. If the path uses an alias reference and an [IExternalReferenceResolver][1] can be located, it is tried to resolve the external reference and to get the object from the external source.
+Locates a CAEX object in the provided document using the specified CAEX - Path for identification. If the path uses an alias reference and an [IExternalReferenceResolver][1] can be located, it is tried to resolve the external reference and to get the object from the external source.
 
   **Namespace:**  [Aml.Engine.Services][2]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

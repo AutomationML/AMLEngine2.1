@@ -1,6 +1,6 @@
 AttributeFamilyType.InheritedAttributes Property
 ================================================
-AutomationML 2.1 APIGets all attributes, including the inherited attributes of the base classes in the inheritance tree.
+Gets all attributes, including the inherited attributes of the base classes in the inheritance tree.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

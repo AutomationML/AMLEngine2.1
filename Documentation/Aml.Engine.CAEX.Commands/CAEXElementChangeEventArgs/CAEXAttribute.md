@@ -1,6 +1,6 @@
 CAEXElementChangeEventArgs.CAEXAttribute Property
 =================================================
-AutomationML 2.1 APIThe changed CAEXAttribute
+The changed CAEXAttribute
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

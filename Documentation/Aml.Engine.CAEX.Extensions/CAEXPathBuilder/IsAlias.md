@@ -1,6 +1,6 @@
 CAEXPathBuilder.IsAlias Method
 ==============================
-AutomationML 2.1 APIDetermines whether the specified part of a path is an alias.
+Determines whether the specified part of a path is an alias.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AutomationMLContainer.GetRelatedParts Method (PackagePart, AutomationMLContainer.RelationshipType)
 ==================================================================================================
-AutomationML 2.1 APIReturns an enumeration of the related parts for the specified part and relationship type.
+Returns an enumeration of the related parts for the specified part and relationship type.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

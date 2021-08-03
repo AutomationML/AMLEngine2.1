@@ -1,6 +1,6 @@
 RoleClassFamilyTypeExtensions Class
 ===================================
-AutomationML 2.1 APIExtension methods for the RoleClass element and its defining class [RoleFamilyType][1].
+Extension methods for the RoleClass element and its defining class [RoleFamilyType][1].
 
 
 Inheritance Hierarchy

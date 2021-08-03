@@ -1,6 +1,6 @@
 CAEXPathBuilder.IsInterfaceReference Method
 ===========================================
-AutomationML 2.1 APIDetermines, if the path is build using an interface separator. This method is able to distinguish if an interface separator char is used in an interface name and is escaped
+Determines, if the path is build using an interface separator. This method is able to distinguish if an interface separator char is used in an interface name and is escaped
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

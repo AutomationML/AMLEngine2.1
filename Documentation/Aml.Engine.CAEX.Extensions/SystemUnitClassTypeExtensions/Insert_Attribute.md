@@ -1,6 +1,6 @@
 SystemUnitClassTypeExtensions.Insert_Attribute Method
 =====================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Inserts an Attribute object in the Attribute collection of the *objectWithAttributes*.

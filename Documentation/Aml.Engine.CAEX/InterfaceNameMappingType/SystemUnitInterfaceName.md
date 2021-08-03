@@ -1,6 +1,6 @@
 InterfaceNameMappingType.SystemUnitInterfaceName Property
 =========================================================
-AutomationML 2.1 APIGets and sets the Name of the mapped ExternalInterface of the SystemUnitClass
+Gets and sets the Name of the mapped ExternalInterface of the SystemUnitClass
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

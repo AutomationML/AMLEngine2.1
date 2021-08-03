@@ -1,6 +1,6 @@
 CAEXSchemaTransformer.TransformationEnded Event
 ===============================================
-AutomationML 2.1 APIRaised from the ShemaTransform service when a transformation has ended.
+Raised from the ShemaTransform service when a transformation has ended.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

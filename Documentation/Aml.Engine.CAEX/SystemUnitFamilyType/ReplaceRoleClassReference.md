@@ -1,6 +1,6 @@
 SystemUnitFamilyType.ReplaceRoleClassReference Method
 =====================================================
-AutomationML 2.1 APIReplaces an existing role class reference to the provided role or a generic base role of the provided role by a new instance of the role class.
+Replaces an existing role class reference to the provided role or a generic base role of the provided role by a new instance of the role class.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 NominalScaledTypeType.Item Property
 ===================================
-AutomationML 2.1 APIGets the type-decoded value and sets the type-encoded value for the nominal value attribute with the defined value.
+Gets the type-decoded value and sets the type-encoded value for the nominal value attribute with the defined value.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

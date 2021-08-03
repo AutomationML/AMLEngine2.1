@@ -1,6 +1,6 @@
 XmlSchemaElementInfo.AllAttributes Property
 ===========================================
-AutomationML 2.1 APIGets the schema elements for all attributes of this instance
+Gets the schema elements for all attributes of this instance
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

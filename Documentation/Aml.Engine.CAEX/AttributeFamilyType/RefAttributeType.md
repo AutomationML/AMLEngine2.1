@@ -1,6 +1,6 @@
 AttributeFamilyType.RefAttributeType Property
 =============================================
-AutomationML 2.1 APIGets and sets the RefAttributeType CAEX attribute of the Attribute object. This property is used to create class to class relations between AttributeType objects (classes). According to CAEX, a class shall not inherit from itself or from a derivative of itself, therefore any cyclic reference is denied.
+Gets and sets the RefAttributeType CAEX attribute of the Attribute object. This property is used to create class to class relations between AttributeType objects (classes). According to CAEX, a class shall not inherit from itself or from a derivative of itself, therefore any cyclic reference is denied.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

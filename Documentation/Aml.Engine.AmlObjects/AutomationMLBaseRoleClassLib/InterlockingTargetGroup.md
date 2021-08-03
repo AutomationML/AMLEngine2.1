@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.InterlockingTargetGroup Field
 ==========================================================
-AutomationML 2.1 APIThe 'InterlockingTargetGroup' RoleClass path
+The 'InterlockingTargetGroup' RoleClass path
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

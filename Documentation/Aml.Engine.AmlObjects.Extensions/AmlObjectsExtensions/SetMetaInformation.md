@@ -1,6 +1,6 @@
 AmlObjectsExtensions.SetMetaInformation Method (CAEXFileType, MetaInformation)
 ==============================================================================
-AutomationML 2.1 APIThis method is a short version of the setMetaInformation. Meta data with identical WriterID is replaced.
+This method is a short version of the setMetaInformation. Meta data with identical WriterID is replaced.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

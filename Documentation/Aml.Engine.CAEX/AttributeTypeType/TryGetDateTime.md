@@ -1,6 +1,6 @@
 AttributeTypeType.TryGetDateTime Method
 =======================================
-AutomationML 2.1 APITries to parse the Attribute Value string as dateTime. This method uses the XmlConvert [ToDateTime(String, XmlDateTimeSerializationMode)][1] method.
+Tries to parse the Attribute Value string as dateTime. This method uses the XmlConvert [ToDateTime(String, XmlDateTimeSerializationMode)][1] method.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

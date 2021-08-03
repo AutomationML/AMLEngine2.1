@@ -1,6 +1,6 @@
 FacetExternalInterfaceSequence.Append Method (String)
 =====================================================
-AutomationML 2.1 APIAppends a new element with the provided name to this sequence. Before the ExternalInterface is appended, it is checked, if the ExternalInterface name is already used for any ExternalInterface of the AMLFacet parent.
+Appends a new element with the provided name to this sequence. Before the ExternalInterface is appended, it is checked, if the ExternalInterface name is already used for any ExternalInterface of the AMLFacet parent.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

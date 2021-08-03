@@ -1,6 +1,6 @@
 SystemUnitClassTypeExtensions.Insert_SupportedRoleClass Method
 ==============================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Inserts the SupportedRoleClass as the first SupportedRoleClass if nothing else if explicit defined.

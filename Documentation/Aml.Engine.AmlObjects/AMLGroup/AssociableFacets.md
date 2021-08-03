@@ -1,6 +1,6 @@
 AMLGroup.AssociableFacets Method
 ================================
-AutomationML 2.1 APIReturns the names of the facets, defined in the master InternalElements of all mirrors in this group.
+Returns the names of the facets, defined in the master InternalElements of all mirrors in this group.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 XmlSchemaManager.Namespace Property
 ===================================
-AutomationML 2.1 APIGets the Schema Namespace
+Gets the Schema Namespace
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

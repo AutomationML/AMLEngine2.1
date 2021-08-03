@@ -1,6 +1,6 @@
 CaexCommand.CAEXDocument Property
 =================================
-AutomationML 2.1 APIGets the CAEX document processing the command
+Gets the CAEX document processing the command
 
   **Namespace:**  [Aml.Engine.CAEX.Commands][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 CAEXDocument.Schema Property
 ============================
-AutomationML 2.1 APIGets the Schema of the CAEXDocument
+Gets the Schema of the CAEXDocument
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

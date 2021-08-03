@@ -1,6 +1,6 @@
 ExternalInterfaceType Implicit Conversion (ExternalInterfaceType to ObjectWithAMLAttributes)
 ============================================================================================
-AutomationML 2.1 APIConversion to get access to specific AutomationML defined Attributes, assigned to the specified External Interface object.
+Conversion to get access to specific AutomationML defined Attributes, assigned to the specified External Interface object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

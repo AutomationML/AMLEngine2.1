@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.At Method
 =====================================
-AutomationML 2.1 APIGets the value from the element at the specified index.
+Gets the value from the element at the specified index.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

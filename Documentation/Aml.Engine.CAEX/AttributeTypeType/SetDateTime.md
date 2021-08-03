@@ -1,6 +1,6 @@
 AttributeTypeType.SetDateTime Method
 ====================================
-AutomationML 2.1 APISets the specified dateTime value as the attribute value. The AttributeDataType is set to xs:dateTime
+Sets the specified dateTime value as the attribute value. The AttributeDataType is set to xs:dateTime
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

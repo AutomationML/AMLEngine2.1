@@ -1,6 +1,6 @@
 IUniqueName.RegisterDefault Method
 ==================================
-AutomationML 2.1 APIRegisters a new default name for the generation of unique names for the specified element.
+Registers a new default name for the generation of unique names for the specified element.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

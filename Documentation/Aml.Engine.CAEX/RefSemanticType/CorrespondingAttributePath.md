@@ -1,6 +1,6 @@
 RefSemanticType.CorrespondingAttributePath Property
 ===================================================
-AutomationML 2.1 APIGets and sets the Attribute 'CorrespondingAttributePath' of the RefSemantic object.
+Gets and sets the Attribute 'CorrespondingAttributePath' of the RefSemantic object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

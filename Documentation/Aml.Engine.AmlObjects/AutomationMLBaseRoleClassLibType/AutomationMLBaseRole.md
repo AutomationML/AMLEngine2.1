@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLibType.AutomationMLBaseRole Property
 ==============================================================
-AutomationML 2.1 APIGets the automation ml base role.
+Gets the automation ml base role.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 AMLEngineAdapter.RoleClassLibraries Method
 ==========================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Enumeration Method for all RoleClass Libraries of the CAEXFile.

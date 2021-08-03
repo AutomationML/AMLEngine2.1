@@ -1,6 +1,6 @@
 FacetAttributeSequence.Prepend Method
 =====================================
-AutomationML 2.1 APIThis method is not applicable for Facet attributes.
+This method is not applicable for Facet attributes.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

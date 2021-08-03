@@ -1,6 +1,6 @@
 CAEXLibrary&lt;TLibItem> Class
 ==============================
-AutomationML 2.1 APIGeneric base class for all library objects of CAEX, which are: [InstanceHierarchyType][1],[RoleClassLibType][2],[SystemUnitClassLibType][3],[InterfaceClassLibType][4],[AttributeTypeLibType][5].
+Generic base class for all library objects of CAEX, which are: [InstanceHierarchyType][1],[RoleClassLibType][2],[SystemUnitClassLibType][3],[InterfaceClassLibType][4],[AttributeTypeLibType][5].
 
 
 Inheritance Hierarchy

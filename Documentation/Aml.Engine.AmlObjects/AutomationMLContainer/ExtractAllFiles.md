@@ -1,6 +1,6 @@
 AutomationMLContainer.ExtractAllFiles Method
 ============================================
-AutomationML 2.1 APIExtracts all parts in the package to the specified directory
+Extracts all parts in the package to the specified directory
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 UpdateEventArgs Class
 =====================
-AutomationML 2.1 APIEvent arguments used to inform about update events in the [IAutoUpdate][1] service.
+Event arguments used to inform about update events in the [IAutoUpdate][1] service.
 
 
 Inheritance Hierarchy

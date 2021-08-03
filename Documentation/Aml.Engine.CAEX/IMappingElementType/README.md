@@ -1,6 +1,6 @@
 IMappingElementType Interface
 =============================
-AutomationML 2.1 APIInterface implemented by Mapping elements [InterfaceNameMappingType][1], [InterfaceIDMappingType][2], and [AttributeNameMappingType][3].
+Interface implemented by Mapping elements [InterfaceNameMappingType][1], [InterfaceIDMappingType][2], and [AttributeNameMappingType][3].
 
   **Namespace:**  [Aml.Engine.CAEX][4]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

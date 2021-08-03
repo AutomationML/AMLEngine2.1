@@ -1,6 +1,6 @@
 ExternalReferenceResolver.UnRegister Method
 ===========================================
-AutomationML 2.1 APIUnregister this service
+Unregister this service
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

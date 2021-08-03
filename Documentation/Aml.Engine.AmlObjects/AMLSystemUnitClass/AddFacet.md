@@ -1,6 +1,6 @@
 AMLSystemUnitClass.AddFacet Method
 ==================================
-AutomationML 2.1 APIAdds an AMLFacet object to the AMLSystemUnitClass with the provided name.
+Adds an AMLFacet object to the AMLSystemUnitClass with the provided name.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

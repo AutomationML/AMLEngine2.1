@@ -1,6 +1,6 @@
 CAEXWrapper.TagName Property
 ============================
-AutomationML 2.1 APIGets the name of the CAEX tag for this CAEX object.
+Gets the name of the CAEX tag for this CAEX object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

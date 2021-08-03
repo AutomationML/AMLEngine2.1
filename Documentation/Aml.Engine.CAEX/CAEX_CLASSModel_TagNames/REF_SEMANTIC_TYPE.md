@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.REF_SEMANTIC_TYPE Field
 ================================================
-AutomationML 2.1 APIThe Name of the CAEX-Element 'RefSemantic'. This is a CAEX-Element with the CAEX-Wrapper **REF_SEMANTIC_TYPE**
+The Name of the CAEX-Element 'RefSemantic'. This is a CAEX-Element with the CAEX-Wrapper **REF_SEMANTIC_TYPE**
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

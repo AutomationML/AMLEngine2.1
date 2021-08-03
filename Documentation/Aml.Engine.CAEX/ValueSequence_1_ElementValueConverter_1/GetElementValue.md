@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.ElementValueConverter&lt;T>.GetElementValue Method
 ==============================================================================
-AutomationML 2.1 APIGets the element value.
+Gets the element value.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

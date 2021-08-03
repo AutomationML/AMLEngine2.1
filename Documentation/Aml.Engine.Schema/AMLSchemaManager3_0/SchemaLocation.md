@@ -1,6 +1,6 @@
 AMLSchemaManager3_0.SchemaLocation Property
 ===========================================
-AutomationML 2.1 APIGets the SchemaLocation attribute
+Gets the SchemaLocation attribute
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

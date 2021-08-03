@@ -1,6 +1,6 @@
 CAEXEnumerable&lt;T> Constructor (CAEXSequence&lt;T>, IEnumerable&lt;XElement>)
 ===============================================================================
-AutomationML 2.1 APICreates a new instance for a CAEXEnumerable with an associated CAEXSequence.
+Creates a new instance for a CAEXEnumerable with an associated CAEXSequence.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

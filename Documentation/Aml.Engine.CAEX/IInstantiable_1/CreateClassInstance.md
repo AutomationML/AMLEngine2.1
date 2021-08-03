@@ -1,6 +1,6 @@
 IInstantiable&lt;TINSTANCE>.CreateClassInstance Method
 ======================================================
-AutomationML 2.1 APICreates the class instance.
+Creates the class instance.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

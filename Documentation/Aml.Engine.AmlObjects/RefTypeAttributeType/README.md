@@ -1,6 +1,6 @@
 RefTypeAttributeType Class
 ==========================
-AutomationML 2.1 APIRefType attribute is an Attribute of a ColladaInterface
+RefType attribute is an Attribute of a ColladaInterface
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 InterfaceClassType.Attribute Property
 =====================================
-AutomationML 2.1 APIGets the collection of Attributes for this Instance
+Gets the collection of Attributes for this Instance
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

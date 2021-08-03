@@ -1,6 +1,6 @@
 OrdinalScaledTypeType.AttributeDataType Property
 ================================================
-AutomationML 2.1 APIGets the Attribute datatype which is valid for values of all [ValueAttributes][1] of this element.
+Gets the Attribute datatype which is valid for values of all [ValueAttributes][1] of this element.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

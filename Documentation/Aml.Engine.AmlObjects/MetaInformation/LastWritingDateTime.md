@@ -1,6 +1,6 @@
 MetaInformation.LastWritingDateTime Property
 ============================================
-AutomationML 2.1 APItime stamp of the AutomationML export
+time stamp of the AutomationML export
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

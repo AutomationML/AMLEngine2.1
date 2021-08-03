@@ -1,6 +1,6 @@
 IUndoRedo.EndTransaction Method
 ===============================
-AutomationML 2.1 APIEnds the current transaction.
+Ends the current transaction.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

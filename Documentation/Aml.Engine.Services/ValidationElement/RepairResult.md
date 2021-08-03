@@ -1,6 +1,6 @@
 ValidationElement.RepairResult Property
 =======================================
-AutomationML 2.1 APIGets information about the result of a repair operation for one element.
+Gets information about the result of a repair operation for one element.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

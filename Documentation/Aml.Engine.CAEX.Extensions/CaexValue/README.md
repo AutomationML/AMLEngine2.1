@@ -1,6 +1,6 @@
 CaexValue Class
 ===============
-AutomationML 2.1 APIThis class can be used for a type based access to the value attributes of a CAEX element. It is required, that the [AttributeDataType][1] is set according to the XSD Schema types. If the AttributeDataType is not defined, the type `xs:string` is assumed and the value is not encoded/decoded. CAEX Elements, which use this feature are [OrdinalScaledTypeType][2], [NominalScaledTypeType][3] and [AttributeTypeType][4] and their derivations. The interface [IAttributeValueType][5] is implemented by these classes. The type based conversion is implemented, using XML specific decoding and encoding methods, defined in the .NET class [XmlConvert][6]. The decoded/encoded value for an attribute can be accessed via the [Value][7] property.
+This class can be used for a type based access to the value attributes of a CAEX element. It is required, that the [AttributeDataType][1] is set according to the XSD Schema types. If the AttributeDataType is not defined, the type `xs:string` is assumed and the value is not encoded/decoded. CAEX Elements, which use this feature are [OrdinalScaledTypeType][2], [NominalScaledTypeType][3] and [AttributeTypeType][4] and their derivations. The interface [IAttributeValueType][5] is implemented by these classes. The type based conversion is implemented, using XML specific decoding and encoding methods, defined in the .NET class [XmlConvert][6]. The decoded/encoded value for an attribute can be accessed via the [Value][7] property.
 
 
 Inheritance Hierarchy

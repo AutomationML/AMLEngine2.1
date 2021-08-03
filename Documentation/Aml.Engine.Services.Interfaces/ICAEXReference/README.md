@@ -1,6 +1,6 @@
 ICAEXReference Interface
 ========================
-AutomationML 2.1 APIThis interface is used to query references to CAEXObjects like references using the ID of objects or references using the CAEXPath of objects like RoleClass or InterfaceClass objects.
+This interface is used to query references to CAEXObjects like references using the ID of objects or references using the CAEXPath of objects like RoleClass or InterfaceClass objects.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

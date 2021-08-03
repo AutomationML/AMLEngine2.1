@@ -1,6 +1,6 @@
 InternalElementType.CreateSystemUnitClass Method
 ================================================
-AutomationML 2.1 APICreates a system unit class from this InternalElement instance. RoleRequirements are transformed to SupportedRoleClasses. Attributes and ExternalInterfaces of RoleRequirements are removed.
+Creates a system unit class from this InternalElement instance. RoleRequirements are transformed to SupportedRoleClasses. Attributes and ExternalInterfaces of RoleRequirements are removed.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

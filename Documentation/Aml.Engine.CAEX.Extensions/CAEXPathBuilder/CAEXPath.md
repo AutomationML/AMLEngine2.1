@@ -1,6 +1,6 @@
 CAEXPathBuilder.CAEXPath Method (IEnumerable&lt;CAEXObject>)
 ============================================================
-AutomationML 2.1 APIBuilds the Reference-Path which includes all Names of CAEXObjects in the given list of CAEX objects.
+Builds the Reference-Path which includes all Names of CAEXObjects in the given list of CAEX objects.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

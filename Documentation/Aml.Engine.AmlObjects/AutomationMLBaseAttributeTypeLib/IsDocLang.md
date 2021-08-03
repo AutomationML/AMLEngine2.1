@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLib.IsDocLang Method
 =================================================
-AutomationML 2.1 APIDetermines whether the specified attribute reference defines an inheritance relation from the DocLang AttributeType
+Determines whether the specified attribute reference defines an inheritance relation from the DocLang AttributeType
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

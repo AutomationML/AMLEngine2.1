@@ -1,6 +1,6 @@
 LinkedObjects.RefPartnerSideBElement Property
 =============================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Gets or sets the reference partner side b Internal Element.

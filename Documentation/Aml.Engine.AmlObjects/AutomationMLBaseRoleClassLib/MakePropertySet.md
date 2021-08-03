@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib.MakePropertySet Method
 ===================================================
-AutomationML 2.1 APIMakes the property set.
+Makes the property set.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

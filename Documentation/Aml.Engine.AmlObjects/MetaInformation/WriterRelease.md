@@ -1,6 +1,6 @@
 MetaInformation.WriterRelease Property
 ======================================
-AutomationML 2.1 APIrelease information about the writer tool, e.g. "beta12"
+release information about the writer tool, e.g. "beta12"
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

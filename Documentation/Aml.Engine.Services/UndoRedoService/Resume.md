@@ -1,6 +1,6 @@
 UndoRedoService.Resume Method
 =============================
-AutomationML 2.1 APIRequest to resume recording changes of the specified document.
+Request to resume recording changes of the specified document.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

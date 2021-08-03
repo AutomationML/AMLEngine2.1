@@ -1,6 +1,6 @@
 AutomationMLContainer.RelationshipType.GetAnyContent Method
 ===========================================================
-AutomationML 2.1 APICreates a RelationshipType for any content. If no mime type is defined, the relationship type [AnyContent][1] is used.
+Creates a RelationshipType for any content. If no mime type is defined, the relationship type [AnyContent][1] is used.
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

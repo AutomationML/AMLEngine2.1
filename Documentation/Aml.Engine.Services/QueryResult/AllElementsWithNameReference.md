@@ -1,6 +1,6 @@
 QueryResult.AllElementsWithNameReference Method
 ===============================================
-AutomationML 2.1 APIGets all the elements with a name reference. Elements referencing the same name are grouped together. Use this method to validate the existence of referenced elements.
+Gets all the elements with a name reference. Elements referencing the same name are grouped together. Use this method to validate the existence of referenced elements.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

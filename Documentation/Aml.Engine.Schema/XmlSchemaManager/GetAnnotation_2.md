@@ -1,6 +1,6 @@
 XmlSchemaManager.GetAnnotation Method (XmlSchemaElement)
 ========================================================
-AutomationML 2.1 APIGets the annotation from the schema element.
+Gets the annotation from the schema element.
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 RoleFamilyType.IInstantiable.CreateClassInstance Method
 =======================================================
-AutomationML 2.1 APICreates a RoleRequirement as an instance of this RoleClass object. All Base-Class references are resolved to create the instance.
+Creates a RoleRequirement as an instance of this RoleClass object. All Base-Class references are resolved to create the instance.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

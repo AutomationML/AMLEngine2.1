@@ -1,6 +1,6 @@
 RoleClassLibTypeExtensions.Insert_RoleClass Method
 ==================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Inserts the provided RoleClass into this RoleClass library.

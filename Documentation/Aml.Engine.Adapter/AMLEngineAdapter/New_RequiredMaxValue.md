@@ -1,6 +1,6 @@
 AMLEngineAdapter.New_RequiredMaxValue Method
 ============================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Adding a new RequiredMaxValue to this ordinal scaled constraint

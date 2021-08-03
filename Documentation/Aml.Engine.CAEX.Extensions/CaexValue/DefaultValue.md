@@ -1,6 +1,6 @@
 CaexValue.DefaultValue Property
 ===============================
-AutomationML 2.1 APIGets a default decoded value according to the defined AttributeDataType
+Gets a default decoded value according to the defined AttributeDataType
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

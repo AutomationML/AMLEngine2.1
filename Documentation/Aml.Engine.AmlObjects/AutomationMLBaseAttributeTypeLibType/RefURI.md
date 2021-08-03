@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLibType.RefURI Property
 ====================================================
-AutomationML 2.1 APIGets the RefURI attribute Type.
+Gets the RefURI attribute Type.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

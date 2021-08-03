@@ -1,6 +1,6 @@
 AutomationMLBaseAttributeTypeLibType.Category Property
 ======================================================
-AutomationML 2.1 APIGets the Category Attribute Type
+Gets the Category Attribute Type
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

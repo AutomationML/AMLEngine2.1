@@ -1,6 +1,6 @@
 AttributeValueRequirementType.New_UnknownType Method
 ====================================================
-AutomationML 2.1 APIA new 'UnknownType' constraint is added if no constraint has been defined before.
+A new 'UnknownType' constraint is added if no constraint has been defined before.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

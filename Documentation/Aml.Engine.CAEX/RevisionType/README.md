@@ -1,6 +1,6 @@
 RevisionType Class
 ==================
-AutomationML 2.1 APIThis Class is a wrapper for the CAEXElement 'Revision' which contains organizational information about the state of the revision of a CAEX object
+This Class is a wrapper for the CAEXElement 'Revision' which contains organizational information about the state of the revision of a CAEX object
 
 
 Inheritance Hierarchy

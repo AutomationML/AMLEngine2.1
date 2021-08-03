@@ -1,6 +1,6 @@
 ICAEXBasicObject.Insert Method (Int32, CAEXWrapper)
 ===================================================
-AutomationML 2.1 APIInserts the specified CAEX object in it's associated sequence at the defined position. The CAEXBasicObject defines the [Revision][1] and [SourceObjectInformation][2] sequences.
+Inserts the specified CAEX object in it's associated sequence at the defined position. The CAEXBasicObject defines the [Revision][1] and [SourceObjectInformation][2] sequences.
 
   **Namespace:**  [Aml.Engine.CAEX][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

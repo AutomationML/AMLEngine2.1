@@ -1,6 +1,6 @@
 AutomationMLInterfaceClassLib.MakePortConnector Method
 ======================================================
-AutomationML 2.1 APIMakes the port connector.
+Makes the port connector.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

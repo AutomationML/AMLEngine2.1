@@ -1,6 +1,6 @@
 AMLSystemUnitClass.AddPort Method
 =================================
-AutomationML 2.1 APIAdds an AMLPort object to the AMLSystemUnitClass with the provided name.
+Adds an AMLPort object to the AMLSystemUnitClass with the provided name.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

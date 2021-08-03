@@ -1,6 +1,6 @@
 AttributeType.Master Property
 =============================
-AutomationML 2.1 APIGets the master Attribute object if this is a mirror and the master can be found in this CAEX document.
+Gets the master Attribute object if this is a mirror and the master can be found in this CAEX document.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

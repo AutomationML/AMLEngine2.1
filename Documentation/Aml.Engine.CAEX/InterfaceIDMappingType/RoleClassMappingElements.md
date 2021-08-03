@@ -1,6 +1,6 @@
 InterfaceIDMappingType.RoleClassMappingElements Method
 ======================================================
-AutomationML 2.1 APIGets the collection of possible mapping identifiers for this InterfaceIDMappingType for elements of the mapped RoleClass. The Collection contains all ExternalInterfaces (including inherited and descendants) of the RoleClass. The ExternalInterface ID is used as the Mapping identifier.
+Gets the collection of possible mapping identifiers for this InterfaceIDMappingType for elements of the mapped RoleClass. The Collection contains all ExternalInterfaces (including inherited and descendants) of the RoleClass. The ExternalInterface ID is used as the Mapping identifier.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

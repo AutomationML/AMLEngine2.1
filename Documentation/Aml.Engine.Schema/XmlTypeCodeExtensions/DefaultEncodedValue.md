@@ -1,6 +1,6 @@
 XmlTypeCodeExtensions.DefaultEncodedValue Method
 ================================================
-AutomationML 2.1 APIConverts the default value for the specified typeCode to a valid XML value string
+Converts the default value for the specified typeCode to a valid XML value string
 
   **Namespace:**  [Aml.Engine.Schema][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

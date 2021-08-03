@@ -1,6 +1,6 @@
 InternalElementType.HasRoleClassReference Method (String, Boolean)
 ==================================================================
-AutomationML 2.1 APIDetermines whether this InternalElement object has an associated RoleClass reference with the specified CAEX path role reference. If inheritance relations between role classes should be regarded, the optional parameter 'regardInheritance' should be set. In this case the specified RoleClass is either identical to a referenced RoleClass or a referenced RoleClass is derived from the specified RoleClass.
+Determines whether this InternalElement object has an associated RoleClass reference with the specified CAEX path role reference. If inheritance relations between role classes should be regarded, the optional parameter 'regardInheritance' should be set. In this case the specified RoleClass is either identical to a referenced RoleClass or a referenced RoleClass is derived from the specified RoleClass.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

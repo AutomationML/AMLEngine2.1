@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLib Class
 ==================================
-AutomationML 2.1 APIContains definitions and access methods of standard base RoleClass objects.
+Contains definitions and access methods of standard base RoleClass objects.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 ValueSequence&lt;TDataType>.ElementValue.Node Field
 ===================================================
-AutomationML 2.1 APIThe Xml-Element
+The Xml-Element
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

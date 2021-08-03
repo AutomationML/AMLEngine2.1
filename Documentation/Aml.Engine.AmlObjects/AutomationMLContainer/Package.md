@@ -1,6 +1,6 @@
 AutomationMLContainer.Package Property
 ======================================
-AutomationML 2.1 APIGets the underlying package of this instance.
+Gets the underlying package of this instance.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

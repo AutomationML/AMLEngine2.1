@@ -1,6 +1,6 @@
 AttributeNameMappingType Constructor
 ====================================
-AutomationML 2.1 APICreates a wrapper for the specified XElement which is an AttributeNameMapping Element
+Creates a wrapper for the specified XElement which is an AttributeNameMapping Element
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

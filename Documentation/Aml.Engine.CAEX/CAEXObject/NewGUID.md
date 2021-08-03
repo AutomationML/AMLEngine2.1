@@ -1,6 +1,6 @@
 CAEXObject.NewGUID Property
 ===========================
-AutomationML 2.1 APIGets a new unique identifier.
+Gets a new unique identifier.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

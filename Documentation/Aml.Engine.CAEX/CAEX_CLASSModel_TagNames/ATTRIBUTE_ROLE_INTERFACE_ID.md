@@ -1,6 +1,6 @@
 CAEX_CLASSModel_TagNames.ATTRIBUTE_ROLE_INTERFACE_ID Field
 ==========================================================
-AutomationML 2.1 APIThe Name of the CAEX-Attribute 'RoleInterfaceID' in an InterfaceIDMapping. The CAEX-Wrapper is [InterfaceIDMappingType][1].
+The Name of the CAEX-Attribute 'RoleInterfaceID' in an InterfaceIDMapping. The CAEX-Wrapper is [InterfaceIDMappingType][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

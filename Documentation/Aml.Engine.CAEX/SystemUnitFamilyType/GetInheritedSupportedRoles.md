@@ -1,6 +1,6 @@
 SystemUnitFamilyType.GetInheritedSupportedRoles Method
 ======================================================
-AutomationML 2.1 APIGets a collection of SupportedRoleClasses objects of this SystemUnitClass and of all inherited BaseClasses. Duplicates are removed from the result.
+Gets a collection of SupportedRoleClasses objects of this SystemUnitClass and of all inherited BaseClasses. Duplicates are removed from the result.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

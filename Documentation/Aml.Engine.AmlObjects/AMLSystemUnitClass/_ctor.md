@@ -1,6 +1,6 @@
 AMLSystemUnitClass Constructor (SystemUnitClassType)
 ====================================================
-AutomationML 2.1 APIInitializes a new instance of the [AMLSystemUnitClass][1] class.
+Initializes a new instance of the [AMLSystemUnitClass][1] class.
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

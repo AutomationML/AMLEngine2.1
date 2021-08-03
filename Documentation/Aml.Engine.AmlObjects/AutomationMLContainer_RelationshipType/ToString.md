@@ -1,6 +1,6 @@
 AutomationMLContainer.RelationshipType.ToString Method
 ======================================================
-AutomationML 2.1 APIReturns the [Name][1] as the string representation of this instance.
+Returns the [Name][1] as the string representation of this instance.
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

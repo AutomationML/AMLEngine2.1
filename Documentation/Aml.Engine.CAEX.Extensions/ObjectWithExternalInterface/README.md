@@ -1,6 +1,6 @@
 ObjectWithExternalInterface Class
 =================================
-AutomationML 2.1 APIExtension methods for all objects with ExternalInterface collections.
+Extension methods for all objects with ExternalInterface collections.
 
 
 Inheritance Hierarchy

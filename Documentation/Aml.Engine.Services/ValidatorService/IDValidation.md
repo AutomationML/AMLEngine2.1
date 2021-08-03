@@ -1,6 +1,6 @@
 ValidatorService.IDValidation Method
 ====================================
-AutomationML 2.1 APIValidates the ID of a CAEX object. IDs of CAEX objects shall be unique.
+Validates the ID of a CAEX object. IDs of CAEX objects shall be unique.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

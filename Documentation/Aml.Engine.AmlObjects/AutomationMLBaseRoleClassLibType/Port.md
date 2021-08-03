@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLibType.Port Property
 ==============================================
-AutomationML 2.1 APIGets the port.
+Gets the port.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

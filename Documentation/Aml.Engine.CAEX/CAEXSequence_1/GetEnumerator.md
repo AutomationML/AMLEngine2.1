@@ -1,6 +1,6 @@
 CAEXSequence&lt;T>.GetEnumerator Method
 =======================================
-AutomationML 2.1 APIGets the enumerator for this sequence.
+Gets the enumerator for this sequence.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

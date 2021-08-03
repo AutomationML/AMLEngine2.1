@@ -1,6 +1,6 @@
 AMLFile.IsGenericAdditionalInformation Method
 =============================================
-AutomationML 2.1 APIDetermines whether the specified XML element represents an AdditionalInformation object, not using any specific syntax as the [DocumentVersion][1] or [WriterHeader][2] elements.
+Determines whether the specified XML element represents an AdditionalInformation object, not using any specific syntax as the [DocumentVersion][1] or [WriterHeader][2] elements.
 
   **Namespace:**  [Aml.Engine.AmlObjects][3]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

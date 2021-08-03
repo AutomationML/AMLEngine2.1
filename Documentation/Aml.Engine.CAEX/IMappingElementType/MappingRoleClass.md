@@ -1,6 +1,6 @@
 IMappingElementType.MappingRoleClass Property
 =============================================
-AutomationML 2.1 APIGets the RoleClass, which provides the mapping elements.
+Gets the RoleClass, which provides the mapping elements.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

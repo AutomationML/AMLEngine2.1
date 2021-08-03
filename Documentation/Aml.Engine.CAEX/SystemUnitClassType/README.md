@@ -1,6 +1,6 @@
 SystemUnitClassType Class
 =========================
-AutomationML 2.1 APIThis Class is a wrapper for the CAEXElement 'SystemUnitClass' that allows definition of child SystemUnitClasses within the class hierarchy. The parent child relation between two SystemUnitClasses has no semantic.
+This Class is a wrapper for the CAEXElement 'SystemUnitClass' that allows definition of child SystemUnitClasses within the class hierarchy. The parent child relation between two SystemUnitClasses has no semantic.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 AttributeValueRequirementType.OrdinalScaledType Property
 ========================================================
-AutomationML 2.1 APIGets the 'OrdinalScaledType' constraint.
+Gets the 'OrdinalScaledType' constraint.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

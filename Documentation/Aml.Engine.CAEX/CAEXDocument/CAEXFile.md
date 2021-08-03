@@ -1,6 +1,6 @@
 CAEXDocument.CAEXFile Property
 ==============================
-AutomationML 2.1 APIGets the CAEXFile which is the wrapper for the root element in the CAEX document
+Gets the CAEXFile which is the wrapper for the root element in the CAEX document
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

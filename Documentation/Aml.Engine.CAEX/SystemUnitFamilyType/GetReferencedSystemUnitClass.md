@@ -1,6 +1,6 @@
 SystemUnitFamilyType.GetReferencedSystemUnitClass Method
 ========================================================
-AutomationML 2.1 APIGetting a referenced SystemUnitClass.
+Getting a referenced SystemUnitClass.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

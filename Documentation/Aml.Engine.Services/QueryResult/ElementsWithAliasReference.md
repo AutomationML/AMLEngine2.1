@@ -1,6 +1,6 @@
 QueryResult.ElementsWithAliasReference Method
 =============================================
-AutomationML 2.1 APIGets alls the elements from the document which use the provided Alias in a reference
+Gets alls the elements from the document which use the provided Alias in a reference
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

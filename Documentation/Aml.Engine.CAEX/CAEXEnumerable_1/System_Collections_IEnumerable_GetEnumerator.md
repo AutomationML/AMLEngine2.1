@@ -1,6 +1,6 @@
 CAEXEnumerable&lt;T>.IEnumerable.GetEnumerator Method
 =====================================================
-AutomationML 2.1 APIReturns an enumerator that iterates through a collection.
+Returns an enumerator that iterates through a collection.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

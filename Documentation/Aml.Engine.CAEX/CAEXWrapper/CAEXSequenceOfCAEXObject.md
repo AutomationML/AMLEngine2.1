@@ -1,6 +1,6 @@
 CAEXWrapper.CAEXSequenceOfCAEXObject Property
 =============================================
-AutomationML 2.1 APIGets the CAEXSequence containing this CAEX object
+Gets the CAEXSequence containing this CAEX object
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

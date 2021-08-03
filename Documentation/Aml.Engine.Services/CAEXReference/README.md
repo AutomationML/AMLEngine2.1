@@ -1,6 +1,6 @@
 CAEXReference Class
 ===================
-AutomationML 2.1 APIThis class is used in queries to provide information about objects, which contain references to other objects.
+This class is used in queries to provide information about objects, which contain references to other objects.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 InternalLinkType.LINK_SEPARATOR Field
 =====================================
-AutomationML 2.1 APIdefinition of the separator used for qualifying an interface of an internal element via syntax GUID:Interface
+definition of the separator used for qualifying an interface of an internal element via syntax GUID:Interface
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

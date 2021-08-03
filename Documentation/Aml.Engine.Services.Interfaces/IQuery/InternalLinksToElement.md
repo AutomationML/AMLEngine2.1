@@ -1,6 +1,6 @@
 IQuery.InternalLinksToElement Method
 ====================================
-AutomationML 2.1 APIGets all InternalLinks that reference the specified InternalElement or SystemUnitClass.
+Gets all InternalLinks that reference the specified InternalElement or SystemUnitClass.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

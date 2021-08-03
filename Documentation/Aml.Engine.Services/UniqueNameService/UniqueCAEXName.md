@@ -1,6 +1,6 @@
 UniqueNameService.UniqueCAEXName Method (XElement, String)
 ==========================================================
-AutomationML 2.1 APICreates a unique CAEX Name for a child with the specified elementTagName in the specified sequence
+Creates a unique CAEX Name for a child with the specified elementTagName in the specified sequence
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

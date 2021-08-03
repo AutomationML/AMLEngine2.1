@@ -1,6 +1,6 @@
 CAEXPathBuilder.ContainsPathSeparatorChars Method
 =================================================
-AutomationML 2.1 APIDetermines whether the specified name contains path separator chars.
+Determines whether the specified name contains path separator chars.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

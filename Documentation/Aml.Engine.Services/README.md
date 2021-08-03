@@ -1,6 +1,6 @@
 Aml.Engine.Services Namespace
 =============================
-AutomationML 2.1 APIThe Aml.Engine.Services namespace contains classes that define and implement specific Services that provide additional features for the processing of AMLDocuments. Registered services are located by the AMLEngine and can enhance API methods to provide faster queries or automated name assignment to added elements.
+The Aml.Engine.Services namespace contains classes that define and implement specific Services that provide additional features for the processing of AMLDocuments. Registered services are located by the AMLEngine and can enhance API methods to provide faster queries or automated name assignment to added elements.
 
 
 Classes

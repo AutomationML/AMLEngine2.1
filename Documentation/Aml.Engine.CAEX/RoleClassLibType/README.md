@@ -1,6 +1,6 @@
 RoleClassLibType Class
 ======================
-AutomationML 2.1 APIThis Class is a wrapper for the CAEXElement 'RoleClassLib' which is a Container element for a hierarchy of Role class definitions wrapped into [RoleFamilyType][1]. CAEX supports multiple role class libraries.
+This Class is a wrapper for the CAEXElement 'RoleClassLib' which is a Container element for a hierarchy of Role class definitions wrapped into [RoleFamilyType][1]. CAEX supports multiple role class libraries.
 
 
 Inheritance Hierarchy

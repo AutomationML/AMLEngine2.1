@@ -1,6 +1,6 @@
 AmlObjectsExtensions.IsAMLFacet Method
 ======================================
-AutomationML 2.1 APIDetermines whether the InternalElement instance is an AMLFacet.
+Determines whether the InternalElement instance is an AMLFacet.
 
   **Namespace:**  [Aml.Engine.AmlObjects.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

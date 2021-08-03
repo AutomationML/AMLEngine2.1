@@ -1,6 +1,6 @@
 IXMLWrapper.Exists Property
 ===========================
-AutomationML 2.1 APIDetermines, if this instance is wrapped around an existing XML node
+Determines, if this instance is wrapped around an existing XML node
 
   **Namespace:**  [Aml.Engine.XML][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

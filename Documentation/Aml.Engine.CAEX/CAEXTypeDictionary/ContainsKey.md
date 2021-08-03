@@ -1,6 +1,6 @@
 CAEXTypeDictionary.ContainsKey Method
 =====================================
-AutomationML 2.1 APIDetermines whether this dictionary's key collection contains the specified CAEX Tag name as a key.
+Determines whether this dictionary's key collection contains the specified CAEX Tag name as a key.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 SupportedRoleClassType.RoleReference Property
 =============================================
-AutomationML 2.1 APIGets or sets the role reference. This property is equivalent to [RefRoleClassPath][1].
+Gets or sets the role reference. This property is equivalent to [RefRoleClassPath][1].
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

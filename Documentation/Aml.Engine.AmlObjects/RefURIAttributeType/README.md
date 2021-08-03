@@ -1,6 +1,6 @@
 RefURIAttributeType Class
 =========================
-AutomationML 2.1 APIThis class is a wrapper for the AutomationML defined Attribute 'RefURI'. To get access to instances of this type, use the [ObjectWithAMLAttributes][1] implicit type conversion operator, defined for all CAEX objects which are allowed to contain Attribute objects.
+This class is a wrapper for the AutomationML defined Attribute 'RefURI'. To get access to instances of this type, use the [ObjectWithAMLAttributes][1] implicit type conversion operator, defined for all CAEX objects which are allowed to contain Attribute objects.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 ObjectWithAMLAttributes.New_FrameAttribute Method
 =================================================
-AutomationML 2.1 APICreates a new Frame attribute for the [CAEXBase][1] if no Frame attribute exists. The provided values are used to initialize the Frame attribute values.
+Creates a new Frame attribute for the [CAEXBase][1] if no Frame attribute exists. The provided values are used to initialize the Frame attribute values.
 
   **Namespace:**  [Aml.Engine.AmlObjects][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

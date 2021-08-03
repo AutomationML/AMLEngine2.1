@@ -1,6 +1,6 @@
 CAEXDocument.AMLSchemaManager Method (XElement)
 ===============================================
-AutomationML 2.1 APIGets the schema manager for the CAEX document which contains the provided XML node.
+Gets the schema manager for the CAEX document which contains the provided XML node.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 FrameValues.Ry Property
 =======================
-AutomationML 2.1 APIGets or sets the ry.
+Gets or sets the ry.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

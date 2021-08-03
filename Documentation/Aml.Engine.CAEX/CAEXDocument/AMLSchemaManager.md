@@ -1,6 +1,6 @@
 CAEXDocument.AMLSchemaManager Method (CAEXWrapper)
 ==================================================
-AutomationML 2.1 APIGets the schema manager for the CAEX document which contains the provided CAEX object.
+Gets the schema manager for the CAEX document which contains the provided CAEX object.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

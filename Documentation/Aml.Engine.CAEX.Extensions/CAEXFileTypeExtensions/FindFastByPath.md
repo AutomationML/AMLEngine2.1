@@ -1,6 +1,6 @@
 CAEXFileTypeExtensions.FindFastByPath Method (CAEXFileType, String, Boolean)
 ============================================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Performs a document wide fast search and returns a CAEXObject given by its Path, e.g. "plant/unit" or -in case the document is based on CAEX 2.15 - "GUID:Interface".

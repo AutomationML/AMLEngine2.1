@@ -1,6 +1,6 @@
 AttributeNameMappingType Class
 ==============================
-AutomationML 2.1 APIThis class is a wrapper for the CAEX element 'AttributeNameMapping' which defines mappings between attributes of an AML object and any associated role class.
+This class is a wrapper for the CAEX element 'AttributeNameMapping' which defines mappings between attributes of an AML object and any associated role class.
 
 
 Inheritance Hierarchy

@@ -1,6 +1,6 @@
 CAEXSequenceEnumerator&lt;T>.MoveNext Method
 ============================================
-AutomationML 2.1 APISets the enumerator to the next item in the collection.
+Sets the enumerator to the next item in the collection.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

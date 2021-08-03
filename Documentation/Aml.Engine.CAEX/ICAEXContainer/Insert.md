@@ -1,6 +1,6 @@
 ICAEXContainer.Insert Method
 ============================
-AutomationML 2.1 APIInserts the specified CAEX object in its associated container.
+Inserts the specified CAEX object in its associated container.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

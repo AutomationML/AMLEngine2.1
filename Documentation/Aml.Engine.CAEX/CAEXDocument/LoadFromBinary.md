@@ -1,6 +1,6 @@
 CAEXDocument.LoadFromBinary Method
 ==================================
-AutomationML 2.1 APILoading a CAEX file from the specified Byte-Array.
+Loading a CAEX file from the specified Byte-Array.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

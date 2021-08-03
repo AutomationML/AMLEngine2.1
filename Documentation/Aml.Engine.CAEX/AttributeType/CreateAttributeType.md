@@ -1,6 +1,6 @@
 AttributeType.CreateAttributeType Method
 ========================================
-AutomationML 2.1 APICreates an AttriuteType from this Attribute instance.
+Creates an AttriuteType from this Attribute instance.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

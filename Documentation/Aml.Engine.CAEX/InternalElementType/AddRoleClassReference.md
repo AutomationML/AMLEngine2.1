@@ -1,6 +1,6 @@
 InternalElementType.AddRoleClassReference Method (RoleFamilyType, Boolean, Boolean, Boolean)
 ============================================================================================
-AutomationML 2.1 APIAdds a RoleClass reference to this InternalElement object using the provided RoleClass object. The RoleClass reference is added as a [RoleRequirementsType][1] object. For CAEX documents which are based on CAEX version 2.15, only one RoleRequirement is allowed for an InternalElement. Additional RoleClass references are automatically added as SupportedRoleClass objects.
+Adds a RoleClass reference to this InternalElement object using the provided RoleClass object. The RoleClass reference is added as a [RoleRequirementsType][1] object. For CAEX documents which are based on CAEX version 2.15, only one RoleRequirement is allowed for an InternalElement. Additional RoleClass references are automatically added as SupportedRoleClass objects.
 
   **Namespace:**  [Aml.Engine.CAEX][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

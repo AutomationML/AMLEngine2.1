@@ -1,6 +1,6 @@
 CAEXBasicObject.DescriptionElement Property
 ===========================================
-AutomationML 2.1 APIGets the wrapper for the Description element.
+Gets the wrapper for the Description element.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

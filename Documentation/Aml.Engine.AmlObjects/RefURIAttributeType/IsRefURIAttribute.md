@@ -1,6 +1,6 @@
 RefURIAttributeType.IsRefURIAttribute Property
 ==============================================
-AutomationML 2.1 APIGets a value indicating whether this instance is a RefURI attribute.
+Gets a value indicating whether this instance is a RefURI attribute.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

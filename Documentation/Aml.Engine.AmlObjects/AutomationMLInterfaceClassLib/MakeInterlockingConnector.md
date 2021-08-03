@@ -1,6 +1,6 @@
 AutomationMLInterfaceClassLib.MakeInterlockingConnector Method
 ==============================================================
-AutomationML 2.1 APIMakes the interlocking connector.
+Makes the interlocking connector.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

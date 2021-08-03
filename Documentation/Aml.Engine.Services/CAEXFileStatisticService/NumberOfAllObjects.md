@@ -1,6 +1,6 @@
 CAEXFileStatisticService.NumberOfAllObjects Method
 ==================================================
-AutomationML 2.1 APICounts all objects (sum of all others with specific counts) and returns the result.
+Counts all objects (sum of all others with specific counts) and returns the result.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

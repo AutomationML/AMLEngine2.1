@@ -1,6 +1,6 @@
 MappingTypeExtensions.Insert_InterfaceNameMapping Method
 ========================================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Appends the InterfaceNameMapping object to the defined Mapping object

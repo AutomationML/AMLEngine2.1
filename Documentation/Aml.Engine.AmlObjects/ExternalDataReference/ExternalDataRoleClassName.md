@@ -1,6 +1,6 @@
 ExternalDataReference.ExternalDataRoleClassName Field
 =====================================================
-AutomationML 2.1 APIThe name for the ExternalData role class
+The name for the ExternalData role class
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

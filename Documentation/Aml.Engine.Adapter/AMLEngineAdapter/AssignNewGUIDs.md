@@ -1,6 +1,6 @@
 AMLEngineAdapter.AssignNewGUIDs Method
 ======================================
-AutomationML 2.1 API
+
 
 **Note: This API is now obsolete.**
 Assigns new GUIDs to this InternalElement and all of its child InternalElements

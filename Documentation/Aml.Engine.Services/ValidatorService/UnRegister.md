@@ -1,6 +1,6 @@
 ValidatorService.UnRegister Method
 ==================================
-AutomationML 2.1 APIUnregisters the validator service.
+Unregisters the validator service.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)

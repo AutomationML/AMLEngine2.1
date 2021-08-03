@@ -1,6 +1,6 @@
 CAEXDocument.SchemaManager Property
 ===================================
-AutomationML 2.1 APIGets the schema manager for this document
+Gets the schema manager for this document
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

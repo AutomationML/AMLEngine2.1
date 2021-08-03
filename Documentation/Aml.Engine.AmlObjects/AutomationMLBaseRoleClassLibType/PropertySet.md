@@ -1,6 +1,6 @@
 AutomationMLBaseRoleClassLibType.PropertySet Property
 =====================================================
-AutomationML 2.1 APIGets the property set.
+Gets the property set.
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

@@ -1,6 +1,6 @@
 IQuery.IsMaster Method (AttributeType)
 ======================================
-AutomationML 2.1 APIDetermines whether the specified AttributeType is referenced by other AttributeType objects called 'Mirrors'.
+Determines whether the specified AttributeType is referenced by other AttributeType objects called 'Mirrors'.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)
