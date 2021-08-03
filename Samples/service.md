@@ -7,7 +7,9 @@ These code examples explain the application of services from the Aml.Engine.
 ### Advanced AML document processing using services.
 <ol>
 <li id="Loading">
+        
 Registration of a [LookupService](../Documentation/Aml.Engine.Services/LookupService/README.md) to locate CAEX objects using  an identifier.
+        
 
 **C#**<br />
 ``` C#
@@ -35,8 +37,10 @@ var interfaceClass = document.FindByPath (AutomationMLInterfaceClassLib.Interloc
 
 </li>
 <li id="Transformation">
+        
 Transformation of an AML document to a higher version using the [CAEXSchemaTransformer](../Documentation/Aml.Engine.Services/CAEXSchemaTransformer/README.md).
 
+        
 
 **C#**<br />
 ``` C#
@@ -70,4 +74,4 @@ else
 
 
 #### Other Resources
-[Basic examples](basics.md)
+[Basic examples](basic.md)
