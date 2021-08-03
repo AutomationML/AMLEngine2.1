@@ -130,10 +130,10 @@ Creation of class to class relations using AutomationML Base Classes.
 
 
 see also: 
-- [IClassWithBaseClassReference](..\Documentation\Aml.Engine.CAEX\IClassWithBaseClassReference\Readme.md)
-- [BaseClass](..\Documentation\Aml.Engine.CAEX\InterfaceFamilyType), 
-- [InterfaceClassLib](..\Documentation\Aml.Engine.AmlObjects\AutomationMLInterfaceClassLibType\Readme.md) 
-- [MakeAutomationMLBaseInterface](..\Documentation\Aml.Engine.AmlObjects\AutomationMLInterfaceClassLib\Readme.md)
+- [IClassWithBaseClassReference](../Documentation/Aml.Engine.CAEX/IClassWithBaseClassReference/README.md/)
+- [BaseClass](../Documentation/Aml.Engine.CAEX/InterfaceFamilyType/README.md/), 
+- [InterfaceClassLib](../Documentation/Aml.Engine.AmlObjects/AutomationMLInterfaceClassLibType/README.md/) 
+- [MakeAutomationMLBaseInterface](../Documentation/Aml.Engine.AmlObjects/AutomationMLInterfaceClassLib/README.md/)
 
 
 **C#**<br />
