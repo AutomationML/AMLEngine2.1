@@ -14,7 +14,7 @@ The AMLEngine2.1 is published as  the named package **Aml.Engine** on nuget at h
 
 ### Getting started
 
-Download the zipped documentation and go to the provided examples. There are various basic examples and advanced examples. 
+See the documentation and examine the provided [examples](Samples\README.md). There are various basic examples and advanced examples. 
 A special adaption section describes the steps to be executed, how old code, using the former AMLEngine v3.x.x, can be adapted to
 the new engine.
 
