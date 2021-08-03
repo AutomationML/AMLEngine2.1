@@ -1,0 +1,103 @@
+# AutomationMLContainer Class
+AutomationML 2.1 API 
+
+Class AutomationMLContainer provides methods to save an AutomationML document and related documents which are needed for the interpretation or representation of AutomationML data into a single packed and zipped file. The various parts are assembled into this AutomationMLContainer. The Class provides methods to retrieve parts from a loaded container or for the assembly of parts into one single container. A Utility, to build a self containing container from a loaded CAEXDocument and the external referenced files, retrieved from the external references and ExternalInterface classes is defined in a special service.
+
+
+## Inheritance Hierarchy
+<a href="https://docs.microsoft.com/dotnet/api/system.object" target="_parent" rel="noopener noreferrer">System.Object</a><br />&nbsp;&nbsp;Aml.Engine.AmlObjects.AutomationMLContainer<br />
+**Namespace:**&nbsp;<a href="N_Aml_Engine_AmlObjects">Aml.Engine.AmlObjects</a><br />**Assembly:**&nbsp;AML.Engine (in AML.Engine.dll) Version: 1.6
+
+## Syntax
+
+**C#**<br />
+``` C#
+public class AutomationMLContainer : IDisposable
+```
+
+**VB**<br />
+``` VB
+Public Class AutomationMLContainer
+	Implements IDisposable
+```
+
+**C++**<br />
+``` C++
+public ref class AutomationMLContainer : IDisposable
+```
+
+The AutomationMLContainer type exposes the following members.
+
+
+## Constructors
+&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer__ctor">AutomationMLContainer(Stream)</a></td><td>
+Initializes a new instance of the AutomationMLContainer class using the specified stream resource.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer__ctor_3">AutomationMLContainer(String)</a></td><td>
+Initializes a new instance of the AutomationMLContainer class using the specified container file to load or save the package.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer__ctor_1">AutomationMLContainer(Stream, FileMode)</a></td><td>
+Initializes a new instance of the AutomationMLContainer class using the specified stream resource.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer__ctor_4">AutomationMLContainer(String, FileMode)</a></td><td>
+Initializes a new instance of the AutomationMLContainer class using the specified container file to load or save the package.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer__ctor_2">AutomationMLContainer(Stream, FileMode, FileAccess)</a></td><td>
+Initializes a new instance of the AutomationMLContainer class using the specified stream resource.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer__ctor_5">AutomationMLContainer(String, FileMode, FileAccess)</a></td><td>
+Initializes a new instance of the AutomationMLContainer class using the specified container file to load or save the package.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer__ctor_6">AutomationMLContainer(String, FileMode, FileAccess, FileShare)</a></td><td>
+Initializes a new instance of the AutomationMLContainer class using the specified container file to load or save the package.</td></tr></table>&nbsp;
+<a href="#automationmlcontainer-class">Back to Top</a>
+
+## Properties
+&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="P_Aml_Engine_AmlObjects_AutomationMLContainer_CompressionMode">CompressionMode</a></td><td>
+Gets or sets the compression mode which is <a href="https://docs.microsoft.com/dotnet/api/system.io.packaging.compressionoption" target="_parent" rel="noopener noreferrer">Normal</a> by default.</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="P_Aml_Engine_AmlObjects_AutomationMLContainer_ContainerFilename">ContainerFilename</a></td><td>
+Gets the full path of the used container file.</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="P_Aml_Engine_AmlObjects_AutomationMLContainer_ExtractionDirectory">ExtractionDirectory</a></td><td>
+Gets the full path of the directory, used for extraction.</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="P_Aml_Engine_AmlObjects_AutomationMLContainer_Package">Package</a></td><td>
+Gets the underlying package of this instance.</td></tr></table>&nbsp;
+<a href="#automationmlcontainer-class">Back to Top</a>
+
+## Methods
+&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddAnyContent">AddAnyContent(PackagePart, Stream, Uri, String, Boolean)</a></td><td>
+Adds any content from the specified stream resource to the package creating relationships to the package and to the part, containing the root document using the relationship type <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_AnyContent">AnyContent</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddAnyContent_1">AddAnyContent(PackagePart, String, Uri, String, Boolean)</a></td><td>
+Adds any content to the package creating relationships to the package and to the part, containing the root document using the relationship type <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_AnyContent">AnyContent</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddCAEXSchema">AddCAEXSchema(Stream, Uri)</a></td><td>
+Adds a CAEX schema part retrieved from a stream resource to the package and creates a package - part relationship to the package using the relationship type <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_CAEXSchema">CAEXSchema</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddCAEXSchema_1">AddCAEXSchema(String, Uri)</a></td><td>
+Adds a CAEX schema file to the package and creates a package - part relationship to the package using the relationship type <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_CAEXSchema">CAEXSchema</a></td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddCollada">AddCollada(PackagePart, Stream, Uri, Boolean)</a></td><td>
+Adds a COLLADA part read from the specified stream resource to the package and creates relationships to the package and to the root document using the <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_Collada">Collada</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddCollada_1">AddCollada(PackagePart, String, Uri, Boolean)</a></td><td>
+Adds a COLLADA file to the package and creates relationships to the package and to the root document using the <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_Collada">Collada</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddColladaSchema">AddColladaSchema(Stream, Uri)</a></td><td>
+Adds a COLLADA schema part from the stream resource to the package and creates a package - part relationship to the package using <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_ColladaSchema">ColladaSchema</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddColladaSchema_1">AddColladaSchema(String, Uri)</a></td><td>
+Adds a COLLADA schema file to the package and creates a package - part relationship to the package using <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_ColladaSchema">ColladaSchema</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddLibrary_2">AddLibrary(Stream, Uri)</a></td><td>
+Adds a library stream to the package and creates a package - part relationship of type <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_Library">Library</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddLibrary_3">AddLibrary(String, Uri)</a></td><td>
+Adds a library file to the package and creates a package - part relationship of type <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_Library">Library</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddLibrary">AddLibrary(PackagePart, Stream, Uri, Boolean)</a></td><td>
+Adds a library from a stream resource to the package and creates relationships to the package and to the part containing the root document using the relationship type <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_Library">Library</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddLibrary_1">AddLibrary(PackagePart, String, Uri, Boolean)</a></td><td>
+Adds a library file to the package and creates relationships to the package and to the package containing the root document using the <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_Library">Library</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddPLCopenXml">AddPLCopenXml(PackagePart, Stream, Uri, Boolean)</a></td><td>
+Adds a PLCopenXml part read from a stream resource to the package and creates relationships to the package and to the package part containing the root document using the relationship type <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_PLCopenXml">PLCopenXml</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddPLCopenXml_1">AddPLCopenXml(PackagePart, String, Uri, Boolean)</a></td><td>
+Adds a PLCopenXml file to the package and creates relationships to the package and to the package part containing the root document using the relationship type <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_PLCopenXml">PLCopenXml</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddPLCopenXmlSchema">AddPLCopenXmlSchema(Stream, Uri)</a></td><td>
+Adds a PLCopenXml schema part from a stream resource to the package and creates a package - part relationship of type <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_PLCopenXmlSchema">PLCopenXmlSchema</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddPLCopenXmlSchema_1">AddPLCopenXmlSchema(String, Uri)</a></td><td>
+Adds a PLCopenXml schema file to the package and creates a package - part relationship of type <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_PLCopenXmlSchema">PLCopenXmlSchema</a> to the package.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddRoot">AddRoot(Stream, Uri)</a></td><td>
+Adds a root AML file from a stream resource to the package and creates a package - part relationship of type <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_Root">Root</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_AddRoot_1">AddRoot(String, Uri)</a></td><td>
+Adds a root AML file to the package and creates a package - part relationship of type <a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_RelationshipType_Root">Root</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_CheckRelatedParts">CheckRelatedParts</a></td><td>
+Returns an enumeration of the related parts for the specified part and relationship type.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_Close">Close</a></td><td>
+Saves and closes the package and all part streams.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_Dispose">Dispose</a></td><td>
+Performs application-defined tasks associated with the release, return or resetting of unmanaged resources.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_Extract">Extract(DirectoryInfo)</a></td><td>
+Extracts all parts in the package to the specified directory</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_Extract_1">Extract(DirectoryInfo, PackagePart)</a></td><td>
+Extracts the specified part in the package to the specified directory.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_ExtractAllFiles">ExtractAllFiles</a></td><td>
+Extracts all parts in the package to the specified directory</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_Flush">Flush</a></td><td>
+Saves the contents of all parts and relationships, contained in the package.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_GetPart">GetPart</a></td><td>
+Returns the part with the given URI.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_GetParts">GetParts</a></td><td>
+Returns an enumeration of all parts inside the package.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_GetPartsByRelationShipType">GetPartsByRelationShipType</a></td><td>
+Returns an enumeration of all parts with the given relationship type from the package.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_GetRelatedPartByUri">GetRelatedPartByUri</a></td><td>
+Gets the related part by URI.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_GetRelatedParts">GetRelatedParts(PackagePart)</a></td><td>
+Returns an enumeration of all related parts for the given part.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_GetRelatedParts_1">GetRelatedParts(PackagePart, AutomationMLContainer.RelationshipType)</a></td><td>
+Returns an enumeration of the related parts for the specified part and relationship type.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_GetRelationShips">GetRelationShips</a></td><td>
+Returns an enumeration of all contained relationships of this instance.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_GetRelationShipsByType">GetRelationShipsByType</a></td><td>
+Returns an enumeration of all relationships with the given relationship type.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_PartExists">PartExists</a></td><td>
+Determines, if a part with the specified part URI exists.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_RelationShipExists">RelationShipExists</a></td><td>
+Determines, if the specified relationship type exists.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_RelinkPart">RelinkPart</a></td><td>
+Changes the uri of a package part. The part is removed and readded with the provided *newPartUri*. All relationships of the part are updated.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_RootDocumentPath">RootDocumentPath</a></td><td>
+Gets the file path to the first root AML document when the container is already extracted. <a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_Extract">Extract(DirectoryInfo)</a> If the container is created from a stream source or no root document is found, the return value is `string.Empty`.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_RootDocumentStream">RootDocumentStream</a></td><td>
+Gets the stream of the first root AML document. If no root document is found, the return value is `null`.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Aml_Engine_AmlObjects_AutomationMLContainer_Save">Save</a></td><td>
+Saves the package and all part streams, the package is still open.</td></tr></table>&nbsp;
+<a href="#automationmlcontainer-class">Back to Top</a>
+
+## Fields
+&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public field](media/pubfield.gif "Public field")![Static member](media/static.gif "Static member")</td><td><a href="F_Aml_Engine_AmlObjects_AutomationMLContainer_AutomationMLMimeType">AutomationMLMimeType</a></td><td>
+The AutomationML MIME type</td></tr></table>&nbsp;
+<a href="#automationmlcontainer-class">Back to Top</a>
+
+## See Also
+
+
+#### Reference
+<a href="N_Aml_Engine_AmlObjects">Aml.Engine.AmlObjects Namespace</a><br /><a href="https://docs.microsoft.com/dotnet/api/system.idisposable" target="_parent" rel="noopener noreferrer">System.IDisposable</a><br />

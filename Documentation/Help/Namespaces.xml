@@ -53,6 +53,9 @@
                 namespace.
             </summary>
     </member>
+    <member name="N:Aml.Engine.CAEX.Linq">
+      <summary> </summary>
+    </member>
     <member name="N:Aml.Engine.Schema">
       <summary>
                 The Aml.Engine.Schema Namespace contains a schema parser which is used to parse the document assigned CAEX schema.
@@ -75,9 +78,6 @@
             </summary>
     </member>
     <member name="N:Aml.Engine.Services.Interfaces">
-      <summary> </summary>
-    </member>
-    <member name="N:Aml.Engine.Services.TreeTraversal">
       <summary> </summary>
     </member>
     <member name="N:Aml.Engine.XML">

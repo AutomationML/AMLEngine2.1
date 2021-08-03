@@ -401,15 +401,32 @@
             </returns>
       <exception cref="T:System.ArgumentNullException">caexObject</exception>
     </member>
-    <member name="M:Aml.Engine.Services.LookupService.AllExternalDataReferences(Aml.Engine.CAEX.CAEXDocument)">
+    <member name="M:Aml.Engine.Services.LookupService.AllExternalDataReferences(Aml.Engine.CAEX.CAEXDocument,Aml.Engine.CAEX.CAEXBasicObject)">
       <summary>
-                Returns all ExternalInterfaces which are
-                instances of the standard Interface class <see cref="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.ExternalDataConnector" />.
+            Returns all ExternalInterfaces in the provided document or optionally
+            in the caexObject and descendants,  which are
+            instances of the standard Interface class
+            <see cref="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.ExternalDataConnector" />.
             </summary>
       <param name="document">The document.</param>
+      <param name="caexObject">Optional parameter, defining a possible start object for the query.</param>
       <returns>
-                A collection of all ExternalInterface which are instances of the
-                standard Interface class <see cref="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.ExternalDataConnector" />.
+            A collection of all ExternalInterface which are instances of the
+            standard Interface class <see cref="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.ExternalDataConnector" />.
+            </returns>
+    </member>
+    <member name="M:Aml.Engine.Services.LookupService.AllExternalInterfacesOfType(Aml.Engine.CAEX.CAEXDocument,System.String,Aml.Engine.CAEX.CAEXBasicObject)">
+      <summary>
+            Returns all ExternalInterfaces  in the provided document or optionally
+            in the caexObject and descendants, which are
+            instances of the  Interface class defined by the provided <paramref name="interfaceClassPath" />.
+            </summary>
+      <param name="document">The document.</param>
+      <param name="interfaceClassPath">The CAEX ClassPath of the InterfaceClassType</param>
+      <param name="caexObject">Optional parameter, defining a possible start object for the query.</param>
+      <returns>
+            A collection of all ExternalInterface which are
+            instances of the  Interface class defined by the provided <paramref name="interfaceClassPath" />.
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.AllInternalElementsWithInternalLinks(Aml.Engine.CAEX.CAEXBasicObject)">
@@ -579,6 +596,9 @@
                 Gets or sets a value indicating whether this instance will automatically update
                 cross references between AutomationML objects.
             </summary>
+      <value>
+        <c>true</c> if the automatic update is enabled; otherwise, <c>false</c>.
+            </value>
     </member>
     <member name="M:Aml.Engine.Services.LookupService.IsMaster(Aml.Engine.CAEX.AttributeType)">
       <summary>
@@ -717,6 +737,7 @@
       <summary>
                 Gets the XML node.
             </summary>
+      <value>The element.</value>
     </member>
     <member name="M:Aml.Engine.Services.ReferenceElement.Equals(System.Object)">
       <summary>
@@ -735,6 +756,7 @@
     <member name="P:Aml.Engine.Services.ReferenceElement.ReferenceAttributeName">
       <summary>
                 Gets the name of the reference attribute of the <see cref="P:Aml.Engine.Services.ReferenceElement.Element" /></summary>
+      <value>The name of the reference attribute.</value>
     </member>
     <member name="P:Aml.Engine.Services.ReferenceElement.ReferenceAttributeValue">
       <summary>
@@ -746,12 +768,12 @@
                 Enumeration RepairTypeEnum
             </summary>
     </member>
-    <member name="F:Aml.Engine.Services.RepairTypeEnum.IDDefitionOption">
+    <member name="F:Aml.Engine.Services.RepairTypeEnum.IDDefinitionOption">
       <summary>
                 The options which are related to ID validation issues
             </summary>
     </member>
-    <member name="F:Aml.Engine.Services.RepairTypeEnum.NameDefintionOption">
+    <member name="F:Aml.Engine.Services.RepairTypeEnum.NameDefinitionOption">
       <summary>
                 The  options which are related to Name validation issues
             </summary>
@@ -1277,11 +1299,13 @@
       <summary>
                 Gets the key.
             </summary>
+      <value>The key.</value>
     </member>
     <member name="P:Aml.Engine.Services.ValidationKey.ValidationType">
       <summary>
                 Gets the type of the validation.
             </summary>
+      <value>The type of the validation.</value>
     </member>
     <member name="T:Aml.Engine.Services.ValidationResults">
       <summary>

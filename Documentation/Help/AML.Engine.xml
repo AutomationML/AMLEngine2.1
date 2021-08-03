@@ -6,7 +6,7 @@
   <members>
     <member name="T:Aml.Engine.Adapter.AMLEngineAdapter">
       <summary>
-                This class provides methods, which exists in the old AMLEgine_v3.x.x and are no longer supported. These methods are
+                This class provides methods, which exists in the old AMLEngine_v3.x.x and are no longer supported. These methods are
                 provided to support the migration of legacy code.
             </summary>
     </member>
@@ -680,26 +680,31 @@
       <summary>
                 Gets or sets the Internal Link.
             </summary>
+      <value>The Internal Link.</value>
     </member>
     <member name="P:Aml.Engine.Adapter.LinkedObjects.RefPartnerSideAElement">
       <summary>
                 Gets the reference partner side A Internal Element.
             </summary>
+      <value>The reference partner side a element.</value>
     </member>
     <member name="P:Aml.Engine.Adapter.LinkedObjects.RefPartnerSideAExternalInterface">
       <summary>
                 Gets or sets the reference partner side A External Interface.
             </summary>
+      <value>The reference partner side a external interface.</value>
     </member>
     <member name="P:Aml.Engine.Adapter.LinkedObjects.RefPartnerSideBElement">
       <summary>
                 Gets or sets the reference partner side b Internal Element.
             </summary>
+      <value>The reference partner side b element.</value>
     </member>
     <member name="P:Aml.Engine.Adapter.LinkedObjects.RefPartnerSideBExternalInterface">
       <summary>
                 Gets or sets the reference partner side B External Interface.
             </summary>
+      <value>The reference partner side b external interface.</value>
     </member>
     <member name="M:Aml.Engine.Adapter.LinkedObjects.ToString">
       <summary>
@@ -892,8 +897,11 @@
     </member>
     <member name="P:Aml.Engine.AmlObjects.AMLFile.DocumentVersion">
       <summary>
-                Gets the collection of defined document version informations of the AMLFile
+                Gets the collection of defined document version information of the AMLFile
             </summary>
+      <value>
+                The collection of document version information.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AMLFile.GenericAdditionalInformation">
       <summary>
@@ -926,7 +934,7 @@
     </member>
     <member name="M:Aml.Engine.AmlObjects.AMLFile.IsAutomationMLVersion(System.Xml.Linq.XElement)">
       <summary>
-                Determines whether the specified XML element represents an AddionalInformation object, representing the
+                Determines whether the specified XML element represents an AdditionalInformation object, representing the
                 AutomationMLVersion.
             </summary>
       <param name="element">The element.</param>
@@ -936,8 +944,8 @@
     </member>
     <member name="M:Aml.Engine.AmlObjects.AMLFile.IsDocumentVersion(System.Xml.Linq.XElement)">
       <summary>
-                Determines whether the specified XML element represents an AddionalInformation object, using the specific
-                DocumentVerson syntax.
+                Determines whether the specified XML element represents an AdditionalInformation object, using the specific
+                DocumentVersion syntax.
             </summary>
       <param name="element">The element.</param>
       <returns>
@@ -946,7 +954,7 @@
     </member>
     <member name="M:Aml.Engine.AmlObjects.AMLFile.IsGenericAdditionalInformation(System.Xml.Linq.XElement)">
       <summary>
-                Determines whether the specified XML element represents an AddionalInformation object, not using any specific
+                Determines whether the specified XML element represents an AdditionalInformation object, not using any specific
                 syntax as the
                 <see cref="P:Aml.Engine.AmlObjects.AMLFile.DocumentVersion" /> or <see cref="P:Aml.Engine.AmlObjects.AMLFile.WriterHeader" /> elements.
             </summary>
@@ -966,7 +974,7 @@
     </member>
     <member name="M:Aml.Engine.AmlObjects.AMLFile.IsWriterHeader(System.Xml.Linq.XElement)">
       <summary>
-                Determines whether the specified XML element represents an AddionalInformation object, using the specific
+                Determines whether the specified XML element represents an AdditionalInformation object, using the specific
                 WriterHeader syntax.
             </summary>
       <param name="element">The element.</param>
@@ -984,7 +992,7 @@
     <member name="M:Aml.Engine.AmlObjects.AMLFile.ReplaceMetaInformation(System.String,Aml.Engine.AmlObjects.MetaInformation)">
       <summary>
                 This function replaces any existing meta information corresponding to the identical
-                oldWriterID with the new meta information defined in the newMetainformation
+                oldWriterID with the new meta information defined in the new Meta information
             </summary>
       <param name="oldWriterID">writerID of the old meta information</param>
       <param name="newMetainformation">substitute for the old version of meta information</param>
@@ -1048,6 +1056,9 @@
       <summary>
                 Gets the collection of defined writer headers of the AMLFile
             </summary>
+      <value>
+                The collection writer header.
+            </value>
     </member>
     <member name="T:Aml.Engine.AmlObjects.AMLGroup">
       <summary>
@@ -1282,12 +1293,22 @@
     </member>
     <member name="F:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLib.AssociatedExternalValue">
       <summary>
-                The 'AssociatedExternalValue' AttributeType path
-            </summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLib.AssociatedExternalValue</parameter>
+          </include>
+        </markup>
+      </summary>
     </member>
     <member name="F:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLib.AssociatedFacet">
       <summary>
                 The 'AssociatedFacet' AttributeType path
+            </summary>
+    </member>
+    <member name="F:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLib.AssociatedValue">
+      <summary>
+                The 'AssociatedValue' AttributeType path
             </summary>
     </member>
     <member name="F:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLib.AutomationMLBaseAttributeTypeLibName">
@@ -1322,17 +1343,44 @@
     </member>
     <member name="M:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLib.IsAssociatedExternalValue(Aml.Engine.CAEX.AttributeTypeType)">
       <summary>
-                Determines whether the specified attribute reference defines an inheritance relation from the
-                AssociatedExternalValue AttributeType
-            </summary>
-      <param name="attribute">The attribute.</param>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLib.IsAssociatedExternalValue(Aml.Engine.CAEX.AttributeTypeType)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="attribute">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>attribute</parameter>
+            <parameter>M:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLib.IsAssociatedExternalValue(Aml.Engine.CAEX.AttributeTypeType)</parameter>
+          </include>
+        </markup>
+      </param>
       <returns>
-        <c>true</c> if an inheritance relation is resolved; otherwise, <c>false</c>.</returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLib.IsAssociatedExternalValue(Aml.Engine.CAEX.AttributeTypeType)</parameter>
+          </include>
+        </markup>
+      </returns>
     </member>
     <member name="M:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLib.IsAssociatedFacet(Aml.Engine.CAEX.AttributeTypeType)">
       <summary>
                 Determines whether the specified attribute reference defines an inheritance relation from the
                 AssociatedFacet AttributeType
+            </summary>
+      <param name="attribute">The attribute.</param>
+      <returns>
+        <c>true</c> if an inheritance relation is resolved; otherwise, <c>false</c>.</returns>
+    </member>
+    <member name="M:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLib.IsAssociatedValue(Aml.Engine.CAEX.AttributeTypeType)">
+      <summary>
+                Determines whether the specified attribute reference defines an inheritance relation from the
+                AssociatedValue AttributeType
             </summary>
       <param name="attribute">The attribute.</param>
       <returns>
@@ -1842,31 +1890,49 @@
       <summary>
                 Gets the automation ml base role.
             </summary>
+      <value>
+                The automation ml base role.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AutomationMLBaseRoleClassLibType.Facet">
       <summary>
                 Gets the facet.
             </summary>
+      <value>
+                The facet.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AutomationMLBaseRoleClassLibType.Frame">
       <summary>
                 Gets the frame.
             </summary>
+      <value>
+                The frame.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AutomationMLBaseRoleClassLibType.Group">
       <summary>
                 Gets the group.
             </summary>
+      <value>
+                The group.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AutomationMLBaseRoleClassLibType.InterlockingSourceGroup">
       <summary>
                 Gets the interlocking source group.
             </summary>
+      <value>
+                The interlocking source group.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AutomationMLBaseRoleClassLibType.InterlockingTargetGroup">
       <summary>
                 Gets the interlocking target group.
             </summary>
+      <value>
+                The interlocking target group.
+            </value>
     </member>
     <member name="M:Aml.Engine.AmlObjects.AutomationMLBaseRoleClassLibType.IsLoaded(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
@@ -1881,46 +1947,73 @@
       <summary>
                 Gets the logic object.
             </summary>
+      <value>
+                The logic object.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AutomationMLBaseRoleClassLibType.Port">
       <summary>
                 Gets the port.
             </summary>
+      <value>
+                The port.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AutomationMLBaseRoleClassLibType.Process">
       <summary>
                 Gets the process.
             </summary>
+      <value>
+                The process.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AutomationMLBaseRoleClassLibType.ProcessStructure">
       <summary>
                 Gets the process structure.
             </summary>
+      <value>
+                The process structure.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AutomationMLBaseRoleClassLibType.Product">
       <summary>
                 Gets the product.
             </summary>
+      <value>
+                The product.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AutomationMLBaseRoleClassLibType.ProductStructure">
       <summary>
                 Gets the product structure.
             </summary>
+      <value>
+                The product structure.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AutomationMLBaseRoleClassLibType.PropertySet">
       <summary>
                 Gets the property set.
             </summary>
+      <value>
+                The property set.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AutomationMLBaseRoleClassLibType.Resource">
       <summary>
                 Gets the resource.
             </summary>
+      <value>
+                The resource.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AutomationMLBaseRoleClassLibType.ResourceStructure">
       <summary>
                 Gets the resource structure.
             </summary>
+      <value>
+                The resource structure.
+            </value>
     </member>
     <member name="M:Aml.Engine.AmlObjects.AutomationMLBaseRoleClassLibType.RoleClassLib(Aml.Engine.CAEX.CAEXDocument)">
       <summary>
@@ -1934,6 +2027,9 @@
       <summary>
                 Gets the structure.
             </summary>
+      <value>
+                The structure.
+            </value>
     </member>
     <member name="T:Aml.Engine.AmlObjects.AutomationMLContainer">
       <summary>
@@ -2038,7 +2134,7 @@
                 other file streams to the same file.
             </param>
     </member>
-    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddAnyContent(System.IO.Packaging.PackagePart,System.IO.Stream,System.Uri,System.String)">
+    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddAnyContent(System.IO.Packaging.PackagePart,System.IO.Stream,System.Uri,System.String,System.Boolean)">
       <summary>
                 Adds any content from the specified stream resource to the package creating
                 relationships to the package and to the part, containing the root document
@@ -2056,11 +2152,14 @@
       <param name="mimeType">
                 optional mime type, the default mime type for the relationship is used if empty
             </param>
+      <param name="addPackageRelation">
+                optional parameter, defining if a package relation should be added
+            </param>
       <returns>
                 PackagePart.
             </returns>
     </member>
-    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddAnyContent(System.IO.Packaging.PackagePart,System.String,System.Uri,System.String)">
+    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddAnyContent(System.IO.Packaging.PackagePart,System.String,System.Uri,System.String,System.Boolean)">
       <summary>
                 Adds any content to the package creating relationships to the package and to
                 the part, containing the root document using the relationship type <see cref="F:Aml.Engine.AmlObjects.AutomationMLContainer.RelationshipType.AnyContent" />.
@@ -2076,6 +2175,9 @@
             </param>
       <param name="mimeType">
                 optional mime type, the default mime type for the relationship is used if empty
+            </param>
+      <param name="addPackageRelation">
+                optional parameter, defining if a package relation should be added
             </param>
       <returns>
                 PackagePart.
@@ -2111,7 +2213,7 @@
                 added part
             </returns>
     </member>
-    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddCollada(System.IO.Packaging.PackagePart,System.IO.Stream,System.Uri)">
+    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddCollada(System.IO.Packaging.PackagePart,System.IO.Stream,System.Uri,System.Boolean)">
       <summary>
                 Adds a COLLADA part read from the specified stream resource to the package and
                 creates relationships to the package and to the root document using the <see cref="F:Aml.Engine.AmlObjects.AutomationMLContainer.RelationshipType.Collada" />.
@@ -2125,11 +2227,14 @@
       <param name="partUri">
                 package internal name of the part
             </param>
+      <param name="addPackageRelation">
+                optional parameter, defining if a package relation should be added
+            </param>
       <returns>
                 added part
             </returns>
     </member>
-    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddCollada(System.IO.Packaging.PackagePart,System.String,System.Uri)">
+    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddCollada(System.IO.Packaging.PackagePart,System.String,System.Uri,System.Boolean)">
       <summary>
                 Adds a COLLADA file to the package and creates relationships to the package
                 and to the root document using the <see cref="F:Aml.Engine.AmlObjects.AutomationMLContainer.RelationshipType.Collada" />.
@@ -2142,6 +2247,9 @@
             </param>
       <param name="partUri">
                 package internal name of the part
+            </param>
+      <param name="addPackageRelation">
+                optional parameter, defining if a package relation should be added
             </param>
       <returns>
                 added part
@@ -2177,7 +2285,7 @@
                 added part
             </returns>
     </member>
-    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddLibrary(System.IO.Packaging.PackagePart,System.IO.Stream,System.Uri)">
+    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddLibrary(System.IO.Packaging.PackagePart,System.IO.Stream,System.Uri,System.Boolean)">
       <summary>
                 Adds a library from a stream resource to the package and creates relationships
                 to the package and to the part containing the root document using the
@@ -2192,11 +2300,14 @@
       <param name="partUri">
                 package internal name of the part
             </param>
+      <param name="addPackageRelation">
+                optional parameter, defining if a package relation should be added
+            </param>
       <returns>
                 added part
             </returns>
     </member>
-    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddLibrary(System.IO.Packaging.PackagePart,System.String,System.Uri)">
+    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddLibrary(System.IO.Packaging.PackagePart,System.String,System.Uri,System.Boolean)">
       <summary>
                 Adds a library file to the package and creates relationships to the package
                 and to the package containing the root document using the <see cref="F:Aml.Engine.AmlObjects.AutomationMLContainer.RelationshipType.Library" />.
@@ -2209,6 +2320,9 @@
             </param>
       <param name="partUri">
                 package internal name of the part
+            </param>
+      <param name="addPackageRelation">
+                optional parameter, defining if a package relation should be added
             </param>
       <returns>
                 added part
@@ -2244,7 +2358,7 @@
                 added part
             </returns>
     </member>
-    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddPLCopenXml(System.IO.Packaging.PackagePart,System.IO.Stream,System.Uri)">
+    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddPLCopenXml(System.IO.Packaging.PackagePart,System.IO.Stream,System.Uri,System.Boolean)">
       <summary>
                 Adds a PLCopenXml part read from a stream resource to the package and creates
                 relationships to the package and to the package part containing the root
@@ -2259,11 +2373,14 @@
       <param name="partUri">
                 package internal name of the part
             </param>
+      <param name="addPackageRelation">
+                optional parameter, defining if a package relation should be added
+            </param>
       <returns>
                 added part
             </returns>
     </member>
-    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddPLCopenXml(System.IO.Packaging.PackagePart,System.String,System.Uri)">
+    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.AddPLCopenXml(System.IO.Packaging.PackagePart,System.String,System.Uri,System.Boolean)">
       <summary>
                 Adds a PLCopenXml file to the package and creates relationships to the package
                 and to the package part containing the root document using the relationship
@@ -2277,6 +2394,9 @@
             </param>
       <param name="partUri">
                 package internal name of the part
+            </param>
+      <param name="addPackageRelation">
+                optional parameter, defining if a package relation should be added
             </param>
       <returns>
                 added part
@@ -2347,6 +2467,21 @@
                 The AutomationML MIME type
             </summary>
     </member>
+    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.CheckRelatedParts(System.IO.Packaging.PackagePart,Aml.Engine.AmlObjects.AutomationMLContainer.RelationshipType)">
+      <summary>
+                Returns an enumeration of the related parts for the specified part and
+                relationship type.
+            </summary>
+      <param name="part">
+                The part.
+            </param>
+      <param name="relationShipType">
+                The relationship type.
+            </param>
+      <returns>
+                IEnumerable&lt;PackagePart&gt;.
+            </returns>
+    </member>
     <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.Close">
       <summary>
                 Saves and closes the package and all part streams.
@@ -2358,11 +2493,17 @@
                 <see cref="F:System.IO.Packaging.CompressionOption.Normal" />
                 by default.
             </summary>
+      <value>
+                The compression mode.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AutomationMLContainer.ContainerFilename">
       <summary>
                 Gets the full path of the used container file.
             </summary>
+      <value>
+                The filename.
+            </value>
     </member>
     <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.Dispose">
       <summary>
@@ -2500,6 +2641,9 @@
       <summary>
                 Gets the underlying package of this instance.
             </summary>
+      <value>
+                The package.
+            </value>
     </member>
     <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.PartExists(System.Uri)">
       <summary>
@@ -2522,6 +2666,16 @@
       <returns>
         <c>true</c> if relationship type exists, <c>false</c> otherwise.
             </returns>
+    </member>
+    <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.RelinkPart(System.Uri,System.Uri)">
+      <summary>
+            Changes the uri of a package part. The part is removed and readded with the provided
+            <paramref name="newPartUri" />. All relationships of the part are updated.
+            </summary>
+      <param name="oldPartUri"></param>
+      <param name="newPartUri"></param>
+      <returns>
+        <c>true</c> if a part with the provided <paramref name="oldPartUri" /> exists; otherwise false</returns>
     </member>
     <member name="M:Aml.Engine.AmlObjects.AutomationMLContainer.RootDocumentPath(System.IO.DirectoryInfo)">
       <summary>
@@ -2610,11 +2764,17 @@
       <summary>
                 Gets the mime type of the relationship
             </summary>
+      <value>
+                The mime type.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.AutomationMLContainer.RelationshipType.Name">
       <summary>
                 Gets the name of the relationship.
             </summary>
+      <value>
+                The name.
+            </value>
     </member>
     <member name="F:Aml.Engine.AmlObjects.AutomationMLContainer.RelationshipType.PLCopenXml">
       <summary>
@@ -2987,7 +3147,7 @@
     </member>
     <member name="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.PLCopenXMLInterface">
       <summary>
-                The plcopenXML  interface class path (a Part 1 Interface)
+                The PLCopenXML  interface class path (a Part 1 Interface)
             </summary>
     </member>
     <member name="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.PortConnector">
@@ -3045,7 +3205,7 @@
     </member>
     <member name="T:Aml.Engine.AmlObjects.DocumentVersionInformation">
       <summary>
-                This Class is defined for the modelling of document version information as defined in the AutomationML BPR
+                This Class is defined for the modeling of document version information as defined in the AutomationML BPR
                 06 "Naming of related documents and their versions". <see cref="T:Aml.Engine.AmlObjects.DocumentVersions" /> are stored
                 as <see cref="P:Aml.Engine.CAEX.CAEXBasicObject.AdditionalInformation" /> attached to the CAEXFile Node of the AMLDocument.
             </summary>
@@ -3068,12 +3228,19 @@
                 The document attribute "DocumentIdentifier" shall define the name of the
                 referenced document.
             </summary>
+      <value>
+                The "DocumentIdentifier" of the document should not be changed.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.DocumentVersionInformation.Version">
       <summary>
                 The document attribute "Version" shall define the version range of the
                 referenced document.
             </summary>
+      <value>
+                The version number shall have three numbers separated by ".". The three
+                numbers define "main version", "minor version" and "revision".
+            </value>
     </member>
     <member name="T:Aml.Engine.AmlObjects.DocumentVersions">
       <summary>
@@ -3108,7 +3275,7 @@
                 exists, this DocumentVersion information is replaced.
             </summary>
       <param name="myCAEXFile">
-                the CAEXFile of the AutomaionML document
+                the CAEXFile of the AutomationML document
             </param>
       <param name="documentIdentifier">
                 The "DocumentIdentifier" shall define the name of the referenced document.
@@ -3186,7 +3353,7 @@
     </member>
     <member name="M:Aml.Engine.AmlObjects.DocumentVersions.GetAllDocumentVersionInformation(Aml.Engine.CAEX.CAEXFileType)">
       <summary>
-                This methods returns an Enumeration of all Informations related to document
+                This methods returns an Enumeration of all Information related to document
                 versions defined in the "DocumentVersions" information of an AutomationML document.
             </summary>
       <param name="myCAEXFile">
@@ -3621,6 +3788,7 @@
       <summary>
                 Gets and sets the frame values for this FrameAttribute
             </summary>
+      <value>The frame.</value>
     </member>
     <member name="F:Aml.Engine.AmlObjects.FrameAttributeType.FRAME_NAME">
       <summary>
@@ -3656,6 +3824,9 @@
           </include>
         </markup>
       </returns>
+      <value>
+        <c>true</c> if the attribute is a frame attribute; otherwise, <c>false</c>.
+            </value>
     </member>
     <member name="F:Aml.Engine.AmlObjects.FrameAttributeType.RX_Name">
       <summary>
@@ -3757,31 +3928,37 @@
       <summary>
                 Gets or sets the rx.
             </summary>
+      <value>The rx.</value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.FrameValues.Ry">
       <summary>
                 Gets or sets the ry.
             </summary>
+      <value>The ry.</value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.FrameValues.Rz">
       <summary>
                 Gets or sets the rz.
             </summary>
+      <value>The rz.</value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.FrameValues.X">
       <summary>
                 Gets or sets the x.
             </summary>
+      <value>The x.</value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.FrameValues.Y">
       <summary>
                 Gets or sets the y.
             </summary>
+      <value>The y.</value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.FrameValues.Z">
       <summary>
                 Gets or sets the z.
             </summary>
+      <value>The z.</value>
     </member>
     <member name="T:Aml.Engine.AmlObjects.ListAttribute">
       <summary>
@@ -3917,46 +4094,73 @@
       <summary>
                 time stamp of the AutomationML export
             </summary>
+      <value>
+                The last writing date time.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.MetaInformation.WriterID">
       <summary>
                 the ID of the writer tool, maybe identical to the tools name if it is not subject of change
             </summary>
+      <value>
+                The writer identifier.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.MetaInformation.WriterName">
       <summary>
                 the name of the writer tool (e.g. CoDeSys)
             </summary>
+      <value>
+                The name of the writer.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.MetaInformation.WriterProjectID">
       <summary>
                 ID of the project that contains the source engineering data
             </summary>
+      <value>
+                The writer project identifier.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.MetaInformation.WriterProjectTitle">
       <summary>
                 name of the project that contains the source engineering data
             </summary>
+      <value>
+                The writer project title.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.MetaInformation.WriterRelease">
       <summary>
                 release information about the writer tool, e.g. "beta12"
             </summary>
+      <value>
+                The writer release.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.MetaInformation.WriterVendor">
       <summary>
                 the vendor of the writer tool, e.g. "3S"
             </summary>
+      <value>
+                The writer vendor.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.MetaInformation.WriterVendorURL">
       <summary>
                 the web URL of the vendor - helps to get in contact to the vendor
             </summary>
+      <value>
+                The writer vendor URL.
+            </value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.MetaInformation.WriterVersion">
       <summary>
                 version of the writer tool, e.g. "3.4"
             </summary>
+      <value>
+                The writer version.
+            </value>
     </member>
     <member name="T:Aml.Engine.AmlObjects.ObjectWithAMLAttributes">
       <summary>
@@ -3993,6 +4197,9 @@
                 <see cref="P:Aml.Engine.AmlObjects.ObjectWithAMLAttributes.CAEXBase" />.
                 If no such attribute exists, <c>null</c> is returned.
             </summary>
+      <value>
+                The frame attribute.
+            </value>
     </member>
     <member name="M:Aml.Engine.AmlObjects.ObjectWithAMLAttributes.New_FrameAttribute(Aml.Engine.AmlObjects.FrameValues)">
       <summary>
@@ -4061,6 +4268,9 @@
       <summary>
                 Gets a value indicating whether this instance is a RefURI attribute.
             </summary>
+      <value>
+        <c>true</c> if this instance is a RefURI attribute; otherwise, <c>false</c>.
+            </value>
     </member>
     <member name="F:Aml.Engine.AmlObjects.RefTypeAttributeType.REF_TYPE_ATTRIBUTE">
       <summary>
@@ -4092,6 +4302,7 @@
       <summary>
                 Gets the pure file path of this external reference attribute without the identifier.
             </summary>
+      <value>The file path.</value>
     </member>
     <member name="M:Aml.Engine.AmlObjects.RefURIAttributeType.IsAbsoluteUri">
       <summary>
@@ -4111,6 +4322,9 @@
       <summary>
                 Gets a value indicating whether this instance is a RefURI attribute.
             </summary>
+      <value>
+        <c>true</c> if this instance is a RefURI attribute; otherwise, <c>false</c>.
+            </value>
     </member>
     <member name="F:Aml.Engine.AmlObjects.RefURIAttributeType.REF_URI_ATTRIBUTE">
       <summary>
@@ -4121,11 +4335,27 @@
       <summary>
                 Gets the referenced node.
             </summary>
+      <value>The referenced node.</value>
     </member>
     <member name="P:Aml.Engine.AmlObjects.RefURIAttributeType.TheUri">
       <summary>
                 Gets or sets the URI.
             </summary>
+      <value>The URI.</value>
+    </member>
+    <member name="M:Aml.Engine.AmlObjects.RefURIAttributeType.UriReferencesAreEqual(System.String)">
+      <summary>
+            Determines, ob the refUri is equal to the attributes value
+            </summary>
+      <param name="refUri"></param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Aml.Engine.AmlObjects.RefURIAttributeType.UriReferencesAreEqual(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
     </member>
     <member name="T:Aml.Engine.AmlObjects.Extensions.AmlObjectsExtensions">
       <summary>
@@ -4316,6 +4546,9 @@
           </include>
         </markup>
       </returns>
+      <value>
+        <c>true</c> if this instance is a RefType attribute; otherwise, <c>false</c>.
+            </value>
     </member>
     <member name="M:Aml.Engine.AmlObjects.Extensions.AmlObjectsExtensions.IsRefURIAttribute(Aml.Engine.CAEX.AttributeType)">
       <summary>
@@ -4338,6 +4571,9 @@
           </include>
         </markup>
       </returns>
+      <value>
+        <c>true</c> if this instance is a RefURI attribute; otherwise, <c>false</c>.
+            </value>
     </member>
     <member name="M:Aml.Engine.AmlObjects.Extensions.AmlObjectsExtensions.New_FrameAttribute(Aml.Engine.CAEX.IObjectWithAttributes,Aml.Engine.AmlObjects.FrameValues)">
       <summary>
@@ -4465,7 +4701,7 @@
                 Converts an AttributeType to a RefTypeAttribute.
             </summary>
       <param name="attribute">The AttributeType object.</param>
-      <returns>An RefTypettributeType object.</returns>
+      <returns>An RefTypeAttributeType object.</returns>
     </member>
     <member name="M:Aml.Engine.AmlObjects.Extensions.AmlObjectsExtensions.ToRefURIAttribute(Aml.Engine.CAEX.AttributeType)">
       <summary>
@@ -4627,11 +4863,15 @@
       <summary>
                 Gets the reference base class path.
             </summary>
+      <value>
+                The reference base class path.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.AttributeFamilyType.ReferencedClassName">
       <summary>
                 Gets the name (not the full path) of the referenced base class.
             </summary>
+      <value>The name of the referenced class.</value>
     </member>
     <member name="M:Aml.Engine.CAEX.AttributeFamilyType.System#Collections#IEnumerable#GetEnumerator">
       <summary>
@@ -4665,6 +4905,9 @@
             Gets the RoleClass element which can be identified with the <see cref="P:Aml.Engine.CAEX.AttributeNameMappingType.RoleAttributeName" /> or sets
             the <see cref="P:Aml.Engine.CAEX.AttributeNameMappingType.RoleAttributeName" /> retrieved from the provided value.
             </summary>
+      <value>
+            The role attribute.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.AttributeNameMappingType.RoleAttributeName">
       <summary>
@@ -4675,6 +4918,9 @@
       <summary>
             Gets and sets the identifier for the mapped RoleClass element.
             </summary>
+      <value>
+            The role class element identifier.
+            </value>
     </member>
     <member name="M:Aml.Engine.CAEX.AttributeNameMappingType.RoleClassMappingElements(System.Boolean)">
       <summary>
@@ -4701,12 +4947,18 @@
           </include>
         </markup>
       </returns>
+      <value>
+            The possible mapping identifiers to map Attributes of the RoleClass and its ExternalInterface objects.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.AttributeNameMappingType.SystemUnitAttribute">
       <summary>
             Gets or sets the system unit attribute which is defined using the CAEX attribute
             <see cref="P:Aml.Engine.CAEX.AttributeNameMappingType.SystemUnitAttributeName" />.
             </summary>
+      <value>
+            The system unit attribute.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.AttributeNameMappingType.SystemUnitAttributeName">
       <summary>
@@ -4717,6 +4969,9 @@
       <summary>
             Gets or sets the identifier for the mapped SystemUnitClass element.
             </summary>
+      <value>
+            The system unit class element identifier.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.AttributeNameMappingType.SystemUnitClassMappingElements">
       <summary>
@@ -4726,6 +4981,9 @@
             the SystemUnitClass. The Attribute Identifiers are the unique CAEXPath's of the attributes relative to the
             SystemUnitClass.
             </summary>
+      <value>
+            The possible mapping identifiers to map Attributes of the SystemUnitClass and its ExternalInterface objects.
+            </value>
     </member>
     <member name="T:Aml.Engine.CAEX.AttributeSequence">
       <summary>
@@ -4804,6 +5062,9 @@
       <summary>
                 Gets the owner of the Attribute Tree. This is the first ancestor, which is not an AttributeType object.
             </summary>
+      <value>
+                The TreeOwner
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.AttributeType.AttributeTypeReference">
       <summary>
@@ -4958,6 +5219,11 @@
                 For this class, it is the instance itself.
             </summary>
     </member>
+    <member name="P:Aml.Engine.CAEX.AttributeTypeType.AttributeValue">
+      <summary>
+            Gets and set the encoded/decoded attribute value according to the defined AttributeDataType.
+            </summary>
+    </member>
     <member name="M:Aml.Engine.CAEX.AttributeTypeType.CAEXSequence(Aml.Engine.CAEX.ICAEXWrapper)">
       <summary>
                 Gets the CAEXSequence owned by this CAEX object, which contains the specified CAEX object.
@@ -5002,9 +5268,16 @@
       </typeparam>
       <returns>The CAEX container</returns>
     </member>
+    <member name="P:Aml.Engine.CAEX.AttributeTypeType.DefaultAttributeValue">
+      <summary>
+            Gets and set the encoded/decoded default attribute value according to the defined AttributeDataType.
+            </summary>
+    </member>
     <member name="P:Aml.Engine.CAEX.AttributeTypeType.DefaultValue">
       <summary>
-                Gets and sets the DefaultValue element of this Attribute object.
+                Gets and sets the DefaultValue element of this Attribute object. Use the
+                property <see cref="P:Aml.Engine.CAEX.AttributeTypeType.DefaultAttributeValue" />, to get or set the type encoded
+                default value according to the Attribute Data Type.
             </summary>
     </member>
     <member name="M:Aml.Engine.CAEX.AttributeTypeType.GetCaexValue(System.String)">
@@ -6350,8 +6623,22 @@
             </summary>
     </member>
     <member name="M:Aml.Engine.CAEX.CAEXFileType.System#Collections#IEnumerable#GetEnumerator">
-      <summary>Returns an enumerator that iterates through a collection.</summary>
-      <returns>An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.</returns>
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Aml.Engine.CAEX.CAEXFileType.System#Collections#IEnumerable#GetEnumerator</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Aml.Engine.CAEX.CAEXFileType.System#Collections#IEnumerable#GetEnumerator</parameter>
+          </include>
+        </markup>
+      </returns>
     </member>
     <member name="P:Aml.Engine.CAEX.CAEXFileType.SystemUnitClassLib">
       <summary>
@@ -7100,6 +7387,9 @@
                 Gets and sets the value of the wrapped XML node, according to the defined DataType. If the element doesn't exists,
                 it is created and inserted into the document as a child of the defined owner.
             </summary>
+      <value>
+                The value.
+            </value>
     </member>
     <member name="T:Aml.Engine.CAEX.ChangeMode">
       <summary>
@@ -7240,6 +7530,9 @@
                 RoleRequirement and returns the Wrapper for this associated object.
                 Also works for nested Interfaces.
             </summary>
+      <value>
+                The associated object.
+            </value>
     </member>
     <member name="M:Aml.Engine.CAEX.ExternalInterfaceType.CreateMirror">
       <summary>
@@ -7281,6 +7574,9 @@
                 will transform this
                 instance into a mirror.
             </summary>
+      <value>
+                The master.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.ExternalInterfaceType.MasterID">
       <summary>
@@ -7721,11 +8017,15 @@
       <summary>
                 Gets the reference base class path.
             </summary>
+      <value>
+                The reference base class path.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.IClassWithBaseClassReference.ReferencedClassName">
       <summary>
                 Gets the name (not the full path) of the referenced base class.
             </summary>
+      <value>The name of the referenced class.</value>
     </member>
     <member name="T:Aml.Engine.CAEX.IClassWithBaseClassReference`1">
       <summary>
@@ -7739,6 +8039,9 @@
       <summary>
                 Gets and sets the base class to define a class to class relation.
             </summary>
+      <value>
+                The base class.
+            </value>
     </member>
     <member name="M:Aml.Engine.CAEX.IClassWithBaseClassReference`1.GetReferenceHierarchy">
       <summary>
@@ -8236,6 +8539,7 @@
       <summary>
                 Gets the name (not the full path) of the referenced base class.
             </summary>
+      <value>The name of the referenced class.</value>
     </member>
     <member name="M:Aml.Engine.CAEX.InterfaceFamilyType.System#Collections#IEnumerable#GetEnumerator">
       <summary>
@@ -8261,6 +8565,9 @@
       <summary>
                 Gets and sets the identifier for the mapped RoleClass element.
             </summary>
+      <value>
+                The role class element identifier.
+            </value>
     </member>
     <member name="M:Aml.Engine.CAEX.InterfaceIDMappingType.RoleClassMappingElements(System.Boolean)">
       <summary>
@@ -8285,6 +8592,9 @@
           </include>
         </markup>
       </returns>
+      <value>
+                The possible mapping identifiers to map ExternalInterfaces of the RoleClass.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.InterfaceIDMappingType.RoleInterface">
       <summary>
@@ -8300,6 +8610,9 @@
       <summary>
                 Gets or sets the identifier for the mapped SystemUnitClass element.
             </summary>
+      <value>
+                The system unit class element identifier.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.InterfaceIDMappingType.SystemUnitClassMappingElements">
       <summary>
@@ -8308,6 +8621,9 @@
                 the
                 SystemUnitClass. The ExternalInterface ID is used as the Mapping identifier.
             </summary>
+      <value>
+                The possible mapping identifiers to map ExternalInterfaces of the SystemUnitClass.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.InterfaceIDMappingType.SystemUnitInterface">
       <summary>
@@ -8335,6 +8651,9 @@
       <summary>
             Gets and sets the identifier for the mapped RoleClass element.
             </summary>
+      <value>
+            The role class element identifier.
+            </value>
     </member>
     <member name="M:Aml.Engine.CAEX.InterfaceNameMappingType.RoleClassMappingElements(System.Boolean)">
       <summary>
@@ -8359,6 +8678,9 @@
           </include>
         </markup>
       </returns>
+      <value>
+            The possible mapping identifiers to map ExternalInterfaces of the RoleClass.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.InterfaceNameMappingType.RoleInterface">
       <summary>
@@ -8374,6 +8696,9 @@
       <summary>
             Gets or sets the identifier for the mapped SystemUnitClass element.
             </summary>
+      <value>
+            The system unit class element identifier.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.InterfaceNameMappingType.SystemUnitClassMappingElements">
       <summary>
@@ -8381,6 +8706,9 @@
             the mapped SystemUnitClass. The Collection contains all ExternalInterfaces (including inherited) of the
             SystemUnitClass. The ExternalInterface Name is used as the Mapping identifier.
             </summary>
+      <value>
+            The possible mapping identifiers to map ExternalInterfaces of the SystemUnitClass.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.InterfaceNameMappingType.SystemUnitInterface">
       <summary>
@@ -8435,13 +8763,13 @@
             </summary>
       <param name="nodeElement">An 'InternalElement' XML node.</param>
     </member>
-    <member name="M:Aml.Engine.CAEX.InternalElementType.AddRoleClassReference(Aml.Engine.CAEX.RoleFamilyType,System.Boolean,System.Boolean)">
+    <member name="M:Aml.Engine.CAEX.InternalElementType.AddRoleClassReference(Aml.Engine.CAEX.RoleFamilyType,System.Boolean,System.Boolean,System.Boolean)">
       <summary>
                 Adds a RoleClass reference to this InternalElement object using the provided
                 RoleClass object.  The RoleClass reference is added as
                 a <see cref="T:Aml.Engine.CAEX.RoleRequirementsType" /> object. For CAEX documents which are
                 based on CAEX version 2.15, only one RoleRequirement is allowed for an InternalElement.
-                Additional RoleClass references are added as SupportedRoleClass objects.
+                Additional RoleClass references are automatically added as SupportedRoleClass objects.
             </summary>
       <param name="roleClass">The RoleClass to be assigned to the InternalElement.</param>
       <param name="addSupportedRoleClass">if set to <c>true</c> [add supported role class].</param>
@@ -8449,14 +8777,16 @@
                 if set to <c>true</c>, the RoleClass reference is not added, if a reference to the
                 provided RoleClass already exists.
             </param>
+      <param name="addInstance">
+                if set to <c>true</c>, the reference is created as am instance of the RoleClass,
+                containig all ExternalInterfaces and Attributes of the RoleClass.</param>
       <returns>
                 The new added RoleClass reference, which is either a RoleRequirement
-                or a SupportedRoleClass. If the RoleClass is already referenced, <c>null</c> is returned.
+                or a SupportedRoleClass. 
             </returns>
       <exception cref="T:System.ArgumentNullException">roleClass</exception>
-      <exception cref="T:System.ArgumentNullException">roleClass</exception>
     </member>
-    <member name="M:Aml.Engine.CAEX.InternalElementType.AddRoleClassReference(System.String,System.Boolean)">
+    <member name="M:Aml.Engine.CAEX.InternalElementType.AddRoleClassReference(System.String,System.Boolean,System.Boolean)">
       <summary>
                 Adds a RoleClass reference to this InternalElement object using the provided
                 CAEX path, referencing a RoleClass object.  The RoleClass reference is added as
@@ -8472,9 +8802,13 @@
                 if set to <c>true</c> the reference is not added, if the
                 same reference already exists.
             </param>
+      <param name="addInstance">
+                if set to <c>true</c>, the reference is created as an instance of the RoleClass, 
+                identified by the provided roleClassReference, 
+                containig all ExternalInterfaces and Attributes of the RoleClass.</param>
       <returns>
                 The new added RoleClass reference, which is either a RoleRequirement
-                or a SupportedRoleClass. If the RoleClass reference already exists, <c>null</c> is returned.
+                or a SupportedRoleClass. 
             </returns>
       <exception cref="T:System.ArgumentNullException">roleClassReference</exception>
     </member>
@@ -8824,6 +9158,9 @@
                 <list type="bullet"><item><see cref="P:Aml.Engine.CAEX.InternalLinkType.AInterface" /></item><item><see cref="P:Aml.Engine.CAEX.InternalLinkType.BInterface" /></item><item><see cref="P:Aml.Engine.CAEX.InternalLinkType.ASystemUnitClass" /></item><item><see cref="P:Aml.Engine.CAEX.InternalLinkType.BSystemUnitClass" /></item></list>
                 A direct access to one of the listed properties results in a recalculation of the accessed property.
             </summary>
+      <value>
+                The related objects.
+            </value>
     </member>
     <member name="T:Aml.Engine.CAEX.InternalLinkType.LinkedObjects">
       <summary>
@@ -8972,6 +9309,9 @@
       <summary>
             Gets and sets the identifier for the mapped RoleClass element.
             </summary>
+      <value>
+            The role class element identifier.
+            </value>
     </member>
     <member name="M:Aml.Engine.CAEX.MappingElementType`1.RoleClassMappingElements(System.Boolean)">
       <summary>
@@ -8999,6 +9339,9 @@
           </include>
         </markup>
       </returns>
+      <value>
+            The possible mapping elements and their identifiers of the mapped RoleClass.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.MappingElementType`1.SystemUnitClassElement">
       <summary>
@@ -9010,6 +9353,9 @@
       <summary>
             Gets or sets the identifier for the mapped SystemUnitClass element.
             </summary>
+      <value>
+            The system unit class element identifier.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.MappingElementType`1.SystemUnitClassMappingElements">
       <summary>
@@ -9020,6 +9366,9 @@
             The syntax of the identifier is defined by the derived mapping element types and
             is build from the CAEX path of the object.
             </summary>
+      <value>
+            The possible mapping elements and their identifiers of the mapped SystemUnitClass.
+            </value>
     </member>
     <member name="T:Aml.Engine.CAEX.MappingType">
       <summary>
@@ -9162,8 +9511,22 @@
             </returns>
     </member>
     <member name="M:Aml.Engine.CAEX.NamedElementSequence`1.System#Collections#IEnumerable#GetEnumerator">
-      <summary>Returns an enumerator that iterates through a collection.</summary>
-      <returns>An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.</returns>
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Aml.Engine.CAEX.NamedElementSequence`1.System#Collections#IEnumerable#GetEnumerator</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Aml.Engine.CAEX.NamedElementSequence`1.System#Collections#IEnumerable#GetEnumerator</parameter>
+          </include>
+        </markup>
+      </returns>
     </member>
     <member name="T:Aml.Engine.CAEX.NominalScaledTypeType">
       <summary>
@@ -9314,16 +9677,25 @@
       <summary>
                 Gets or sets the name of the author.
             </summary>
+      <value>
+                The name of the author.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.RevisionType.Comment">
       <summary>
                 Gets or sets the comment.
             </summary>
+      <value>
+                The comment.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.RevisionType.NewVersion">
       <summary>
                 Gets or sets the new version.
             </summary>
+      <value>
+                The new version.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.RevisionType.NewVersionObject">
       <summary>
@@ -9334,6 +9706,9 @@
       <summary>
                 Gets or sets the old version.
             </summary>
+      <value>
+                The old version.
+            </value>
     </member>
     <member name="P:Aml.Engine.CAEX.RevisionType.OldVersionObject">
       <summary>
@@ -9344,6 +9719,9 @@
       <summary>
                 Gets or sets the revision date.
             </summary>
+      <value>
+                The revision date.
+            </value>
     </member>
     <member name="T:Aml.Engine.CAEX.RoleClassLibType">
       <summary>
@@ -9623,6 +10001,7 @@
       <summary>
                 Gets the name (not the full path) of the referenced base class.
             </summary>
+      <value>The name of the referenced class.</value>
     </member>
     <member name="P:Aml.Engine.CAEX.RoleFamilyType.RoleClass">
       <summary>
@@ -9704,6 +10083,24 @@
       <summary>
                 Gets the collection of ExternalInterface objects including all nested descendant interfaces
             </summary>
+    </member>
+    <member name="M:Aml.Engine.CAEX.RoleRequirementsType.HasRoleClassReference(Aml.Engine.CAEX.RoleFamilyType,System.Boolean)">
+      <summary>
+                Determines whether this RoleRequirements object has an associated reference to
+                the provided RoleClass. If inheritance relations between RoleClasses should be regarded, the
+                optional parameter 'regardInheritance' should be set. In this case the specified RoleClass is either identical
+                to the referenced RoleClass or the referenced RoleClass is derived from the provided RoleClass.
+            </summary>
+      <param name="roleClass">The RoleClass object.</param>
+      <param name="regardInheritance">
+                if set to <c>true</c> inheritance relations
+                are regarded (default is <c>false</c>).
+            </param>
+      <returns>
+        <c>true</c> if this RoleRequirement object has an associated reference to
+                the specified RoleClass; otherwise, <c>false</c>.
+            </returns>
+      <exception cref="T:System.ArgumentNullException">roleClass</exception>
     </member>
     <member name="M:Aml.Engine.CAEX.RoleRequirementsType.Insert(Aml.Engine.CAEX.CAEXWrapper,System.Boolean)">
       <summary>
@@ -9837,6 +10234,7 @@
       <summary>
                 Gets or sets the role reference. The property <see cref="P:Aml.Engine.CAEX.RoleRequirementsType.RefBaseRoleClassPath" /> is equivalent to this.
             </summary>
+      <value>The role reference.</value>
     </member>
     <member name="P:Aml.Engine.CAEX.RoleRequirementsType.UnAssignedQualifiedRoleClassAttributesOfMultipleRoles">
       <summary>
@@ -10038,6 +10436,7 @@
       <summary>
                 Gets or sets the role reference. This property is equivalent to <see cref="P:Aml.Engine.CAEX.SupportedRoleClassType.RefRoleClassPath" />.
             </summary>
+      <value>The role reference.</value>
     </member>
     <member name="P:Aml.Engine.CAEX.SupportedRoleClassType.SystemUnitClass">
       <summary>
@@ -10111,6 +10510,50 @@
             </summary>
       <param name="systemUnitClassNode">A 'SystemUnitClass' or 'InternalElement' XML node.</param>
     </member>
+    <member name="M:Aml.Engine.CAEX.SystemUnitClassType.AddInterfaceClassReference(Aml.Engine.CAEX.InterfaceFamilyType,System.Boolean,System.Boolean,System.String)">
+      <summary>
+                Adds an InterfaceClass reference to this SystemUnitClass object using the provided
+                InterfaceClass object.  The InterfaceClass reference is added as
+                a <see cref="T:Aml.Engine.CAEX.ExternalInterfaceType" /> object. 
+            </summary>
+      <param name="interfaceClass">The InterfaceClass to be assigned to the SystemUnitClass.</param>
+      <param name="addUnique">
+                if set to <c>true</c>, the InterfaceClass reference is not added, if a reference to the
+                provided InterfaceClass already exists.
+            </param>
+      <param name="name">Provides the name for the new external interface.</param>
+      <param name="addInstance">
+                if set to <c>true</c>, the reference is created as am instance of the InterfaceClass,
+                containig all ExternalInterfaces and Attributes of the InterfaceClass.</param>
+      <returns>
+                The new added InterfaceClass reference. 
+            </returns>
+      <exception cref="T:System.ArgumentNullException">interfaceClass</exception>
+    </member>
+    <member name="M:Aml.Engine.CAEX.SystemUnitClassType.AddInterfaceClassReference(System.String,System.Boolean,System.Boolean,System.String)">
+      <summary>
+                Adds an InterfaceClass reference to this SystemUnitClass object using the provided
+                CAEX path, referencing an InterfaceClass object.  The InterfaceClass reference is added as
+                a <see cref="T:Aml.Engine.CAEX.ExternalInterfaceType" /> object.
+            </summary>
+      <param name="interfaceClassReference">
+                The CAEX path referencing a InterfaceClass to be assigned
+                to the SystemUnitClass.
+            </param>
+      <param name="addUnique">
+                if set to <c>true</c> the reference is not added, if the
+                same reference already exists.
+            </param>
+      <param name="addInstance">
+                if set to <c>true</c>, the reference is created as an instance of the InterfaceClass, 
+                identified by the provided interfaceClassReference, 
+                containig all ExternalInterfaces and Attributes of the InterfaceClass.</param>
+      <param name="name">Provides the name for the new external interface.</param>
+      <returns>
+                The new added InterfaceClass reference.
+            </returns>
+      <exception cref="T:System.ArgumentNullException">interfaceClassReference</exception>
+    </member>
     <member name="P:Aml.Engine.CAEX.SystemUnitClassType.Attribute">
       <summary>
                 Gets the collection of Attribute objects for this instance.
@@ -10162,6 +10605,24 @@
       <returns>
                 An enumerator that can be used to iterate through the collection.
             </returns>
+    </member>
+    <member name="M:Aml.Engine.CAEX.SystemUnitClassType.HasInterfaceClassReference(Aml.Engine.CAEX.InterfaceFamilyType,System.Boolean)">
+      <summary>
+                Determines whether this CAEX Element has an associated reference to
+                the specified InterfaceClass. If inheritance relations between InterfaceClasses should be regarded, the
+                optional parameter 'regardInheritance' should be set. In this case the specified InterfaceClass is either identical
+                to a referenced InterfaceClass or a referenced InterfaceClass is derived from the specified InterfaceClass.
+            </summary>
+      <param name="interfaceClass">The InterfaceClass object.</param>
+      <param name="regardInheritance">
+                if set to <c>true</c> inheritance relations
+                are regarded (default is <c>false</c>).
+            </param>
+      <returns>
+        <c>true</c> if this CAEX Element object has an associated reference to
+                the specified InterfaceClass; otherwise, <c>false</c>.
+            </returns>
+      <exception cref="T:System.ArgumentNullException">roleClass</exception>
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitClassType.Insert(Aml.Engine.CAEX.CAEXWrapper,System.Boolean)">
       <summary>
@@ -10273,36 +10734,66 @@
     </member>
     <member name="T:Aml.Engine.CAEX.SystemUnitFamilyType">
       <summary>
-                This Class is a wrapper for the CAEXElement 'SystemUnitFamilyType' which defines base structures for a hierarchical
-                SystemUnitClass tree.
-                The hierarchical structure has organizational character only. The class supports direct enumeration of the Tree.
+            This Class is a wrapper for the CAEXElement 'SystemUnitFamilyType' which defines base
+            structures for a hierarchical SystemUnitClass tree. The hierarchical structure has
+            organizational character only. The class supports direct enumeration of the Tree.
             </summary>
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.#ctor(System.Xml.Linq.XElement)">
       <summary>
-                Initializes a new instance of the <see cref="T:Aml.Engine.CAEX.SystemUnitFamilyType" /> class.
+            Initializes a new instance of the <see cref="T:Aml.Engine.CAEX.SystemUnitFamilyType" /> class.
             </summary>
       <param name="systemUnitClassNode">A 'SystemUnitClass' XML node.</param>
     </member>
+    <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.AddRoleClassReference(Aml.Engine.CAEX.RoleFamilyType,System.Boolean)">
+      <summary>
+             Adds a RoleClass reference to this SystemUnitClass object using the provided RoleClass
+             object. The RoleClass reference is added as a <see cref="T:Aml.Engine.CAEX.SupportedRoleClassType" /> object.
+             </summary>
+      <param name="roleClass">The RoleClass to be assigned to the SystemUnitClass.</param>
+      <param name="addUnique">
+             if set to <c>true</c>, the RoleClass reference is not added, if a reference to the
+             provided RoleClass already exists.
+             </param>
+      <returns>The new added RoleClass reference.</returns>
+      <exception cref="T:System.ArgumentNullException">roleClass</exception>
+    </member>
+    <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.AddRoleClassReference(System.String,System.Boolean)">
+      <summary>
+             Adds a RoleClass reference to this SystemUnitClass object using the provided CAEX path,
+             referencing a RoleClass object. The RoleClass reference is added as a <see cref="T:Aml.Engine.CAEX.SupportedRoleClassType" /> object.
+             </summary>
+      <param name="roleClassReference">
+             The CAEX path referencing a RoleClass to be assigned to the SystemUnitClass.
+             </param>
+      <param name="addUnique">
+             if set to <c>true</c> the reference is not added, if the same reference already exists.
+             </param>
+      <returns>The new added RoleClass reference, which is a SupportedRoleClass.</returns>
+      <exception cref="T:System.ArgumentNullException">roleClassReference</exception>
+    </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.Aml#Engine#CAEX#IInstantiable#CreateClassInstance">
       <summary>
-                Creates an InternalElement as an instance of this class. All References to Base classes are resolved.
+            Creates an InternalElement as an instance of this class. All References to Base classes
+            are resolved.
             </summary>
       <returns>CAEXWrapper for the InternalElement</returns>
     </member>
     <member name="P:Aml.Engine.CAEX.SystemUnitFamilyType.BaseClass">
       <summary>
-                Gets and sets the BaseClass for this instance. According to CAEX, a class shall not inherit from itself or
-                from a derivative of itself, therefore any cyclic reference is denied.
+            Gets and sets the BaseClass for this instance. According to CAEX, a class shall not
+            inherit from itself or from a derivative of itself, therefore any cyclic reference is denied.
             </summary>
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.CAEXSequence(Aml.Engine.CAEX.ICAEXWrapper)">
       <summary>
-                Gets the CAEXSequence owned by this CAEX object, which contains the specified CAEX object.
+            Gets the CAEXSequence owned by this CAEX object, which contains the specified CAEX object.
             </summary>
-      <param name="caexObject">The CAEX object, contained in a sequence, owned by this CAEX object.</param>
+      <param name="caexObject">
+            The CAEX object, contained in a sequence, owned by this CAEX object.
+            </param>
       <returns>
-                The CAEX sequence or null, if no sequence exists, containing the specified CAEX object.
+            The CAEX sequence or null, if no sequence exists, containing the specified CAEX object.
             </returns>
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.Container``1">
@@ -10322,147 +10813,157 @@
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.CreateClassInstance">
       <summary>
-                Creates an InternalElement as an instance of this class. All References to Base classes are resolved.
+            Creates an InternalElement as an instance of this class. All References to Base classes
+            are resolved.
             </summary>
       <returns>The InternalElement</returns>
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.GetEnumerator">
       <summary>
-                Gets the Enumerator for the enumeration of the <see cref="P:Aml.Engine.CAEX.SystemUnitFamilyType.SystemUnitClass" /> field.
+            Gets the Enumerator for the enumeration of the <see cref="P:Aml.Engine.CAEX.SystemUnitFamilyType.SystemUnitClass" /> field.
             </summary>
-      <returns>
-                An enumerator that can be used to iterate through the collection.
-            </returns>
+      <returns>An enumerator that can be used to iterate through the collection.</returns>
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.GetInheritedSupportedRoles">
       <summary>
-                Gets a collection of SupportedRoleClasses objects of this SystemUnitClass and of all inherited
-                BaseClasses. Duplicates are removed from the result.
+            Gets a collection of SupportedRoleClasses objects of this SystemUnitClass and of all
+            inherited BaseClasses. Duplicates are removed from the result.
             </summary>
       <returns>A collection of SupportedRoleClass objects for this instance and its BaseClasses.</returns>
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.GetReferencedSystemUnitClass(System.String)">
       <summary>
-                Getting a referenced SystemUnitClass.
+            Getting a referenced SystemUnitClass.
             </summary>
       <param name="systemUnitClassReference">Full path to a SystemUnitClass</param>
-      <returns>
-                The referenced SystemUnitClass
-            </returns>
+      <returns>The referenced SystemUnitClass</returns>
       <exception cref="T:System.ArgumentNullException">systemUnitClassReference</exception>
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.GetReferenceHierarchy">
       <summary>
-                Gets the reference (Inheritance) hierarchy including this instance in an ordered sequence of ancestors.
+            Gets the reference (Inheritance) hierarchy including this instance in an ordered
+            sequence of ancestors.
             </summary>
       <returns>Collection of base classes</returns>
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.GetReferenceHierarchy``1">
       <summary>
-                Gets the reference (Inheritance) hierarchy including this instance in an ordered sequence of ancestors.
+            Gets the reference (Inheritance) hierarchy including this instance in an ordered
+            sequence of ancestors.
             </summary>
       <typeparam name="T">Type of the CAEX class in the hierarchy.</typeparam>
-      <returns>
-                a queue of ancestors. this instance is first in the queue
-            </returns>
+      <returns>a queue of ancestors. this instance is first in the queue</returns>
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.HasGenericRoleClassReference(Aml.Engine.CAEX.RoleFamilyType)">
       <summary>
-                Determines whether the specified RoleClass is more specific than any already associated RoleClass of this
-                SystemUnitClass.
-                This method doesn't check inherited RoleClass references from ancestors. If an assigned RoleClass is identical to
-                the
-                specified RoleClass, the result is <c>false</c>.
+            Determines whether the specified RoleClass is more specific than any already associated
+            RoleClass of this SystemUnitClass. This method doesn't check inherited RoleClass
+            references from ancestors. If an assigned RoleClass is identical to the specified
+            RoleClass, the result is <c>false</c>.
             </summary>
       <param name="roleClass">The RoleClass object.</param>
       <returns>
         <c>true</c> if this SystemUnitFamilyType object has an associated RoleClass reference
-                which is a generalization of the specified RoleClass (the RoleClass is more specific); otherwise, <c>false</c>.
+            which is a generalization of the specified RoleClass (the RoleClass is more specific);
+            otherwise, <c>false</c>.
+            </returns>
+      <exception cref="T:System.ArgumentNullException">roleClass</exception>
+    </member>
+    <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.HasGenericRoleClassReference(Aml.Engine.CAEX.RoleRequirementsType)">
+      <summary>
+            Determines whether the specified roleReference is more specific than any already
+            associated SupportedRoleClass of this SystemUnitClass. This method doesn't check
+            inherited RoleClass references from ancestors. If an assigned RoleClass is identical to
+            the specified RoleClass, the result is <c>false</c>.
+            </summary>
+      <param name="roleReference">The RoleReference object.</param>
+      <returns>
+        <c>true</c> if this SystemUnitFamilyType object has an associated SupportedRoleClass
+            reference which is a generalization of the specified RoleClass (the RoleClass is more
+            specific); otherwise, <c>false</c>.
             </returns>
       <exception cref="T:System.ArgumentNullException">roleClass</exception>
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.HasRoleClassReference(Aml.Engine.CAEX.RoleFamilyType,System.Boolean)">
       <summary>
-                Determines whether this SystemUnitClass object has a SupportedRoleClass with a
-                reference to the specified RoleClass. If inheritance relations between role classes should be regarded, the
-                optional parameter 'regardInheritance' should be set. In this case the specified RoleClass is either identical
-                to a referenced RoleClass or a referenced RoleClass is derived from the specified RoleClass.
-                Independently of the <paramref name="regardInheritanceOfRoleClasses" /> value, always the Role assignments to this
-                SystemUnitClass and any ancestors
-                of this SystemUnitClass are checked, using the <see cref="M:Aml.Engine.CAEX.SystemUnitFamilyType.GetInheritedSupportedRoles" /> method.
-            </summary>
+             Determines whether this SystemUnitClass object has a SupportedRoleClass with a reference
+             to the specified RoleClass. If inheritance relations between role classes should be
+             regarded, the optional parameter 'regardInheritance' should be set. In this case the
+             specified RoleClass is either identical to a referenced RoleClass or a referenced
+             RoleClass is derived from the specified RoleClass. Independently of the <paramref name="regardInheritanceOfRoleClasses" /> value, always the Role assignments to this
+             SystemUnitClass and any ancestors of this SystemUnitClass are checked, using the <see cref="M:Aml.Engine.CAEX.SystemUnitFamilyType.GetInheritedSupportedRoles" /> method.
+             </summary>
       <param name="roleClass">The RoleClass object.</param>
       <param name="regardInheritanceOfRoleClasses">
-                if set to <c>true</c> inheritance relations
-                are regarded (default is <c>false</c>).
-            </param>
+             if set to <c>true</c> inheritance relations are regarded (default is <c>false</c>).
+             </param>
       <returns>
-        <c>true</c> if this SystemUnitClass object has a SupportedRoleClass with a
-                reference to the specified RoleClass; otherwise, <c>false</c>.
-            </returns>
+        <c>true</c> if this SystemUnitClass object has a SupportedRoleClass with a reference to
+             the specified RoleClass; otherwise, <c>false</c>.
+             </returns>
       <exception cref="T:System.ArgumentNullException">roleClass</exception>
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.HasRoleClassReference(System.String,System.Boolean)">
       <summary>
-                Determines whether this SystemUnitClass object has a SupportedRoleClass with the
-                specified CAEX path reference. If inheritance relation should be regarded, the
-                optional parameter 'regardInheritance' should be set.
-            </summary>
+             Determines whether this SystemUnitClass object has a SupportedRoleClass with the
+             specified CAEX path reference. If inheritance relation should be regarded, the optional
+             parameter 'regardInheritance' should be set.
+             </summary>
       <param name="roleClassReference">The CAEX path to a RoleClass object.</param>
       <param name="regardInheritance">
-                if set to <c>true</c> inheritance relations
-                are regarded (default is <c>false</c>).
-            </param>
+             if set to <c>true</c> inheritance relations are regarded (default is <c>false</c>).
+             </param>
       <returns>
-        <c>true</c> if this SystemUnitClass object has a SupportedRoleClass with the
-                specified CAEX path reference.
-            </returns>
+        <c>true</c> if this SystemUnitClass object has a SupportedRoleClass with the specified
+             CAEX path reference.
+             </returns>
       <exception cref="T:System.ArgumentNullException">roleClass</exception>
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.Insert(Aml.Engine.CAEX.CAEXWrapper,System.Boolean)">
       <summary>
-                Inserts the specified CAEX object in it's associated sequence. The SystemUnitFamilyType
-                defines the <see cref="P:Aml.Engine.CAEX.SystemUnitFamilyType.SystemUnitClass" /> sequence.
+            Inserts the specified CAEX object in it's associated sequence. The SystemUnitFamilyType
+            defines the <see cref="P:Aml.Engine.CAEX.SystemUnitFamilyType.SystemUnitClass" /> sequence.
             </summary>
       <param name="caexObject">The CAEX object.</param>
       <param name="asFirst">
-                if set to <c>true</c> it is inserted as the
-                first item in its associated sequence.
+            if set to <c>true</c> it is inserted as the first item in its associated sequence.
             </param>
       <returns>
-        <c>true</c>, if a sequence could be identified and the provided CAEX object is inserted; If a copy of the CAEX
-                object has been inserted
-                or the provided CAEX object doesn't represent a valid member of any sequence the result is <c>false</c>.
+        <c>true</c>, if a sequence could be identified and the provided CAEX object is inserted;
+            If a copy of the CAEX object has been inserted or the provided CAEX object doesn't
+            represent a valid member of any sequence the result is <c>false</c>.
             </returns>
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.Insert(System.Int32,Aml.Engine.CAEX.CAEXWrapper)">
       <summary>
-                Inserts the specified CAEX object in it's associated sequence. The SystemUnitFamilyType
-                defines the <see cref="P:Aml.Engine.CAEX.SystemUnitFamilyType.SystemUnitClass" /> sequence.
+            Inserts the specified CAEX object in it's associated sequence. The SystemUnitFamilyType
+            defines the <see cref="P:Aml.Engine.CAEX.SystemUnitFamilyType.SystemUnitClass" /> sequence.
             </summary>
       <param name="pos"></param>
       <param name="caexObject">The CAEX object.</param>
       <returns>
-        <c>true</c>, if a sequence could be identified and the provided CAEX object is inserted; If a copy of the CAEX
-                object has been inserted
-                or the provided CAEX object doesn't represent a valid member of any sequence the result is <c>false</c>.
+        <c>true</c>, if a sequence could be identified and the provided CAEX object is inserted;
+            If a copy of the CAEX object has been inserted or the provided CAEX object doesn't
+            represent a valid member of any sequence the result is <c>false</c>.
             </returns>
     </member>
     <member name="P:Aml.Engine.CAEX.SystemUnitFamilyType.RefBaseClassPath">
       <summary>
-                Gets and sets the path which references a base class. According to CAEX, a class shall not inherit from itself or
-                from a derivative of itself, therefore any cyclic reference is denied.
+            Gets and sets the path which references a base class. According to CAEX, a class shall
+            not inherit from itself or from a derivative of itself, therefore any cyclic reference
+            is denied.
             </summary>
     </member>
     <member name="P:Aml.Engine.CAEX.SystemUnitFamilyType.ReferencedClassName">
       <summary>
-                Gets the name (not the full path) of the referenced base class.
+            Gets the name (not the full path) of the referenced base class.
             </summary>
+      <value>The name of the referenced class.</value>
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.ReplaceRoleClassReference(Aml.Engine.CAEX.RoleFamilyType)">
       <summary>
-                Replaces an existing role class reference to the provided role or a generic base role of the provided role
-                by a new instance of the role class.
+            Replaces an existing role class reference to the provided role or a generic base role of
+            the provided role by a new instance of the role class.
             </summary>
       <param name="roleClass">The role class.</param>
       <returns>
@@ -10477,15 +10978,13 @@
     </member>
     <member name="M:Aml.Engine.CAEX.SystemUnitFamilyType.System#Collections#IEnumerable#GetEnumerator">
       <summary>
-                Gets the Enumerator for the enumeration of the <see cref="P:Aml.Engine.CAEX.SystemUnitFamilyType.SystemUnitClass" /> field.
+            Gets the Enumerator for the enumeration of the <see cref="P:Aml.Engine.CAEX.SystemUnitFamilyType.SystemUnitClass" /> field.
             </summary>
-      <returns>
-                An enumerator that can be used to iterate through the collection.
-            </returns>
+      <returns>An enumerator that can be used to iterate through the collection.</returns>
     </member>
     <member name="P:Aml.Engine.CAEX.SystemUnitFamilyType.SystemUnitClass">
       <summary>
-                Gets a collection of SystemUnitClass objects of this instance.
+            Gets a collection of SystemUnitClass objects of this instance.
             </summary>
     </member>
     <member name="T:Aml.Engine.CAEX.UnknownTypeType">
@@ -10990,11 +11489,20 @@
             </returns>
       <exception cref="T:System.ArgumentNullException">caexObject</exception>
     </member>
-    <member name="M:Aml.Engine.CAEX.Extensions.CAEXBasicObjectExtensions.Ancestors``1(Aml.Engine.CAEX.ICAEXWrapper)">
+    <member name="M:Aml.Engine.CAEX.Extensions.CAEXBasicObjectExtensions.Ancestors``1(Aml.Engine.CAEX.ICAEXWrapper,System.Boolean)">
       <summary>
                 Finds the ancestors of the provided CAEX object which have  the given type.
             </summary>
       <param name="caexObject">The CAEX object.</param>
+      <param name="includeSelf">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>includeSelf</parameter>
+            <parameter>M:Aml.Engine.CAEX.Extensions.CAEXBasicObjectExtensions.Ancestors``1(Aml.Engine.CAEX.ICAEXWrapper,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
       <typeparam name="T">CAEX element type of the ancestors.</typeparam>
       <returns>
                 The ancestors of the CAEX object which are of the given type.
@@ -11050,11 +11558,23 @@
             </returns>
       <exception cref="T:System.ArgumentNullException">caexObject</exception>
     </member>
-    <member name="M:Aml.Engine.CAEX.Extensions.CAEXBasicObjectExtensions.Descendants``1(Aml.Engine.CAEX.ICAEXWrapper)">
+    <member name="M:Aml.Engine.CAEX.Extensions.CAEXBasicObjectExtensions.Descendants(Aml.Engine.CAEX.CAEXWrapper,System.Type)">
       <summary>
                 Finds the descendants of the provided CAEX object which are of the given type.
             </summary>
       <param name="caexObject">The CAEX object.</param>
+      <param name="caexType">CAEX element type of the descendants.</param>
+      <returns>
+                The descendants of the CAEX object which are of the given type.
+            </returns>
+      <exception cref="T:System.ArgumentNullException">caexObject</exception>
+    </member>
+    <member name="M:Aml.Engine.CAEX.Extensions.CAEXBasicObjectExtensions.Descendants``1(Aml.Engine.CAEX.ICAEXWrapper,System.Boolean)">
+      <summary>
+                Finds the descendants of the provided CAEX object which are of the given type.
+            </summary>
+      <param name="caexObject">The CAEX object.</param>
+      <param name="includeSelf">if <c>true</c>, the provided caex object is included in the enumeration.</param>
       <typeparam name="T">CAEX element type of the descendants.</typeparam>
       <returns>
                 The descendants of the CAEX object which are of the given type.
@@ -11142,6 +11662,22 @@
                 The containing Library.
             </returns>
       <exception cref="T:System.ArgumentNullException">caexObject</exception>
+    </member>
+    <member name="M:Aml.Engine.CAEX.Extensions.CAEXBasicObjectExtensions.Name(Aml.Engine.CAEX.CAEXWrapper)">
+      <summary>
+            Gets a names for the specified caex wrapper object. If the specified object is
+            a <see cref="T:Aml.Engine.CAEX.CAEXObject" />, the Name is returned; otherwise the TagName of the
+            CAEX item.
+            </summary>
+      <param name="caexObject">The caex object.</param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Aml.Engine.CAEX.Extensions.CAEXBasicObjectExtensions.Name(Aml.Engine.CAEX.CAEXWrapper)</parameter>
+          </include>
+        </markup>
+      </returns>
     </member>
     <member name="M:Aml.Engine.CAEX.Extensions.CAEXBasicObjectExtensions.New_Copyright(Aml.Engine.CAEX.ICAEXBasicObject)">
       <summary>
@@ -11967,6 +12503,9 @@
                 value
                 to its string representation is fix and cannot be changed.
             </summary>
+      <value>
+                The friendly string.
+            </value>
     </member>
     <member name="M:Aml.Engine.CAEX.Extensions.CaexValue.GetHashCode">
       <summary>
@@ -12447,6 +12986,54 @@
                 Extension methods for all objects with Attribute collections.
             </summary>
     </member>
+    <member name="M:Aml.Engine.CAEX.Extensions.ObjectWithAttributes.AddAttributeTypeReference(Aml.Engine.CAEX.IObjectWithAttributes,Aml.Engine.CAEX.AttributeFamilyType,System.Boolean,System.Boolean,System.String)">
+      <summary>
+                Adds an AttributeType reference to this ObjectWithAttribute using the provided
+                AttributeType object.  The AttributeType reference is added as
+                a <see cref="T:Aml.Engine.CAEX.AttributeType" /> object. 
+            </summary>
+      <param name="ObjectWithAttribute"></param>
+      <param name="attributeClass">The AttributeType to be assigned to the ObjectWithAttribute.</param>
+      <param name="addUnique">
+                if set to <c>true</c>, the AttributeType reference is not added, if a reference to the
+                provided AttributeType already exists.
+            </param>
+      <param name="name">Provides the name for the new external attribute. 
+            If no name is given, the name is taken from the referenced class.</param>
+      <param name="addInstance">
+                if set to <c>true</c>, the reference is created as am instance of the AttributeType,
+                containig all Attributes and Attributes of the AttributeType.</param>
+      <returns>
+                The new added AttributeType reference. 
+            </returns>
+      <exception cref="T:System.ArgumentNullException">attributeClass</exception>
+    </member>
+    <member name="M:Aml.Engine.CAEX.Extensions.ObjectWithAttributes.AddAttributeTypeReference(Aml.Engine.CAEX.IObjectWithAttributes,System.String,System.Boolean,System.Boolean,System.String)">
+      <summary>
+                Adds an AttributeType reference to this ObjectWithAttribute using the provided
+                CAEX path, referencing an AttributeType object.  The AttributeType reference is added as
+                a <see cref="T:Aml.Engine.CAEX.AttributeType" /> object.
+            </summary>
+      <param name="ObjectWithAttribute"></param>
+      <param name="attributeClassReference">
+                The CAEX path referencing a AttributeType to be assigned
+                to the ObjectWithAttribute.
+            </param>
+      <param name="addUnique">
+                if set to <c>true</c> the reference is not added, if the
+                same reference already exists.
+            </param>
+      <param name="addInstance">
+                if set to <c>true</c>, the reference is created as an instance of the AttributeType, 
+                identified by the provided attributeClassReference, 
+                containig all Attributes and Attributes of the AttributeType.</param>
+      <param name="name">Provides the name for the new external attribute. 
+            If no name is provided, the name is taken from the referenced class.</param>
+      <returns>
+                The new added AttributeType reference.
+            </returns>
+      <exception cref="T:System.ArgumentNullException">attributeClassReference</exception>
+    </member>
     <member name="M:Aml.Engine.CAEX.Extensions.ObjectWithAttributes.CopyAttributesFrom(Aml.Engine.CAEX.IObjectWithAttributes,Aml.Engine.CAEX.IObjectWithAttributes,System.Boolean)">
       <summary>
                 Copies all attribute of the source object with attributes to the target object  including
@@ -12599,6 +13186,17 @@
                 A list of Attribute objects
             </returns>
     </member>
+    <member name="M:Aml.Engine.CAEX.Extensions.ObjectWithBaseClass.GetInheritedElements(Aml.Engine.CAEX.SystemUnitFamilyType,System.Boolean)">
+      <summary>
+                Gets a collection of InternalElement objects that are inherited from base classes. 
+                As default, the own InternalElements are included in the  enumeration.
+            </summary>
+      <param name="classWithBaseClass">The class with a possible base class reference for inheritance.</param>
+      <param name="includeSelf">if set to <c>true</c> includes the own Internal Elements.</param>
+      <returns>
+                A collection of InternalElement objects
+            </returns>
+    </member>
     <member name="M:Aml.Engine.CAEX.Extensions.ObjectWithBaseClass.GetInheritedInterfaces(Aml.Engine.CAEX.IClassWithExternalInterface,System.Boolean)">
       <summary>
                 Gets a collection of ExternalInterface objects that are inherited from base classes.
@@ -12613,9 +13211,8 @@
       <summary>
                 Gets a list of ExternalInterface objects that are inherited from base classes.
                 The List will also contain the elements own ExternalInterface objects, if the parameter is set (default).
-                If an ExternalInterface is overwritten, only the last defined is contained. The result also contains the nested
-                interface descendants
-                of an external interface.
+                If an ExternalInterface is overridden, only the last defined is contained. The result also contains the nested
+                interface descendants of an external interface.
             </summary>
       <param name="classWithBaseClass">The class with a possible base class reference for inheritance.</param>
       <param name="includeOwn">if set to <c>true</c> includes the elements own ExternalInterface objects; otherwise not</param>
@@ -12636,9 +13233,8 @@
     </member>
     <member name="M:Aml.Engine.CAEX.Extensions.ObjectWithBaseClass.IsInherited(Aml.Engine.CAEX.IClassWithBaseClassReference,Aml.Engine.CAEX.CAEXBasicObject)">
       <summary>
-                Determines, if the specified element in an inherited element. To be an inherited element, it has to be an
-                AttributeType
-                or ExternalInterfaceType element.
+                Determines, if the specified element is an inherited element. To be an inherited element, it has to be an
+                AttributeType, ExternalInterfaceType or InternalElementType element.
             </summary>
       <param name="classWithBaseClass">the class providing the inheritance relation</param>
       <param name="element">the element to test</param>
@@ -12688,6 +13284,124 @@
             </summary>
       <param name="internalElement">The internal element.</param>
       <returns>Name of the referenced Class, if exists; otherwise <c>string.Empty</c></returns>
+    </member>
+    <member name="T:Aml.Engine.CAEX.Extensions.ObjectWithExternalInterface">
+      <summary>
+                Extension methods for all objects with ExternalInterface collections.
+            </summary>
+    </member>
+    <member name="M:Aml.Engine.CAEX.Extensions.ObjectWithExternalInterface.AddInterfaceClassReference(Aml.Engine.CAEX.IObjectWithExternalInterface,Aml.Engine.CAEX.InterfaceFamilyType,System.Boolean,System.Boolean,System.String)">
+      <summary>
+                Adds an InterfaceClass reference to this ObjectWithExternalInterface using the provided
+                InterfaceClass object.  The InterfaceClass reference is added as
+                a <see cref="T:Aml.Engine.CAEX.ExternalInterfaceType" /> object. 
+            </summary>
+      <param name="ObjectWithExternalInterface"></param>
+      <param name="interfaceClass">The InterfaceClass to be assigned to the ObjectWithExternalInterface.</param>
+      <param name="addUnique">
+                if set to <c>true</c>, the InterfaceClass reference is not added, if a reference to the
+                provided InterfaceClass already exists.
+            </param>
+      <param name="name">Provides the name for the new external interface. 
+            If no name is given, the name is taken from the referenced class.</param>
+      <param name="addInstance">
+                if set to <c>true</c>, the reference is created as am instance of the InterfaceClass,
+                containig all ExternalInterfaces and Attributes of the InterfaceClass.</param>
+      <returns>
+                The new added InterfaceClass reference. 
+            </returns>
+      <exception cref="T:System.ArgumentNullException">interfaceClass</exception>
+    </member>
+    <member name="M:Aml.Engine.CAEX.Extensions.ObjectWithExternalInterface.AddInterfaceClassReference(Aml.Engine.CAEX.IObjectWithExternalInterface,System.String,System.Boolean,System.Boolean,System.String)">
+      <summary>
+                Adds an InterfaceClass reference to this ObjectWithExternalInterface using the provided
+                CAEX path, referencing an InterfaceClass object.  The InterfaceClass reference is added as
+                a <see cref="T:Aml.Engine.CAEX.ExternalInterfaceType" /> object.
+            </summary>
+      <param name="ObjectWithExternalInterface"></param>
+      <param name="interfaceClassReference">
+                The CAEX path referencing a InterfaceClass to be assigned
+                to the ObjectWithExternalInterface.
+            </param>
+      <param name="addUnique">
+                if set to <c>true</c> the reference is not added, if the
+                same reference already exists.
+            </param>
+      <param name="addInstance">
+                if set to <c>true</c>, the reference is created as an instance of the InterfaceClass, 
+                identified by the provided interfaceClassReference, 
+                containig all ExternalInterfaces and Attributes of the InterfaceClass.</param>
+      <param name="name">Provides the name for the new external interface. 
+            If no name is provided, the name is taken from the referenced class.</param>
+      <returns>
+                The new added InterfaceClass reference.
+            </returns>
+      <exception cref="T:System.ArgumentNullException">interfaceClassReference</exception>
+    </member>
+    <member name="M:Aml.Engine.CAEX.Extensions.ObjectWithExternalInterface.HasInterfaceClassReference(Aml.Engine.CAEX.IObjectWithExternalInterface,Aml.Engine.CAEX.InterfaceFamilyType,System.Boolean)">
+      <summary>
+                Determines whether an object with ExternalInterfaces has an associated reference to
+                the specified InterfaceClass. If inheritance relations between InterfaceClasses should be regarded, the
+                optional parameter 'regardInheritance' should be set. In this case the specified InterfaceClass is either identical
+                to a referenced InterfaceClass or a referenced InterfaceClass is derived from the specified InterfaceClass.
+            </summary>
+      <param name="objectWithExternalInterface"></param>
+      <param name="interfaceClass">The InterfaceClass object.</param>
+      <param name="regardInheritance">
+                if set to <c>true</c> inheritance relations
+                are regarded (default is <c>false</c>).
+            </param>
+      <returns>
+        <c>true</c> if this CAEX Element object has an associated reference to
+                the specified InterfaceClass; otherwise, <c>false</c>.
+            </returns>
+      <exception cref="T:System.ArgumentNullException">InterfaceClass</exception>
+    </member>
+    <member name="M:Aml.Engine.CAEX.Extensions.ObjectWithExternalInterface.HasInterfaceClassReference(Aml.Engine.CAEX.IObjectWithExternalInterface,System.String,System.Boolean)">
+      <summary>
+                Determines whether this Object with ExternalInterfaces has an associated InterfaceClass reference
+                with the specified CAEX path interface reference.  If inheritance relations between interface classes should be regarded, the
+                optional parameter 'regardInheritance' should be set. In this case the specified InterfaceClass is either identical
+                to a referenced InterfaceClass or a referenced InterfaceClass is derived from the specified InterfaceClass.
+            </summary>
+      <param name="objectWithExternalInterface"></param>
+      <param name="interfaceReference">The interface reference.</param>
+      <param name="regardInheritance">
+                if set to <c>true</c> inheritance relations
+                are regarded (default is <c>false</c>).
+            </param>
+      <returns>
+        <c>true</c> if this object has an associated InterfaceClass reference
+                with the specified CAEX path interface reference; otherwise, <c>false</c>.
+            </returns>
+      <exception cref="T:System.ArgumentNullException">interfaceReference</exception>
+    </member>
+    <member name="M:Aml.Engine.CAEX.Extensions.ObjectWithExternalInterface.InterfaceClassReferences(Aml.Engine.CAEX.IObjectWithExternalInterface,System.String,System.Boolean)">
+      <summary>
+                All external Interfaces of this Object with ExternalInterfaces with an associated InterfaceClass reference
+                with the specified CAEX path interface reference.  If inheritance relations between interface classes should be regarded, the
+                optional parameter 'regardInheritance' should be set. In this case the specified InterfaceClass is either identical
+                to a referenced InterfaceClass or a referenced InterfaceClass is derived from the specified InterfaceClass.
+            </summary>
+      <param name="objectWithExternalInterface">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>objectWithExternalInterface</parameter>
+            <parameter>M:Aml.Engine.CAEX.Extensions.ObjectWithExternalInterface.InterfaceClassReferences(Aml.Engine.CAEX.IObjectWithExternalInterface,System.String,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="interfaceReference">The interface reference.</param>
+      <param name="regardInheritance">
+                if set to <c>true</c> inheritance relations
+                are regarded (default is <c>false</c>).
+            </param>
+      <returns>
+                All external interfaces with an associated InterfaceClass reference
+                with the specified CAEX path interface reference.
+            </returns>
+      <exception cref="T:System.ArgumentNullException">interfaceReference</exception>
     </member>
     <member name="T:Aml.Engine.CAEX.Extensions.RoleClassFamilyTypeExtensions">
       <summary>
@@ -12761,11 +13475,20 @@
       <returns>
         <c>true</c> if the specified attribute name is a class reference; otherwise, <c>false</c>.</returns>
     </member>
-    <member name="M:Aml.Engine.CAEX.Extensions.StringExtensions.IsGUID(System.String)">
+    <member name="M:Aml.Engine.CAEX.Extensions.StringExtensions.IsGUID(System.String,System.Boolean)">
       <summary>
                 string extension method to check if it as GUID
             </summary>
       <param name="stringGuid">The stringGuid.</param>
+      <param name="allowAnyString">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>allowAnyString</parameter>
+            <parameter>M:Aml.Engine.CAEX.Extensions.StringExtensions.IsGUID(System.String,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
       <returns>
         <c>true</c> if the specified expression is unique identifier; otherwise, <c>false</c>.</returns>
     </member>
@@ -12948,6 +13671,20 @@
       <param name="asFirst">If set to true, the interface is insert at first, otherwise at last Interface.</param>
       <returns>The new ExternalInterface</returns>
     </member>
+    <member name="M:Aml.Engine.CAEX.Extensions.SystemUnitClassTypeExtensions.New_ExternalInterface(Aml.Engine.CAEX.IObjectWithExternalInterface,System.String,System.String,System.Boolean)">
+      <summary>
+                Adding a new ExternalInterface instance to the ExternalInterface-Collection of the
+                <paramref name="objectWithExternalInterface" /> referencing a specific InterfaceClass.
+                The New ExternalInterface is inserted as the
+                first ExternalInterface of any existing Interfaces if nothing else is explicit defined. 
+                The provided <paramref name="interfaceClassPath" /> is set as the RefBaseClassPath value.
+            </summary>
+      <param name="objectWithExternalInterface">Any object with an ExternalInterface collection.</param>
+      <param name="name">The name of the new ExternalInterface</param>
+      <param name="interfaceClassPath">The CAEX Path of the InterfaceClass which should be referenced.</param>
+      <param name="asFirst">If set to true, the interface is insert at first, otherwise at last Interface.</param>
+      <returns>The new ExternalInterface</returns>
+    </member>
     <member name="M:Aml.Engine.CAEX.Extensions.SystemUnitClassTypeExtensions.New_InternalElement(Aml.Engine.CAEX.IInternalElementContainer,System.String,System.Boolean)">
       <summary>
                 Adding a new InternalElement instance to the InternalElement-Collection of the
@@ -13030,6 +13767,35 @@
       <returns>
                 An enumeration of all descendant SystemUnitClass objects.
             </returns>
+    </member>
+    <member name="T:Aml.Engine.CAEX.Linq.CAEXSequenceExtension">
+      <summary>
+            Extensions defined for ExternalInterface Sequence and RoleRequirements sequence
+            </summary>
+    </member>
+    <member name="M:Aml.Engine.CAEX.Linq.CAEXSequenceExtension.OfInterfaceClass(Aml.Engine.CAEX.ExternalInterfaceSequence,Aml.Engine.CAEX.InterfaceFamilyType)">
+      <summary>
+            Gets all ExternalInterfaces from the specified sequence, which are instances of a specific InterfaceClass
+            </summary>
+      <param name="sequence">The Sequence of External Interfaces</param>
+      <param name="interfaceClass">The required Interface Class</param>
+      <returns>External Interfaces which are instances of the defined class.</returns>
+    </member>
+    <member name="M:Aml.Engine.CAEX.Linq.CAEXSequenceExtension.OfRoleClass(Aml.Engine.CAEX.CAEXSequence{Aml.Engine.CAEX.RoleRequirementsType},Aml.Engine.CAEX.RoleFamilyType)">
+      <summary>
+            Gets all RoleRequirements from the specified sequence, which are instances of a specific RoleClass
+            </summary>
+      <param name="sequence">The Sequence of Role Requirements</param>
+      <param name="roleClass">The required Role Class</param>
+      <returns>RoleRequirements which are instances of the defined class.</returns>
+    </member>
+    <member name="M:Aml.Engine.CAEX.Linq.CAEXSequenceExtension.OfRoleClass(Aml.Engine.CAEX.CAEXSequence{Aml.Engine.CAEX.SupportedRoleClassType},Aml.Engine.CAEX.RoleFamilyType)">
+      <summary>
+            Gets all SupportedRoleClasses from the specified sequence, which are instances of a specific RoleClass
+            </summary>
+      <param name="sequence">The Sequence of SupportedRoleClasses</param>
+      <param name="roleClass">The required Role Class</param>
+      <returns>SupportedRoleClasses which are instances of the defined class.</returns>
     </member>
     <member name="T:Aml.Engine.Schema.AMLSchemaManager">
       <summary>
@@ -13480,7 +14246,7 @@
             </summary>
       <param name="parentName">Name of the child's parent</param>
       <param name="childName">Name of the child</param>
-      <returns>The maximal occurrence of childes with the defined name.</returns>
+      <returns>The maximal occurrence of children with the defined name.</returns>
     </member>
     <member name="M:Aml.Engine.Schema.XmlSchemaManager.MinOccurence(System.Xml.Linq.XName,System.Xml.Linq.XName)">
       <summary>
@@ -13866,15 +14632,17 @@
     </member>
     <member name="M:Aml.Engine.Services.QueryService.AllClassReferencesDeep(Aml.Engine.CAEX.CAEXDocument,System.String,System.String)">
       <summary>
-                Gets all classes which have references to the provided CAEX object and their referencing classes (recursive).
-                This method returns all derived classes from the class, identified by the specified class path.
+            Gets all classes which have references to the provided CAEX object and their referencing classes (recursive).
+            This method extends the <see cref="M:Aml.Engine.Services.QueryService.AllClassReferences(Aml.Engine.CAEX.CAEXDocument,System.String,System.String)" /> and gets not only the
+            directly
+            derived classes of a base class but also the derived classes of these classes and further on. If the
+            <paramref name="elementName" /> is
+            set, only classes with the defined element name are considered.
             </summary>
       <param name="document">The CAEX document which is searched through.</param>
       <param name="classPath">The class path.</param>
-      <param name="elementName">
-                Name of the element. Valid values are 'RoleClass', 'SystemUnitClass', 'InterfaceClass' and
-                'AttributeType'.
-            </param>
+      <param name="elementName">Name of the element. Valid values are 'RoleClass', 'SystemUnitClass', 'InterfaceClass' and
+            'AttributeType'.</param>
       <returns>
         <markup>
           <include item="SMCMissingTag">
@@ -13982,15 +14750,31 @@
                 Lookup table of elements with name references. The name is used as a grouping key.
             </returns>
     </member>
-    <member name="M:Aml.Engine.Services.QueryService.AllExternalDataReferences(Aml.Engine.CAEX.CAEXDocument)">
+    <member name="M:Aml.Engine.Services.QueryService.AllExternalDataReferences(Aml.Engine.CAEX.CAEXDocument,Aml.Engine.CAEX.CAEXBasicObject)">
       <summary>
-                Returns all ExternalInterfaces which are
-                instances of the standard Interface class <see cref="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.ExternalDataConnector" />.
+            Returns all ExternalInterfaces in the provided document or optionally
+            in the caexObject and descendants,  which are
+            instances of the standard Interface class
+            <see cref="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.ExternalDataConnector" />.
             </summary>
       <param name="document">The document.</param>
+      <param name="caexObject">Optional parameter, defining a possible start object for the query.</param>
       <returns>
-                A collection of all ExternalInterface which are instances of the
-                standard Interface class <see cref="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.ExternalDataConnector" />.
+            A collection of all ExternalInterface which are instances of the
+            standard Interface class <see cref="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.ExternalDataConnector" />.
+            </returns>
+    </member>
+    <member name="M:Aml.Engine.Services.QueryService.AllExternalInterfacesOfType(Aml.Engine.CAEX.CAEXDocument,System.String,Aml.Engine.CAEX.CAEXBasicObject)">
+      <summary>
+            Returns all ExternalInterfaces which are
+            instances of the  Interface class defined by the provided <paramref name="interfaceClassPath" />.
+            </summary>
+      <param name="document">The document.</param>
+      <param name="interfaceClassPath">The CAEX ClassPath of the InterfaceClassType</param>
+      <param name="caexObject">Optional parameter. If set only descendants of this object are searched.</param>
+      <returns>
+            A collection of all ExternalInterface which are
+            instances of the  Interface class defined by the provided <paramref name="interfaceClassPath" />.
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.QueryService.AllInternalElementsWithInternalLinks(Aml.Engine.CAEX.CAEXBasicObject)">
@@ -14261,6 +15045,9 @@
                 Gets or sets a value indicating whether this instance will automatically update
                 cross references between AutomationML objects.
             </summary>
+      <value>
+        <c>true</c> if the automatic update is enabled; otherwise, <c>false</c>.
+            </value>
     </member>
     <member name="E:Aml.Engine.Services.Interfaces.IAutoUpdate.ReferenceUpdated">
       <summary>
@@ -14368,11 +15155,11 @@
     </member>
     <member name="T:Aml.Engine.Services.Interfaces.IQuery">
       <summary>
-                The Query service provides methods to query relations modelled in an AutomationML document. The AMLEngine provides
-                a default query service based on Linq (System.Xml.Linq). To get a better performance for queries, users can
-                register a Lookup service which also implements this query interface but uses dictionary based queries.
-                If ExternalReferences should be queried too, a <see cref="T:Aml.Engine.Services.Interfaces.IExternalReferenceResolver" /> service should be
-                registered.
+              The Query service provides methods to query relations modeled in an AutomationML document. The AMLEngine provides
+              a default query service based on Linq (System.Xml.Linq). To get a better performance for queries, users can
+              register a Lookup service which also implements this query interface but uses dictionary based queries.
+              If ExternalReferences should be queried too, a <see cref="T:Aml.Engine.Services.Interfaces.IExternalReferenceResolver" /> service should be
+              registered.
             </summary>
     </member>
     <member name="M:Aml.Engine.Services.Interfaces.IQuery.AllClassReferences(Aml.Engine.CAEX.CAEXDocument,System.String,System.String)">
@@ -14510,15 +15297,32 @@
       <param name="elementName"></param>
       <returns>Lookup table of elements with name references. The name is used as a grouping key.</returns>
     </member>
-    <member name="M:Aml.Engine.Services.Interfaces.IQuery.AllExternalDataReferences(Aml.Engine.CAEX.CAEXDocument)">
+    <member name="M:Aml.Engine.Services.Interfaces.IQuery.AllExternalDataReferences(Aml.Engine.CAEX.CAEXDocument,Aml.Engine.CAEX.CAEXBasicObject)">
       <summary>
-                Returns all ExternalInterfaces which are
-                instances of the standard Interface class <see cref="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.ExternalDataConnector" />.
+                Returns all ExternalInterfaces in the provided document or optionally
+                in the caexObject and descendants,  which are
+                instances of the standard Interface class 
+                <see cref="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.ExternalDataConnector" />.
             </summary>
       <param name="document">The document.</param>
+      <param name="caexObject">Optional parameter, defining a possible start object for the query.</param>
       <returns>
                 A collection of all ExternalInterface which are instances of the
                 standard Interface class <see cref="F:Aml.Engine.AmlObjects.AutomationMLInterfaceClassLib.ExternalDataConnector" />.
+            </returns>
+    </member>
+    <member name="M:Aml.Engine.Services.Interfaces.IQuery.AllExternalInterfacesOfType(Aml.Engine.CAEX.CAEXDocument,System.String,Aml.Engine.CAEX.CAEXBasicObject)">
+      <summary>
+                Returns all ExternalInterfaces  in the provided document or optionally
+                in the caexObject and descendants, which are
+                instances of the  Interface class defined by the provided <paramref name="interfaceClassPath" />.
+            </summary>
+      <param name="document">The document.</param>
+      <param name="interfaceClassPath">The CAEX ClassPath of the InterfaceClassType</param>
+      <param name="caexObject">Optional parameter, defining a possible start object for the query.</param>
+      <returns>
+                A collection of all ExternalInterface which are
+                instances of the  Interface class defined by the provided <paramref name="interfaceClassPath" />.
             </returns>
     </member>
     <member name="M:Aml.Engine.Services.Interfaces.IQuery.AllInternalElementsWithInternalLinks(Aml.Engine.CAEX.CAEXBasicObject)">
@@ -15353,7 +16157,7 @@
                 Wraps the provided Xml-Element into an element specific CAEXWrapper object.
             </summary>
       <param name="element">the Xml-Element</param>
-      <returns>the specific CAEXWrapper object</returns>
+      <returns>The specific CAEXWrapper object if the element is a CAEX element; otherwise null</returns>
     </member>
   </members>
 </doc>
