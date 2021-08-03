@@ -75,3 +75,5 @@ else
 
 #### Other Resources
 [Basic examples](basic.md)
+
+[Document validation](validation.md)

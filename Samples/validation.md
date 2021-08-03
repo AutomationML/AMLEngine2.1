@@ -119,3 +119,11 @@ void ValidateName (CAEXDocument document)
 #### Reference
 - [NameValidation](../Documentation/Aml.Engine.Services/ValidatorService/NameValidation.md)
 - [UniqueNameService](../Documentation/Aml.Engine.Services/UniqueNameService/README.md)
+
+
+#### Other Resources
+
+[Basic examples](basic.md)
+
+[Advanced document processing using services](service.md)
+
