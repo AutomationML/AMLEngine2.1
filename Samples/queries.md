@@ -243,3 +243,12 @@ IEnumerable<ExternalInterfaceType> GetAllRelatedExternalInterfaces(ExternalInter
 - [ExternalDataConnector Class](../Documentation/Aml.Engine.AmlObjects/AutomationMLInterfaceClassLib/ExternalDataConnector.md)
 - [InternalLinksToInterface Query Result](../Documentation/Aml.Engine.Services/QueryResult/InternalLinksToInterface.md)
 - [InternalLinksToInterface](../Documentation/Aml.Engine.Services.Interfaces/IQuery/InternalLinksToInterface.md)
+
+
+
+#### Other Resources
+
+- [Basic examples](basic.md)
+- [Document validation](validation.md)
+- [Advanced document processing using services](service.md)
+
