@@ -25,7 +25,7 @@ Modification of using directives:
 - Replace **AMLEngineExtensions** with [Aml.Engine.AmlObjects](Documentation/Aml.Engine.AmlObjects/README.md).
 - Add [Aml.Engine.AmlObjects.Extensions](Documentation/Aml.Engine.AmlObjects.Extensions/README.md).
 
-To use special services like FastAccess Methods, Split and Merge or Document validation the additional namespace [Aml.Engine.Services](Documentation/Aml.Engine.Services/README.md) has to be included. As an example, the Schema Transformation service, which can be used to transform AutomationML documents from version 2.0 to version 2.10 (based on CAEX3.0) is provided in the Aml.Engine.Services namespace.
+To use special services like fast Access Methods, Split and Merge or Document validation the additional namespace [Aml.Engine.Services](Documentation/Aml.Engine.Services/README.md) has to be included. As an example, the Schema Transformation service, which can be used to transform AutomationML documents from version 2.0 to version 2.10 (based on CAEX3.0) is provided in the Aml.Engine.Services namespace.
 </li>
 
 <li>
