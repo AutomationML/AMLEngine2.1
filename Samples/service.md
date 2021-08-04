@@ -74,6 +74,6 @@ else
 
 
 #### Other Resources
-[Basic examples](basic.md)
-
-[Document validation](validation.md)
+- [Basic examples](basic.md)
+- [Query service](queries.md)
+- [Document validation](validation.md)
