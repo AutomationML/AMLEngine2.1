@@ -22,7 +22,7 @@ This topic contains the following sections:
 <li><a href="#interface-mappings">Interface Mappings</a></li>
 </ul>
 AmlEngine2.1 supports AutomationML documents based on CAEX 2.15 as well as documents, based on CAEX 3.0.
-The main differences between these versions are listed below. A document transformation service can be used, to transform CAEX 2.15 documents to CAEX 3.0 documents and back.
+The main differences between these versions are listed below. A document transformation service can be used, to transform CAEX 2.15 documents to CAEX 3.0 documents and back. An examples implementation is provided [here](../Samples/service.md).
 <br/><br/>
 
 
