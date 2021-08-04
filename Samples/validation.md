@@ -123,7 +123,7 @@ void ValidateName (CAEXDocument document)
 
 #### Other Resources
 
-[Basic examples](basic.md)
-
-[Advanced document processing using services](service.md)
+- [Basic examples](basic.md)
+- [Query service](queries.md)
+- [Advanced document processing using services](service.md)
 
