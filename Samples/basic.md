@@ -172,6 +172,6 @@ void methodWithClassPath ()
 
 #### Other Resources
 
-[Document validation](validation.md)
-
-[Advanced document processing using services](service.md)
+- [Document validation](validation.md)
+- [Query service](queries.md)
+- [Advanced document processing using services](service.md)
