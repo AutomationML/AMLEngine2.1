@@ -56,10 +56,14 @@ _element.Name.Exists()_ has to be replaced by _string.IsNullOrEmpty(element.Name
 </li>
 
 <li>
-Access to specific AMLObjects and specific AMLAttributes has been modified. The new engine doesn't mix AMLAttributes with basic CAEX classes. As an example you cannot access a FrameAttribute using a defined property of an InternalElement. To access specific AML Attributes or AML Objects implicit or explicit type conversion methods are provided. The SystemUnitClass defines this implicit [type conversion operator ObjectWithAMLAttribute](Documentation/Aml. 
-Engine.CAEX/SystemUnitClassType/op_Implicit.md) to access the [specific AutomationML Attributes of an object](Documentation/Aml.Engine.AmlObjects/ObjectWithAMLAttributes/README.md). To access an AutomationML Attribute
+  
+Access to specific AMLObjects and specific AMLAttributes has been modified. The new engine doesn't mix AMLAttributes with basic CAEX classes. As an example you cannot access a FrameAttribute using a defined property of an InternalElement. To access specific AML Attributes or AML Objects implicit or explicit type conversion methods are provided. The SystemUnitClass defines this
+implicit [type conversion operator ObjectWithAMLAttribute](Documentation/Aml.Engine.CAEX/SystemUnitClassType/op_Implicit.md) to access the
+[specific AutomationML Attributes of an object](Documentation/Aml.Engine.AmlObjects/ObjectWithAMLAttributes/README.md). To access an AutomationML Attribute
 like for instance the [FrameAttribute](Documentation/Aml.Engine.AmlObjects/ObjectWithAMLAttributes/FrameAttribute.md) of an InternalElement, use a Type cast like: _((ObjectWithAMLAttributes)internalElment).FrameAttribute_.
+  
 </li>
+  
 </ul>
 </li>
 </ol>
