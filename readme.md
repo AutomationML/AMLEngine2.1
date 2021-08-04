@@ -8,6 +8,8 @@ and the CAEX Version 2.15. This new development also supports AutomationML Versi
 
 A detailed overview of the differences between CAEX 2.15 and CAEX 3.0 is presented [here](Documentation/changes.md).
 
+A short guide explaining a migration strategy to adpat applications, using AMLEngine Version 3.x, to the Aml.Engine is presented [here](adaption.md).
+
 ### Download 
 
 The AMLEngine2.1 is published as  the named package **Aml.Engine** on nuget at https://www.nuget.org/packages/Aml.Engine.
