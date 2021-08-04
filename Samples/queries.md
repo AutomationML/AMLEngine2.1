@@ -2,22 +2,27 @@
  
 This topic contains the following sections:
 <ul>
+<li><a href="#service-registration">Service registration</a></li>
 <li><a href="#basic-queries">Basic queries</a></li>
 <li><a href="#query-class-to-class-relations">Query class to class relations</a></li>
 <li><a href="#query-class-to-instance-relations">Query class to instance relations</a></li>
 <li><a href="#query-instance-to-instance-relations">Query instance to instance relations</a></li>
 </ul>
 
-Queries are often applied to get specific information from an AML document which cannot be supplied by a class member or a property. The Aml.Engine supports queries with the provision of a query service interface. The Aml.Engine contains two implementation of the query service interface <a href="T_Aml_Engine_Services_Interfaces_IQuery">IQuery</a>. The main purpose of the Query service is it, to find related objects (Class to Class, Instance to Class and Instance to Instance relations).
+Queries are often applied to get specific information from an AML document which cannot be supplied by a class member or a property. The Aml.Engine supports queries with the provision of a query service interface. The Aml.Engine contains two implementation of the query service interface [IQuery](../Documentation/Aml.Engine.Services.Interfaces/IQuery/README.md). The main purpose of the Query service is it, to find related objects (Class to Class, Instance to Class and Instance to Instance relations).
 
 
-The implementation <a href="T_Aml_Engine_Services_QueryService">QueryService</a> is the registered default query service. The implementation is based on System.Xml.Linq integrated Query language. The second implementation <a href="T_Aml_Engine_Services_LookupService">LookupService</a> uses lookup tables and indexed based access to query objects. This service performs faster in most queries but needs additional memory space and an initialization phase to build the lookup tables. The tables are automatically updated when the AML document is modified.
+The IQuery implementation [QueryService](../Documentation/Aml.Engine.Services/QueryService/README.md) is the registered default query service. The implementation is based on System.Xml.Linq integrated Query language. The second alternative implementation [LookupService](../Documentation/Aml.Engine.Services/LookupService/README.md) uses lookup tables and indexed based access to query objects. This service performs faster in most queries but needs additional memory space and an initialization phase to build the lookup tables. The tables are automatically updated when the AML document is modified.
 
 
-To use the default System.Xml.Linq based Query service no programing is required. To access this service, the property <a href="P_Aml_Engine_Services_ServiceLocator_QueryService">QueryService</a> can be used. To use the table based LookupService, the registration method of the LookupService shall be called.
+The default System.Xml.Linq based Query service is initially activated. To access this service, 
+the static property [QueryService](../Documentation/Aml.Engine.Services/ServiceLocator/QueryService.md) can be used. To use the table based LookupService, the registration method of the LookupService shall be called first. The registraton of the alternative Query service deactivates the default Query service.
 
 
-**C#**<br />
+## Service registration
+
+
+**Activation**<br />
 ``` C#
 var service = LookupService.Register();
 
@@ -28,7 +33,7 @@ Assert.AreEqual (service, Aml.Engine.Services.ServiceLocator.QueryService);
 After registration, all queries including those which are called by the Aml.Engine will be performed by the LookupService. To switch back to the default System.Xml.Linq based Query service, the LookupService shall be unregistered.
 
 
-**C#**<br />
+**Deactivation**<br />
 
 ``` C#
 LookupService.UnRegister();
@@ -229,12 +234,12 @@ IEnumerable<ExternalInterfaceType> GetAllRelatedExternalInterfaces(ExternalInter
 #### Reference
 
 
-[FindByID](../Documentation/Aml.Engine.Services.Interfaces/IQuery/FindByID.md)
-[FindByID Extension](../Documentation/Aml.Engine.CAEX.Extensions/CAEXDocumentExtensions/FindByID.md)
-[FindByPath](../Documentation/Aml.Engine.Services.Interfaces/IQuery/FindByPath.md)
-[FindByPath Extension](../Documentation/Aml.Engine.CAEX.Extensions/CAEXDocumentExtensions/FindByPath.md)
-[AllClassReferences](../Documentation/Aml.Engine.Services.Interfaces/IQuery/AllClassReferences.md)
-[AllClassReferencesDeep](../Documentation/Aml.Engine.Services.Interfaces/IQuery/AllClassReferencesDeep.md)
-[ExternalDataConnector Class](../Documentation/Aml.Engine.AmlObjects/AutomationMLInterfaceClassLib/ExternalDataConnector.md)
-[InternalLinksToInterface Query Result](../Documentation/Aml.Engine.Services/QueryResult/InternalLinksToInterface.md)
-[InternalLinksToInterface](../Documentation/Aml.Engine.Services.Interfaces/IQuery/InternalLinksToInterface.md)
+- [FindByID](../Documentation/Aml.Engine.Services.Interfaces/IQuery/FindByID.md)
+- [FindByID Extension](../Documentation/Aml.Engine.CAEX.Extensions/CAEXDocumentExtensions/FindByID.md)
+- [FindByPath](../Documentation/Aml.Engine.Services.Interfaces/IQuery/FindByPath.md)
+- [FindByPath Extension](../Documentation/Aml.Engine.CAEX.Extensions/CAEXDocumentExtensions/FindByPath.md)
+- [AllClassReferences](../Documentation/Aml.Engine.Services.Interfaces/IQuery/AllClassReferences.md)
+- [AllClassReferencesDeep](../Documentation/Aml.Engine.Services.Interfaces/IQuery/AllClassReferencesDeep.md)
+- [ExternalDataConnector Class](../Documentation/Aml.Engine.AmlObjects/AutomationMLInterfaceClassLib/ExternalDataConnector.md)
+- [InternalLinksToInterface Query Result](../Documentation/Aml.Engine.Services/QueryResult/InternalLinksToInterface.md)
+- [InternalLinksToInterface](../Documentation/Aml.Engine.Services.Interfaces/IQuery/InternalLinksToInterface.md)
