@@ -125,19 +125,19 @@ var document = CAEXDocument.New_Document ();
 // the first solution shows an implementation, which uses existing libraries and classes
 void methodWithClasses ()
 {
-	// add the AutomationMLInterfaceClassLib
-	var amlBaseICLib = AutomationMLInterfaceClassLibType.InterfaceClassLib(document);
-	var myIClib = document.CAEXFile.InterfaceClassLib.Append("myIClib");
+    // add the AutomationMLInterfaceClassLib
+    var amlBaseICLib = AutomationMLInterfaceClassLibType.InterfaceClassLib(document);
+    var myIClib = document.CAEXFile.InterfaceClassLib.Append("myIClib");
 
-	var myIC = myIClib.InterfaceClass.Append("myICClass");
-	var myIC.BaseClass = amlBaseICLib.AutomationMLClass(AutomationMLInterfaceClassLib.AutomationMLBaseInterface);
+    var myIC = myIClib.InterfaceClass.Append("myICClass");
+    var myIC.BaseClass = amlBaseICLib.AutomationMLClass(AutomationMLInterfaceClassLib.AutomationMLBaseInterface);
 }
 
 // the second solution shows an implementation, which uses the standardized class path
 void methodWithClassPath ()
 {
-	var myIClib = document.CAEXFile.InterfaceClassLib.Append("myIClib");
-	var myIC = myIClib.InterfaceClass.Append("myICClass");
+    var myIClib = document.CAEXFile.InterfaceClassLib.Append("myIClib");
+    var myIC = myIClib.InterfaceClass.Append("myICClass");
     
     // creates a class relation to the AutomationML Base Interface Class
     myIC.MakeAutomationMLBaseInterface();
