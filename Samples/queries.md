@@ -1,5 +1,5 @@
 ## Query Examples
- 
+
 This topic contains the following sections:
 <ul>
 <li><a href="#service-registration">Service registration</a></li>
@@ -21,8 +21,8 @@ the static property [QueryService](../Documentation/Aml.Engine.Services/ServiceL
 
 ## Service registration
 
+**Activation**
 
-**Activation**<br />
 ``` C#
 var service = LookupService.Register();
 
@@ -32,8 +32,7 @@ Assert.AreEqual (service, Aml.Engine.Services.ServiceLocator.QueryService);
 
 After registration, all queries including those which are called by the Aml.Engine will be performed by the LookupService. To switch back to the default System.Xml.Linq based Query service, the LookupService shall be unregistered.
 
-
-**Deactivation**<br />
+**Deactivation**
 
 ``` C#
 LookupService.UnRegister();
@@ -44,16 +43,15 @@ Assert.IsTrue (Aml.Engine.Services.ServiceLocator.QueryService is Aml.Engine.Ser
 
 After unregistration, all queries including those which are called by the Aml.Engine will be performed by the default System.Xml.Linq base Query service again. Please note, that the Service locator will always allow only a single service registered for a service interface type. If the LookupService should be your preferred query service, leave it registered as long as it is used. This service needs to create tables to locate objects. If the service is unregistered the service and its tables are disposed. If it is registered again, all tables have to be rebuild.
 
-
 [Back To Top](#Query-Examples)
 
 
 ## Basic queries
 
-The most common queries are querying a CAEX object by an ID or a Path.
+The most common queries are querying a CAEX object by an ID or the CAEX Path.
 
+**FindByID example**
 
-**FindByID example**<br />
 ``` C#
 using Aml.Engine.Services;
 using Aml.Engine.CAEX.Extensions;
@@ -71,9 +69,7 @@ CAEXObject FindByID (CAEXDocument document, InternalElementType internalElement)
 }
 ```
 
- 
-
-**FindByPath example**<br />
+ **FindByPath example**
 
 
 ``` C#
@@ -87,7 +83,8 @@ CAEXObject FindByPath (CAEXDocument document, InternalElementType internalElemen
     // this is a document extension method
     var caexObj_1 = document.FindByPath (internalElement.RefBaseSystemUnitPath);
     // this is the equivalent method
-    var caexObj_2 = ServiceLocator.QueryService.FindByPath (document, internalElement.RefBaseSystemUnitPath);
+    var caexObj_2 = ServiceLocator.QueryService.FindByPath
+        			(document, internalElement.RefBaseSystemUnitPath);
 
     Assert.AreEqual (caexObj_1, caexObj_2);
 
@@ -97,22 +94,14 @@ CAEXObject FindByPath (CAEXDocument document, InternalElementType internalElemen
 }
 ```
 
-  
-
-
 [Back To Top](#Query-Examples)
-
-
-
-
 
 
 ## Query class to class relations
 
 Class to Class relations are inheritance relations.
 
-
-**First generation of derived classes**<br />
+**First generation of derived classes**
 
 ``` C#
 using Aml.Engine.Services;
@@ -124,11 +113,7 @@ void GetDerivedFirstGeneration (RoleFamilyType roleClass)
 }
 ```
 
-  
-
-
-
-**All generations of derived classes**<br />
+**All generations of derived classes**
 
 ``` C#
 using Aml.Engine.Services;
@@ -140,19 +125,13 @@ void GetDerivedFirstGeneration (RoleFamilyType roleClass)
 }
 ```
 
-
-
-
 [Back To Top](#Query-Examples)
-
-
 
 ## Query class to instance relations
 
 A Class to Instance relations is always defined using a class path as a value in any Attribute of a CAEX object, which is not a class (InternalElement, ExternalInterface, Attribute, RoleRequirement, SupportedRoleClass). You have to either provide a full CAEX path or the CAEX class object itself as a parameter of a query.
 
-
-**ExternalInterface Instances of an InterfaceClass**<br />
+**ExternalInterface Instances of an InterfaceClass**
 
 ``` C#
 using Aml.Engine.Services;
@@ -165,7 +144,8 @@ using Aml.Engine.CAEX;
 void GetAllExternalDataConnectorInstances (CAEXDocument document)
 {                  
     var externalInterfaces = ServiceLocator.QueryService.AllClassReferencesDeep(document, 
-                   AutomationMLInterfaceClassLib.ExternalDataConnector, CAEX_CLASSModel_TagNames.EXTERNAL_INTERFACE);
+                   	AutomationMLInterfaceClassLib.ExternalDataConnector,
+					CAEX_CLASSModel_TagNames.EXTERNAL_INTERFACE);
 
     foreach (var externalInterface in externalInterfaces)
     {
@@ -178,15 +158,7 @@ void GetAllExternalDataConnectorInstances (CAEXDocument document)
 }
 ```
 
-  
-
-
-
-
-
 [Back To Top](#Query-Examples)
-
-
 
 ## Query instance to instance relations
 
@@ -219,14 +191,7 @@ IEnumerable<ExternalInterfaceType> GetAllRelatedExternalInterfaces(ExternalInter
 }
 ```
 
-  
-
-
-
-
 [Back To Top](#Query-Examples)
-
-
 
 ## See Also
 

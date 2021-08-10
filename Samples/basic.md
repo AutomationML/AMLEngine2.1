@@ -1,35 +1,27 @@
 # Basic code examples
 
-These code examples show basic principles for AutomationML application development using the AMLEngine.
-
-
+These code examples show basic principles for AutomationML application development using the Aml.Engine.
 
 ### Basic Examples
-&nbsp;<ol><li id="Loading">
-Loading a Document
 
+#### 1. Loading a Document
 
-**C#**<br />
 ``` C#
 using Aml.Engine.CAEX;
 
 var document = CAEXDocument.LoadFromFile ("myFile.aml");
 ```
-</li><li id="Saving">
-Saving a Document
 
+#### 2. Saving a Document
 
-**C#**<br />
 ``` C#
 using Aml.Engine.CAEX;
 
 CAEXDocument.SaveToFile ("myFile.aml", true);
 ```
-</li><li id="Creation">
-Creation of a new CAEX document with InternaElements
 
+#### 3. Creation of a new CAEX document containing  Internal Elements
 
-**C#**<br />
 ``` C#
 using Aml.Engine.CAEX;
 
@@ -37,11 +29,9 @@ var document = CAEXDocument.New_Document ();
 var myIH = document.CAEXFile.InstanceHierarchy.Append("myIH");
 var myIE = myIH.InternalElement.Append("myIE");
 ```
-</li><li id="Accessing">
-Indexers
 
+#### 4. Accessing properties using Indexers
 
-**C#**<br />
 ``` C#
 using Aml.Engine.CAEX;
 
@@ -58,11 +48,9 @@ myIH = document.CAEXFile.InstanceHierarchy["myIH"];
 // Get the first CAEXElement with a specific attribute AND value from the sequence of elements
 myIH = document.CAEXFile.InstanceHierarchy[(Name:"Version", Value:"1.0")];
 ```
-</li><li id="BrowseExample">
-Traversing a Document.
 
+#### 5. Traversing a Document
 
-**C#**<br />
 ``` C#
 using Aml.Engine.CAEX;
 var document = CAEXDocument.LoadFromFile("myFile.aml");
@@ -70,18 +58,15 @@ var document = CAEXDocument.LoadFromFile("myFile.aml");
 // browse the Instance Hierarchies in the file
 foreach (var instanceHierary in document.CaexFile.InstanceHierarchy)
 {
-        // browse all InternalElements deep and import the internal Elements to your system
-        foreach (var internalElement in instanceHierarchy.Descendants<InternalElementType>())
-        {
-            // ToDo: import internal Element
-        }
+    // browse all InternalElements deep and import the internal Elements to your system
+    foreach (var internalElement in instanceHierarchy.Descendants<InternalElementType>())
+    {
+        // ToDo: import internal Element
+    }
 }
 ```
-</li><li id="InstanceCreation">
-Application of instantiation of a SystemUnitClass to insert an InternalElement.
+#### 6. InternalElement creation by class instantiation.
 
-
-**C#**<br />
 ``` C#
 using Aml.Engine.CAEX;
 
@@ -93,11 +78,8 @@ var mySuc = mySlib.SystemUnitClass.Append("suClass");
 // insert a new class instance (InternalElement) to the InstanceHierarchy
 var myIE = myIH.Insert (mySuc.CreateClassInstance());
 ```
-</li><li id="InternalLink">
-Creation of instance to instance relations using InternalLinks
+#### 7. Creation of instance to instance relations with InternalLinks
 
-
-**C#**<br />
 ``` C#
 using Aml.Engine.CAEX;
 
@@ -125,18 +107,15 @@ var relation = InternalLinkType.New_InternalLink (myIEA.ExternalInterface["a"], 
 // relation.AInterface = myIEA.ExternalInterface["a"];
 // relation.BInterface = myIEB.ExternalInterface["b"];
 ```
-</li><li id="BaseClass">
-Creation of class to class relations using AutomationML Base Classes.
+#### 8. Creation of class to class relations using AutomationML Base Classes
 
+#### See Also
 
-see also: 
 - [IClassWithBaseClassReference](../Documentation/Aml.Engine.CAEX/IClassWithBaseClassReference/README.md/)
 - [BaseClass](../Documentation/Aml.Engine.CAEX/InterfaceFamilyType/BaseClass.md/), 
 - [InterfaceClassLib](../Documentation/Aml.Engine.AmlObjects/AutomationMLInterfaceClassLibType/README.md/) 
 - [MakeAutomationMLBaseInterface](../Documentation/Aml.Engine.AmlObjects/AutomationMLInterfaceClassLib/MakeAutomationMLBaseInterface.md/)
 
-
-**C#**<br />
 ``` C#
 using Aml.Engine.CAEX;
 using Aml.Engine.AmlObjects;
@@ -146,25 +125,24 @@ var document = CAEXDocument.New_Document ();
 // the first solution shows an implementation, which uses existing libraries and classes
 void methodWithClasses ()
 {
-        // add the AutomationMLInterfaceClassLib
-        var amlBaseICLib = AutomationMLInterfaceClassLibType.InterfaceClassLib(document);
+	// add the AutomationMLInterfaceClassLib
+	var amlBaseICLib = AutomationMLInterfaceClassLibType.InterfaceClassLib(document);
+	var myIClib = document.CAEXFile.InterfaceClassLib.Append("myIClib");
 
-        var myIClib = document.CAEXFile.InterfaceClassLib.Append("myIClib");
-
-        var myIC = myIClib.InterfaceClass.Append("myICClass");
-        var myIC.BaseClass = amlBaseICLib.AutomationMLClass(AutomationMLInterfaceClassLib.AutomationMLBaseInterface);
+	var myIC = myIClib.InterfaceClass.Append("myICClass");
+	var myIC.BaseClass = amlBaseICLib.AutomationMLClass(AutomationMLInterfaceClassLib.AutomationMLBaseInterface);
 }
 
 // the second solution shows an implementation, which uses the standardized class path
 void methodWithClassPath ()
 {
-        var myIClib = document.CAEXFile.InterfaceClassLib.Append("myIClib");
-
-        var myIC = myIClib.InterfaceClass.Append("myICClass");
-
+	var myIClib = document.CAEXFile.InterfaceClassLib.Append("myIClib");
+	var myIC = myIClib.InterfaceClass.Append("myICClass");
+    
+    // creates a class relation to the AutomationML Base Interface Class
+    myIC.MakeAutomationMLBaseInterface();
 }
 ```
-</li></ol>&nbsp;
 
 
 ## See Also

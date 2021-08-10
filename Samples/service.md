@@ -3,15 +3,9 @@
 These code examples explain the application of services from the Aml.Engine.
 
 
-
 ### Advanced AML document processing using services.
-<ol>
-<li id="Loading">
-        
-Registration of a [LookupService](../Documentation/Aml.Engine.Services/LookupService/README.md) to locate CAEX objects using  an identifier.
-        
+#### 1. Registration of a [LookupService](../Documentation/Aml.Engine.Services/LookupService/README.md) to locate CAEX objects by ID
 
-**C#**<br />
 ``` C#
 using Aml.Engine.CAEX;
 using Aml.Engine.Services;
@@ -29,20 +23,17 @@ var interfaceClass = document.FindByPath (AutomationMLInterfaceClassLib.Interloc
 // Use the Lookup service for the same query
 LookupService.Register();
 
-// After registration of the Lookup service, all queries are automatically transferred to the Lookup service.
+// After registration of the Lookup service, all queries are automatically 
+// transferred to the Lookup service.
 // There is no need to change any method calls. The Lookup service performs faster but needs additional
 // memory space to maintain the lookup tables.
+
 var interfaceClass = document.FindByPath (AutomationMLInterfaceClassLib.InterlockingVariableInterface);
 ```
+​      
 
-</li>
-<li id="Transformation">
-        
-Transformation of an AML document to a higher version using the [CAEXSchemaTransformer](../Documentation/Aml.Engine.Services/CAEXSchemaTransformer/README.md).
+#### 2. Transformation of an AML document to a different CAEX version using the [CAEXSchemaTransformer](../Documentation/Aml.Engine.Services/CAEXSchemaTransformer/README.md).
 
-        
-
-**C#**<br />
 ``` C#
 using Aml.Engine.CAEX;
 using Aml.Engine.Services;
@@ -63,16 +54,11 @@ CAEXSchemaTransformer.UnRegister();
 
 // validate the document according to the assigned CAEX version
 if (newDocV3.Validate (out var message))
-        Console.Writeline ("Transformation success!");
+	Console.Writeline ("Transformation success!");
 else
-        Console.Writeline ("Transformation failed! See the returned message for details.");
+	Console.Writeline ("Transformation failed! See the returned message for details.");
 ```
-</li>
-</ol>
-
 ## See Also
-
-
 #### Other Resources
 - [Basic examples](basic.md)
 - [Query service](queries.md)

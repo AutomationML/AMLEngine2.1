@@ -8,20 +8,14 @@ This topic contains the following sections:
 <li><a href="#see-also">See Also</a></li>
 </ul>
 
-To validate a document, a service, which implements the
-[IValidator](../Documentation/Aml.Engine.Services.Interfaces/IValidator_1/README.md)
-interface has to be used. The Aml.Engine currently contains one implementation of this interface, 
-the [ValidatorService](../Documentation/Aml.Engine.Services/ValidatorService/README.md). 
-If validation issues are detected, also possible repair options are included in the validation result. See 
-the [ValidationElement](../Documentation/Aml.Engine.Services/ValidationElement/README.md) 
-class, which information is included in the validation result.
+To validate a document, a service, which implements the [IValidator](../Documentation/Aml.Engine.Services.Interfaces/IValidator_1/README.md) interface has to be used. The **Aml.Engine** currently contains one implementation of this interface, the [ValidatorService](../Documentation/Aml.Engine.Services/ValidatorService/README.md). If validation issues are detected, also possible repair options are included in the validation result. See the [ValidationElement](../Documentation/Aml.Engine.Services/ValidationElement/README.md) class, which information is included in the validation result.
 
 ## Validating a document
 
-This example show, how a document can be validated and how the obtained result can be read using extension methods, defined in
-[ValidationResults](../Documentation/Aml.Engine.Services/ValidationResults/README.md)
+This example show, how a document can be validated and how the obtained result can be read using extension methods, defined in [ValidationResults](../Documentation/Aml.Engine.Services/ValidationResults/README.md).
 
-**Validate document**<br />
+**Validate a document**
+
 ``` C#
 using Aml.Engine.Services;
 using Aml.Engine.CAEX;
@@ -51,8 +45,8 @@ void ValidateDocument (CAEXDocument document)
 
 This example is about repair IDs in a validated document.
 
+**Repair IDs**
 
-**Repair IDs**<br />
 ``` C#
 using Aml.Engine.Services;
 using Aml.Engine.CAEX;
@@ -81,7 +75,8 @@ void ValidateDocument (CAEXDocument document)
 
 These examples explain, how to validate a single ID or Name which should be assigned to an element.
 
-**Validate a name**<br />
+**Validate a name**
+
 ``` C#
 using Aml.Engine.Services;
 using Aml.Engine.CAEX;
@@ -90,7 +85,6 @@ void ValidateName (CAEXDocument document)
 {
     // registration of the validation service
     var service = ValidatorService.Register();
-
     var insHierarchy1 = document.CAEXFile.InstanceHierarchy.Append();
 
     insHierarchy1.Name = "InsHierarchy";
@@ -103,8 +97,8 @@ void ValidateName (CAEXDocument document)
     result = _service.NameValidation(insHierarchy2, "InsHierarchy");
     Assert.IsFalse(result.IsValid);
 
-
-    // it is possible to register a UniqueNameService. The Aml.Engine recognizes, if such a service is present and
+    // it is possible to register a UniqueNameService. The Aml.Engine recognizes, 
+    // if such a service is present and
     // will automatically assign unique names to all generated or inserted objects.
 
     Console.WriteLine (result.Message);
