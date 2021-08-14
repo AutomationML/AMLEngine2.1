@@ -1,4 +1,9 @@
 ## AMLEngine2.1 
+
+
+![](img/AutomationML-Logo.png)
+---
+
 ### AutomationML 2.1 Application Programming Interface
 
 The AMLEngine2.1 allows you to process AutomationML documents with a provided Application Programming Interface, 
