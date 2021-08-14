@@ -1,4 +1,14 @@
-### Sample implementations using the Aml.Engine
+### Solutions
+
+1. [Application Tutorial For Basics](ApplicationTutorialForBasics)
+
+In this solution, some basic principles of AutomationML programming can be learned. The application provides a simple GUI so that the modelling results can be captured visually.
+   
+2. [Getting Started Samples](GettingStartedSamples)
+
+This solution contains a collection of various programming examples, each covering a specific topic of AutomationML programming. 
+
+### Code samples using the Aml.Engine
 
 1. [Basic code snippets](basic.md) 
 2. Examples according to [Document validation](validation.md).
