@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.dke.de/CAEX" elementFormDefault="qualified" xmlns="http://www.dke.de/CAEX" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CAEXFile">
+    <xs:annotation>
+      <xs:documentation>Root-element of the CAEX schema.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="CAEXBasicObject">
+          <xs:sequence>
+            <xs:element name="SuperiorStandardVersion" minOccurs="0" maxOccurs="unbounded" type="xs:string">
+              <xs:annotation>
+                <xs:documentation>Describes the version of a superior standard, e.g. AutomationML x.y. The version string is defined in the superior standard.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            <xs:element name="SourceDocumentInformation" minOccurs="1" maxOccurs="unbounded" type="SourceDocumentInformationType">
+              <xs:annotation>
+                <xs:documentation>Provides information about the source(s) of the CAEX document.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            <xs:element name="ExternalReference" minOccurs="0" maxOccurs="unbounded">
+              <xs:annotation>
+                <xs:documentation>Container element for the alias definition of external CAEX files.</xs:documentation>
+              </xs:annotation>
+              <xs:complexType>
+                <xs:complexContent>
+                  <xs:extension base="CAEXBasicObject">
+                    <xs:attribute name="Path" use="required" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>Describes the path of the external CAEX file. Absolute and relative paths are allowed.</xs:documentation>
+                      </xs:annotation>
+                    </xs:attribute>
+                    <xs:attribute name="Alias" use="required" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>Describes the alias name of an external CAEX file to enable referencing elements of the external CAEX file.</xs:documentation>
+                      </xs:annotation>
+                    </xs:attribute>
+                  </xs:extension>
+                </xs:complexContent>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="InstanceHierarchy" minOccurs="0" maxOccurs="unbounded">
+              <xs:annotation>
+                <xs:documentation>Root element for a system hierarchy of object instances.</xs:documentation>
+              </xs:annotation>
+              <xs:complexType>
+                <xs:complexContent>
+                  <xs:extension base="CAEXObject">
+                    <xs:sequence>
+                      <xs:element name="InternalElement" minOccurs="0" maxOccurs="unbounded" type="InternalElementType">
+                        <xs:annotation>
+                          <xs:documentation>Shall be used in order to define nested objects inside of a SystemUnitClass or another InternalElement. Allows description of the internal structure of a CAEX object.</xs:documentation>
+                        </xs:annotation>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:extension>
+                </xs:complexContent>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="InterfaceClassLib" minOccurs="0" maxOccurs="unbounded">
+              <xs:annotation>
+                <xs:documentation>Container element for a hierarchy of InterfaceClass definitions. It shall contain any interface class definitions. CAEX supports multiple interface libraries.</xs:documentation>
+              </xs:annotation>
+              <xs:complexType>
+                <xs:complexContent>
+                  <xs:extension base="CAEXObject">
+                    <xs:sequence>
+                      <xs:element name="InterfaceClass" minOccurs="0" maxOccurs="unbounded" type="InterfaceFamilyType">
+                        <xs:annotation>
+                          <xs:documentation>Class definition for interfaces.</xs:documentation>
+                        </xs:annotation>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:extension>
+                </xs:complexContent>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="RoleClassLib" minOccurs="0" maxOccurs="unbounded">
+              <xs:annotation>
+                <xs:documentation>Container element for a hierarchy of RoleClass definitions. It shall contain any RoleClass definitions. CAEX supports multiple role libraries.</xs:documentation>
+              </xs:annotation>
+              <xs:complexType>
+                <xs:complexContent>
+                  <xs:extension base="CAEXObject">
+                    <xs:sequence>
+                      <xs:element name="RoleClass" minOccurs="0" maxOccurs="unbounded" type="RoleFamilyType">
+                        <xs:annotation>
+                          <xs:documentation>Definition of a class of a role type.</xs:documentation>
+                        </xs:annotation>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:extension>
+                </xs:complexContent>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="SystemUnitClassLib" minOccurs="0" maxOccurs="unbounded">
+              <xs:annotation>
+                <xs:documentation>Container element for a hierarchy of SystemUnitClass definitions. It shall contain any SystemunitClass definitions. CAEX supports multiple SystemUnitClass libraries.</xs:documentation>
+              </xs:annotation>
+              <xs:complexType>
+                <xs:complexContent>
+                  <xs:extension base="CAEXObject">
+                    <xs:sequence>
+                      <xs:element name="SystemUnitClass" minOccurs="0" maxOccurs="unbounded" type="SystemUnitFamilyType">
+                        <xs:annotation>
+                          <xs:documentation>Shall be used for SystemUnitClass definition, provides definition of a class of a SystemUnitClass type.</xs:documentation>
+                        </xs:annotation>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:extension>
+                </xs:complexContent>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="AttributeTypeLib" minOccurs="0" maxOccurs="unbounded">
+              <xs:annotation>
+                <xs:documentation>Container element for a hierarchy of Attribute type definitions. CAEX supports multiple attribute type libraries.</xs:documentation>
+              </xs:annotation>
+              <xs:complexType>
+                <xs:complexContent>
+                  <xs:extension base="CAEXObject">
+                    <xs:sequence>
+                      <xs:element name="AttributeType" minOccurs="0" maxOccurs="unbounded" type="AttributeFamilyType">
+                        <xs:annotation>
+                          <xs:documentation>Class definition for attribute Types</xs:documentation>
+                        </xs:annotation>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:extension>
+                </xs:complexContent>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute name="SchemaVersion" use="required" type="xs:string" fixed="3.0">
+            <xs:annotation>
+              <xs:documentation>Describes the version of the schema. Each CAEX document must specify which CAEX version it requires. The version number of a CAEX document must fit to the version number specified in the CAEX schema file.</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="FileName" use="required" type="xs:string">
+            <xs:annotation>
+              <xs:documentation>Describes the name of the CAEX file.</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="Header">
+    <xs:annotation>
+      <xs:documentation>Defines a group of organizational information, like description, version, revision, copyright, etc.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Description" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Textual description for CAEX objects.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute name="ChangeMode" type="ChangeMode" default="state">
+              </xs:attribute>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Version" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Organizational information about the state of the version.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute name="ChangeMode" type="ChangeMode" default="state">
+              </xs:attribute>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Revision" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Organizational information about the state of the revision.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="CAEXBasicObject">
+              <xs:sequence>
+                <xs:element name="RevisionDate" type="xs:dateTime">
+                </xs:element>
+                <xs:element name="OldVersion" minOccurs="0" maxOccurs="1" type="xs:string">
+                </xs:element>
+                <xs:element name="NewVersion" minOccurs="0" maxOccurs="1" type="xs:string">
+                </xs:element>
+                <xs:element name="AuthorName" type="xs:string">
+                </xs:element>
+                <xs:element name="Comment" minOccurs="0" maxOccurs="1" type="xs:string">
+                </xs:element>
+              </xs:sequence>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Copyright" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Organizational information about copyright.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute name="ChangeMode" type="ChangeMode" default="state">
+              </xs:attribute>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="AdditionalInformation" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Optional auxiliary field that may contain any additional information about a CAEX object.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="SourceObjectInformation" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Organizational information about the source of the corresponding CAEX object.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute name="OriginID" use="required" type="xs:string">
+                <xs:annotation>
+                  <xs:documentation>This attribute describes the ID of the origin of the belonging object, e.g. a source engineering tool. The value is according to the vendor specific OriginID.</xs:documentation>
+                </xs:annotation>
+              </xs:attribute>
+              <xs:attribute name="SourceObjID" type="xs:string">
+                <xs:annotation>
+                  <xs:documentation>Optional attribute representing the ID of the source object in the source data model.</xs:documentation>
+                </xs:annotation>
+              </xs:attribute>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:complexType name="SourceDocumentInformationType">
+    <xs:annotation>
+      <xs:documentation>Defines a structure to model information about the data source of the present CAEX document.</xs:documentation>
+    </xs:annotation>
+    <xs:attribute name="OriginName" use="required" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>Name of the origin of the CAEX document, e.g. the source engineering tool or an exporter software</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="OriginID" use="required" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>Unique identifier of the origin of the CAEX document, e.g. a unique identifier of a source engineering tool or an exporter software. The ID shall not change even if the origin gets renamed.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="OriginVendor" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>Optional: the vendor of the data source of the CAEX document</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="OriginVendorURL" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>Optional: the vendors URL of the data source of the CAEX document</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="OriginVersion" use="required" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>Version of the origin of the CAEX document, e.g. the version of the source engineering tool or the exporter software.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="OriginRelease" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>Optional: release information of the origin of the CAEX document, e.g. the version of the source engineering tool or the exporter software.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="LastWritingDateTime" use="required" type="xs:dateTime">
+      <xs:annotation>
+        <xs:documentation>Date and time of the creation of the CAEX document.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="OriginProjectTitle" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>Optional: the title of the corresponding source project</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="OriginProjectID" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>Optional: a unique identifier of the corresponding source project</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="MappingType">
+    <xs:annotation>
+      <xs:documentation>Base element for AttributeNameMapping and InterfaceIDMapping.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CAEXBasicObject">
+        <xs:sequence maxOccurs="1" minOccurs="0">
+          <xs:element name="AttributeNameMapping" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Allows the definition of the mapping between attributes of a related role class or its interfaces and attributes of the hosting system unit</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+              <xs:complexContent>
+                <xs:extension base="CAEXBasicObject">
+                  <xs:attribute name="SystemUnitAttributeName" use="required" type="xs:string">
+                  </xs:attribute>
+                  <xs:attribute name="RoleAttributeName" use="required" type="xs:string">
+                  </xs:attribute>
+                </xs:extension>
+              </xs:complexContent>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="InterfaceIDMapping" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Allows the definition of the mapping between interfaces of a related role class and interfaces of the hosting system unit.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+              <xs:complexContent>
+                <xs:extension base="CAEXBasicObject">
+                  <xs:attribute name="SystemUnitInterfaceID" use="required" type="xs:string">
+                  </xs:attribute>
+                  <xs:attribute name="RoleInterfaceID" use="required" type="xs:string">
+                  </xs:attribute>
+                </xs:extension>
+              </xs:complexContent>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="AttributeFamilyType">
+    <xs:annotation>
+      <xs:documentation>Defines base structures for attribute type definitions.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="AttributeType">
+        <xs:sequence>
+          <xs:element name="AttributeType" minOccurs="0" maxOccurs="unbounded" type="AttributeFamilyType">
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="InternalElementType">
+    <xs:annotation>
+      <xs:documentation>Defines base structures for a hierarchical object instance. The instance maybe part of the InstanceHierarchy or a SystemUnitClass.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="SystemUnitClassType">
+        <xs:sequence maxOccurs="1" minOccurs="0">
+          <xs:element name="RoleRequirements" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Describes role requirements of an InternalElement. It allows the definition of a reference to a RoleClass and the specification of role requirements like required attributes and required interfaces.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+              <xs:complexContent>
+                <xs:extension base="CAEXBasicObject">
+                  <xs:sequence>
+                    <xs:element name="Attribute" minOccurs="0" maxOccurs="unbounded" type="AttributeType">
+                      <xs:annotation>
+                        <xs:documentation>Characterizes properties of the RoleRequirements.</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="ExternalInterface" minOccurs="0" maxOccurs="unbounded" type="InterfaceClassType">
+                    </xs:element>
+                    <xs:element name="MappingObject" minOccurs="0" maxOccurs="1" type="MappingType">
+                      <xs:annotation>
+                        <xs:documentation>Host element for AttributeNameMapping and InterfaceIDMapping.</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="RefBaseRoleClassPath" use="required" type="xs:string">
+                  </xs:attribute>
+                </xs:extension>
+              </xs:complexContent>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+        <xs:attribute name="RefBaseSystemUnitPath" type="xs:string">
+          <xs:annotation>
+            <xs:documentation>Stores the reference of an InternalElement to a class or instance definition. References contain the full path information.</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SystemUnitFamilyType">
+    <xs:annotation>
+      <xs:documentation>Defines base structures for a hierarchical SystemUnitClass tree. The hierarchical structure of a SystemUnit library has organizational character only.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="SystemUnitClassType">
+        <xs:sequence maxOccurs="1" minOccurs="0">
+          <xs:element name="SystemUnitClass" minOccurs="0" maxOccurs="unbounded" type="SystemUnitFamilyType">
+            <xs:annotation>
+              <xs:documentation>Element that allows definition of child SystemUnitClasses within the class hierarchy. The parent child relation between two SystemUnitClasses has no semantic.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+        <xs:attribute name="RefBaseClassPath" type="xs:string">
+          <xs:annotation>
+            <xs:documentation>Stores the reference of a class to its base class. References contain the full path to the referred class object.</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="AttributeValueRequirementType">
+    <xs:annotation>
+      <xs:documentation>Defines base structures for definition of value requirements of an attribute.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CAEXBasicObject">
+        <xs:choice>
+          <xs:element name="OrdinalScaledType">
+            <xs:annotation>
+              <xs:documentation>Element of to define constraints of ordinal scaled attribute values.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+              <xs:sequence maxOccurs="1" minOccurs="0">
+                <xs:element name="RequiredMaxValue" minOccurs="0" maxOccurs="1" type="xs:string">
+                  <xs:annotation>
+                    <xs:documentation>Element to define a maximum value of an attribute.</xs:documentation>
+                  </xs:annotation>
+                </xs:element>
+                <xs:element name="RequiredValue" minOccurs="0" maxOccurs="1" type="xs:string">
+                  <xs:annotation>
+                    <xs:documentation>Element to define a required value of an attribute.</xs:documentation>
+                  </xs:annotation>
+                </xs:element>
+                <xs:element name="RequiredMinValue" minOccurs="0" maxOccurs="1" type="xs:string">
+                  <xs:annotation>
+                    <xs:documentation>Element to define a minimum value of an attribute.</xs:documentation>
+                  </xs:annotation>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="NominalScaledType">
+            <xs:annotation>
+              <xs:documentation>Element of to define constraints of nominal scaled attribute values.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+              <xs:sequence maxOccurs="1" minOccurs="0">
+                <xs:element name="RequiredValue" minOccurs="0" maxOccurs="unbounded" type="xs:string">
+                  <xs:annotation>
+                    <xs:documentation>Element to define a required value of an attribute. It may be defined multiple times in order to define a discrete value range of the attribute.</xs:documentation>
+                  </xs:annotation>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UnknownType">
+            <xs:annotation>
+              <xs:documentation>Element to define constraints for attribute values of an unknown scale type.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+              <xs:sequence maxOccurs="1" minOccurs="0">
+                <xs:element name="Requirements" type="xs:string">
+                  <xs:annotation>
+                    <xs:documentation>Defines informative requirements as a constraint for an attribute value.</xs:documentation>
+                  </xs:annotation>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+        <xs:attribute name="Name" use="required" type="xs:string">
+          <xs:annotation>
+            <xs:documentation>Describes the name of the constraint.</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SystemUnitClassType">
+    <xs:annotation>
+      <xs:documentation>Defines base structures for a SystemUnit class definition.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CAEXObject">
+        <xs:sequence maxOccurs="1" minOccurs="0">
+          <xs:element name="Attribute" minOccurs="0" maxOccurs="unbounded" type="AttributeType">
+            <xs:annotation>
+              <xs:documentation>Characterizes properties of the SystemUnitClass.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ExternalInterface" minOccurs="0" maxOccurs="unbounded" type="InterfaceClassType">
+            <xs:annotation>
+              <xs:documentation>Description of an external interface.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="InternalElement" minOccurs="0" maxOccurs="unbounded" type="InternalElementType">
+            <xs:annotation>
+              <xs:documentation>Shall be used in order to define nested objects inside of a SystemUnitClass or another InternalElement. Allows description of the internal structure of a CAEX object.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="SupportedRoleClass" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Allows the association to a RoleClass which this SystemUnitClass can play. A SystemUnitClass may reference multiple roles.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+              <xs:complexContent>
+                <xs:extension base="CAEXBasicObject">
+                  <xs:sequence maxOccurs="1" minOccurs="0">
+                    <xs:element name="MappingObject" minOccurs="0" maxOccurs="1" type="MappingType">
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="RefRoleClassPath" use="required" type="xs:string">
+                  </xs:attribute>
+                </xs:extension>
+              </xs:complexContent>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="InternalLink" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Shall be used in order to define the relationships between internal interfaces of InternalElements.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+              <xs:complexContent>
+                <xs:extension base="CAEXObject">
+                  <xs:attribute name="RefPartnerSideA" use="required" type="xs:string">
+                  </xs:attribute>
+                  <xs:attribute name="RefPartnerSideB" use="required" type="xs:string">
+                  </xs:attribute>
+                </xs:extension>
+              </xs:complexContent>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="RoleClassType">
+    <xs:annotation>
+      <xs:documentation>Shall be used for RoleClass definition, provides base structures for a role class definition.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CAEXObject">
+        <xs:sequence maxOccurs="1" minOccurs="0">
+          <xs:element name="Attribute" minOccurs="0" maxOccurs="unbounded" type="AttributeType">
+            <xs:annotation>
+              <xs:documentation>Characterizes properties of the RoleClass.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ExternalInterface" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Description of an external interface.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+              <xs:complexContent>
+                <xs:extension base="InterfaceClassType">
+                </xs:extension>
+              </xs:complexContent>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+        <xs:attribute name="RefBaseClassPath" type="xs:string">
+          <xs:annotation>
+            <xs:documentation>Stores the reference of a class to its base class. References contain the full path to the referred class object.</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="RoleFamilyType">
+    <xs:annotation>
+      <xs:documentation>Defines base structures for a hierarchical RoleClass tree. The hierarchical structure of a role library has organizational character only.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="RoleClassType">
+        <xs:sequence maxOccurs="1" minOccurs="0">
+          <xs:element name="RoleClass" minOccurs="0" maxOccurs="unbounded" type="RoleFamilyType">
+            <xs:annotation>
+              <xs:documentation>Element that allows definition of child RoleClasses within the class hierarchy. The parent child relation between two RoleClasses has no semantic.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="InterfaceClassType">
+    <xs:annotation>
+      <xs:documentation>Shall be used for InterfaceClass definition, provides base structures for an interface class definition.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CAEXObject">
+        <xs:sequence maxOccurs="1" minOccurs="0">
+          <xs:element name="Attribute" minOccurs="0" maxOccurs="unbounded" type="AttributeType">
+            <xs:annotation>
+              <xs:documentation>Characterizes properties of the InterfaceClass.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ExternalInterface" minOccurs="0" maxOccurs="unbounded" type="InterfaceClassType">
+          </xs:element>
+        </xs:sequence>
+        <xs:attribute name="RefBaseClassPath" type="xs:string">
+          <xs:annotation>
+            <xs:documentation>Stores the reference of a class to its base class. References contain the full path to the referred class object.</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="AttributeType">
+    <xs:annotation>
+      <xs:documentation>Defines base structures for attribute definitions.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CAEXObject">
+        <xs:sequence maxOccurs="1" minOccurs="0">
+          <xs:element name="DefaultValue" minOccurs="0" maxOccurs="1" type="xs:string">
+            <xs:annotation>
+              <xs:documentation>A predefined default value for an attribute.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Value" minOccurs="0" maxOccurs="1" type="xs:string">
+            <xs:annotation>
+              <xs:documentation>Element describing the value of an attribute.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="RefSemantic" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>A reference to a definition of a defined attribute, e. g. to an attribute in a standardized library, this allows the semantic definition of the attribute.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+              <xs:complexContent>
+                <xs:extension base="CAEXBasicObject">
+                  <xs:attribute name="CorrespondingAttributePath" use="required" type="xs:string">
+                  </xs:attribute>
+                </xs:extension>
+              </xs:complexContent>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Constraint" minOccurs="0" maxOccurs="unbounded" type="AttributeValueRequirementType">
+            <xs:annotation>
+              <xs:documentation>Element to restrict the range of validity of a defined attribute.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Attribute" minOccurs="0" maxOccurs="unbounded" type="AttributeType">
+            <xs:annotation>
+              <xs:documentation>Element that allows the description of nested attributes.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+        <xs:attribute name="Unit" type="xs:string">
+          <xs:annotation>
+            <xs:documentation>Describes the unit of the attribute.</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="AttributeDataType">
+          <xs:annotation>
+            <xs:documentation>Describes the data type of the attribute using XML notation.</xs:documentation>
+          </xs:annotation>
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="RefAttributeType" type="xs:string">
+          <xs:annotation>
+            <xs:documentation>References an attribute type in the attribute library.</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="InterfaceFamilyType">
+    <xs:annotation>
+      <xs:documentation>Defines base structures for a hierarchical InterfaceClass tree. The hierarchical structure of an interface library has organizational character only.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="InterfaceClassType">
+        <xs:sequence maxOccurs="1" minOccurs="0">
+          <xs:element name="InterfaceClass" minOccurs="0" maxOccurs="unbounded" type="InterfaceFamilyType">
+            <xs:annotation>
+              <xs:documentation>Element that allows definition of child InterfaceClasses within the class hierarchy. The parent child relation between two InterfaceClasses has no semantic.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="CAEXObject">
+    <xs:annotation>
+      <xs:documentation>
+        CAEX basis object derived from CAEXBasicObject, augmented by
+        Name (required) and ID (optional).
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CAEXBasicObject">
+        <xs:attribute name="ID" type="xs:string">
+          <xs:annotation>
+            <xs:documentation>Optional attribute that describes a unique identifier of the CAEX object.</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="Name" use="required" type="xs:string">
+          <xs:annotation>
+            <xs:documentation>Describes the name of the CAEX object.</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="CAEXBasicObject">
+    <xs:annotation>
+      <xs:documentation>CAEX basis object that comprises a basic set of attributes and header information which exist for all CAEX elements.</xs:documentation>
+    </xs:annotation>
+    <xs:group ref="Header" minOccurs="0" maxOccurs="1">
+    </xs:group>
+    <xs:attribute name="ChangeMode" type="ChangeMode" default="state">
+      <xs:annotation>
+        <xs:documentation>Optionally describes the change state of a CAEX object. If used, the ChangeMode shall have the following value range: state, create, delete and change. This information should be used for further change management applications.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:simpleType name="ChangeMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="state" />
+      <xs:enumeration value="create" />
+      <xs:enumeration value="delete" />
+      <xs:enumeration value="change" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
