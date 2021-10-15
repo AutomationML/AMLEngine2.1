@@ -1,6 +1,6 @@
 LookupService.RemoveDocument Method
 ===================================
-Removes the document from the query service. All tables for the document will be unloaded.
+Removes the document from the internal registry of the service.
 
   **Namespace:**  [Aml.Engine.Services][1]  
   **Assembly:**  AML.Engine.Services (in AML.Engine.Services.dll)
@@ -10,15 +10,15 @@ Syntax
 
 ```csharp
 public void RemoveDocument(
-	XDocumentWrapper doc
+	XDocumentWrapper document
 )
 ```
 
 #### Parameters
 
-##### *doc*
+##### *document*
 Type: [Aml.Engine.XML.XDocumentWrapper][2]  
-The document.
+The XML document.
 
 #### Implements
 [IXMLDocumentRegistry.RemoveDocument(XDocumentWrapper)][3]  

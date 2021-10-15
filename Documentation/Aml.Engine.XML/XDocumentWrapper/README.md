@@ -16,7 +16,7 @@ Syntax
 ------
 
 ```csharp
-public abstract class XDocumentWrapper : IDocument
+public class XDocumentWrapper : IDocument
 ```
 
 The **XDocumentWrapper** type exposes the following members.

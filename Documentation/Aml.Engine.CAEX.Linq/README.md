@@ -1,6 +1,6 @@
 Aml.Engine.CAEX.Linq Namespace
 ==============================
-The Aml.Engine.CAEX.Linq Namespace provides classes and methods which allow to use System.Linq extenstion methods together with [CAEXSequence&lt;T>][1].
+The Aml.Engine.CAEX.Linq Namespace provides classes and methods which allow to use System.Linq extension methods together with [CAEXSequence&lt;T>][1].
 
 
 Classes

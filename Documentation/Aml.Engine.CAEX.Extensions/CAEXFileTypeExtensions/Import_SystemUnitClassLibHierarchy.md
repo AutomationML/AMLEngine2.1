@@ -1,5 +1,8 @@
 CAEXFileTypeExtensions.Import_SystemUnitClassLibHierarchy Method
 ================================================================
+
+
+**Note: This API is now obsolete.**
 Imports the provided library into the SystemUnitClassLib collection of this CAEX file.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
@@ -9,6 +12,7 @@ Syntax
 ------
 
 ```csharp
+[ObsoleteAttribute("Use ImportSystemUnitClassLib")]
 public static SystemUnitClassLibType Import_SystemUnitClassLibHierarchy(
 	this CAEXFileType caexFile,
 	SystemUnitClassLibType systemUnitClassLib

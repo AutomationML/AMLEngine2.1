@@ -12,7 +12,7 @@ Syntax
 ------
 
 ```csharp
-[ObsoleteAttribute("It is not recommended to this method anymore, because ID references are not updated, which can led to an invalid document.", 
+[ObsoleteAttribute("It is not recommended to use this method anymore, because ID references are not updated, which can led to an invalid document.", 
 	false)]
 public static void AssignNewGUIDs(
 	this InternalElementType element

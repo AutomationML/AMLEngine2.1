@@ -1,6 +1,6 @@
 CAEXObject.Copy Method
 ======================
-Creates a deep copy of this CAEX object, containing all child elements. The created copy will have replaced unique IDs and updated references, if the *assignNewIDs* is set to true (default). When a CAEX class is copied, the nested classes that can exist for AttributeType, RoleClass, SystemUnitClass, and InterfaceClass are not included in the created copy.
+Creates a copy of this CAEX object, containing all child elements. The created copy will have replaced unique IDs and updated references, if the *assignNewIDs* is set to true (default). When a CAEX class is copied, the nested classes that can exist for AttributeType, RoleClass, SystemUnitClass, and InterfaceClass could be included in the created copy, if the *includeSubClasses* is set to `true`.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)
@@ -33,6 +33,10 @@ Type: [System.Boolean][2]
 #### Return Value
 Type: [CAEXWrapper][3]  
  A copy of this CAEX object with unique IDs. 
+
+Remarks
+-------
+ Please note, that the copy is not automatically inserted into the document. The copy also gets the same name as the original object. This name should be changed when the copy is inserted into a collection, to full fill a possible existing restriction for name uniqueness of the target collection. 
 
 See Also
 --------

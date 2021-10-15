@@ -11,7 +11,7 @@ Syntax
 ```csharp
 public static IEnumerable<InternalElementType> GetInheritedElements(
 	this SystemUnitFamilyType classWithBaseClass,
-	bool includeSelf = true
+	bool includeSelf
 )
 ```
 
@@ -19,15 +19,15 @@ public static IEnumerable<InternalElementType> GetInheritedElements(
 
 ##### *classWithBaseClass*
 Type: [Aml.Engine.CAEX.SystemUnitFamilyType][2]  
-The class with a possible base class reference for inheritance.
+ The class with a possible base class reference for inheritance.
 
-##### *includeSelf* (Optional)
+##### *includeSelf*
 Type: [System.Boolean][3]  
 if set to `true` includes the own Internal Elements.
 
 #### Return Value
 Type: [IEnumerable][4]&lt;[InternalElementType][5]>  
- A collection of InternalElement objects 
+A collection of InternalElement objects
 #### Usage Note
 In Visual Basic and C#, you can call this method as an instance method on any object of type [SystemUnitFamilyType][2]. When you use instance method syntax to call this method, omit the first parameter. For more information, see [Extension Methods (Visual Basic)][6] or [Extension Methods (C# Programming Guide)][7].
 

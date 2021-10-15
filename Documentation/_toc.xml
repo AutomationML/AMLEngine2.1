@@ -367,6 +367,8 @@
                    file="Aml.Engine.AmlObjects/AutomationMLBaseAttributeTypeLibType/AssociatedExternalValue.md"/>
             <topic id="P:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLibType.AssociatedFacet"
                    file="Aml.Engine.AmlObjects/AutomationMLBaseAttributeTypeLibType/AssociatedFacet.md"/>
+            <topic id="P:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLibType.AssociatedValue"
+                   file="Aml.Engine.AmlObjects/AutomationMLBaseAttributeTypeLibType/AssociatedValue.md"/>
             <topic id="P:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLibType.Cardinality"
                    file="Aml.Engine.AmlObjects/AutomationMLBaseAttributeTypeLibType/Cardinality.md"/>
             <topic id="P:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLibType.Category"
@@ -1189,6 +1191,8 @@
                    file="Aml.Engine.CAEX/AttributeFamilyType/Insert_1.md"/>
             <topic id="M:Aml.Engine.CAEX.AttributeFamilyType.Insert(Aml.Engine.CAEX.CAEXWrapper,System.Boolean)"
                    file="Aml.Engine.CAEX/AttributeFamilyType/Insert.md"/>
+            <topic id="M:Aml.Engine.CAEX.AttributeFamilyType.Remove(System.Boolean)"
+                   file="Aml.Engine.CAEX/AttributeFamilyType/Remove.md"/>
          </topic>
          <topic id="T:Aml.Engine.CAEX.AttributeNameMappingType"
                 file="Aml.Engine.CAEX/AttributeNameMappingType/README.md"
@@ -1736,6 +1740,8 @@
                    file="Aml.Engine.CAEX/CAEXLibrary_1/_ctor.md"/>
             <topic id="M:Aml.Engine.CAEX.CAEXLibrary`1.System#Collections#IEnumerable#GetEnumerator"
                    file="Aml.Engine.CAEX/CAEXLibrary_1/System_Collections_IEnumerable_GetEnumerator.md"/>
+            <topic id="M:Aml.Engine.CAEX.CAEXLibrary`1.CopyAndChangeReferences(Aml.Engine.CAEX.CAEXFileType,System.String)"
+                   file="Aml.Engine.CAEX/CAEXLibrary_1/CopyAndChangeReferences.md"/>
             <topic id="M:Aml.Engine.CAEX.CAEXLibrary`1.GetEnumerator"
                    file="Aml.Engine.CAEX/CAEXLibrary_1/GetEnumerator.md"/>
             <topic id="M:Aml.Engine.CAEX.CAEXLibrary`1.InsertAfter(Aml.Engine.CAEX.CAEXLibrary{`0})"
@@ -1754,7 +1760,7 @@
                    file="Aml.Engine.CAEX/CAEXObject/Name.md"/>
             <topic id="P:Aml.Engine.CAEX.CAEXObject.NewGUID"
                    file="Aml.Engine.CAEX/CAEXObject/NewGUID.md"/>
-            <topic id="M:Aml.Engine.CAEX.CAEXObject.AssignNewGuidAsID"
+            <topic id="M:Aml.Engine.CAEX.CAEXObject.AssignNewGuidAsID(System.Boolean)"
                    file="Aml.Engine.CAEX/CAEXObject/AssignNewGuidAsID.md"/>
             <topic id="M:Aml.Engine.CAEX.CAEXObject.CAEXPath"
                    file="Aml.Engine.CAEX/CAEXObject/CAEXPath.md"/>
@@ -2013,6 +2019,8 @@
                    file="Aml.Engine.CAEX/ExternalReferenceType/_ctor.md"/>
             <topic id="P:Aml.Engine.CAEX.ExternalReferenceType.Alias"
                    file="Aml.Engine.CAEX/ExternalReferenceType/Alias.md"/>
+            <topic id="P:Aml.Engine.CAEX.ExternalReferenceType.ExternalDocument"
+                   file="Aml.Engine.CAEX/ExternalReferenceType/ExternalDocument.md"/>
             <topic id="P:Aml.Engine.CAEX.ExternalReferenceType.Path"
                    file="Aml.Engine.CAEX/ExternalReferenceType/Path.md"/>
             <topic id="M:Aml.Engine.CAEX.ExternalReferenceType.InsertAfter(Aml.Engine.CAEX.ExternalReferenceType)"
@@ -2308,6 +2316,8 @@
                    file="Aml.Engine.CAEX/InterfaceFamilyType/Insert_1.md"/>
             <topic id="M:Aml.Engine.CAEX.InterfaceFamilyType.Insert(Aml.Engine.CAEX.CAEXWrapper,System.Boolean)"
                    file="Aml.Engine.CAEX/InterfaceFamilyType/Insert.md"/>
+            <topic id="M:Aml.Engine.CAEX.InterfaceFamilyType.Remove(System.Boolean)"
+                   file="Aml.Engine.CAEX/InterfaceFamilyType/Remove.md"/>
          </topic>
          <topic id="T:Aml.Engine.CAEX.InterfaceIDMappingType"
                 file="Aml.Engine.CAEX/InterfaceIDMappingType/README.md"
@@ -2700,6 +2710,8 @@
                    file="Aml.Engine.CAEX/RoleFamilyType/Insert_1.md"/>
             <topic id="M:Aml.Engine.CAEX.RoleFamilyType.Insert(Aml.Engine.CAEX.CAEXWrapper,System.Boolean)"
                    file="Aml.Engine.CAEX/RoleFamilyType/Insert.md"/>
+            <topic id="M:Aml.Engine.CAEX.RoleFamilyType.Remove(System.Boolean)"
+                   file="Aml.Engine.CAEX/RoleFamilyType/Remove.md"/>
          </topic>
          <topic id="T:Aml.Engine.CAEX.RoleRequirementsType"
                 file="Aml.Engine.CAEX/RoleRequirementsType/README.md"
@@ -2934,6 +2946,8 @@
                    file="Aml.Engine.CAEX/SystemUnitFamilyType/Insert_1.md"/>
             <topic id="M:Aml.Engine.CAEX.SystemUnitFamilyType.Insert(Aml.Engine.CAEX.CAEXWrapper,System.Boolean)"
                    file="Aml.Engine.CAEX/SystemUnitFamilyType/Insert.md"/>
+            <topic id="M:Aml.Engine.CAEX.SystemUnitFamilyType.Remove(System.Boolean)"
+                   file="Aml.Engine.CAEX/SystemUnitFamilyType/Remove.md"/>
             <topic id="M:Aml.Engine.CAEX.SystemUnitFamilyType.ReplaceRoleClassReference(Aml.Engine.CAEX.RoleFamilyType)"
                    file="Aml.Engine.CAEX/SystemUnitFamilyType/ReplaceRoleClassReference.md"/>
          </topic>
@@ -3085,6 +3099,10 @@
                 title="AttributeTypeTypeExtensions">
             <topic id="M:Aml.Engine.CAEX.Extensions.AttributeTypeTypeExtensions.IsMaster(Aml.Engine.CAEX.AttributeType)"
                    file="Aml.Engine.CAEX.Extensions/AttributeTypeTypeExtensions/IsMaster.md"/>
+            <topic id="M:Aml.Engine.CAEX.Extensions.AttributeTypeTypeExtensions.IsOverridden(Aml.Engine.CAEX.AttributeType)"
+                   file="Aml.Engine.CAEX.Extensions/AttributeTypeTypeExtensions/IsOverridden.md"/>
+            <topic id="M:Aml.Engine.CAEX.Extensions.AttributeTypeTypeExtensions.IsOverriddenDeleted(Aml.Engine.CAEX.AttributeType)"
+                   file="Aml.Engine.CAEX.Extensions/AttributeTypeTypeExtensions/IsOverriddenDeleted.md"/>
             <topic id="M:Aml.Engine.CAEX.Extensions.AttributeTypeTypeExtensions.New_RefSemantic(Aml.Engine.CAEX.AttributeTypeType,System.String)"
                    file="Aml.Engine.CAEX.Extensions/AttributeTypeTypeExtensions/New_RefSemantic.md"/>
          </topic>
@@ -3135,6 +3153,8 @@
          <topic id="T:Aml.Engine.CAEX.Extensions.CAEXDocumentExtensions"
                 file="Aml.Engine.CAEX.Extensions/CAEXDocumentExtensions/README.md"
                 title="CAEXDocumentExtensions">
+            <topic id="M:Aml.Engine.CAEX.Extensions.CAEXDocumentExtensions.ExternalReferenceFromAlias(Aml.Engine.CAEX.CAEXDocument,System.String)"
+                   file="Aml.Engine.CAEX.Extensions/CAEXDocumentExtensions/ExternalReferenceFromAlias.md"/>
             <topic id="M:Aml.Engine.CAEX.Extensions.CAEXDocumentExtensions.FindByID(Aml.Engine.CAEX.CAEXDocument,System.String,System.Boolean)"
                    file="Aml.Engine.CAEX.Extensions/CAEXDocumentExtensions/FindByID.md"/>
             <topic id="M:Aml.Engine.CAEX.Extensions.CAEXDocumentExtensions.FindByPath(Aml.Engine.CAEX.CAEXDocument,System.String,System.Boolean)"
@@ -3169,6 +3189,8 @@
                    file="Aml.Engine.CAEX.Extensions/CAEXFileTypeExtensions/Import_RoleClassLibHierarchy.md"/>
             <topic id="M:Aml.Engine.CAEX.Extensions.CAEXFileTypeExtensions.Import_SystemUnitClassLibHierarchy(Aml.Engine.CAEX.CAEXFileType,Aml.Engine.CAEX.SystemUnitClassLibType)"
                    file="Aml.Engine.CAEX.Extensions/CAEXFileTypeExtensions/Import_SystemUnitClassLibHierarchy.md"/>
+            <topic id="M:Aml.Engine.CAEX.Extensions.CAEXFileTypeExtensions.ImportSystemUnitClassLib(Aml.Engine.CAEX.CAEXFileType,Aml.Engine.CAEX.SystemUnitClassLibType)"
+                   file="Aml.Engine.CAEX.Extensions/CAEXFileTypeExtensions/ImportSystemUnitClassLib.md"/>
             <topic id="M:Aml.Engine.CAEX.Extensions.CAEXFileTypeExtensions.Insert_ExternalReference(Aml.Engine.CAEX.CAEXFileType,Aml.Engine.CAEX.ExternalReferenceType)"
                    file="Aml.Engine.CAEX.Extensions/CAEXFileTypeExtensions/Insert_ExternalReference.md"/>
             <topic id="M:Aml.Engine.CAEX.Extensions.CAEXFileTypeExtensions.Insert_InstanceHierarchy(Aml.Engine.CAEX.CAEXFileType,Aml.Engine.CAEX.InstanceHierarchyType)"
@@ -3195,6 +3217,8 @@
          <topic id="T:Aml.Engine.CAEX.Extensions.CAEXObjectExtensions"
                 file="Aml.Engine.CAEX.Extensions/CAEXObjectExtensions/README.md"
                 title="CAEXObjectExtensions">
+            <topic id="M:Aml.Engine.CAEX.Extensions.CAEXObjectExtensions.Copy(Aml.Engine.CAEX.CAEXObject,System.String)"
+                   file="Aml.Engine.CAEX.Extensions/CAEXObjectExtensions/Copy.md"/>
             <topic id="M:Aml.Engine.CAEX.Extensions.CAEXObjectExtensions.GetFullNodePath(Aml.Engine.CAEX.ICAEXObject)"
                    file="Aml.Engine.CAEX.Extensions/CAEXObjectExtensions/GetFullNodePath.md"/>
             <topic id="M:Aml.Engine.CAEX.Extensions.CAEXObjectExtensions.SetDescription(Aml.Engine.CAEX.ICAEXObject,System.String)"
@@ -3330,6 +3354,10 @@
                 title="ExternalInterfaceTypeExtensions">
             <topic id="M:Aml.Engine.CAEX.Extensions.ExternalInterfaceTypeExtensions.IsMaster(Aml.Engine.CAEX.ExternalInterfaceType)"
                    file="Aml.Engine.CAEX.Extensions/ExternalInterfaceTypeExtensions/IsMaster.md"/>
+            <topic id="M:Aml.Engine.CAEX.Extensions.ExternalInterfaceTypeExtensions.IsOverridden(Aml.Engine.CAEX.ExternalInterfaceType)"
+                   file="Aml.Engine.CAEX.Extensions/ExternalInterfaceTypeExtensions/IsOverridden.md"/>
+            <topic id="M:Aml.Engine.CAEX.Extensions.ExternalInterfaceTypeExtensions.IsOverriddenDeleted(Aml.Engine.CAEX.ExternalInterfaceType)"
+                   file="Aml.Engine.CAEX.Extensions/ExternalInterfaceTypeExtensions/IsOverriddenDeleted.md"/>
             <topic id="M:Aml.Engine.CAEX.Extensions.ExternalInterfaceTypeExtensions.IsRelated(Aml.Engine.CAEX.ExternalInterfaceType)"
                    file="Aml.Engine.CAEX.Extensions/ExternalInterfaceTypeExtensions/IsRelated.md"/>
             <topic id="M:Aml.Engine.CAEX.Extensions.ExternalInterfaceTypeExtensions.OfInterfaceClass(Aml.Engine.CAEX.IObjectWithExternalInterface,System.String)"
@@ -3346,12 +3374,18 @@
                 title="InheritanceExtensions">
             <topic id="P:Aml.Engine.CAEX.Extensions.InheritanceExtensions.DerivedClasses"
                    file="Aml.Engine.CAEX.Extensions/InheritanceExtensions/DerivedClasses.md"/>
+            <topic id="M:Aml.Engine.CAEX.Extensions.InheritanceExtensions.ChangeNameAndReferences``1(Aml.Engine.CAEX.IClassWithBaseClassReference{``0},System.String)"
+                   file="Aml.Engine.CAEX.Extensions/InheritanceExtensions/ChangeNameAndReferences__1.md"/>
             <topic id="M:Aml.Engine.CAEX.Extensions.InheritanceExtensions.ClassIsDerivedFrom``1(Aml.Engine.CAEX.IClassWithBaseClassReference{``0},Aml.Engine.CAEX.IClassWithBaseClassReference{``0})"
                    file="Aml.Engine.CAEX.Extensions/InheritanceExtensions/ClassIsDerivedFrom__1_1.md"/>
             <topic id="M:Aml.Engine.CAEX.Extensions.InheritanceExtensions.ClassIsDerivedFrom``1(Aml.Engine.CAEX.IClassWithBaseClassReference{``0},System.String)"
                    file="Aml.Engine.CAEX.Extensions/InheritanceExtensions/ClassIsDerivedFrom__1_2.md"/>
             <topic id="M:Aml.Engine.CAEX.Extensions.InheritanceExtensions.ClassIsDerivedFrom``1(Aml.Engine.CAEX.CAEXDocument,System.String,System.String)"
                    file="Aml.Engine.CAEX.Extensions/InheritanceExtensions/ClassIsDerivedFrom__1.md"/>
+            <topic id="M:Aml.Engine.CAEX.Extensions.InheritanceExtensions.CopyTreeAndChangeReferences``1(Aml.Engine.CAEX.IClassWithBaseClassReference{``0},Aml.Engine.CAEX.CAEXObject,System.String)"
+                   file="Aml.Engine.CAEX.Extensions/InheritanceExtensions/CopyTreeAndChangeReferences__1.md"/>
+            <topic id="M:Aml.Engine.CAEX.Extensions.InheritanceExtensions.CreateClassInstance``1(Aml.Engine.CAEX.IInstantiable{``0},System.String)"
+                   file="Aml.Engine.CAEX.Extensions/InheritanceExtensions/CreateClassInstance__1.md"/>
             <topic id="M:Aml.Engine.CAEX.Extensions.InheritanceExtensions.IsDerivedFromAttributeType(Aml.Engine.CAEX.AttributeTypeType,System.String)"
                    file="Aml.Engine.CAEX.Extensions/InheritanceExtensions/IsDerivedFromAttributeType.md"/>
             <topic id="M:Aml.Engine.CAEX.Extensions.InheritanceExtensions.IsDerivedFromInterfaceClass(Aml.Engine.CAEX.InterfaceClassType,System.String)"
@@ -3400,6 +3434,10 @@
                 title="InternalElementExtensions">
             <topic id="M:Aml.Engine.CAEX.Extensions.InternalElementExtensions.IsMaster(Aml.Engine.CAEX.InternalElementType)"
                    file="Aml.Engine.CAEX.Extensions/InternalElementExtensions/IsMaster.md"/>
+            <topic id="M:Aml.Engine.CAEX.Extensions.InternalElementExtensions.IsOverridden(Aml.Engine.CAEX.InternalElementType)"
+                   file="Aml.Engine.CAEX.Extensions/InternalElementExtensions/IsOverridden.md"/>
+            <topic id="M:Aml.Engine.CAEX.Extensions.InternalElementExtensions.IsOverriddenDeleted(Aml.Engine.CAEX.InternalElementType)"
+                   file="Aml.Engine.CAEX.Extensions/InternalElementExtensions/IsOverriddenDeleted.md"/>
          </topic>
          <topic id="T:Aml.Engine.CAEX.Extensions.MappingTypeExtensions"
                 file="Aml.Engine.CAEX.Extensions/MappingTypeExtensions/README.md"
@@ -3820,8 +3858,12 @@
                    file="Aml.Engine.Services/ExternalReferenceResolver/LoadOrGetReferencedDocument.md"/>
             <topic id="M:Aml.Engine.Services.ExternalReferenceResolver.Register"
                    file="Aml.Engine.Services/ExternalReferenceResolver/Register.md"/>
+            <topic id="M:Aml.Engine.Services.ExternalReferenceResolver.RemoveDocument(Aml.Engine.XML.XDocumentWrapper)"
+                   file="Aml.Engine.Services/ExternalReferenceResolver/RemoveDocument.md"/>
             <topic id="M:Aml.Engine.Services.ExternalReferenceResolver.ResolvedDocuments(Aml.Engine.CAEX.CAEXDocument)"
                    file="Aml.Engine.Services/ExternalReferenceResolver/ResolvedDocuments.md"/>
+            <topic id="M:Aml.Engine.Services.ExternalReferenceResolver.UnloadExternalDocument(Aml.Engine.CAEX.ExternalReferenceType)"
+                   file="Aml.Engine.Services/ExternalReferenceResolver/UnloadExternalDocument.md"/>
             <topic id="M:Aml.Engine.Services.ExternalReferenceResolver.UnRegister"
                    file="Aml.Engine.Services/ExternalReferenceResolver/UnRegister.md"/>
          </topic>
@@ -4057,6 +4099,8 @@
                 title="ServiceLocator">
             <topic id="P:Aml.Engine.Services.ServiceLocator.AutoUpdateService"
                    file="Aml.Engine.Services/ServiceLocator/AutoUpdateService.md"/>
+            <topic id="P:Aml.Engine.Services.ServiceLocator.ExternalReferenceResolverService"
+                   file="Aml.Engine.Services/ServiceLocator/ExternalReferenceResolverService.md"/>
             <topic id="P:Aml.Engine.Services.ServiceLocator.QueryService"
                    file="Aml.Engine.Services/ServiceLocator/QueryService.md"/>
             <topic id="P:Aml.Engine.Services.ServiceLocator.UndoRedoService"
@@ -4506,6 +4550,12 @@
                 title="IXMLDocumentRegistry">
             <topic id="M:Aml.Engine.Services.Interfaces.IXMLDocumentRegistry.RemoveDocument(Aml.Engine.XML.XDocumentWrapper)"
                    file="Aml.Engine.Services.Interfaces/IXMLDocumentRegistry/RemoveDocument.md"/>
+         </topic>
+         <topic id="T:Aml.Engine.Services.Interfaces.IXMLExternalUnload"
+                file="Aml.Engine.Services.Interfaces/IXMLExternalUnload/README.md"
+                title="IXMLExternalUnload">
+            <topic id="M:Aml.Engine.Services.Interfaces.IXMLExternalUnload.UnloadExternalDocument(Aml.Engine.CAEX.ExternalReferenceType)"
+                   file="Aml.Engine.Services.Interfaces/IXMLExternalUnload/UnloadExternalDocument.md"/>
          </topic>
          <topic id="T:Aml.Engine.Services.Interfaces.SchemaTransformationEventArgs"
                 file="Aml.Engine.Services.Interfaces/SchemaTransformationEventArgs/README.md"

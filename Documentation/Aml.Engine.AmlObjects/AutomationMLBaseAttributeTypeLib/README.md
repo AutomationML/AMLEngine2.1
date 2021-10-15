@@ -26,7 +26,7 @@ Methods
 
                                  | Name                           | Description                                                                                                                    
 -------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ 
-![Public method]![Static member] | [IsAssociatedExternalValue][3] | **Obsolete.**                                                                                                                  
+![Public method]![Static member] | [IsAssociatedExternalValue][3] | **Obsolete.**The standard attribute type AssociatedExternalValue has been renamed to AssociatedValue                           
 ![Public method]![Static member] | [IsAssociatedFacet][4]         | Determines whether the specified attribute reference defines an inheritance relation from the AssociatedFacet AttributeType    
 ![Public method]![Static member] | [IsAssociatedValue][5]         | Determines whether the specified attribute reference defines an inheritance relation from the AssociatedValue AttributeType    
 ![Public method]![Static member] | [IsCardinality][6]             | Determines whether the specified attribute reference defines an inheritance relation from the Cardinality AttributeType        
@@ -44,22 +44,22 @@ Methods
 Fields
 ------
 
-                                | Name                                       | Description                                         
-------------------------------- | ------------------------------------------ | --------------------------------------------------- 
-![Public field]![Static member] | [AssociatedExternalValue][16]              | **Obsolete.**                                       
-![Public field]![Static member] | [AssociatedFacet][17]                      | The 'AssociatedFacet' AttributeType path            
-![Public field]![Static member] | [AssociatedValue][18]                      | The 'AssociatedValue' AttributeType path            
-![Public field]![Static member] | [AutomationMLBaseAttributeTypeLibName][19] | The 'AutomationMLBaseAttributeTypeLib' library name 
-![Public field]![Static member] | [Cardinality][20]                          | The 'Cardinality' AttributeType path                
-![Public field]![Static member] | [Category][21]                             | The 'Category' AttributeType path                   
-![Public field]![Static member] | [Direction][22]                            | The 'Direction' AttributeType path                  
-![Public field]![Static member] | [DocLang][23]                              | The 'DocLang' AttributeType path                    
-![Public field]![Static member] | [Frame][24]                                | The 'Category' AttributeType path                   
-![Public field]![Static member] | [ListType][25]                             | The 'ListType' AttributeType path                   
-![Public field]![Static member] | [LocalizedAttribute][26]                   | The 'LocalizedAttribute' AttributeType path         
-![Public field]![Static member] | [MIMEType][27]                             | The 'MIMEType' AttributeType path                   
-![Public field]![Static member] | [OrderedListType][28]                      | The 'OrderedListType' AttributeType path            
-![Public field]![Static member] | [RefURI][29]                               | The 'RefURI' AttributeType path                     
+                                | Name                                       | Description                                                                                          
+------------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------- 
+![Public field]![Static member] | [AssociatedExternalValue][16]              | **Obsolete.**The standard attribute type AssociatedExternalValue has been renamed to AssociatedValue 
+![Public field]![Static member] | [AssociatedFacet][17]                      | The 'AssociatedFacet' AttributeType path                                                             
+![Public field]![Static member] | [AssociatedValue][18]                      | The 'AssociatedValue' AttributeType path                                                             
+![Public field]![Static member] | [AutomationMLBaseAttributeTypeLibName][19] | The 'AutomationMLBaseAttributeTypeLib' library name                                                  
+![Public field]![Static member] | [Cardinality][20]                          | The 'Cardinality' AttributeType path                                                                 
+![Public field]![Static member] | [Category][21]                             | The 'Category' AttributeType path                                                                    
+![Public field]![Static member] | [Direction][22]                            | The 'Direction' AttributeType path                                                                   
+![Public field]![Static member] | [DocLang][23]                              | The 'DocLang' AttributeType path                                                                     
+![Public field]![Static member] | [Frame][24]                                | The 'Category' AttributeType path                                                                    
+![Public field]![Static member] | [ListType][25]                             | The 'ListType' AttributeType path                                                                    
+![Public field]![Static member] | [LocalizedAttribute][26]                   | The 'LocalizedAttribute' AttributeType path                                                          
+![Public field]![Static member] | [MIMEType][27]                             | The 'MIMEType' AttributeType path                                                                    
+![Public field]![Static member] | [OrderedListType][28]                      | The 'OrderedListType' AttributeType path                                                             
+![Public field]![Static member] | [RefURI][29]                               | The 'RefURI' AttributeType path                                                                      
 
 
 Remarks

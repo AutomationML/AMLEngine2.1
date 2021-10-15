@@ -3,9 +3,7 @@ AutomationMLBaseAttributeTypeLib.IsAssociatedExternalValue Method
 
 
 **Note: This API is now obsolete.**
-
-[Missing &lt;summary> documentation for "M:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLib.IsAssociatedExternalValue(Aml.Engine.CAEX.AttributeTypeType)"]
-
+The standard attribute type AssociatedExternalValue has been renamed to AssociatedValue
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

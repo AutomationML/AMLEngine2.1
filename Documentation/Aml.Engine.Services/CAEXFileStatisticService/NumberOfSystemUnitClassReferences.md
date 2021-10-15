@@ -22,7 +22,7 @@ The CAEX file.
 
 #### Return Value
 Type: [Int32][3]  
- Total number of all SystemUnitClasses 
+Total number of all SystemUnitClasses
 #### Implements
 [IStatistic.NumberOfSystemUnitClassReferences(CAEXFileType)][4]  
 

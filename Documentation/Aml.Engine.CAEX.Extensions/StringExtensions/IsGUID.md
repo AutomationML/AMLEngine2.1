@@ -1,6 +1,6 @@
 StringExtensions.IsGUID Method
 ==============================
-string extension method to check if it as GUID
+string extension method to check if this is a valid GUID
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)
@@ -23,9 +23,7 @@ The stringGuid.
 
 ##### *allowAnyString* (Optional)
 Type: [System.Boolean][3]  
-
-[Missing &lt;param name="allowAnyString"/> documentation for "M:Aml.Engine.CAEX.Extensions.StringExtensions.IsGUID(System.String,System.Boolean)"]
-
+if set to `true` no specific GUID format is required
 
 #### Return Value
 Type: [Boolean][3]  

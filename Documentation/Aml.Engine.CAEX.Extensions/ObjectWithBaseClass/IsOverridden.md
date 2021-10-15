@@ -30,7 +30,7 @@ Type: [Boolean][4]
 `true`, if an element of a class with an inheritance relation to a base class is an overridden element 
 #### Return Value
 Type: [Boolean][4]  
-`true` if the specified element is overridden; otherwise, `false`. 
+`true` if the specified element is overridden; otherwise, `false`.
 #### Usage Note
 In Visual Basic and C#, you can call this method as an instance method on any object of type [IClassWithBaseClassReference][2]. When you use instance method syntax to call this method, omit the first parameter. For more information, see [Extension Methods (Visual Basic)][5] or [Extension Methods (C# Programming Guide)][6].
 

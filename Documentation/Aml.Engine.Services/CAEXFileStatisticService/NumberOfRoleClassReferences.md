@@ -22,7 +22,7 @@ The CAEX file.
 
 #### Return Value
 Type: [Int32][3]  
- Total number of all RoleClasses references 
+Total number of all RoleClasses references
 #### Implements
 [IStatistic.NumberOfRoleClassReferences(CAEXFileType)][4]  
 

@@ -1,6 +1,9 @@
 AutomationMLBaseAttributeTypeLibType.AssociatedExternalValue Property
 =====================================================================
-Gets the AssociatedExternalValue Attribute Type.
+
+
+**Note: This API is now obsolete.**
+The standard attribute type AssociatedExternalValue has been renamed to AssociatedValue
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)
@@ -9,6 +12,7 @@ Syntax
 ------
 
 ```csharp
+[ObsoleteAttribute("use AssociatedValue")]
 public AttributeFamilyType AssociatedExternalValue { get; }
 ```
 

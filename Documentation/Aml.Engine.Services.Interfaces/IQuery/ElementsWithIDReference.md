@@ -1,6 +1,6 @@
 IQuery.ElementsWithIDReference Method
 =====================================
-Gets alls the elements from the document which have a reference to the provided ID. The elements in the result collection are references, which define the CAEX object and the attribute, containing the reference . If the *elementName* is set, only elements with the defined element name are considered.
+Gets alls the descendant elements from the provided CAEX object, which have a reference to the provided ID. The elements in the result collection are references, which define the CAEX object and the attribute, containing the reference . If the *elementName* is set, only elements with the defined element name are considered.
 
   **Namespace:**  [Aml.Engine.Services.Interfaces][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)

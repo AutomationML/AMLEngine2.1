@@ -27,7 +27,7 @@ the element to test
 
 #### Return Value
 Type: [Boolean][4]  
-`true`, if a base class contains the element 
+`true`, if a base class contains the element
 #### Usage Note
 In Visual Basic and C#, you can call this method as an instance method on any object of type [IClassWithBaseClassReference][2]. When you use instance method syntax to call this method, omit the first parameter. For more information, see [Extension Methods (Visual Basic)][5] or [Extension Methods (C# Programming Guide)][6].
 

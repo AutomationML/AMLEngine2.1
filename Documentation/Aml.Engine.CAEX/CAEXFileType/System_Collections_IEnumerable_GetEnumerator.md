@@ -1,8 +1,6 @@
 CAEXFileType.IEnumerable.GetEnumerator Method
 =============================================
-
-[Missing &lt;summary> documentation for "M:Aml.Engine.CAEX.CAEXFileType.System#Collections#IEnumerable#GetEnumerator"]
-
+Returns an enumerator that runs through a collection.
 
   **Namespace:**  [Aml.Engine.CAEX][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)
@@ -16,9 +14,7 @@ IEnumerator IEnumerable.GetEnumerator()
 
 #### Return Value
 Type: [IEnumerator][2]  
-
-[Missing &lt;returns> documentation for "M:Aml.Engine.CAEX.CAEXFileType.System#Collections#IEnumerable#GetEnumerator"]
-
+ An [IEnumerator][2]object that can be used to traverse the collection. 
 #### Implements
 [IEnumerable.GetEnumerator()][3]  
 

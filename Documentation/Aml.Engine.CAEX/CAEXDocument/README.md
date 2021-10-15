@@ -77,8 +77,9 @@ Extension Methods
 ![Public Extension Method] | [ElementsWithCAEXPathReference][44]     | Gets alls the elements from the document which have a reference to the provided Path. (Defined by [QueryResult][30].)                                                                                                                                                                                                                                                                                                                                        
 ![Public Extension Method] | [ElementsWithIDReference][45]           | Gets alls the elements from the document which have a reference to the provided ID. (Defined by [QueryResult][30].)                                                                                                                                                                                                                                                                                                                                          
 ![Public Extension Method] | [ElementsWithInternalLinkRelations][46] | Returns all InternalElements and SystemUnitClasses in the defined Document, which are related to others via InternalLinks. (Defined by [QueryResult][30].)                                                                                                                                                                                                                                                                                                   
-![Public Extension Method] | [FindByID][47]                          | Tries to locate a CAEX object from the specified ID. If the ID uses an alias reference and an [IExternalReferenceResolver][48] can be located, it is tried to resolve the external reference and to get the object from the external source. (Defined by [CAEXDocumentExtensions][49].)                                                                                                                                                                      
-![Public Extension Method] | [FindByPath][50]                        | Tries to locates a CAEX object from the specified CAEX path. If the path uses an alias reference and an [IExternalReferenceResolver][48] can be located, it is tried to resolve the external reference and to get the object from the external source. (Defined by [CAEXDocumentExtensions][49].)                                                                                                                                                            
+![Public Extension Method] | [ExternalReferenceFromAlias][47]        | Gets the ExternalReferenceType form the CAEXDocument which defines the defined alias. (Defined by [CAEXDocumentExtensions][48].)                                                                                                                                                                                                                                                                                                                             
+![Public Extension Method] | [FindByID][49]                          | Tries to locate a CAEX object from the specified ID. If the ID uses an alias reference and an [IExternalReferenceResolver][50] can be located, it is tried to resolve the external reference and to get the object from the external source. (Defined by [CAEXDocumentExtensions][48].)                                                                                                                                                                      
+![Public Extension Method] | [FindByPath][51]                        | Tries to locates a CAEX object from the specified CAEX path. If the path uses an alias reference and an [IExternalReferenceResolver][50] can be located, it is tried to resolve the external reference and to get the object from the external source. (Defined by [CAEXDocumentExtensions][48].)                                                                                                                                                            
 
 
 See Also
@@ -133,12 +134,13 @@ See Also
 [44]: ../../Aml.Engine.Services/QueryResult/ElementsWithCAEXPathReference.md
 [45]: ../../Aml.Engine.Services/QueryResult/ElementsWithIDReference.md
 [46]: ../../Aml.Engine.Services/QueryResult/ElementsWithInternalLinkRelations.md
-[47]: ../../Aml.Engine.CAEX.Extensions/CAEXDocumentExtensions/FindByID.md
-[48]: ../../Aml.Engine.Services.Interfaces/IExternalReferenceResolver/README.md
-[49]: ../../Aml.Engine.CAEX.Extensions/CAEXDocumentExtensions/README.md
-[50]: ../../Aml.Engine.CAEX.Extensions/CAEXDocumentExtensions/FindByPath.md
-[51]: https://www.automationml.org
-[52]: ../../icons/logoShade.png
+[47]: ../../Aml.Engine.CAEX.Extensions/CAEXDocumentExtensions/ExternalReferenceFromAlias.md
+[48]: ../../Aml.Engine.CAEX.Extensions/CAEXDocumentExtensions/README.md
+[49]: ../../Aml.Engine.CAEX.Extensions/CAEXDocumentExtensions/FindByID.md
+[50]: ../../Aml.Engine.Services.Interfaces/IExternalReferenceResolver/README.md
+[51]: ../../Aml.Engine.CAEX.Extensions/CAEXDocumentExtensions/FindByPath.md
+[52]: https://www.automationml.org
+[53]: ../../icons/logoShade.png
 [Public property]: ../../icons/pubproperty.gif "Public property"
 [Static member]: ../../icons/static.gif "Static member"
 [Public method]: ../../icons/pubmethod.gif "Public method"

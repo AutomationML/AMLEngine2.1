@@ -32,7 +32,7 @@ Type of the element which should be deleted.
 
 #### Return Value
 Type: [Boolean][5]  
-true, if an inherited property was found and could be deleted; otherwise false.
+ true, if an inherited property was found and could be deleted; otherwise false. 
 #### Usage Note
 In Visual Basic and C#, you can call this method as an instance method on any object of type [IClassWithBaseClassReference][2]. When you use instance method syntax to call this method, omit the first parameter. For more information, see [Extension Methods (Visual Basic)][6] or [Extension Methods (C# Programming Guide)][7].
 

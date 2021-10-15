@@ -25,7 +25,7 @@ The CAEX object.
 
 ##### *includeSelf* (Optional)
 Type: [System.Boolean][3]  
-if `true`, the provided caex object is included in the enumeration.
+if `true`, the provided CAEX object is included in the enumeration.
 
 #### Type Parameters
 

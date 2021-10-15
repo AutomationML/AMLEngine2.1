@@ -28,7 +28,7 @@ Type: [System.Boolean][4]
 
 ##### *addInstance* (Optional)
 Type: [System.Boolean][4]  
- if set to `true`, the reference is created as an instance of the RoleClass, identified by the provided roleClassReference, containig all ExternalInterfaces and Attributes of the RoleClass.
+ if set to `true`, the reference is created as an instance of the RoleClass, identified by the provided roleClassReference, containing all ExternalInterfaces and Attributes of the RoleClass.
 
 #### Return Value
 Type: [IObjectWithRoleReference][5]  

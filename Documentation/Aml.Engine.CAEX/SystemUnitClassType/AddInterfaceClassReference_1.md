@@ -29,7 +29,7 @@ Type: [System.Boolean][4]
 
 ##### *addInstance* (Optional)
 Type: [System.Boolean][4]  
- if set to `true`, the reference is created as an instance of the InterfaceClass, identified by the provided interfaceClassReference, containig all ExternalInterfaces and Attributes of the InterfaceClass.
+ if set to `true`, the reference is created as an instance of the InterfaceClass, identified by the provided interfaceClassReference, containing all ExternalInterfaces and Attributes of the InterfaceClass.
 
 ##### *name* (Optional)
 Type: [System.String][3]  

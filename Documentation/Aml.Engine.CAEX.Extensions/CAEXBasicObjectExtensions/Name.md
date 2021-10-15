@@ -1,6 +1,6 @@
 CAEXBasicObjectExtensions.Name Method
 =====================================
-Gets a names for the specified caex wrapper object. If the specified object is a [CAEXObject][1], the Name is returned; otherwise the TagName of the CAEX item.
+Gets a names for the specified CAEX wrapper object. If the specified object is a [CAEXObject][1], the Name is returned; otherwise the TagName of the CAEX item.
 
   **Namespace:**  [Aml.Engine.CAEX.Extensions][2]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)
@@ -18,7 +18,7 @@ public static string Name(
 
 ##### *caexObject*
 Type: [Aml.Engine.CAEX.CAEXWrapper][3]  
-The caex object.
+The CAEX object.
 
 #### Return Value
 Type: [String][4]  

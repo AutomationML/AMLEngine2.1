@@ -22,7 +22,7 @@ The document.
 
 #### Return Value
 Type: [IEnumerable][3]&lt;[String][4]>  
- List of command names. 
+List of command names.
 #### Implements
 [IUndoRedo.UndoActions(CAEXDocument)][5]  
 

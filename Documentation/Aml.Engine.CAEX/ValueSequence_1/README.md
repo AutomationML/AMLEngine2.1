@@ -71,9 +71,9 @@ Methods
 Explicit Interface Implementations
 ----------------------------------
 
-                                                      | Name                            | Description                                       
------------------------------------------------------ | ------------------------------- | ------------------------------------------------- 
-![Explicit interface implementation]![Private method] | [IEnumerable.GetEnumerator][25] | (Inherited from [NamedElementSequence&lt;T>][2].) 
+                                                      | Name                            | Description                                                                                             
+----------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------- 
+![Explicit interface implementation]![Private method] | [IEnumerable.GetEnumerator][25] | Returns an enumerator that runs through a collection. (Inherited from [NamedElementSequence&lt;T>][2].) 
 
 
 See Also

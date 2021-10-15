@@ -27,7 +27,7 @@ Methods
                                  | Name                              | Description                                                                                                               
 -------------------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------- 
 ![Public method]![Static member] | [IsClassReference][3]             | Determines whether the specified attribute is an attribute, containing a class reference.                                 
-![Public method]![Static member] | [IsGUID][4]                       | string extension method to check if it as GUID                                                                            
+![Public method]![Static member] | [IsGUID][4]                       | string extension method to check if this is a valid GUID                                                                  
 ![Public method]![Static member] | [IsInterfacePath][5]              | Determines whether the specified path is an interface path.                                                               
 ![Public method]![Static member] | [IsInterfacePathWithID][6]        | Determines whether the specified path is an interface path containing an ID                                               
 ![Public method]![Static member] | [IsInterfacePathWithInterface][7] | Determines whether the specified path is an interface path with this interface name.                                      

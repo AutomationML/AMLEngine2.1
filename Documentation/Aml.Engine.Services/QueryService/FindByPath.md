@@ -45,6 +45,10 @@ Exception                  | Condition
 [ArgumentNullException][8] | caexDocument 
 
 
+Remarks
+-------
+ The *resolveAlias* is ignored. If the ExternalReferenceResolver is registered, the alias references are always resolved. 
+
 See Also
 --------
 

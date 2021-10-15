@@ -14,7 +14,7 @@ string RefBaseClassPath { get; set; }
 
 #### Property Value
 Type: [String][2]  
- The reference base class path. 
+The reference base class path.
 
 See Also
 --------

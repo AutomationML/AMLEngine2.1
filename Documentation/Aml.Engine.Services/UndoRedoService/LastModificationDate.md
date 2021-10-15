@@ -23,7 +23,7 @@ The document.
 
 ##### *undo* (Optional)
 Type: [System.Boolean][3]  
-if set to `true` the last undo operation is considered; otherwise the last redo operation.
+ if set to `true` the last undo operation is considered; otherwise the last redo operation.
 
 #### Return Value
 Type: [DateTime][4]  

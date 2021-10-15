@@ -89,7 +89,7 @@ Extension Methods
 -------------------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 ![Public Extension Method] | [Descendants(Type)][29]   | Overloaded. Finds the descendants of the provided CAEX object which are of the given type. (Defined by [CAEXBasicObjectExtensions][30].)                                                                       
 ![Public Extension Method] | [Descendants&lt;T>()][31] | Overloaded. Finds the descendants of the provided CAEX object which are of the given type. (Defined by [CAEXBasicObjectExtensions][30].)                                                                       
-![Public Extension Method] | [Name][32]                | Gets a names for the specified caex wrapper object. If the specified object is a [CAEXObject][33], the Name is returned; otherwise the TagName of the CAEX item. (Defined by [CAEXBasicObjectExtensions][30].) 
+![Public Extension Method] | [Name][32]                | Gets a names for the specified CAEX wrapper object. If the specified object is a [CAEXObject][33], the Name is returned; otherwise the TagName of the CAEX item. (Defined by [CAEXBasicObjectExtensions][30].) 
 
 
 See Also

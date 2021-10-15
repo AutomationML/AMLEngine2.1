@@ -59,9 +59,9 @@ Methods
 Explicit Interface Implementations
 ----------------------------------
 
-                                                      | Name                            | Description 
------------------------------------------------------ | ------------------------------- | ----------- 
-![Explicit interface implementation]![Private method] | [IEnumerable.GetEnumerator][15] |             
+                                                      | Name                            | Description                                           
+----------------------------------------------------- | ------------------------------- | ----------------------------------------------------- 
+![Explicit interface implementation]![Private method] | [IEnumerable.GetEnumerator][15] | Returns an enumerator that runs through a collection. 
 
 
 See Also

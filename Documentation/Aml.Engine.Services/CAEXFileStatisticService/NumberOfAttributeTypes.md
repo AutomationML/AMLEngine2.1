@@ -22,7 +22,7 @@ The CAEX file.
 
 #### Return Value
 Type: [Int32][3]  
- Total number of all AttributeTypes 
+Total number of all AttributeTypes
 #### Implements
 [IStatistic.NumberOfAttributeTypes(CAEXFileType)][4]  
 

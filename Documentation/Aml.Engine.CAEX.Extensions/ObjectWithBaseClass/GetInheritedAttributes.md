@@ -19,7 +19,7 @@ public static IEnumerable<AttributeType> GetInheritedAttributes(
 
 ##### *classWithBaseClass*
 Type: [Aml.Engine.CAEX.IClassWithBaseClassReference][2]  
-The class with a possible base class reference for inheritance.
+ The class with a possible base class reference for inheritance.
 
 ##### *includeSelf* (Optional)
 Type: [System.Boolean][3]  
@@ -27,7 +27,7 @@ if set to `true` includes the own attributes.
 
 #### Return Value
 Type: [IEnumerable][4]&lt;[AttributeType][5]>  
- A collection of Attribute objects 
+A collection of Attribute objects
 #### Usage Note
 In Visual Basic and C#, you can call this method as an instance method on any object of type [IClassWithBaseClassReference][2]. When you use instance method syntax to call this method, omit the first parameter. For more information, see [Extension Methods (Visual Basic)][6] or [Extension Methods (C# Programming Guide)][7].
 

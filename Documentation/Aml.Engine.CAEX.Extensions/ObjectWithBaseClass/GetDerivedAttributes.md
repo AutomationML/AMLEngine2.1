@@ -19,15 +19,15 @@ public static List<AttributeType> GetDerivedAttributes(
 
 ##### *classWithBaseClass*
 Type: [Aml.Engine.CAEX.IClassWithBaseClassReference][2]  
-The class with a possible base class reference for inheritance.
+ The class with a possible base class reference for inheritance.
 
 ##### *includeOwn* (Optional)
 Type: [System.Boolean][3]  
-if set to `true` includes the elements own ExternalInterface objects; otherwise not
+ if set to `true` the elements own ExternalInterface objects are included; otherwise not
 
 #### Return Value
 Type: [List][4]&lt;[AttributeType][5]>  
- A list of Attribute objects 
+A list of Attribute objects
 #### Usage Note
 In Visual Basic and C#, you can call this method as an instance method on any object of type [IClassWithBaseClassReference][2]. When you use instance method syntax to call this method, omit the first parameter. For more information, see [Extension Methods (Visual Basic)][6] or [Extension Methods (C# Programming Guide)][7].
 

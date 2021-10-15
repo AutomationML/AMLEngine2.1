@@ -22,7 +22,7 @@ The CAEX file.
 
 #### Return Value
 Type: [Int32][3]  
- Total number of all InterfaceClasses 
+Total number of all InterfaceClasses
 #### Implements
 [IStatistic.NumberOfInterfaceClasses(CAEXFileType)][4]  
 

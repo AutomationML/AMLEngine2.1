@@ -14,7 +14,7 @@ T BaseClass { get; set; }
 
 #### Property Value
 Type: [T][2]  
- The base class. 
+The base class.
 
 See Also
 --------

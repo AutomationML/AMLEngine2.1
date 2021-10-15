@@ -22,7 +22,7 @@ The CAEX file.
 
 #### Return Value
 Type: [Int32][3]  
- Total number of all InternalElements 
+Total number of all InternalElements
 #### Implements
 [IStatistic.NumberOfInternalElements(CAEXFileType)][4]  
 

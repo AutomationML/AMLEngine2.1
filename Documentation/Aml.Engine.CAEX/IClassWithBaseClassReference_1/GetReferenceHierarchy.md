@@ -14,7 +14,7 @@ IEnumerable<T> GetReferenceHierarchy()
 
 #### Return Value
 Type: [IEnumerable][2]&lt;[T][3]>  
-A collection, containing this class and the reference hierarchy of the base class, if existing.
+ A collection, containing this class and the reference hierarchy of the base class, if existing. 
 
 See Also
 --------

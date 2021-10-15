@@ -10,13 +10,13 @@ Syntax
 
 ```csharp
 public void RemoveDocument(
-	XDocumentWrapper doc
+	XDocumentWrapper document
 )
 ```
 
 #### Parameters
 
-##### *doc*
+##### *document*
 Type: [Aml.Engine.XML.XDocumentWrapper][2]  
 The document.
 

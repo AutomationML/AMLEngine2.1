@@ -10,7 +10,7 @@ Syntax
 
 ```csharp
 public CAEXObject FindByID(
-	CAEXDocument doc,
+	CAEXDocument caexDocument,
 	string id,
 	bool resolveAlias = false
 )
@@ -18,7 +18,7 @@ public CAEXObject FindByID(
 
 #### Parameters
 
-##### *doc*
+##### *caexDocument*
 Type: [Aml.Engine.CAEX.CAEXDocument][2]  
 The XDocument
 
@@ -40,10 +40,14 @@ Type: [CAEXObject][5]
 Exceptions
 ----------
 
-Exception                  | Condition 
--------------------------- | --------- 
-[ArgumentNullException][7] | doc       
+Exception                  | Condition    
+-------------------------- | ------------ 
+[ArgumentNullException][7] | caexDocument 
 
+
+Remarks
+-------
+ The *resolveAlias* is ignored. If the ExternalReferenceResolver is registered, the alias references are always resolved. 
 
 See Also
 --------

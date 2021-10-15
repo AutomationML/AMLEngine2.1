@@ -34,7 +34,7 @@ Type: [System.Boolean][5]
 
 ##### *addInstance* (Optional)
 Type: [System.Boolean][5]  
- if set to `true`, the reference is created as am instance of the AttributeType, containig all Attributes and Attributes of the AttributeType.
+ if set to `true`, the reference is created as am instance of the AttributeType, containing all Attributes and Attributes of the AttributeType.
 
 ##### *name* (Optional)
 Type: [System.String][6]  

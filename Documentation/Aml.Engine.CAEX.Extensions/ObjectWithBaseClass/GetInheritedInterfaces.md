@@ -19,7 +19,7 @@ public static IEnumerable<ExternalInterfaceType> GetInheritedInterfaces(
 
 ##### *classWithBaseClass*
 Type: [Aml.Engine.CAEX.IClassWithExternalInterface][2]  
-The class with a possible base class reference for inheritance.
+ The class with a possible base class reference for inheritance.
 
 ##### *includeSelf* (Optional)
 Type: [System.Boolean][3]  
@@ -27,7 +27,7 @@ if set to `true` includes the own interfaces.
 
 #### Return Value
 Type: [IEnumerable][4]&lt;[ExternalInterfaceType][5]>  
- A collection of ExternalInterface objects 
+A collection of ExternalInterface objects
 #### Usage Note
 In Visual Basic and C#, you can call this method as an instance method on any object of type [IClassWithExternalInterface][2]. When you use instance method syntax to call this method, omit the first parameter. For more information, see [Extension Methods (Visual Basic)][6] or [Extension Methods (C# Programming Guide)][7].
 

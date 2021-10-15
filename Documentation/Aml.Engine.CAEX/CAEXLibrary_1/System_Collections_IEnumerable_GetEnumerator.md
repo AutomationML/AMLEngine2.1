@@ -14,7 +14,7 @@ IEnumerator IEnumerable.GetEnumerator()
 
 #### Return Value
 Type: [IEnumerator][2]  
-An enumerator that can be used to iterate through the collection of library objects.
+ An enumerator that can be used to iterate through the collection of library objects. 
 #### Implements
 [IEnumerable.GetEnumerator()][3]  
 

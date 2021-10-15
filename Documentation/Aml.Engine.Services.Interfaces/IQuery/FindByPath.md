@@ -34,6 +34,10 @@ Type: [System.Boolean][5]
 Type: [CAEXObject][6]  
 The CAEXObject if it is found; otherwise `null`.
 
+Remarks
+-------
+ The *resolveAlias* is ignored. If the ExternalReferenceResolver is registered, the alias references are always resolved. 
+
 See Also
 --------
 

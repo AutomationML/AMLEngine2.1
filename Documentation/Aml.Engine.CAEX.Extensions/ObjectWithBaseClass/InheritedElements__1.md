@@ -34,7 +34,7 @@ The type of the inherited element.
 
 #### Return Value
 Type: [IEnumerable][4]&lt;**TInheritedElement**>  
- An enumeration of all inherited elements. 
+An enumeration of all inherited elements.
 #### Usage Note
 In Visual Basic and C#, you can call this method as an instance method on any object of type [IClassWithBaseClassReference][2]. When you use instance method syntax to call this method, omit the first parameter. For more information, see [Extension Methods (Visual Basic)][5] or [Extension Methods (C# Programming Guide)][6].
 

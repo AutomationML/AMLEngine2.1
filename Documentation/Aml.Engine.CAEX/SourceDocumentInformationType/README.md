@@ -85,7 +85,7 @@ Extension Methods
 -------------------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 ![Public Extension Method] | [Descendants(Type)][32]   | Overloaded. Finds the descendants of the provided CAEX object which are of the given type. (Defined by [CAEXBasicObjectExtensions][33].)                                                                       
 ![Public Extension Method] | [Descendants&lt;T>()][34] | Overloaded. Finds the descendants of the provided CAEX object which are of the given type. (Defined by [CAEXBasicObjectExtensions][33].)                                                                       
-![Public Extension Method] | [Name][35]                | Gets a names for the specified caex wrapper object. If the specified object is a [CAEXObject][36], the Name is returned; otherwise the TagName of the CAEX item. (Defined by [CAEXBasicObjectExtensions][33].) 
+![Public Extension Method] | [Name][35]                | Gets a names for the specified CAEX wrapper object. If the specified object is a [CAEXObject][36], the Name is returned; otherwise the TagName of the CAEX item. (Defined by [CAEXBasicObjectExtensions][33].) 
 ![Public Extension Method] | [SetMetaInformation][37]  | Sets the properties for the specified SourceDocumentInformation object using the provided MetaInformation (Defined by [AmlObjectsExtensions][38].)                                                             
 
 

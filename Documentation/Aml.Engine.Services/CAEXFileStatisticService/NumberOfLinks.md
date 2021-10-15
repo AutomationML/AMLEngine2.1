@@ -22,7 +22,7 @@ The CAEX file.
 
 #### Return Value
 Type: [Int32][3]  
- Total number of all InternalLinks 
+Total number of all InternalLinks
 #### Implements
 [IStatistic.NumberOfLinks(CAEXFileType)][4]  
 

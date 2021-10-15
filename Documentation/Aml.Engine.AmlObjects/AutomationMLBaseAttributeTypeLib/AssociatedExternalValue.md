@@ -3,9 +3,7 @@ AutomationMLBaseAttributeTypeLib.AssociatedExternalValue Field
 
 
 **Note: This API is now obsolete.**
-
-[Missing &lt;summary> documentation for "F:Aml.Engine.AmlObjects.AutomationMLBaseAttributeTypeLib.AssociatedExternalValue"]
-
+The standard attribute type AssociatedExternalValue has been renamed to AssociatedValue
 
   **Namespace:**  [Aml.Engine.AmlObjects][1]  
   **Assembly:**  AML.Engine (in AML.Engine.dll)
