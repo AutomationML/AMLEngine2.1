@@ -6,6 +6,10 @@
 
 # AMLEngine2.1 
 
+## Important Note
+
+Please note a problem according to [DocumentVersionInformation in CAEXFiles](Documentation/DocumentVersionsInAML.md) 
+
 ### AutomationML 2.1 Application Programming Interface
 
 The AMLEngine2.1 allows you to process AutomationML documents with a provided Application Programming Interface, 
