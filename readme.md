@@ -6,6 +6,10 @@
 
 # AMLEngine2.1 
 
+## News
+
+The AMLEngine2.1 API Reference Guide is now available at https://automationml.github.io/AMLEngine2.1/.
+
 ## Important Note
 
 Please note a problem according to [DocumentVersionInformation in CAEXFiles](Documentation/DocumentVersionsInAML.md) 
