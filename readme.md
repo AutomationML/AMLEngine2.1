@@ -21,13 +21,13 @@ A detailed overview of the differences between CAEX 2.15 and CAEX 3.0 is present
 
 A short guide explaining a migration strategy to adpat applications, using AMLEngine Version 3.x, to the Aml.Engine is presented [here](adaption.md).
 
-To see a complete documentation of the Aml.Engine look [here](Documentation/README.md).
+To see a complete documentation of the Aml.Engine API reference guide look [here](https://automationml.github.io/AMLEngine2.1/).
 
-Documentaton is included in the [Wiki](https://github.com/AutomationML/AMLEngine2.1/wiki)
+Additional documentatons with more examples are included in the [Wiki](https://github.com/AutomationML/AMLEngine2.1/wiki)
 
 ### Download 
 
-The AMLEngine2.1 is published as  the named package **Aml.Engine** on nuget at https://www.nuget.org/packages/Aml.Engine.
+The AMLEngine2.1 is published in the core package [**Aml.Engine**](https://www.nuget.org/packages/Aml.Engine) on nuget at https://www.nuget.org/packages/Aml.Engine and additional [extension packages](https://www.nuget.org/packages?q=Aml.Engine).
 
 ### Getting started
 
