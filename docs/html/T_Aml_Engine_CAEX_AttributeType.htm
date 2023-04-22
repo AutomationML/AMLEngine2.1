@@ -11,7 +11,7 @@
 	<span class="identifier">IMirror</span>, <span class="identifier">ICAEXObject</span>, <span class="identifier">ICAEXBasicObject</span>, <span class="identifier">ICAEXWrapper</span>, <span class="identifier">IXMLWrapper</span>, 
 	<span class="identifier">IInstance</span></pre></div></div></div></div><p>The <span class="selflink">AttributeType</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0HC0FA')" onkeypress="SectionExpandCollapse_CheckKey('ID0HC0FA', event)" tabindex="0"><img id="ID0HC0FAToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID0HC0FASection" class="collapsibleSection"><table id="ConstructorList" class="members"><tr><th class="iconColumn"> </th><th>Name</th><th>Description</th></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_CAEX_AttributeType__ctor.htm">AttributeType</a></td><td>
                 Initializes a new instance of the <span class="selflink">AttributeType</span> class.
-            </td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0JD0FA')" onkeypress="SectionExpandCollapse_CheckKey('ID0JD0FA', event)" tabindex="0"><img id="ID0JD0FAToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID0JD0FASection" class="collapsibleSection"><table id="PropertyList" class="members"><tr><th class="iconColumn"> </th><th>Name</th><th>Description</th></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_CAEXBasicObject_AdditionalInformation.htm">AdditionalInformation</a></td><td>
+            </td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0KD0FA')" onkeypress="SectionExpandCollapse_CheckKey('ID0KD0FA', event)" tabindex="0"><img id="ID0KD0FAToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID0KD0FASection" class="collapsibleSection"><table id="PropertyList" class="members"><tr><th class="iconColumn"> </th><th>Name</th><th>Description</th></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_CAEXBasicObject_AdditionalInformation.htm">AdditionalInformation</a></td><td>
                 Gets the collection of AdditionalInformation values contained in this instance.
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_CAEXBasicObject.htm">CAEXBasicObject</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeTypeType_Attribute.htm">Attribute</a></td><td>
                 Gets a collection of Attributes contained in this instance.
@@ -36,6 +36,8 @@
                 <a href="P_Aml_Engine_CAEX_AttributeTypeType_RefAttributeType.htm">RefAttributeType</a>.
             </td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeTypeType_AttributeValue.htm">AttributeValue</a></td><td>
                 Gets and set the encoded/decoded attribute value according to the defined AttributeDataType.
+                If no AtttibuteDatatype is defined the type is set 
+                according to the <a href="M_Aml_Engine_CAEX_AttributeTypeType_ClrToXmlType.htm">ClrToXmlType(Type)</a> result.
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_CAEXWrapper_CAEXDocument.htm">CAEXDocument</a></td><td>
                 Gets the CAEX document of this CAEX object. If the CAEX object has not been inserted
                 into a document or has been removed from the document, the value is <span class="code">null</span>.
@@ -77,7 +79,7 @@
                 Determines, if this is an overridden Attribute
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeTypeType_Item.htm">Item</a></td><td>
                 Gets the type-decoded value and sets the type-encoded value for the value attribute with the defined name. The
-                allowed Names as <a href="F_Aml_Engine_CAEX_CAEX_CLASSModel_TagNames_ATTRIBUTE_VALUE_STRING.htm">ATTRIBUTE_VALUE_STRING</a> and
+                allowed Names are <a href="F_Aml_Engine_CAEX_CAEX_CLASSModel_TagNames_ATTRIBUTE_VALUE_STRING.htm">ATTRIBUTE_VALUE_STRING</a> and
                 <a href="F_Aml_Engine_CAEX_CAEX_CLASSModel_TagNames_ATTRIBUTE_DEFAULTVALUE_STRING.htm">ATTRIBUTE_DEFAULTVALUE_STRING</a>.
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeType_Master.htm">Master</a></td><td>
                 Gets the master Attribute object if this is a mirror and the master can be found in this CAEX document.
@@ -196,7 +198,11 @@
                 This Attribute object is changed to an instance of the provided Attribute Type.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_CAEX_CAEXWrapper_Remove.htm">Remove</a></td><td>
                 Removes this element. After that it is no longer assigned to a document and has no owner anymore.
-            <br />(Inherited from <a href="T_Aml_Engine_CAEX_CAEXWrapper.htm">CAEXWrapper</a>)</td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_CAEX_AttributeTypeType_SetDateTime.htm">SetDateTime</a></td><td>
+            <br />(Inherited from <a href="T_Aml_Engine_CAEX_CAEXWrapper.htm">CAEXWrapper</a>)</td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_CAEX_AttributeTypeType_SetAttributeDataType.htm">SetAttributeDataType(Object)</a></td><td>
+            Sets the attribute data type to the type of the provided object
+            <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_CAEX_AttributeTypeType_SetAttributeDataType_1.htm">SetAttributeDataType(Type)</a></td><td>
+            Sets the attribute data type to the provided clr type
+            <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_CAEX_AttributeTypeType_SetDateTime.htm">SetDateTime</a></td><td>
                 Sets the specified dateTime value as the attribute value. The AttributeDataType is set to xs:dateTime
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_CAEX_AttributeTypeType_SetDouble.htm">SetDouble</a></td><td>
                 Sets the specified double value as the attribute value. The AttributeDataType is set to xs:double

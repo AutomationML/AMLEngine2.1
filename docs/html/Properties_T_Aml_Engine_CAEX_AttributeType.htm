@@ -23,6 +23,8 @@
                 <a href="P_Aml_Engine_CAEX_AttributeTypeType_RefAttributeType.htm">RefAttributeType</a>.
             </td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeTypeType_AttributeValue.htm">AttributeValue</a></td><td>
                 Gets and set the encoded/decoded attribute value according to the defined AttributeDataType.
+                If no AtttibuteDatatype is defined the type is set 
+                according to the <a href="M_Aml_Engine_CAEX_AttributeTypeType_ClrToXmlType.htm">ClrToXmlType(Type)</a> result.
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_CAEXWrapper_CAEXDocument.htm">CAEXDocument</a></td><td>
                 Gets the CAEX document of this CAEX object. If the CAEX object has not been inserted
                 into a document or has been removed from the document, the value is <span class="code">null</span>.
@@ -64,7 +66,7 @@
                 Determines, if this is an overridden Attribute
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeTypeType_Item.htm">Item</a></td><td>
                 Gets the type-decoded value and sets the type-encoded value for the value attribute with the defined name. The
-                allowed Names as <a href="F_Aml_Engine_CAEX_CAEX_CLASSModel_TagNames_ATTRIBUTE_VALUE_STRING.htm">ATTRIBUTE_VALUE_STRING</a> and
+                allowed Names are <a href="F_Aml_Engine_CAEX_CAEX_CLASSModel_TagNames_ATTRIBUTE_VALUE_STRING.htm">ATTRIBUTE_VALUE_STRING</a> and
                 <a href="F_Aml_Engine_CAEX_CAEX_CLASSModel_TagNames_ATTRIBUTE_DEFAULTVALUE_STRING.htm">ATTRIBUTE_DEFAULTVALUE_STRING</a>.
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeType_Master.htm">Master</a></td><td>
                 Gets the master Attribute object if this is a mirror and the master can be found in this CAEX document.

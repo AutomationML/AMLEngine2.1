@@ -2,28 +2,75 @@
         These code examples show basic principles for AutomationML application development using the AMLEngine.
       </p></div><h3>Basic Examples</h3><div><ol><li id="Loading"><p>Loading a Document</p><div id="IDBAABCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDBAABCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDBAABCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDBAABCAB');return false;" title="Copy">Copy</a></div></div><div id="IDBAABCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
 <span class="highlight-spacerShort"></span>
-<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> document = CAEXDocument.LoadFromFile (<span class="highlight-literal">"myFile.aml"</span>);</pre></div></div></div><p /></li><li id="Saving"><p>Saving a Document</p><div id="IDBABBCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDBABBCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDBABBCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDBABBCAB');return false;" title="Copy">Copy</a></div></div><div id="IDBABBCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// Load the document from a file</span>
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> document = CAEXDocument.LoadFromFile (<span class="highlight-literal">"myFile.aml"</span>);
 <span class="highlight-spacerShort"></span>
-<span class="highlight-spacerShort"></span>CAEXDocument.SaveToFile (<span class="highlight-literal">"myFile.aml"</span>, <span class="highlight-keyword">true</span>);</pre></div></div></div><p /></li><li id="Creation"><p>Creation of a new CAEX document with InternaElements</p><div id="IDBACBCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDBACBCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDBACBCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDBACBCAB');return false;" title="Copy">Copy</a></div></div><div id="IDBACBCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// Load the document from a file with indices for fast object search,</span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// use this for read-only documents only</span>
+<span class="highlight-spacerShort"></span>document = CAEXDocument.LoadFromFile (<span class="highlight-literal">"myFile.aml"</span>, createIndices:<span class="highlight-keyword">true</span>);</pre></div></div></div><p /></li><li id="Saving"><p>Saving a Document</p><div id="IDBABBCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDBABBCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDBABBCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDBABBCAB');return false;" title="Copy">Copy</a></div></div><div id="IDBABBCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
 <span class="highlight-spacerShort"></span>
-<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> document = CAEXDocument.New_Document ();
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// save the document to a file</span>
+<span class="highlight-spacerShort"></span>document.SaveToFile (<span class="highlight-literal">"myFile.aml"</span>, prettyPrint:<span class="highlight-keyword">true</span>);</pre></div></div></div><p /></li><li id="Creation"><p>Creation of a new CAEX document with InternaElements</p><div id="IDBACBCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDBACBCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDBACBCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDBACBCAB');return false;" title="Copy">Copy</a></div></div><div id="IDBACBCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// create a new empty CAEX document</span>
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> <span class="highlight-keyword">var</span> document = CAEXDocument.New_CAEXDocument ();
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// append an empty InstanceHierarchy element to the CAEXFile object of the document, named "IH"</span>
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> myIH = document.CAEXFile.InstanceHierarchy.Append(<span class="highlight-literal">"IH"</span>);
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// append an InternalElement element to the created InstanceHierarchy, named "IE"</span>
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> myIE = myIH.InternalElement.Append(<span class="highlight-literal">"IE"</span>);</pre></div></div></div><p /></li><li id="Accessing"><p>Indexers</p><div id="IDBADBCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDBADBCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDBADBCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDBADBCAB');return false;" title="Copy">Copy</a></div></div><div id="IDBADBCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> <span class="highlight-keyword">var</span> document = CAEXDocument.New_CAEXDocument ();
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// create an empty InstanceHierarchy</span>
 <span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> myIH = document.CAEXFile.InstanceHierarchy.Append(<span class="highlight-literal">"myIH"</span>);
-<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> myIE = myIH.InternalElement.Append(<span class="highlight-literal">"myIE"</span>);</pre></div></div></div><p /></li><li id="Accessing"><p>Indexers</p><div id="IDBADBCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDBADBCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDBADBCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDBADBCAB');return false;" title="Copy">Copy</a></div></div><div id="IDBADBCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
 <span class="highlight-spacerShort"></span>
-<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> document = CAEXDocument.New_Document ();
-<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> myIH = document.CAEXFile.InstanceHierarchy.Append(<span class="highlight-literal">"myIH"</span>);
-<span class="highlight-spacerShort"></span>myIH.Version = <span class="highlight-literal">"1.0"</span>;
-<span class="highlight-spacerShort"></span>
-<span class="highlight-spacerShort"></span><span class="highlight-comment">// Get the first CAEXElement from the sequence of elements</span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// Get the first CAEXElement from the sequence of InstanceHierarchies</span>
 <span class="highlight-spacerShort"></span>myIH = document.CAEXFile.InstanceHierarchy[<span class="highlight-number">0</span>];
 <span class="highlight-spacerShort"></span>
-<span class="highlight-spacerShort"></span><span class="highlight-comment">// Get the first CAEXElement from the sequence of elements with the name "myIH"</span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// Get the first CAEXElement from the sequence of InstanceHierarchies with the name "myIH"</span>
 <span class="highlight-spacerShort"></span>myIH = document.CAEXFile.InstanceHierarchy[<span class="highlight-literal">"myIH"</span>];
 <span class="highlight-spacerShort"></span>
-<span class="highlight-spacerShort"></span><span class="highlight-comment">// Get the first CAEXElement with a specific attribute AND value from the sequence of elements</span>
-<span class="highlight-spacerShort"></span>myIH = document.CAEXFile.InstanceHierarchy[(Name:<span class="highlight-literal">"Version"</span>, Value:<span class="highlight-literal">"1.0"</span>)];</pre></div></div></div></li><li id="BrowseExample"><p>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// Append an InternalElement named "IE1" with one child element "IE1_1"</span>
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> ie1_1 = myIH.InternalElement.Append(<span class="highlight-literal">"IE1"</span>).Append(<span class="highlight-literal">"IE1_1"</span>);
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// Access the child InternalElement from the InstanceHierarchy</span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// by specifying the names of the element tree</span>
+<span class="highlight-spacerShort"></span>ie1_1 = myIH.InternalElement[<span class="highlight-literal">"IE1"</span>, <span class="highlight-literal">"IE1_1"</span>];
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// Append an Attribute named "AT1" with one child attribute "AT1_1"</span>
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> at1_1 = ie1_1.Attribute.Append(<span class="highlight-literal">"AT1"</span>).Attribute.Append(<span class="highlight-literal">"AT1_1"</span>);
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// Access the child Attribute from the InternalElement</span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// by specifying the names of the attribute element tree</span>
+<span class="highlight-spacerShort"></span>at1_1 = myIE.Attribute[<span class="highlight-literal">"AT1"</span>, <span class="highlight-literal">"AT1_1"</span>];</pre></div></div></div></li><li id="Attributes"><p>Attributes: Types and Values</p><div id="IDBAEBCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDBAEBCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDBAEBCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDBAEBCAB');return false;" title="Copy">Copy</a></div></div><div id="IDBAEBCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX.Extensions;
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> <span class="highlight-keyword">var</span> document = CAEXDocument.New_CAEXDocument ();
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// create an empty InstanceHierarchy</span>
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> myIH = document.CAEXFile.InstanceHierarchy.Append(<span class="highlight-literal">"myIH"</span>);
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// Append an InternalElement named "IE1"</span>
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> ie = myIH.InternalElement.Append(<span class="highlight-literal">"IE1"</span>);
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// Define some Attributes with different types</span>
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// creates a new attribute named "IsConnected" with AttributeDatatype "xs:boolean" and Value "false"</span>
+<span class="highlight-spacerShort"></span>ie.SetAttributeValue (<span class="highlight-literal">"IsConnected"</span>, <span class="highlight-keyword">false</span>);
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// creates a new structured attribute "Size" with properties "With" and "Height" with AttributeDatatype</span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// xs:double and inital double values</span>
+<span class="highlight-spacerShort"></span>ie.Attribute.Append (<span class="highlight-literal">"Size"</span>).SetAttributeValue (<span class="highlight-literal">"With"</span>, <span class="highlight-number">10.0</span>);
+<span class="highlight-spacerShort"></span>ie.Attribute[<span class="highlight-literal">"Size"</span>].SetAttributeValue (<span class="highlight-literal">"Height"</span>, <span class="highlight-number">20.0</span>);
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// alternatives to modify values of nested attributes</span>
+<span class="highlight-spacerShort"></span>ie.Attribute[<span class="highlight-literal">"Size/With"</span>].AttributeValue = <span class="highlight-number">15.0</span>; <span class="highlight-comment">// in CAEX 2.0 use "Size.With" as path</span>
+<span class="highlight-spacerShort"></span>ie.Attribute[<span class="highlight-literal">"Size"</span>,<span class="highlight-literal">"With"</span>].AttributeValue = <span class="highlight-number">15.0</span>; <span class="highlight-comment">// works in all CAEX versions</span>
+<span class="highlight-spacerShort"></span>ie.SetAttributeValue (<span class="highlight-literal">"Size/With"</span>, <span class="highlight-number">15.0</span>);</pre></div></div></div></li><li id="BrowseExample"><p>
               Traversing a Document.
-            </p><div id="IDBAEBCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDBAEBCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDBAEBCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDBAEBCAB');return false;" title="Copy">Copy</a></div></div><div id="IDBAEBCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
+            </p><div id="IDBAFBCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDBAFBCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDBAFBCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDBAFBCAB');return false;" title="Copy">Copy</a></div></div><div id="IDBAFBCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
 <span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> document = CAEXDocument.LoadFromFile(<span class="highlight-literal">"myFile.aml"</span>);
 <span class="highlight-spacerShort"></span>
 <span class="highlight-spacerShort"></span><span class="highlight-comment">// browse the Instance Hierarchies in the file</span>
@@ -32,19 +79,22 @@
 <span class="highlight-spacerShort"></span>  <span class="highlight-comment">// browse all InternalElements deep and import the internal Elements to your system</span>
 <span class="highlight-spacerShort"></span>  <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> internalElement <span class="highlight-keyword">in</span> instanceHierarchy.Descendants&lt;InternalElementType&gt;())
 <span class="highlight-spacerShort"></span>  {
-<span class="highlight-spacerShort"></span>  <span class="highlight-comment">// ToDo: import internal Element</span>
+<span class="highlight-spacerShort"></span>    <span class="highlight-comment">// ToDo: import internal Element</span>
 <span class="highlight-spacerShort"></span>  }
-<span class="highlight-spacerShort"></span>}</pre></div></div></div><p /></li><li id="InstanceCreation"><p>Application of instantiation of a SystemUnitClass to insert an InternalElement.</p><div id="IDBAFBCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDBAFBCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDBAFBCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDBAFBCAB');return false;" title="Copy">Copy</a></div></div><div id="IDBAFBCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
+<span class="highlight-spacerShort"></span>}</pre></div></div></div><p /></li><li id="InstanceCreation"><p>Application of instantiation of a SystemUnitClass to insert an InternalElement.</p><div id="IDBAGBCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDBAGBCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDBAGBCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDBAGBCAB');return false;" title="Copy">Copy</a></div></div><div id="IDBAGBCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
 <span class="highlight-spacerShort"></span>
-<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> document = CAEXDocument.New_Document ();
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> document = CAEXDocument.New_CAEXDocument ();
 <span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> myIH = document.CAEXFile.InstanceHierarchy.Append(<span class="highlight-literal">"myIH"</span>);
 <span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> mySlib = document.CAEXFile.SystemUnitClassLib.Append(<span class="highlight-literal">"mySlib"</span>);
 <span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> mySuc = mySlib.SystemUnitClass.Append(<span class="highlight-literal">"suClass"</span>);
 <span class="highlight-spacerShort"></span>
 <span class="highlight-spacerShort"></span><span class="highlight-comment">// insert a new class instance (InternalElement) to the InstanceHierarchy</span>
-<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> myIE = myIH.Insert (mySuc.CreateClassInstance());</pre></div></div></div><p /></li><li id="InternalLink"><p>Creation of instance to instance relations using InternalLinks</p><div id="IDBAGBCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDBAGBCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDBAGBCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDBAGBCAB');return false;" title="Copy">Copy</a></div></div><div id="IDBAGBCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> firstIE = myIH.Insert (mySuc.CreateClassInstance());
 <span class="highlight-spacerShort"></span>
-<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> document = CAEXDocument.New_Document ();
+<span class="highlight-spacerShort"></span><span class="highlight-comment">// append a new class instance (InternalElement) to the InstanceHierarchy</span>
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> secondIE = myIH.Insert (mySuc.CreateClassInstance(), asFirst:<span class="highlight-keyword">false</span>);</pre></div></div></div><p /></li><li id="InternalLink"><p>Creation of instance to instance relations using InternalLinks</p><div id="IDBAHBCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDBAHBCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDBAHBCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDBAHBCAB');return false;" title="Copy">Copy</a></div></div><div id="IDBAHBCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> document = CAEXDocument.New_CAEXDocument ();
 <span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> myIH = document.CAEXFile.InstanceHierarchy.Append(<span class="highlight-literal">"myIH"</span>);
 <span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> myIClib = document.CAEXFile.InterfaceClassLib.Append(<span class="highlight-literal">"myIClib"</span>);
 <span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> myIC = myIClib.InterfaceClass.Append(<span class="highlight-literal">"myIC"</span>);
@@ -73,29 +123,33 @@
               <a href="T_Aml_Engine_CAEX_IClassWithBaseClassReference.htm">IClassWithBaseClassReference</a>,
               <a href="P_Aml_Engine_CAEX_InterfaceFamilyType_BaseClass.htm">BaseClass</a>,
               <a href="M_Aml_Engine_AmlObjects_AutomationMLInterfaceClassLibType_InterfaceClassLib.htm">InterfaceClassLib</a>,
-              <a href="M_Aml_Engine_AmlObjects_AutomationMLInterfaceClassLib_MakeAutomationMLBaseInterface.htm">MakeAutomationMLBaseInterface</a></p><div id="IDCAHBCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDCAHBCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDCAHBCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDCAHBCAB');return false;" title="Copy">Copy</a></div></div><div id="IDCAHBCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
+              <a href="M_Aml_Engine_AmlObjects_AutomationMLInterfaceClassLib_MakeAutomationMLBaseInterface.htm">MakeAutomationMLBaseInterface</a></p><div id="IDCAIBCAB" class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="IDCAIBCAB_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="IDCAIBCAB_copyCode" href="#" class="copyCodeSnippet" onclick="CopyToClipboard('IDCAIBCAB');return false;" title="Copy">Copy</a></div></div><div id="IDCAIBCAB_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.CAEX;
 <span class="highlight-spacerShort"></span><span class="highlight-keyword">using</span> Aml.Engine.AmlObjects;
 <span class="highlight-spacerShort"></span>
-<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> document = CAEXDocument.New_Document ();
+<span class="highlight-spacerShort"></span><span class="highlight-keyword">var</span> document = CAEXDocument.New_CAEXDocument ();
 <span class="highlight-spacerShort"></span>
 <span class="highlight-spacerShort"></span><span class="highlight-comment">// the first solution shows an implementation, which uses existing libraries and classes</span>
 <span class="highlight-spacerShort"></span><span class="highlight-keyword">void</span> methodWithClasses ()
 <span class="highlight-spacerShort"></span>{
-<span class="highlight-spacerShort"></span>  <span class="highlight-comment">// add the AutomationMLInterfaceClassLib</span>
+<span class="highlight-spacerShort"></span>  <span class="highlight-comment">// Add the standard AutomationMLInterfaceClassLib</span>
 <span class="highlight-spacerShort"></span>  <span class="highlight-keyword">var</span> amlBaseICLib = AutomationMLInterfaceClassLibType.InterfaceClassLib(document);
 <span class="highlight-spacerShort"></span>
 <span class="highlight-spacerShort"></span>  <span class="highlight-keyword">var</span> myIClib = document.CAEXFile.InterfaceClassLib.Append(<span class="highlight-literal">"myIClib"</span>);
 <span class="highlight-spacerShort"></span>
 <span class="highlight-spacerShort"></span>  <span class="highlight-keyword">var</span> myIC = myIClib.InterfaceClass.Append(<span class="highlight-literal">"myICClass"</span>);
-<span class="highlight-spacerShort"></span>  <span class="highlight-keyword">var</span> myIC.BaseClass = amlBaseICLib.AutomationMLClass(AutomationMLInterfaceClassLib.AutomationMLBaseInterface);
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span>  <span class="highlight-comment">// Create a baseclass relation to the AutomationMLBaseInterface class</span>
+<span class="highlight-spacerShort"></span>  myIC.BaseClass = amlBaseICLib.AutomationMLClass(AutomationMLInterfaceClassLib.AutomationMLBaseInterface);
 <span class="highlight-spacerShort"></span>}
 <span class="highlight-spacerShort"></span>
 <span class="highlight-spacerShort"></span><span class="highlight-comment">// the second solution shows an implementation, which uses the standardized class path</span>
 <span class="highlight-spacerShort"></span><span class="highlight-keyword">void</span> methodWithClassPath ()
 <span class="highlight-spacerShort"></span>{
 <span class="highlight-spacerShort"></span>  <span class="highlight-keyword">var</span> myIClib = document.CAEXFile.InterfaceClassLib.Append(<span class="highlight-literal">"myIClib"</span>);
-<span class="highlight-spacerShort"></span>
 <span class="highlight-spacerShort"></span>  <span class="highlight-keyword">var</span> myIC = myIClib.InterfaceClass.Append(<span class="highlight-literal">"myICClass"</span>);
+<span class="highlight-spacerShort"></span>
+<span class="highlight-spacerShort"></span>  <span class="highlight-comment">// Create a baseclass reference using the path AutomationMLBaseInterface              </span>
+<span class="highlight-spacerShort"></span>  myIC.RefBaseClassPath = AutomationMLInterfaceClassLib.AutomationMLBaseInterface;
 <span class="highlight-spacerShort"></span>}</pre></div></div></div><p /></li></ol></div></div></div><div id="PageFooter" class="pageFooter"><p><a href="https://www.automationml.org" target="_blank" rel="noopener noreferrer">Copyright © AutomationML e.V. 2017-2022</a></p><div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:office%40AutomationML.org?Subject=The%20AutomationML%20Engine">AutomationML office</a></div>
         <script type="text/javascript">
