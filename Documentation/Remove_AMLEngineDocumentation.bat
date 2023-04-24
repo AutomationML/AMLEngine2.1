@@ -14,14 +14,14 @@ GOTO HelpViewer2
 :HelpViewer1
 
 REM Help Viewer 1.0
-HelpLibraryManagerLauncher.exe /product "VS" /version "100" /locale en-us /uninstall /silent /vendor "AutomationML eV" /productName "AMLEngine2.1" /mediaBookList "The AutomationML API Reference Guide"
+HelpLibraryManagerLauncher.exe /product "VS" /version "100" /locale en-us /uninstall /silent /vendor "AutomationML eV" /productName "Aml.Engine" /mediaBookList "The AutomationML Engine"
 
 GOTO Exit
 
 :HelpViewer2
 
 REM Help Viewer 2.x
-HelpLibraryManagerLauncher.exe /viewerVersion %1  /locale en-us /wait 0 /operation uninstall /vendor "AutomationML eV" /productName "AMLEngine2.1" /bookList "The AutomationML API Reference Guide"
+HelpLibraryManagerLauncher.exe /viewerVersion %1  /locale en-us /wait 0 /operation uninstall /vendor "AutomationML eV" /productName "Aml.Engine" /bookList "The AutomationML Engine"
 
 GOTO Exit
 

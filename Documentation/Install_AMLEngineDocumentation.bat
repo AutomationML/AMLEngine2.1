@@ -17,7 +17,7 @@ GOTO HelpViewer2:
 REM Help Viewer 1.0
 REM Uninstall first in case it is already there.  If not, it won't install below.  We'll ignore any error output
 REM by redirecting it to NUL.
-HelpLibraryManagerLauncher.exe /product "VS" /version "100" /locale en-us /uninstall /silent /vendor "AutomationML eV" /productName "AMLEngine2.1" /mediaBookList "The AutomationML API Reference Guide" > NUL
+HelpLibraryManagerLauncher.exe /product "VS" /version "100" /locale en-us /uninstall /silent /vendor "AutomationML eV" /productName "Aml.Engine" /mediaBookList "The AutomationML Engine" > NUL
 
 REM For Help Viewer 1.0. the setup name must be HelpContentSetup.msha so make sure we copy the setup file to that
 REM name.  SHFB names it after the help file so that multiple files can be deployed to the same output older at
@@ -34,7 +34,7 @@ GOTO Exit
 REM Help Viewer 2.x
 REM Uninstall first in case it is already there.  If not, it won't install below.  We'll ignore any error output
 REM by redirecting it to NUL.
-HelpLibraryManagerLauncher.exe /viewerVersion %1  /locale en-us /wait 0 /operation uninstall /vendor "AutomationML eV" /productName "AMLEngine2.1" /bookList "The AutomationML API Reference Guide" > NUL
+HelpLibraryManagerLauncher.exe /viewerVersion %1  /locale en-us /wait 0 /operation uninstall /vendor "AutomationML eV" /productName "Aml.Engine" /bookList "The AutomationML Engine" > NUL
 
 REM Install the new content.
 HelpLibraryManagerLauncher.exe /viewerVersion %1  /locale en-us /wait 0 /operation install /sourceUri "%CD%\AMLEngineDocumentation.msha"
