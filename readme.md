@@ -8,7 +8,8 @@
 
 ## News
 
-The AMLEngine2.1 API Reference Guide has been updated and is now available at https://automationml.github.io/AMLEngine2.1/.
+The AMLEngine2.1 API Reference Guide has been updated and is now available at https://automationml.github.io/AMLEngine2.1/. A diagram of the complete CAEX datamodel
+is included. It can be downloaded from https://automationml.github.io/AMLEngine2.1/media/CAEXClassDiagram.png.
 
 New Wiki Pages are added:
 - Using [Indices](https://github.com/AutomationML/AMLEngine2.1/wiki/Indices) to speed up queries.
