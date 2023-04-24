@@ -12,7 +12,7 @@ The AMLEngine2.1 API Reference Guide has been updated and is now available at ht
 
 New Wiki Pages are added:
 - Using [Indices](https://github.com/AutomationML/AMLEngine2.1/wiki/Indices) to speed up queries.
-- New Examples to accesselements in [structured Attributes](https://github.com/AutomationML/AMLEngine2.1/wiki/Attributes#Structure-Attributes).
+- New Examples to access elements in [structured Attributes](https://github.com/AutomationML/AMLEngine2.1/wiki/Attributes#Structure-Attributes).
 
 ## Important Note
 
