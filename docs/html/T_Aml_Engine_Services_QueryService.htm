@@ -5,7 +5,8 @@
 	<span class="identifier">IAMLService</span>, <span class="identifier">ILookUpTable</span></pre></div><div id="IDAB_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">QueryService</span>
 	<span class="keyword">Implements</span> <span class="identifier">IQuery</span>, <span class="identifier">IAMLService</span>, <span class="identifier">ILookUpTable</span></pre></div><div id="IDAB_code_Div3" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">ref class</span> <span class="identifier">QueryService</span> : <span class="identifier">IQuery</span>, 
 	<span class="identifier">IAMLService</span>, <span class="identifier">ILookUpTable</span></pre></div></div></div></div><p>The <span class="selflink">QueryService</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('IDAFA')" onkeypress="SectionExpandCollapse_CheckKey('IDAFA', event)" tabindex="0"><img id="IDAFAToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="IDAFASection" class="collapsibleSection"><table id="ConstructorList" class="members"><tr><th class="iconColumn"> </th><th>Name</th><th>Description</th></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_Services_QueryService__ctor.htm">QueryService</a></td><td>Initializes a new instance of the <span class="selflink">QueryService</span> class</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('IDDFA')" onkeypress="SectionExpandCollapse_CheckKey('IDDFA', event)" tabindex="0"><img id="IDDFAToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="IDDFASection" class="collapsibleSection"><table id="MethodList" class="members"><tr><th class="iconColumn"> </th><th>Name</th><th>Description</th></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_Services_QueryService_AllClassReferences_1.htm">AllClassReferences(CAEXObject)</a></td><td>
-                Gets all classes which have references to the provided CAEX object.
+                Gets all classes which have references to the provided <span class="parameter">caexObject</span>, using
+                the CAEXPath of the object.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_Services_QueryService_AllClassReferences.htm">AllClassReferences(CAEXDocument, String, String)</a></td><td>
                 Gets all classes which have references to the provided class path. Use this method to get all classes which have
                 a class to class relation to the class, identified by the provided classPath. If the
@@ -116,15 +117,15 @@
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_Services_QueryService_IsReferenced.htm">IsReferenced</a></td><td>
                 Determines whether the specified CAEX object is referenced.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_Services_QueryService_LoadIDTable.htm">LoadIDTable</a></td><td>
-            Loads an ID based lookup table for a document. 
+            Loads an ID based lookup table for a document.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_Services_QueryService_LoadPathTable.htm">LoadPathTable</a></td><td>
-            Loads a CAEXPath based lookup table for a document. 
+            Loads a CAEXPath based lookup table for a document.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_Services_QueryService_PathTableIsLoaded.htm">PathTableIsLoaded</a></td><td>
             Gets a value, indicating if the Path-Table is loaded for the provided document.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_Services_QueryService_UnloadIDTable.htm">UnloadIDTable</a></td><td>
-            Unloads the ID based lookup table for a document. 
+            Unloads the ID based lookup table for a document.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Aml_Engine_Services_QueryService_UnloadPathTable.htm">UnloadPathTable</a></td><td>
-            Unloads the CAEXPath based lookup table for a document. 
+            Unloads the CAEXPath based lookup table for a document.
             </td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('IDBC')" onkeypress="SectionExpandCollapse_CheckKey('IDBC', event)" tabindex="0"><img id="IDBCToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="IDBCSection" class="collapsibleSection">
                 The query service also implements the <a href="T_Aml_Engine_Services_Interfaces_ILookUpTable.htm">ILookUpTable</a> interface. The usage of
                 index tables based on the ID of a CAEX object or the CAEXPath of a CAEX object can improve

@@ -9,7 +9,7 @@
                 If the referenced attribute type does not base on an XML standard base type, the AttributeDataType may remain empty
                 or not present.
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeType_AttributePath.htm">AttributePath</a></td><td>
-                returns the attribute path, which is equal to the attribute name for any attribute, which is not a nested attribute
+                Returns the attribute path, which is equal to the attribute name for any attribute, which is not a nested attribute
                 or a concatenation
                 of attribute names separated by the attribute path delimiter for nested attributes.
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeType.htm">AttributeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeType_AttributeTreeOwner.htm">AttributeTreeOwner</a></td><td>
@@ -23,7 +23,7 @@
                 <a href="P_Aml_Engine_CAEX_AttributeTypeType_RefAttributeType.htm">RefAttributeType</a>.
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeType.htm">AttributeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeTypeType_AttributeValue.htm">AttributeValue</a></td><td>
                 Gets and set the encoded/decoded attribute value according to the defined AttributeDataType.
-                If no AtttibuteDatatype is defined the type is set 
+                If no AtttibuteDatatype is defined the type is set
                 according to the <a href="M_Aml_Engine_CAEX_AttributeTypeType_ClrToXmlType.htm">ClrToXmlType(Type)</a> result.
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_CAEXWrapper_CAEXDocument.htm">CAEXDocument</a></td><td>
                 Gets the CAEX document of this CAEX object. If the CAEX object has not been inserted
@@ -62,14 +62,17 @@
                 These IDs are automatically set when such elements are created.
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_CAEXObject.htm">CAEXObject</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_CAEXWrapper_IsDeleted.htm">IsDeleted</a></td><td>
                 Determines, if this object is not contained in any document
-            <br />(Inherited from <a href="T_Aml_Engine_CAEX_CAEXWrapper.htm">CAEXWrapper</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeType_IsMirror.htm">IsMirror</a></td><td>
+            <br />(Inherited from <a href="T_Aml_Engine_CAEX_CAEXWrapper.htm">CAEXWrapper</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeType_IsMaster.htm">IsMaster</a></td><td>
+                Gets a value indicating whether this instance is a master attribute referenced by mirror attributes.
+            <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeType.htm">AttributeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeType_IsMirror.htm">IsMirror</a></td><td>
                 Gets a value indicating whether this instance is a mirror of another Attribute object.
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeType.htm">AttributeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeTypeType_IsOverridden.htm">IsOverridden</a></td><td>
                 Determines, if this is an overridden Attribute
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_AmlObjects_RefURIAttributeType_IsRefURIAttribute.htm">IsRefURIAttribute</a></td><td>
                 Gets a value indicating whether this instance is a RefURI attribute.
             </td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeTypeType_Item.htm">Item</a></td><td>
-                Gets the type-decoded value and sets the type-encoded value for the value attribute with the defined name. The
+                Gets the type-decoded value and sets the type-encoded value
+                for the value attribute with the defined name. The
                 allowed Names are <a href="F_Aml_Engine_CAEX_CAEX_CLASSModel_TagNames_ATTRIBUTE_VALUE_STRING.htm">ATTRIBUTE_VALUE_STRING</a> and
                 <a href="F_Aml_Engine_CAEX_CAEX_CLASSModel_TagNames_ATTRIBUTE_DEFAULTVALUE_STRING.htm">ATTRIBUTE_DEFAULTVALUE_STRING</a>.
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeType_Master.htm">Master</a></td><td>
@@ -109,10 +112,10 @@
             </td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeTypeType_Unit.htm">Unit</a></td><td>
                 Gets and sets the Unit attribute for this Attribute object.
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="P_Aml_Engine_CAEX_AttributeTypeType_Value.htm">Value</a></td><td>
-                Gets and sets the Value for this Attribute object.
-                The correct XML-String representation for the defined <a href="P_Aml_Engine_CAEX_AttributeTypeType_AttributeDataType.htm">AttributeDataType</a>
-                has to be ensured by the caller.
-            <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeTypeType_ValueAttributes.htm">ValueAttributes</a></td><td>
+                 Gets and sets the Value for this Attribute object.
+                 The correct XML-String representation for the defined <a href="P_Aml_Engine_CAEX_AttributeTypeType_AttributeDataType.htm">AttributeDataType</a>
+                 has to be ensured by the caller.
+             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_AttributeTypeType_ValueAttributes.htm">ValueAttributes</a></td><td>
                 Gets all the CAEXValue objects for the defined value attributes of this instance. Recognized value attributes are
                 <a href="F_Aml_Engine_CAEX_CAEX_CLASSModel_TagNames_ATTRIBUTE_DEFAULTVALUE_STRING.htm">ATTRIBUTE_DEFAULTVALUE_STRING</a> and <a href="F_Aml_Engine_CAEX_CAEX_CLASSModel_TagNames_ATTRIBUTE_VALUE_STRING.htm">ATTRIBUTE_VALUE_STRING</a>.
             <br />(Inherited from <a href="T_Aml_Engine_CAEX_AttributeTypeType.htm">AttributeTypeType</a>)</td></tr><tr><td><img src="../icons/pubProperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Aml_Engine_CAEX_CAEXBasicObject_Version.htm">Version</a></td><td>
