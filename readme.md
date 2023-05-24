@@ -12,6 +12,7 @@ The AMLEngine2.1 API Reference Guide has been updated and is now available at ht
 is included. It can be downloaded from https://automationml.github.io/AMLEngine2.1/media/CAEXClassDiagram.png.
 
 New Wiki Pages are added:
+- Working with [external libraries and classes](https://github.com/AutomationML/AMLEngine2.1/wiki/Externals).
 - Using [Indices](https://github.com/AutomationML/AMLEngine2.1/wiki/Indices) to speed up queries.
 - New Examples to access elements in [structured Attributes](https://github.com/AutomationML/AMLEngine2.1/wiki/Attributes#Structure-Attributes).
 
