@@ -2,7 +2,7 @@
 // Licensed under the MIT License, see License.txt in the project root for license information.
 
 using Aml.Engine.CAEX;
-using AML.Editor.API.Communication;
+using Aml.Editor.IPC;
 using System;
 using System.Diagnostics;
 

@@ -1,0 +1,52 @@
+{
+  "UserName": null,
+  "AccessRights": 0,
+  "NetworkProtocol": 0,
+  "ServerName": "automationml.ovgu.de",
+  "PortNumber": 0,
+  "BaseAddress": "public.php/webdav",
+  "LibraryData": [
+    {
+      "UserName": "7MDbzS9kEB83iYB",
+      "Folder": null,
+      "AutomationMLEdition": 2,
+      "ContentType": 0,
+      "PasswordHash": null
+    }
+  ],
+  "LibrayCollectionData": [
+    {
+      "UserName": "p6DH5ARA7d4HzfY",
+      "Folder": null,
+      "AutomationMLEdition": 2,
+      "ContentType": 1,
+      "PasswordHash": null
+    }
+  ],
+  "ExampleData": [
+    {
+      "UserName": "xsk9Z6k5QXc9KEH",
+      "Folder": null,
+      "AutomationMLEdition": 2,
+      "ContentType": 2,
+      "PasswordHash": null
+    }
+  ],
+  "AdministrationData": [
+    {
+      "UserName": "n9twxDGsDzs8mW7",
+      "Folder": null,
+      "AutomationMLEdition": 2,
+      "ContentType": 3,
+      "PasswordHash": null
+    },
+	{
+      "UserName": "n9twxDGsDzs8mW7",
+      "Folder": null,
+      "AutomationMLEdition": 2,
+      "ContentType": 4,
+      "PasswordHash": null
+    }
+  ],
+  "PasswordHash": null
+}

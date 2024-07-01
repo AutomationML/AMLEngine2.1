@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Josef Prinz</Authors>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <Copyright>Josef Prinz</Copyright>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aml.Engine" Version="3.3.1" />
+    <PackageReference Include="Aml.Engine.Services" Version="3.3.0" />
+    <PackageReference Include="Aml.Engine.Services.LibraryService" Version="2.4.0" />
+    <PackageReference Include="Aml.Engine.Services.Signing" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Release.profile.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Test.profile.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+ 
+</Project>
