@@ -30,7 +30,7 @@ based on the .NET Framework. Using the API you interact with CAEX-Elements and A
 This AMLEngine is an advanced development of the AMLEngine Version 3.x which only supports AutomationML Version 2.0
 and the CAEX Version 2.15. This new development also supports AutomationML Version 2.1 which is based on CAEX Version 3.0. 
 
-A detailed overview of the differences between CAEX 2.15 and CAEX 3.0 is presented [here](Documentation/changes.md).
+A detailed overview of the differences between CAEX 2.15 and CAEX 3.0 is presented [here](https://github.com/AutomationML/AMLEngine2.1/wiki/changes.md).
 
 A short guide explaining a migration strategy to adpat applications, using AMLEngine Version 3.x, to the Aml.Engine is presented [here](adaption.md).
 
