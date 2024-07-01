@@ -8,6 +8,12 @@
 
 ## News
 
+Since version 3.3.0 the Aml.Engine core pacckage is also provided on plattforms:
+- .NET 8.0-macos 
+- .NET 8.0-maccatalyst
+- .NET 8.0-android
+- .NET 8.0-ios
+
 The [sample solutions](Samples/readme.md) have been updated to the actual .NET version. A new [solution](https://github.com/AutomationML/AMLEngine2.1/tree/master/Samples/AdvancedApplicationTutorial) has been added that shows how to use the AutomationML Library service using examples. Among other things, you will learn how to check the validity of a signed AutomationML library.
 
 The AMLEngine2.1 API Reference Guide has been updated and is now available at https://automationml.github.io/AMLEngine2.1/. A diagram of the complete CAEX datamodel
