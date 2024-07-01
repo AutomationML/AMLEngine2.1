@@ -8,7 +8,7 @@
 
 ## News
 
-Since version 3.3.0 the Aml.Engine core pacckage is also provided on plattforms:
+Since version 3.3.0 the Aml.Engine core package is also provided on plattforms:
 - .NET 8.0-macos 
 - .NET 8.0-maccatalyst
 - .NET 8.0-android
