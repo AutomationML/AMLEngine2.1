@@ -16,7 +16,7 @@ namespace Aml.Engine.Tutorial.LibraryServiceTutorial
     /// </summary>
     internal static class AMLFileServiceTutorial
     {
-        static AMLFileService _amlFileService;
+        static AMLFileService? _amlFileService;
 
         public static bool Initialize()
         {
@@ -42,7 +42,7 @@ namespace Aml.Engine.Tutorial.LibraryServiceTutorial
         /// <returns></returns>
         internal static async Task<bool> ListHostedDataAsync()
         {
-            if (_amlFileService.AMLReadProfile == null)
+            if (_amlFileService?.AMLReadProfile == null)
             {
                 return false;
             }
@@ -65,11 +65,11 @@ namespace Aml.Engine.Tutorial.LibraryServiceTutorial
                 // AutomationML document files.
                 if (!hostedFile.IsConsistent)
                 {
-                    Console.WriteLine($"{j}: {hostedFile.Name} does not meet the naming conventions.");
+                    Console.WriteLine($"{j}: {hostedFile.FileName} does not meet the naming conventions.");
                     continue;
                 }
 
-                Console.WriteLine($"{j}: {hostedFile.Name}");
+                Console.WriteLine($"{j}: {hostedFile.FileName}");
                 Console.WriteLine($"\tURL: {hostedFile.URL}");
                 Console.WriteLine($"\tProducer: {hostedFile.Producer}; Type: {hostedFile.ContentType}; Domain: {hostedFile.Domain}; Edition: {hostedFile.Edition}");
             }
@@ -83,7 +83,7 @@ namespace Aml.Engine.Tutorial.LibraryServiceTutorial
         internal static async Task<CAEXDocument> UseHostedBaseLibrariesAsync()
         {
             var caexDocument = CAEXDocument.New_CAEXDocument();
-            if (_amlFileService.AMLReadProfile == null)
+            if (_amlFileService?.AMLReadProfile == null)
             {
                 return caexDocument;
             }

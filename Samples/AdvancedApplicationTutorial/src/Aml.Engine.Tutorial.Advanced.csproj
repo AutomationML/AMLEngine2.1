@@ -15,9 +15,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aml.Engine" Version="3.3.1" />
-    <PackageReference Include="Aml.Engine.Services" Version="3.3.0" />
-    <PackageReference Include="Aml.Engine.Services.LibraryService" Version="2.4.0" />
+    <PackageReference Include="Aml.Engine" Version="3.3.3" />
+    <PackageReference Include="Aml.Engine.Services" Version="3.3.1" />
+    <PackageReference Include="Aml.Engine.Services.LibraryService" Version="2.4.2" />
     <PackageReference Include="Aml.Engine.Services.Signing" Version="2.3.0" />
   </ItemGroup>
 

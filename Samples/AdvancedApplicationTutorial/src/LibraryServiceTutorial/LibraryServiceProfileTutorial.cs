@@ -61,7 +61,7 @@ namespace Aml.Engine.Tutorial.LibraryServiceTutorial
                 foreach (var libraryData in LibraryService.ServerProfile.LibraryData)
                 {
                     // get the hosted data (this gets the document metadata, not the documents content)
-                    var amlLibraryDocumentsList = await LibraryService.GetAMLLibraryDocumentsAsync(libraryData);
+                    var amlLibraryDocumentsList = await LibraryService.GetDocumentsAsync(libraryData);
                     if (amlLibraryDocumentsList.Count == 0)
                     {
                         Console.WriteLine($"No documemts hosted on {LibraryService.ServerProfile.GetUri(libraryData)}");
@@ -76,11 +76,11 @@ namespace Aml.Engine.Tutorial.LibraryServiceTutorial
                         // AutomationML document files.
                         if (!hostedFile.IsConsistent)
                         {
-                            Console.WriteLine($"{j}: {hostedFile.Name} does not meet the naming conventions.");
+                            Console.WriteLine($"{j}: {hostedFile.FileName} does not meet the naming conventions.");
                             continue;
                         }
 
-                        Console.WriteLine($"{j}: {hostedFile.Name}");
+                        Console.WriteLine($"{j}: {hostedFile.FileName}");
                         Console.WriteLine($"\tURL: {hostedFile.URL}");
                         Console.WriteLine($"\tProducer: {hostedFile.Producer}; Type: {hostedFile.ContentType}; Domain: {hostedFile.Domain}; Edition: {hostedFile.Edition}");
                     }
@@ -119,7 +119,7 @@ namespace Aml.Engine.Tutorial.LibraryServiceTutorial
                 foreach (var libraryData in dataProfilesForDocumentEdition)
                 {
                     // get the hosted data (this gets the document metadata, not the documents content)
-                    hostedDocuments.AddRange(await LibraryService.GetAMLLibraryDocumentsAsync(libraryData));
+                    hostedDocuments.AddRange(await LibraryService.GetDocumentsAsync(libraryData));
                 }
 
                 // Filter the list for documents, which are defined by AutomationML for the Base domain and 

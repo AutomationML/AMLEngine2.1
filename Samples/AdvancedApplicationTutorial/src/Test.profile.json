@@ -3,6 +3,7 @@
   "AccessRights": 0,
   "NetworkProtocol": 0,
   "ServerName": "automationml.ovgu.de",
+  "ServiceName": "Aml.Interim",
   "PortNumber": 0,
   "BaseAddress": "public.php/webdav",
   "LibraryData": [
