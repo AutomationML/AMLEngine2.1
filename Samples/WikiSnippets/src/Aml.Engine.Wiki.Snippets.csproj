@@ -6,7 +6,7 @@
   <ItemGroup>
     <PackageReference Include="Aml.Editor.API" Version="2.0.2" />
     <PackageReference Include="Aml.Editor.IPC" Version="2.0.2" />
-    <PackageReference Include="Aml.Engine" Version="3.3.1" />
+    <PackageReference Include="Aml.Engine" Version="3.3.3" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 </Project>
