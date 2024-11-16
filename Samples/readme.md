@@ -16,6 +16,10 @@ This solution contains a collection of programming examples documented in the Wi
 
 This solution contains programming examples for advanced users. In the first version, the use of the AutomationML Library Service is demonstrated using sample requests.
 
+5. [Domain Model Tutorial](DomainModelTutorial)
+
+This tutorial shows how the libraries of the `AutomationComponent` domain model can be loaded from the central AutomationML file server and integrated into an AutomationML document as an external reference. You will also learn how to use external classes of this domain for modelling using the `ExternalReferenceResolver` service.
+
 ### Code samples using the Aml.Engine
 
 1. [Basic code snippets](basic.md) 

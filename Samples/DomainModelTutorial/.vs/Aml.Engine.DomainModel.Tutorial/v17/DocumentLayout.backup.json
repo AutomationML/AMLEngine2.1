@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\AutomationML\\Software\\AMLEngine2.1\\Samples\\DomainModelTutorial\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{210DFE3C-F6D9-450F-85CE-6955E9296DC5}|Aml.Engine.DomainModel.Tutorial.csproj|e:\\automationml\\software\\amlengine2.1\\samples\\domainmodeltutorial\\src\\aml.engine.domainmodel.tutorial.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{210DFE3C-F6D9-450F-85CE-6955E9296DC5}|Aml.Engine.DomainModel.Tutorial.csproj|solutionrelative:src\\aml.engine.domainmodel.tutorial.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Aml.Engine.DomainModel.Tutorial",
+              "DocumentMoniker": "E:\\AutomationML\\Software\\AMLEngine2.1\\Samples\\DomainModelTutorial\\src\\Aml.Engine.DomainModel.Tutorial.csproj",
+              "RelativeDocumentMoniker": "src\\Aml.Engine.DomainModel.Tutorial.csproj",
+              "ToolTip": "E:\\AutomationML\\Software\\AMLEngine2.1\\Samples\\DomainModelTutorial\\src\\Aml.Engine.DomainModel.Tutorial.csproj",
+              "RelativeToolTip": "src\\Aml.Engine.DomainModel.Tutorial.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-16T17:44:07.559Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

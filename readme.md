@@ -8,16 +8,9 @@
 
 ## News
 
-Since version 3.3.0 the Aml.Engine core package is also provided on plattforms:
-- .NET 8.0-macos 
-- .NET 8.0-maccatalyst
-- .NET 8.0-android
-- .NET 8.0-ios
+The [sample solutions](Samples/readme.md) include new solutions that explain, how to use the AutomationML library service. Among other things, it is shown how all documents published by the AutomationML Association can be loaded and used via the `AMLFileService`.
 
-The [sample solutions](Samples/readme.md) have been updated to the actual .NET version. A new [solution](https://github.com/AutomationML/AMLEngine2.1/tree/master/Samples/AdvancedApplicationTutorial) has been added that shows how to use the AutomationML Library service using examples. Among other things, you will learn how to check the validity of a signed AutomationML library.
-
-The AMLEngine2.1 API Reference Guide has been updated and is now available at https://automationml.github.io/AMLEngine2.1/. A diagram of the complete CAEX datamodel
-is included. It can be downloaded from https://automationml.github.io/AMLEngine2.1/media/CAEXClassDiagram.png.
+The AMLEngine2.1 API Reference Guide has been updated and is now available at https://automationml.github.io/AMLEngine2.1/. A diagram of the complete CAEX data model is included. It can be downloaded from https://automationml.github.io/AMLEngine2.1/media/CAEXClassDiagram.png.
 
 New Wiki Pages are added:
 - Working with [external libraries and classes](https://github.com/AutomationML/AMLEngine2.1/wiki/Externals).
@@ -51,8 +44,7 @@ The AMLEngine2.1 is published in the core package [**Aml.Engine**](https://www.n
 ### Getting started
 
 See the [documentation](https://github.com/AutomationML/AMLEngine2.1/wiki) and examine the provided [examples](Samples/readme.md/). There are various basic examples and advanced examples. 
-A special adaption section describes the steps to be executed, how old code, using the former AMLEngine v3.x.x, can be adapted to
-the new engine.
+A special adaption section describes the steps to be executed, how old code, using the former `AMLEngine` v3.x.x, can be adapted to the new engine.
 
 ### A short introduction to the application of the engine
 
