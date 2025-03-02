@@ -168,8 +168,8 @@ static void WriteClassToAdditionalInformation()
 	// create an instance of MyClass
 	var myClass = new MyClass {MyProperty="some data"};
     
-    // assignment allows to access the owner of the element
-    myClass.CaexObject = slib;
+        // assignment allows to access the owner of the element
+        myClass.CaexObject = slib;
 	
 	// serialize this instance into the additional information of the created library
 	slib.SerializedAdditionalInformation<MyClass>().Append(myClass);
