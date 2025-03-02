@@ -144,6 +144,51 @@ void methodWithClassPath ()
 }
 ```
 
+#### 9. Serialization of a class to an AdditionalInformation Element
+
+``` C#
+using Aml.Engine.CAEX;
+using Aml.Engine.CAEX.Extensions;
+
+// class to be serialized into an AdditionalInformation element, the derivation from
+// AdditionalInformationContent gives access to the AdditionalInformation CAEX owner.
+// The derivation is optional.
+[Serializable]
+class MyClass: AdditionalInformationContent
+{
+	string MyProperty {get;set;}
+}
+
+// associate a user defined class to a SystemUnitClassLib's AdditionalInformation via serialization
+static void WriteClassToAdditionalInformation()
+{
+	var document = CAEXDocument.New_Document ();
+	var slib = document.CAEXFile.SystemUnitClassLib.Append("SLib");
+	
+	// create an instance of MyClass
+	var myClass = new MyClass {MyProperty="some data"};
+    
+    // assignment allows to access the owner of the element
+    myClass.CaexObject = slib;
+	
+	// serialize this instance into the additional information of the created library
+	slib.SerializedAdditionalInformation<MyClass>().Append(myClass);
+	
+	document.SaveToFile ("Customized.aml");
+}	
+
+// read serialized user defined class from a SystemUnitClassLib's AdditionalInformation via deserialization
+static void ReadClassFromAdditionalInformation()
+{
+	var document = CAEXDocument.LoadFromFile ("Customized.aml");
+	var slib = document.CAEXFile.SystemUnitClassLib[0];
+	
+	// access the deserialized instance of MyClass
+	var myClass = slib.SerializedAdditionalInformation<MyClass>()[0];	
+}	
+
+```
+
 
 ## See Also
 

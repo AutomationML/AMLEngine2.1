@@ -8,6 +8,8 @@
 
 ## News
 
+Version 4.4.2 of the Aml.Engine provides a new extension method to serialize a user defined class into a CAEX `AdditionalInformation` element. There is a new [basic solution example](Samples/basic.md) (Nr. 9), explaining how to use the new extension method.
+
 The [sample solutions](Samples/readme.md) include new solutions that explain, how to use the AutomationML library service. Among other things, it is shown how all documents published by the AutomationML Association can be loaded and used via the `AMLFileService`.
 
 The AMLEngine2.1 API Reference Guide has been updated and is now available at https://automationml.github.io/AMLEngine2.1/. A diagram of the complete CAEX data model is included. It can be downloaded from https://automationml.github.io/AMLEngine2.1/media/CAEXClassDiagram.png.
@@ -31,11 +33,11 @@ and the CAEX Version 2.15. This new development also supports AutomationML Versi
 
 A detailed overview of the differences between CAEX 2.15 and CAEX 3.0 is presented [here](https://github.com/AutomationML/AMLEngine2.1/wiki/changes).
 
-A short guide explaining a migration strategy to adpat applications, using AMLEngine Version 3.x, to the Aml.Engine is presented [here](adaption.md).
+A short guide explaining a migration strategy to adapt applications, using AMLEngine Version 3.x, to the Aml.Engine is presented [here](adaption.md).
 
 To see a complete documentation of the Aml.Engine API reference guide look [here](https://automationml.github.io/AMLEngine2.1/).
 
-Additional documentatons with more examples are included in the [Wiki](https://github.com/AutomationML/AMLEngine2.1/wiki)
+Additional documentations with more examples are included in the [Wiki](https://github.com/AutomationML/AMLEngine2.1/wiki)
 
 ### Download 
 
